@@ -1,4 +1,10 @@
 <table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop" type="unit" used="true">
+		<gui path="guis/timer_gui"/>
+		<object path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
 		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
 		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
@@ -177,5 +183,20 @@
 		<animation_def path="anims/units/escort_var/cop_def"/>
 		<animation_state_machine path="anims/units/escort_var/cop_machine"/>
 		<effect load="true" path="effects/payday2/particles/character/puke"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3" type="unit">
+		<material_config path="units/world/architecture/secret_stash/secret_stash_trash"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_2" type="unit">
+		<material_config path="units/world/architecture/secret_stash/secret_stash_trash"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_props_trash_2"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_trash_2"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_7" type="unit">
+		<material_config path="units/world/architecture/secret_stash/secret_stash_trash"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_props_trash_7"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_trash_7"/>
 	</add>
 </table>
