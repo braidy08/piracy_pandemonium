@@ -178,4 +178,19 @@
 		<animation_state_machine path="anims/units/escort_var/cop_machine"/>
 		<effect load="true" path="effects/payday2/particles/character/puke"/>
 	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3" type="unit">
+		<material_config path="units/world/architecture/secret_stash/secret_stash_trash"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_2" type="unit">
+		<material_config path="units/world/architecture/secret_stash/secret_stash_trash"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_props_trash_2"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_trash_2"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_7" type="unit">
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_trash_7"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_props_trash_7"/>
+		<material_config path="units/world/architecture/secret_stash/secret_stash_trash"/>
+	</add>
 </table>
