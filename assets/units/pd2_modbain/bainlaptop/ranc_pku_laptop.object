@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynamic_object>
+    <diesel materials="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop" orientation_object="rp_ranc_pku_laptop"/>
+    <sequence_manager file="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop"/>
+    <bodies>
+        <body name="body_static" enabled="true" template="editor">
+            <object name="rp_ranc_pku_laptop"/>
+            <object name="c_laptop" padding="-2.5" collision_type="box"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object name="g_laptop" enabled="true"/>
+        <object name="g_laptop_closed" enabled="false"/>
+        <object name="g_screen" enabled="true"/>
+    </graphics>
+    <lights/>
+</dynamic_object>

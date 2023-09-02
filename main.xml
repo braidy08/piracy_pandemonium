@@ -1,6 +1,9 @@
 <table min_lib_ver="4.5" name="piracy_pandemonium">
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/textures/mods/icons/piracy_icon"/>
+		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_df"/>
+		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il"/>
+		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>
 	</AddFiles>
 	<Sounds directory="assets/sounds">
 		<sound id="pp_briefing" path="briefing.ogg"/>

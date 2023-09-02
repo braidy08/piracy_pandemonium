@@ -1,10 +1,4 @@
 <table directory="assets">
-	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop" type="unit">
-		<gui path="guis/timer_gui"/>
-		<object path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
-		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
-		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
 		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
 		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
@@ -144,11 +138,6 @@
 		<sequence_manager path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15"/>
 		<unit path="units/payday2/props/gen_prop_square_goal_marker_4x15/gen_prop_square_goal_marker_4x15"/>
 	</add>
-	<add from_db="true" path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
-		<material_config path="units/dev_tools/editable_text_long/editable_text_long"/>
-		<object path="units/dev_tools/editable_text_long/editable_text_long"/>
-		<unit path="units/dev_tools/editable_text_long/editable_text_long"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_barn_planks_barricade/pta_prop_barn_planks_outline" type="unit">
 		<unit path="units/pd2_dlc_peta/props/pta_prop_barn_planks_barricade/pta_prop_barn_planks_outline"/>
 		<object path="units/pd2_dlc_peta/props/pta_prop_barn_planks_barricade/pta_prop_barn_planks_outline"/>
@@ -170,96 +159,13 @@
 		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m"/>
 		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m"/>
 	</add>
-	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3" type="unit">
-		<material_config path="units/world/architecture/secret_stash/secret_stash_trash"/>
-		<object path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3"/>
-		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3"/>
-	</add>
-	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_2" type="unit">
-		<material_config path="units/world/architecture/secret_stash/secret_stash_trash"/>
-		<object path="units/world/architecture/secret_stash/props/secret_stash_props_trash_2"/>
-		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_trash_2"/>
-	</add>
-	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_7" type="unit">
-		<material_config path="units/world/architecture/secret_stash/secret_stash_trash"/>
-		<object path="units/world/architecture/secret_stash/props/secret_stash_props_trash_7"/>
-		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_trash_7"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain" type="unit">
-		<unit load="true" path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain"/>
-		<unit load="true" path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain_husk"/>
-		<object path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain"/>
-	</add>
-	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_pole_2m" type="unit">
-		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
-		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_pole_2m"/>
-		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_pole_2m"/>
-	</add>
-	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_pole_2m_grey" type="unit">
-		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_cage_grey"/>
-		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_pole_2m_grey"/>
-		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_pole_2m_grey"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole" type="unit">
-		<material_config path="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole"/>
-		<object path="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole"/>
-		<unit path="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/ind_prop_alley_electric_pole/ind_prop_alley_streetlight_single" type="unit">
-		<material_config path="units/payday2/props/ind_prop_alley_electric_pole/ind_prop_alley_electric_pole"/>
-		<object path="units/payday2/props/ind_prop_alley_electric_pole/ind_prop_alley_streetlight_single"/>
-		<unit path="units/payday2/props/ind_prop_alley_electric_pole/ind_prop_alley_streetlight_single"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/ind_prop_alley_electric_pole/ind_prop_alley_electric_pole" type="unit">
-		<material_config path="units/payday2/props/ind_prop_alley_electric_pole/ind_prop_alley_electric_pole"/>
-		<object path="units/payday2/props/ind_prop_alley_electric_pole/ind_prop_alley_electric_pole"/>
-		<unit path="units/payday2/props/ind_prop_alley_electric_pole/ind_prop_alley_electric_pole"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_stairs_lobby_poles_a" type="unit">
-		<unit path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_stairs_lobby_poles_a"/>
-		<object path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_stairs_lobby_poles_a"/>
-		<material_config path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_stairs"/>
-		<sequence_manager path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_stairs_lobby_poles_a"/>
-		<unit path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_balustrade_debris"/>
-		<object path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_balustrade_debris"/>
-		<material_config path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_baluster"/>
-		<sequence_manager path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_balustrade_debris"/>
-		<effect load="true" path="effects/payday2/particles/destruction/dest_statue_bust"/>
-		<physic_effect path="physic_effects/push_sphere_unit"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_street_pole" type="unit">
-		<material_config path="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_details"/>
-		<object path="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_street_pole"/>
-		<unit path="units/pd2_dlc1/props/ind_ext_prop_details/ind_ext_prop_street_pole"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_pole" type="unit">
 		<material_config path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
 		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_pole"/>
 		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_pole"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole" type="unit">
-		<material_config path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
-		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
-		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/telephone_pole002" type="unit">
-		<material_config path="units/pd2_dlc2/csgo_models/props_urban/telephone_pole002"/>
-		<object path="units/pd2_dlc2/csgo_models/props_urban/telephone_pole002"/>
-		<unit path="units/pd2_dlc2/csgo_models/props_urban/telephone_pole002"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_holly/mansion/architecture/lxa_man_terrain/lxa_fencepoles_wood_rough" type="unit">
-		<material_config path="units/pd2_dlc_holly/mansion/architecture/lxa_man_terrain/lxa_wood_rough"/>
-		<object path="units/pd2_dlc_holly/mansion/architecture/lxa_man_terrain/lxa_fencepoles_wood_rough"/>
-		<unit path="units/pd2_dlc_holly/mansion/architecture/lxa_man_terrain/lxa_fencepoles_wood_rough"/>
-	</add>
-	<add from_db="true" path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1" type="unit">
-		<unit load="true" path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1"/>
-		<unit load="true" path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1_husk"/>
-		<object path="units/payday2/characters/civ_male_bank_manager_1/civ_male_bank_manager_1"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/civ_male_locke_escort/civ_male_locke_escort" type="unit">
 		<unit load="true" path="units/pd2_dlc_bph/characters/civ_male_locke_escort/civ_male_locke_escort"/>
-		<animation_state_machine path="anims/units/escort_var/cop_machine"/>
 		<object path="units/pd2_dlc_bph/characters/civ_male_locke_escort/civ_male_locke_escort"/>
 		<unit path="units/pd2_dlc_bph/props/bph_prop_bain_bag/bph_prop_bain_bag"/>
 		<object path="units/pd2_dlc_bph/props/bph_prop_bain_bag/bph_prop_bain_bag"/>
@@ -267,8 +173,9 @@
 		<unit path="units/pd2_dlc_pines/characters/gen_civ_acc_puking_effect/gen_civ_acc_puking_effect"/>
 		<object path="units/pd2_dlc_pines/characters/gen_civ_acc_puking_effect/gen_civ_acc_puking_effect"/>
 		<material_config path="units/pd2_dlc_pines/characters/gen_civ_acc_puking_effect/gen_civ_acc_puking_effect"/>
-		<effect load="true" path="effects/payday2/particles/character/puke"/>
-		<animation_def path="anims/units/escort_var/cop_def"/>
 		<unit load="true" path="units/pd2_dlc_bph/characters/civ_male_locke_escort/civ_male_locke_escort_husk"/>
+		<animation_def path="anims/units/escort_var/cop_def"/>
+		<animation_state_machine path="anims/units/escort_var/cop_machine"/>
+		<effect load="true" path="effects/payday2/particles/character/puke"/>
 	</add>
 </table>

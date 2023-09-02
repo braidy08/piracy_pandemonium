@@ -1,0 +1,37 @@
+<materials group="ranc_interactive_laptop" version="3">
+	<material decal_material="glass_breakable" name="display" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+		<diffuse_texture file="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_df" />
+		<self_illumination_texture file="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il" />
+		<variable name="il_multiplier" type="scalar" value="monitor" />
+		<bump_normal_texture file="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm" />
+	</material>
+	<material name="glow_matr" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+		<diffuse_texture file="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_df" />
+		<bump_normal_texture file="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm" />
+		<variable name="contour_opacity" type="scalar" value="1" />
+		<variable name="contour_color" type="vector3" value="1 0.5 0.0" />
+		<self_illumination_texture file="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il" />
+		<variable name="il_multiplier" type="scalar" value="monitor" />
+	</material>
+	<material decal_material="glass_breakable" name="mtr_screen_off" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/black_df" />
+	</material>
+	<material name="mat_outline" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+		<diffuse_texture file="units/white_df" />
+		<variable name="contour_color" type="vector3" value="1.0 0.5 0" />
+		<variable name="contour_opacity" type="scalar" value="1" />
+		<opacity_texture file="units/transparent_op" />
+	</material>
+	<material decal_material="glass_breakable" name="display_finger" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+		<diffuse_texture file="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_interactable_laptop_finger_df" />
+		<!-- <self_illumination_texture file="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il" /> -->
+		<variable name="il_multiplier" type="scalar" value="monitor" />
+		<bump_normal_texture file="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm" />
+	</material>
+	<material decal_material="glass_breakable" name="display_voice" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" version="2">
+		<diffuse_texture file="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_interactable_laptop_audio_df" />
+		<!-- <self_illumination_texture file="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il" /> -->
+		<variable name="il_multiplier" type="scalar" value="monitor" />
+		<bump_normal_texture file="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop_nm" />
+	</material>
+</materials>

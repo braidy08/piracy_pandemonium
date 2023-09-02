@@ -1216,7 +1216,7 @@
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="done_hacking"/>
-							<entry key="unit_id" type="number" value="100016"/>
+							<entry key="unit_id" type="number" value="101222"/>
 						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="1"/>
@@ -1274,19 +1274,19 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="100016"/>
+							<entry key="notify_unit_id" type="number" value="101222"/>
 							<entry key="notify_unit_sequence" type="string" value="turn_off_timer_gui"/>
 							<entry key="time" type="number" value="1"/>
 						</entry>
 						<entry index="2" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="100016"/>
+							<entry key="notify_unit_id" type="number" value="101222"/>
 							<entry key="notify_unit_sequence" type="string" value="set_hack_time_40"/>
-							<entry key="time" type="number" value="5"/>
+							<entry key="time" type="number" value="0"/>
 						</entry>
 						<entry index="3" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="100016"/>
+							<entry key="notify_unit_id" type="number" value="101222"/>
 							<entry key="notify_unit_sequence" type="string" value="interact_enabled"/>
 							<entry key="time" type="number" value="5"/>
 						</entry>
@@ -1327,7 +1327,7 @@
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
 							<entry key="sequence" type="string" value="done_hacking"/>
-							<entry key="unit_id" type="number" value="100016"/>
+							<entry key="unit_id" type="number" value="101222"/>
 						</entry>
 					</entry>
 					<entry key="trigger_times" type="number" value="1"/>
@@ -1358,19 +1358,19 @@
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="100016"/>
+							<entry key="notify_unit_id" type="number" value="101222"/>
 							<entry key="notify_unit_sequence" type="string" value="turn_off_timer_gui"/>
 							<entry key="time" type="number" value="1"/>
 						</entry>
 						<entry index="2" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="100016"/>
+							<entry key="notify_unit_id" type="number" value="101222"/>
 							<entry key="notify_unit_sequence" type="string" value="set_hack_time_40"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 						<entry index="3" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
-							<entry key="notify_unit_id" type="number" value="100016"/>
+							<entry key="notify_unit_id" type="number" value="101222"/>
 							<entry key="notify_unit_sequence" type="string" value="interact_enabled"/>
 							<entry key="time" type="number" value="5"/>
 						</entry>
@@ -5975,7 +5975,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="116.459 2095.49 496.722"/>
-					<entry key="rotation" type="quaternion" value="0 0 -0.819152 -0.573576"/>
+					<entry key="rotation" type="quaternion" value="-0 -0 0.573576 -0.819152"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

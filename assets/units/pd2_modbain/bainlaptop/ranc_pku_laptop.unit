@@ -1,0 +1,17 @@
+<unit type="ranc" slot="1">
+    <object file="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_pku_laptop"/>
+    <extensions>
+        <extension name="unit_data" class="ScriptUnitData"/>
+        <extension name="damage" class="UnitDamage"/>
+        <extension name="interaction" class="SpecialEquipmentInteractionExt">
+            <var name="tweak_data" value="ranc_press_take_laptop"/>
+            <var name="_special_equipment" value="laptop"/>
+            <var name="_remove_on_interact" value="true"/>
+            <var name="_interact_object" value="interact"/>
+        </extension>
+    </extensions>
+    <dependencies>
+        <depends_on bnk="soundbanks/regular_sfx"/>
+    </dependencies>
+    <network sync="spawn"/>
+</unit>

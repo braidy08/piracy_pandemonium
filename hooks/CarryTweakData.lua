@@ -1,12 +1,25 @@
 Hooks:PostHook(CarryTweakData, "init", "init_piracypandemonium", function(self, tweak_data)
 function CarryTweakData:init(tweak_data)
+	self.value_multiplier = tweak_data.money_manager.bag_value_multiplier
+	self.dye = {
+		chance = 0.5,
+		value_multiplier = 60
+	}
+	self.types = {
+		being = {}
+	}
+	self.types.being.move_speed_modifier = 0.5
+	self.types.being.jump_modifier = 0.5
+	self.types.being.can_run = false
+	self.types.being.throw_distance_multiplier = 0.5
 	self.types.bain_heavy = {
 		move_speed_modifier = 0.25,
 		jump_modifier = 0.25,
 		can_run = false,
-		throw_distance_multiplier = 0.75
+		throw_distance_multiplier = 0.6
 	}
 end
+
 	self.bainbag = {
 		type = "bain_heavy",
 		name_id = "hud_carry_bainbag",
@@ -25,3 +38,4 @@ end
 		visual_unit_name = "units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1",
 	}
 end)
+

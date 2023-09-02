@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynamic_object>
+    <diesel materials="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop" orientation_object="rp_ranc_int_laptop_outline"/>
+    <sequence_manager file="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop_outline"/>
+    <bodies>
+        <body name="body_static" enabled="true" template="editor">
+            <object name="rp_ranc_int_laptop_outline"/>
+            <object name="c_laptop" padding="-2.5" collision_type="box"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object name="g_glow_new" enabled="true"/>
+        <object name="g_laptop_closed" enabled="true"/>
+    </graphics>
+    <lights/>
+</dynamic_object>
