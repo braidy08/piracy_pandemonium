@@ -6,7 +6,7 @@
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>
 	</AddFiles>
 	<Sounds directory="assets/sounds">
-		<sound id="pp_briefing" path="briefing.ogg"/>
+		<sound id="pp_briefing" path="briefing.ogg" volume="1"/>
 	</Sounds>
 	<AssetUpdates id="braidy08/piracy_pandemonium" provider="github" branch="master"/>
 	<Localization default="english.json" directory="loc">
