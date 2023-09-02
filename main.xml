@@ -2,7 +2,7 @@
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/textures/mods/icons/piracy_icon"/>
 	</AddFiles>
-	<AssetUpdates id="braidy08/piracy_pandemonium" provider="github" use_local_dir="true" branch="master"/>
+	<AssetUpdates id="braidy08/piracy_pandemonium" provider="github" branch="master"/>
 	<Localization default="english.json" directory="loc">
 		<loc file="english.json" language="english"/>
 	</Localization>
