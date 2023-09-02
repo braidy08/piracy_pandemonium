@@ -1,7 +1,14 @@
 Hooks:PostHook(CarryTweakData, "init", "init_piracypandemonium", function(self, tweak_data)
-
+function CarryTweakData:init(tweak_data)
+	self.types.bain_heavy = {
+		move_speed_modifier = 0.25,
+		jump_modifier = 0.25,
+		can_run = false,
+		throw_distance_multiplier = 0.75
+	}
+end
 	self.bainbag = {
-		type = "very_heavy",
+		type = "bain_heavy",
 		name_id = "hud_carry_bainbag",
 		unit = "units/payday2/pickups/gen_pku_bodybag/gen_pku_bodybag",
 		visual_unit_name = "units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1",
