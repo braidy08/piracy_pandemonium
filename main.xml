@@ -1,0 +1,109 @@
+<table min_lib_ver="4.5" name="piracy_pandemonium">
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/textures/mods/icons/piracy_icon"/>
+	</AddFiles>
+	<AssetUpdates id="43636" provider="modworkshop" use_local_dir="true" version="test4"/>
+	<Localization default="english.json" directory="loc">
+		<loc file="english.json" language="english"/>
+	</Localization>
+	<Package file="packagedata/mod_bain/add.xml" id="modpackages/mod_bain"/>
+	<level ai_group_type="america" briefing_dialog="" id="piracy_pandemonium_lev" intro_event="" max_bags="999" player_style="generic">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+		</assets>
+		<hooks directory="hooks">
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
+			<hook file="tweakdatapd2.lua" source_file="lib/tweak_data/tweakdatapd2"/>
+		</hooks>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="levels/narratives/h_alex_must_die/stage_2/world/world"/>
+			<value_node value="modpackages/mod_bain"/>
+			<value_node value="levels/narratives/bain/rvd/stage1/world_sounds"/>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="packages/escape_park"/>
+			<value_node value="packages/narr_framing_1"/>
+			<value_node value="levels/instances/unique/hlm_box_contraband002/world/world"/>
+			<value_node value="levels/instances/unique/rat_methlab_special/world/world"/>
+			<value_node value="packages/narr_glace"/>
+			<value_node value="levels/instances/unique/hox_estate_bagdrop_heli/world/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_entrance/world/world"/>
+			<value_node value="packages/narr_run"/>
+			<value_node value="levels/narratives/safehouse/shadow_casters/shadow_casters"/>
+			<value_node value="levels/narratives/locke/tag/shadow_caster/shadow_caster"/>
+			<value_node value="packages/narr_alex3"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_3/world/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_3/world_sounds"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="custom" id="piracy_pandemonium_nar" icon="guis/textures/mods/icons/piracy_icon">
+		<chain>
+			<table level_id="piracy_pandemonium_lev" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>
