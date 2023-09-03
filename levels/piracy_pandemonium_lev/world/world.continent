@@ -2415,24 +2415,6 @@
 			<unit_data _prev_pos="800 3600 1400" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lcm_b/lcm_b_ext_roof4_plane_4x4m_a" name_id="lcm_b_ext_roof4_plane_4x4m_a_015" position="800 3200 1400" rotation="0 0 0 -1" unit_id="100736"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="800 0 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_001" only_exists_in_editor="true" position="800 0 0" rotation="0 0 -0.707107 -0.707107" unit_id="100737"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="800 0 300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_002" only_exists_in_editor="true" position="800 0 300" rotation="0 0 -0.707107 -0.707107" unit_id="100738"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="800 0 300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_003" only_exists_in_editor="true" position="800 0 600" rotation="0 0 -0.707107 -0.707107" unit_id="100739"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="4700 300 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_018" only_exists_in_editor="true" position="4700 400 0" rotation="0 0 -0.707107 -0.707107" unit_id="100740"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2400 -1625 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_004" only_exists_in_editor="true" position="-2400 -1625 -25" rotation="0 0 -0.707107 -0.707107" unit_id="100741"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-2400 -1625 -25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_005" only_exists_in_editor="true" position="-2400 -1625 275" rotation="0 0 -0.707107 -0.707107" unit_id="100742"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="150 2579 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_int/res_int_corridor_4m_doorway_02" name_id="res_int_corridor_4m_doorway_02_008" position="150 2579 400" rotation="0 0 0.707107 -0.707107" unit_id="100300"/>
 		</table>
 		<table>
@@ -2505,7 +2487,7 @@
 			<unit_data _prev_pos="-150 2779 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-100 100 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/res_int/res_int_floor_corner_1m_02" name_id="res_int_floor_corner_1m_02_004" position="-150 2779 400" rotation="0 0 0.707107 -0.707107" unit_id="100750"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-246 2835 400" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/payday2/equipment/gen_interactable_door_corridor/gen_interactable_door_corridor" name_id="gen_interactable_door_corridor_017" position="-246 2835 400" rotation="0 0 1 4.37114e-008" unit_id="100767"/>
+			<unit_data _prev_pos="-246 2835 400" _prev_rot="0 0 1 4.37114e-008" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/payday2/equipment/gen_interactable_door_corridor/gen_interactable_door_corridor" name_id="gen_interactable_door_corridor_017" position="-246 2835 400" rotation="0 0 1 -4.37114e-008" unit_id="100767"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-149 2979 400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_int/res_int_corridor_4m_doorway_02" name_id="res_int_corridor_4m_doorway_02_013" position="-150 2979 400" rotation="0 0 -0.707107 -0.707107" unit_id="100768"/>
@@ -4144,18 +4126,6 @@
 			<unit_data _prev_pos="-194.489 5181.98 401.491" _prev_rot="0 0 0 -1" continent="world" local_pos="0 818 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_008" only_exists_in_editor="true" position="-180.489 5181.98 401.491" rotation="0 0 0 -1" unit_id="101224"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-200 4366 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="225 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_009" only_exists_in_editor="true" position="-200 4366 400" rotation="0 0 0.707107 -0.707107" unit_id="101225"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-200 4591 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_010" only_exists_in_editor="true" position="-200 4591 400" rotation="0 0 0.707107 -0.707107" unit_id="101226"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-200 4591 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_011" only_exists_in_editor="true" position="-200 5391 400" rotation="0 0 0.707107 -0.707107" unit_id="101227"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-200 4366 400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="225 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_012" only_exists_in_editor="true" position="-200 5166 400" rotation="0 0 0.707107 -0.707107" unit_id="101228"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-180.489 4382.98 401.491" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_001" only_exists_in_editor="true" position="-180.489 4382.98 401.491" rotation="0 0 0 -1" unit_id="101205"/>
 		</table>
 		<table>
@@ -4895,6 +4865,18 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="8800 -3200 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_a" name_id="str_ext_road_16x16m_a_015" position="7200 -3200 0" rotation="0 0 -0.707107 -0.707107" unit_id="101529"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-825 2482 400" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_int/res_int_corridor_wall_1m_02" name_id="res_int_corridor_wall_1m_02_080" position="-925 2482 400" rotation="0 0 0 -1" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-925 3075 400" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_int/res_int_corridor_wall_1m_02" name_id="res_int_corridor_wall_1m_02_081" position="-1025 3075 400" rotation="0 0 1 -4.37114e-008" unit_id="100737"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-925 3075 800" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/res_int/res_int_corridor_wall_1m_02" name_id="res_int_corridor_wall_1m_02_082" position="-1025 3075 800" rotation="0 0 1 -4.37114e-008" unit_id="100738"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-825 2482 800" _prev_rot="0 0 0 -1" continent="world" local_pos="-99.9999 593 0" local_rot="0 0 1 4.37114e-008" name="units/payday2/architecture/res_int/res_int_corridor_wall_1m_02" name_id="res_int_corridor_wall_1m_02_083" position="-925 2482 800" rotation="0 0 0 -1" unit_id="100739"/>
 		</table>
 	</statics>
 	<values>
