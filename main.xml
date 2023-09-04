@@ -5,15 +5,12 @@
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>
 	</AddFiles>
-	<Sounds directory="assets/sounds">
-		<sound id="pp_briefing" path="briefing.ogg" volume="1"/>
-	</Sounds>
 	<AssetUpdates id="braidy08/piracy_pandemonium" provider="github" branch="master"/>
 	<Localization default="english.json" directory="loc">
 		<loc file="english.json" language="english"/>
 	</Localization>
 	<Package file="packagedata/mod_bain/add.xml" id="modpackages/mod_bain"/>
-	<level ai_group_type="america" briefing_dialog="pp_briefing" id="piracy_pandemonium_lev" intro_event="" max_bags="999" player_style="generic">
+	<level ai_group_type="america" briefing_dialog="pp_briefing" id="piracy_pandemonium_lev" intro_event="Intro2" max_bags="999" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -52,6 +49,19 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
+		<sounds directory="assets/sounds">
+			<sound id="pp_briefing" path="briefing.ogg" volume="1"/>
+			
+			<sounds directory="intros">
+			<sound id="Intro2">
+				<markers>
+					<marker label="intro2_01" position="0.877"/>
+					<marker label="intro2_02" position="3.5"/>
+					<marker label="intro2_03" position="8.98"/>
+				</markers>
+			</sound>	
+		</sounds>
+		</sounds>
 	</level>
 	<narrative briefing_event="" contact="custom" id="piracy_pandemonium_nar" icon="guis/textures/mods/icons/piracy_icon">
 		<chain>
