@@ -5,7 +5,7 @@
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>
 	</AddFiles>
-	<AssetUpdates id="braidy08/piracy_pandemonium" provider="github" branch="master"/>
+	<AssetUpdates branch="master" id="braidy08/piracy_pandemonium" provider="github"/>
 	<Localization default="english.json" directory="loc">
 		<loc file="english.json" language="english"/>
 	</Localization>
@@ -35,14 +35,13 @@
 			<value_node value="levels/instances/unique/hlm_box_contraband002/world/world"/>
 			<value_node value="levels/instances/unique/rat_methlab_special/world/world"/>
 			<value_node value="packages/narr_glace"/>
-			<value_node value="levels/instances/unique/hox_estate_bagdrop_heli/world/world"/>
-			<value_node value="levels/instances/unique/pbr/pbr_mountain_entrance/world/world"/>
 			<value_node value="packages/narr_run"/>
 			<value_node value="levels/narratives/safehouse/shadow_casters/shadow_casters"/>
 			<value_node value="levels/narratives/locke/tag/shadow_caster/shadow_caster"/>
 			<value_node value="packages/narr_alex3"/>
 			<value_node value="levels/narratives/h_alex_must_die/stage_3/world/world"/>
 			<value_node value="levels/narratives/h_alex_must_die/stage_3/world_sounds"/>
+			<value_node value="levels/narratives/classics/man/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -51,19 +50,18 @@
 		</script_data_mods>
 		<sounds directory="assets/sounds">
 			<sound id="pp_briefing" path="briefing.ogg" volume="1"/>
-			
 			<sounds directory="intros">
-			<sound id="Intro2">
-				<markers>
-					<marker label="intro2_01" position="0.877"/>
-					<marker label="intro2_02" position="3.5"/>
-					<marker label="intro2_03" position="8.98"/>
-				</markers>
-			</sound>	
-		</sounds>
+				<sound id="Intro2">
+					<markers>
+						<marker label="intro2_01" position="0.877"/>
+						<marker label="intro2_02" position="3.7"/>
+						<marker label="intro2_03" position="8.98"/>
+					</markers>
+				</sound>
+			</sounds>
 		</sounds>
 	</level>
-	<narrative briefing_event="" contact="custom" id="piracy_pandemonium_nar" icon="guis/textures/mods/icons/piracy_icon">
+	<narrative briefing_event="" contact="custom" icon="guis/textures/mods/icons/piracy_icon" id="piracy_pandemonium_nar">
 		<chain>
 			<table level_id="piracy_pandemonium_lev" type="d" type_id="heist_type_assault"/>
 		</chain>
