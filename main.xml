@@ -21,6 +21,7 @@
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
 			<hook file="tweakdatapd2.lua" source_file="lib/tweak_data/tweakdatapd2"/>
+			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 		</hooks>
 		<outro_event>
 			<value_node value=""/>
@@ -42,6 +43,13 @@
 			<value_node value="levels/narratives/h_alex_must_die/stage_3/world/world"/>
 			<value_node value="levels/narratives/h_alex_must_die/stage_3/world_sounds"/>
 			<value_node value="levels/narratives/classics/man/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_street/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_cafe/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/pc_only/pc_only"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/bd_mt/bd_mt"/>
+			<value_node value="packages/narr_mia_2"/>
+			<value_node value="levels/narratives/classics/run/dhruva_art/dhruva_art"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

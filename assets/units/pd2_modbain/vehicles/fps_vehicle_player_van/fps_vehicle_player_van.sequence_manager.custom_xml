@@ -1,0 +1,386 @@
+<table>
+	<unit>
+		
+		<variables>
+			<var_active_equipment	value="'none'"/>
+			<var_driven_once		value="0"/>
+			<var_rear_doors_open	value="0"/>
+			<var_player_near		value="0"/>
+			<var_lootbag_slot		value="0"/>
+			<var_canvasbag_slot		value="0"/>
+		</variables>
+		
+		<!--Players Mission Equipment-->
+		<sequence editable_state="true" name="'replace_van_equipment'" triggable="true" >
+			<run_sequence name="'spawn_pku'" />
+			<function
+				filter="'filter_equipment_not_none'"
+				extension="'vehicle_driving'"
+				function="'remove_loot'"
+				param1="vars.var_active_equipment"
+				param2="1"
+			/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'set_van_equipment_explosive_bag'" triggable="true" >
+			<set_variables var_active_equipment="'explosive_bag'"/>
+			<run_sequence name="'spawn_pku'" />
+		</sequence>
+		
+		<!-- var_active_equipment = mid-name of lootbag -->
+		<sequence editable_state="false" name="'spawn_pku'" triggable="false" >
+			<function extension="'spawn_manager'" function="'remove_unit'" param1="'mission_equipment_unit'" />
+			<function
+				filter="'filter_equipment_not_none'"
+				extension="'spawn_manager'"
+				function="'spawn_unit'"
+				param1="'mission_equipment_unit'"
+				param2="'sp_equipment'"
+				param3="'units/pd2_modbain/vehicles/veh_bags/veh_'..vars.var_active_equipment..'_static'"
+			/>
+		</sequence>
+		
+		<!--Prox Sequences-->
+		<proximities>
+			<proximity enabled="true" interval="1" name="'prox_van'" ref_object="'a_loot'" type="'players'">
+				<within delay="1.5" range="800">
+					<run_sequence name="'int_seq_near_van'"/>
+				</within>
+				<outside delay="1.5" range="800">
+					<run_sequence name="'int_seq_away_van'"/>
+				</outside>
+			</proximity>
+		</proximities>
+		<sequence editable_state="false" name="'int_seq_near_van'" triggable="false">
+			<set_variables var_player_near="1"/>
+			<run_sequence name="'anim_door_rear_open'" filter="'filter_can_open_van_door'" />
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_away_van'" triggable="false">
+			<set_variables var_player_near="0"/>
+			<run_sequence name="'anim_door_rear_close'" filter="'filter_can_close_van_door'" />
+		</sequence>
+		
+		<sequence editable_state="false" name="'anim_door_rear_open'" triggable="false">
+			<animation_group enabled="true" name="'anim_rear_doors'" from="0/30" to="20/30"/>
+			<sound action="'play'" event="'van_rear_door_open'" object="'anim_rear_left_door'"/>
+			<sound action="'play'" event="'van_rear_door_open'" object="'anim_rear_right_door'"/>
+			<set_variables var_rear_doors_open="1"/>
+		</sequence>
+		<sequence editable_state="false" name="'anim_door_rear_close'" triggable="false">
+			<animation_group enabled="true" name="'anim_rear_doors'" from="20/30" to="40/30"/>
+			<sound action="'play'" event="'van_rear_door_close'" object="'anim_rear_left_door'"/>
+			<sound action="'play'" event="'van_rear_door_close'" object="'anim_rear_right_door'"/>
+			<set_variables var_rear_doors_open="0"/>
+		</sequence>
+		
+		<filter name="'filter_not_carrying_equipment'">
+			<check value="vars.var_carying_equipment == 0"/>
+		</filter>
+		<filter name="'filter_driven_once'">
+			<check value="vars.var_driven_once == 1"/>
+		</filter>
+		<filter name="'filter_can_close_van_door'">
+			<check value="vars.var_rear_doors_open == 1"/>
+		</filter>
+		<filter name="'filter_can_open_van_door'">
+			<check value="vars.var_rear_doors_open == 0"/>
+		</filter>
+		<filter name="'filter_equipment_not_none'">
+			<check value="vars.var_active_equipment ~= 'none'"/>
+		</filter>
+		
+		<!--Generic Interactions-->
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+			<run_sequence name="'state_vis_icon_entry_enabled'" />
+			<run_sequence name="'state_vis_icon_loot_enabled'" />
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+			<run_sequence name="'state_vis_icon_entry_disabled'" />
+			<run_sequence name="'state_vis_icon_loot_disabled'" />
+		</sequence>
+		
+		<!--FPS-->
+		<sequence editable_state="false" name="'local_driving_enter'" triggable="false">
+			<object name="'g_steering_wheel_fps'"	enabled="true" />
+			<object name="'g_steering_wheel'"		enabled="false" />
+			<object name="'g_wheel_front_left'"		enabled="false" />
+			<object name="'g_wheel_front_right'"	enabled="false" />
+		</sequence>
+		<sequence editable_state="false" name="'local_driving_exit'" triggable="false">
+			<object name="'g_steering_wheel_fps'"	enabled="false" />
+			<object name="'g_steering_wheel'"		enabled="true" />
+			<object name="'g_wheel_front_left'"		enabled="true" />
+			<object name="'g_wheel_front_right'"	enabled="true" />
+		</sequence>
+		
+		<!--Chassis states-->
+		<sequence editable_state="false" name="'not_driving'" triggable="false">
+			<interaction enabled="true"/>
+			<body name="'body_chassis_static'"					enabled="true" />
+			<body name="'body_chassis_door_front_left_static'"	enabled="true" />
+			<body name="'body_chassis_door_front_right_static'"	enabled="true" />
+			<body name="'body_chassis_door_rear_left_static'"	enabled="true" />
+			<body name="'body_chassis_door_rear_right_static'"	enabled="true" />
+			<body name="'body_chassis'"							enabled="false" />
+			<body name="'body_chassis_door_front_left'"			enabled="false" />
+			<body name="'body_chassis_door_front_right'"		enabled="false" />
+			<body name="'body_chassis_door_rear_left'"			enabled="false" />
+			<body name="'body_chassis_door_rear_right'"			enabled="false" />
+			<slot slot="39"/>
+		</sequence>
+		<sequence editable_state="false" name="'driving'" triggable="false">
+			<interaction enabled="true"/>
+			<set_variables var_driven_once="1"/>
+			<body name="'body_chassis_static'"					enabled="false" />
+			<body name="'body_chassis_door_front_left_static'"	enabled="false" />
+			<body name="'body_chassis_door_front_right_static'"	enabled="false" />
+			<body name="'body_chassis_door_rear_left_static'"	enabled="false" />
+			<body name="'body_chassis_door_rear_right_static'"	enabled="false" />
+			<body name="'body_chassis'"							enabled="true" />
+			<body name="'body_chassis_door_front_left'"			enabled="true" />
+			<body name="'body_chassis_door_front_right'"		enabled="true" />
+			<body name="'body_chassis_door_rear_left'"			enabled="true" />
+			<body name="'body_chassis_door_rear_right'"			enabled="true" />
+			<slot slot="39"/>
+		</sequence>
+		
+		<!--Interaction GUI-->
+		<sequence editable_state="false" name="'state_vis_icon_entry_enabled'" triggable="false">
+			<graphic_group name="'grp_icon_entry'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_vis_icon_entry_disabled'" triggable="false">
+			<graphic_group name="'grp_icon_entry'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_vis_icon_loot_enabled'" triggable="false">
+			<graphic_group name="'grp_icon_loot'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_vis_icon_loot_disabled'" triggable="false">
+			<graphic_group name="'grp_icon_loot'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_vis_icon_repair_enabled'" triggable="false">
+			<graphic_group name="'grp_icon_repair'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_vis_icon_repair_disabled'" triggable="false">
+			<graphic_group name="'grp_icon_repair'" visibility="false"/>
+		</sequence>
+		
+		<!--Damage States-->
+		<sequence editable_state="false" name="'int_seq_repaired'" triggable="false">
+			<effect_spawner enabled="false" name="'es_smoke_full'"/>
+			<effect_spawner enabled="false" name="'es_smoke_med'"/>
+			<run_sequence name="'repair_windows'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_med_damaged'" triggable="false">
+			<effect_spawner enabled="true" name="'es_smoke_med'"/>
+			<effect_spawner enabled="false" name="'es_smoke_full'"/>
+			<run_sequence name="'int_seq_shatter_win_front'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_full_damaged'" triggable="false">
+			<effect_spawner enabled="false" name="'es_smoke_med'"/>
+			<effect_spawner enabled="true" name="'es_smoke_full'"/>
+		</sequence>
+		
+		<!--Damaged Glass (Stole it from original van so its ugly AF)-->
+		<body name="'body_window_front_left'">
+			<endurance bullet="1" explosion="1" lock="1" melee="0.5">
+				<run_sequence name="'int_seq_shatter_win_front_left_1'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" lock="2" melee="1">
+				<run_sequence name="'int_seq_shatter_win_front_left_2'"/>
+			</endurance>
+		</body>
+		<body name="'body_window_front_right'">
+			<endurance bullet="1" explosion="1" lock="1" melee="0.5">
+				<run_sequence name="'int_seq_shatter_win_front_right_1'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" lock="2" melee="1">
+				<run_sequence name="'int_seq_shatter_win_front_right_2'"/>
+			</endurance>
+		</body>
+		<body name="'body_window_rear_left'">
+			<endurance bullet="1" explosion="1" lock="1" melee="0.5">
+				<run_sequence name="'int_seq_shatter_win_rear_left_1'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" lock="2" melee="1">
+				<run_sequence name="'int_seq_shatter_win_rear_left_2'"/>
+			</endurance>
+		</body>
+		<body name="'body_window_rear_right'">
+			<endurance bullet="1" explosion="1" lock="1" melee="0.5">
+				<run_sequence name="'int_seq_shatter_win_rear_right_1'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" lock="2" melee="1">
+				<run_sequence name="'int_seq_shatter_win_rear_right_2'"/>
+			</endurance>
+		</body>
+		<sequence editable_state="false" name="'int_seq_shatter_win_front_left_1'" triggable="false">
+			<object enabled="false" name="'g_windows_front_left'"/>
+			<object enabled="true" name="'g_windows_front_left_dmg'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_front_left_2'" triggable="false">
+			<body enabled="false" name="'body_window_front_left'"/>
+			<object enabled="false" name="'g_windows_front_left_dmg'"/>
+			<decal_mesh enabled="false" name="'dm_windows_front_left'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass_front_l' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_glass_front_l'"/>
+			<set_damage bullet="0" explosion="0" lock="0" melee="0" start_time="0.1" />
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_front_right_1'" triggable="false">
+			<object enabled="false" name="'g_windows_front_right'"/>
+			<object enabled="true" name="'g_windows_front_right_dmg'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_front_right_2'" triggable="false">
+			<body enabled="false" name="'body_window_front_right'"/>
+			<object enabled="false" name="'g_windows_front_right_dmg'"/>
+			<decal_mesh enabled="false" name="'dm_windows_front_right'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass_front_r' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_glass_front_r'"/>
+			<set_damage bullet="0" explosion="0" lock="0" melee="0" start_time="0.1" />
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_front'" triggable="false">
+			<object enabled="false" name="'g_windows_front'"/>
+			<object enabled="true" name="'g_windows_front_dmg'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_rear_left_1'" triggable="false">
+			<object enabled="false" name="'g_windows_rear_left'"/>
+			<object enabled="true" name="'g_windows_rear_left_dmg'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_rear_left_2'" triggable="false">
+			<body enabled="false" name="'body_window_rear_left'"/>
+			<object enabled="false" name="'g_windows_rear_left_dmg'"/>
+			<decal_mesh enabled="false" name="'dm_windows_rear_left'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass_rear_l' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_glass_rear_l'"/>
+			<set_damage bullet="0" explosion="0" lock="0" melee="0" start_time="0.1" />
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_rear_right_1'" triggable="false">
+			<object enabled="false" name="'g_windows_rear_right'"/>
+			<object enabled="true" name="'g_windows_rear_right_dmg'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_shatter_win_rear_right_2'" triggable="false">
+			<body enabled="false" name="'body_window_rear_right'"/>
+			<object enabled="false" name="'g_windows_rear_right_dmg'"/>
+			<decal_mesh enabled="false" name="'dm_windows_rear_right'"/>
+			<effect name="'effects/payday2/particles/window/storefront_window_small'" parent="object( 'e_glass_rear_r' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_glass_rear_r'"/>
+			<set_damage bullet="0" explosion="0" lock="0" melee="0" start_time="0.1" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'repair_windows'" triggable="true">
+			<decal_mesh	enabled="true"		name="'dm_windows_front_left'"/>
+			<decal_mesh	enabled="true"		name="'dm_windows_front_right'"/>
+			<decal_mesh	enabled="true"		name="'dm_windows_rear_left'"/>
+			<decal_mesh	enabled="true"		name="'dm_windows_rear_right'"/>
+			
+			<body		enabled="true"		name="'body_window_front_left'"/>
+			<body		enabled="true"		name="'body_window_front_right'"/>
+			<body		enabled="true"		name="'body_window_rear_left'"/>
+			<body		enabled="true"		name="'body_window_rear_right'"/>
+			
+			<object		enabled="true"		name="'g_windows_front'"/>
+			<object		enabled="true"		name="'g_windows_front_left'"/>
+			<object		enabled="true"		name="'g_windows_front_right'"/>
+			<object		enabled="true"		name="'g_windows_rear_left'"/>
+			<object		enabled="true"		name="'g_windows_rear_right'"/>
+			
+			<object		enabled="false"		name="'g_windows_front_dmg'"/>
+			<object		enabled="false"		name="'g_windows_front_left_dmg'"/>
+			<object		enabled="false"		name="'g_windows_front_right_dmg'"/>
+			<object		enabled="false"		name="'g_windows_rear_left_dmg'"/>
+			<object		enabled="false"		name="'g_windows_rear_right_dmg'"/>
+			<set_damage bullet="0" explosion="0" lock="0" melee="0" start_time="0.1" />
+		</sequence>
+		
+		
+		<!--
+			LOOTBAGS!!
+			'action_add_bag_[carry ID]' = sequence name.
+		-->
+		
+		<!--Bags we want to secure-->
+		<sequence editable_state="false" name="'action_add_bag_money'" triggable="false">
+			<run_sequence name="'add_lootbag_generic'" />
+		</sequence>
+		<sequence editable_state="false" name="'action_add_bag_gold'" triggable="false">
+			<run_sequence name="'add_lootbag_generic'" />
+		</sequence>
+		<sequence editable_state="false" name="'action_add_bag_diamonds'" triggable="false">
+			<run_sequence name="'add_lootbag_generic'" />
+		</sequence>
+		<sequence editable_state="false" name="'action_add_bag_coke'" triggable="false">
+			<run_sequence name="'add_lootbag_generic'" />
+		</sequence>
+		<sequence editable_state="false" name="'action_add_hope_diamond'" triggable="false">
+			<run_sequence name="'add_lootbag_green'" />
+		</sequence>
+		<sequence editable_state="false" name="'action_add_bag_painting'" triggable="false">
+			<run_sequence name="'add_canvas_bag'" />
+		</sequence>
+		
+		<!--Special Bags we dont want to secure-->
+		<sequence editable_state="false" name="'action_add_bag_lance_bag'" triggable="false">
+			<set_variables var_active_equipment="'lance_bag'"/>
+			<run_sequence name="'replace_van_equipment'" />
+		</sequence>
+		<sequence editable_state="false" name="'action_add_bag_cage_bag'" triggable="false">
+			<set_variables var_active_equipment="'cage_bag'"/>
+			<run_sequence name="'replace_van_equipment'" />
+		</sequence>
+		<sequence editable_state="false" name="'action_add_bag_equipment_bag'" triggable="false">
+			<set_variables var_active_equipment="'equipment_bag'"/>
+			<run_sequence name="'replace_van_equipment'" />
+		</sequence>
+		<sequence editable_state="false" name="'action_add_bag_lance_bag_large'" triggable="false">
+			<set_variables var_active_equipment="'lance_bag_large'"/>
+			<run_sequence name="'replace_van_equipment'" />
+		</sequence>
+		
+		<!--Bag Visuals-->
+		<sequence editable_state="false" name="'add_lootbag_generic'" triggable="false">
+			<set_variables var_lootbag_slot="vars.var_lootbag_slot + 1"/>
+			<object enabled="true" name="'g_lootbag_'..vars.var_lootbag_slot" />
+		</sequence>
+		<sequence editable_state="false" name="'add_lootbag_green'" triggable="false">
+			<set_variables var_lootbag_slot="vars.var_lootbag_slot + 1"/>
+			<object enabled="true" name="'g_lootbag_green_'..vars.var_lootbag_slot" />
+		</sequence>
+		<sequence editable_state="false" name="'add_canvas_bag'" triggable="false">
+			<set_variables var_canvasbag_slot="vars.var_canvasbag_slot + 1"/>
+			<object enabled="true" name="'g_canvasbag_'..vars.var_canvasbag_slot" />
+		</sequence>
+		
+		<!--Van Skins-->
+		<sequence editable_state="false" name="'mat_normal'" triggable="false">
+			<material_config name="'units/pd2_mod_owp/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_default'"/>
+		</sequence>
+		<sequence editable_state="false" name="'mat_overkill'" triggable="false">
+			<material_config name="'units/pd2_mod_owp/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_overkill'"/>
+		</sequence>
+		<sequence editable_state="false" name="'mat_chill_brown'" triggable="false">
+			<material_config name="'units/pd2_mod_owp/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_brown'"/>
+		</sequence>
+		<sequence editable_state="false" name="'mat_chill_green'" triggable="false">
+			<material_config name="'units/pd2_mod_owp/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_green'"/>
+		</sequence>
+		<sequence editable_state="false" name="'mat_chill_grey'" triggable="false">
+			<material_config name="'units/pd2_mod_owp/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_grey'"/>
+		</sequence>
+		<sequence editable_state="false" name="'mat_chill_red'" triggable="false">
+			<material_config name="'units/pd2_mod_owp/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_red'"/>
+		</sequence>
+		<sequence editable_state="false" name="'mat_chill_white'" triggable="false">
+			<material_config name="'units/pd2_mod_owp/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_white'"/>
+		</sequence>
+		<sequence editable_state="false" name="'mat_chill_yellow'" triggable="false">
+			<material_config name="'units/pd2_mod_owp/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_yellow'"/>
+		</sequence>
+		<sequence editable_state="false" name="'mat_chill_icecream'" triggable="false"> <!--Not sure why its not working.-->
+			<material_config name="'units/pd2_mod_owp/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_icecream'"/>
+		</sequence>
+		<sequence editable_state="false" name="'mat_chill_halloween'" triggable="false">
+			<material_config name="'units/pd2_mod_owp/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_halloween'"/>
+		</sequence>
+	</unit>
+</table>
