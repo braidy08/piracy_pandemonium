@@ -623,8 +623,28 @@
 		<unit path="units/pd2_dlc1/architecture/res_ext_gas_station/res_int_gas_building"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
-		<unit path="units/dev_tools/editable_text_long/editable_text_long"/>
-		<object path="units/dev_tools/editable_text_long/editable_text_long"/>
 		<material_config path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<unit path="units/dev_tools/editable_text_long/editable_text_long"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x8m_d" type="unit">
+		<material_config path="units/payday2/architecture/lcm_b/lcm_b"/>
+		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x8m_d"/>
+		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x8m_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x4m_a_door_notrim" type="unit">
+		<material_config path="units/payday2/architecture/lcm_b/lcm_b"/>
+		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x4m_a_door_notrim"/>
+		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x4m_a_door_notrim"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_d_nowin" type="unit">
+		<material_config path="units/payday2/architecture/lcm_b/lcm_b"/>
+		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_d_nowin"/>
+		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_d_nowin"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x4m_a_door" type="unit">
+		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x4m_a_door"/>
+		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile3_4x4m_a_door"/>
+		<material_config path="units/payday2/architecture/lcm_b/lcm_b"/>
 	</add>
 </table>
