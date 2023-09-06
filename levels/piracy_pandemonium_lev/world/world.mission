@@ -1558,6 +1558,7 @@
 					<entry key="filter_group" type="string" value="none"/>
 					<entry key="graph_ids" type="table">
 						<entry index="1" type="number" value="7"/>
+						<entry index="2" type="number" value="67"/>
 					</entry>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -5645,6 +5646,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100170"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100264"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-13.8201 1856.85 450"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -6888,6 +6893,27 @@
 					<entry key="state" type="string" value="inactive"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="vehicle" type="string" value="escape_van"/>
+				</entry>
+			</entry>
+			<entry index="265" type="table">
+				<entry key="class" type="string" value="ElementAIGraph"/>
+				<entry key="editor_name" type="string" value="ai_graph_005"/>
+				<entry key="id" type="number" value="100264"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="filter_group" type="string" value="none"/>
+					<entry key="graph_ids" type="table">
+						<entry index="1" type="number" value="67"/>
+					</entry>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="operation" type="string" value="allow_access"/>
+					<entry key="position" type="vector3" value="-109.974 2081.74 475"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>
