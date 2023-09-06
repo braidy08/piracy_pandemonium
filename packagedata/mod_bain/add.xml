@@ -3,6 +3,9 @@
 		<movie force="true" path="movies/contact_bain1"/>
 		<movie force="true" path="movies/contact_bain2"/>
 		<movie force="true" path="movies/contact_bain3"/>
+		<bnk from_db="true" load="true" path="soundbanks/regular_car_sfx"/>
+		<bnk from_db="true" load="true" path="soundbanks/car_truck"/>
+		<bnk from_db="true" load="true" path="soundbanks/regular_sfx"/>
 	</add>
 	<add path="units/pd2_modbain/invisible_interaction_bagbain/invisible_interaction_bagbain" type="unit">
 		<cooked_physics path="units/pd2_modbain/invisible_interaction_bagbain/invisible_interaction_bagbain"/>
