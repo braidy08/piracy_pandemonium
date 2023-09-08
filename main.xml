@@ -32,7 +32,6 @@
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 			<value_node value="packages/escape_park"/>
 			<value_node value="packages/narr_framing_1"/>
-			<value_node value="levels/instances/unique/hlm_box_contraband002/world/world"/>
 			<value_node value="packages/narr_run"/>
 			<value_node value="packages/narr_alex3"/>
 			<value_node value="levels/narratives/h_alex_must_die/stage_3/world/world"/>
@@ -49,7 +48,26 @@
 			</mod>
 		</script_data_mods>
 		<sounds directory="assets/sounds">
-			<sound id="pp_briefing" path="briefing.ogg" volume="1"/>
+			<sound id="knockondoorstart" path="doorknock1.ogg"/>
+			<sound id="pp_briefing" path="briefing.ogg"/>
+			<sound id="MS1"/>
+			<sound id="MS2"/>
+			<random id="MS1or2">
+				<sound id="MS1"/>
+				<sound id="MS2"/>
+			</random>
+			<sound id="TooLong1"/>
+			<sound id="TooLong2"/>
+			<random id="waitlong1or2">
+				<sound id="TooLong1"/>
+				<sound id="TooLong2"/>
+			</random>
+			<sound id="Lappy1"/>
+			<sound id="Lappy2"/>
+			<random id="Lappy12">
+				<sound id="Lappy1"/>
+				<sound id="Lappy2"/>
+			</random>
 			<sounds directory="intros">
 				<sound id="Intro2">
 					<markers>
