@@ -1,15 +1,4 @@
 <table min_lib_ver="4.5" name="piracy_pandemonium">
-	<AddFiles directory="assets">
-		<texture load="true" path="guis/textures/mods/icons/piracy_icon"/>
-		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_df"/>
-		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il"/>
-		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>
-	</AddFiles>
-	<AssetUpdates branch="master" id="braidy08/piracy_pandemonium" provider="github"/>
-	<Localization default="english.json" directory="loc">
-		<loc file="english.json" language="english"/>
-	</Localization>
-	<Package file="packagedata/mod_bain/add.xml" id="modpackages/mod_bain"/>
 	<level ai_group_type="america" briefing_dialog="pp_briefing" id="piracy_pandemonium_lev" intro_event="Intro2" max_bags="999" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
@@ -41,6 +30,7 @@
 			<value_node value="levels/narratives/escapes/escape_cafe/world"/>
 			<value_node value="packages/narr_mia_2"/>
 			<value_node value="levels/narratives/classics/run/dhruva_art/dhruva_art"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_entrance/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -98,7 +88,17 @@
 			</mod>
 		</script_data_mods>
 	</level>
-
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/textures/mods/icons/piracy_icon"/>
+		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_df"/>
+		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il"/>
+		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>
+	</AddFiles>
+	<AssetUpdates branch="master" id="braidy08/piracy_pandemonium" provider="github"/>
+	<Localization default="english.json" directory="loc">
+		<loc file="english.json" language="english"/>
+	</Localization>
+	<Package file="packagedata/mod_bain/add.xml" id="modpackages/mod_bain"/>
 	<narrative briefing_event="" contact="custom" icon="guis/textures/mods/icons/piracy_icon" id="piracy_pandemonium_nar">
 		<chain>
 			<table level_id="piracy_pandemonium_lev" type="d" type_id="heist_type_assault"/>

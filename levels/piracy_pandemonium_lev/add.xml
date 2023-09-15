@@ -460,4 +460,26 @@
 		<sequence_manager path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker"/>
 		<unit path="units/world/props/suburbia_circuitbreaker/suburbia_circuitbreaker"/>
 	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_64x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_64x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_64x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker" type="unit">
+		<material_config path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker"/>
+		<object path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker"/>
+		<sequence_manager path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker"/>
+		<unit path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker_11x5" type="unit">
+		<material_config path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker"/>
+		<object path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker_11x5"/>
+		<sequence_manager path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker"/>
+		<unit path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker_11x5"/>
+	</add>
 </table>
