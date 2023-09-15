@@ -49,7 +49,14 @@
 		</script_data_mods>
 		<sounds directory="assets/sounds">
 			<sound id="knockondoorstart" path="doorknock1.ogg"/>
+			<sound id="baindies"/>
 			<sound id="pp_briefing" path="briefing.ogg"/>
+			<sound id="coparrival1"/>
+			<sound id="coparrival2"/>
+			<random id="coparrivalran">
+				<sound id="coparrival1"/>
+				<sound id="coparrival2"/>
+			</random>
 			<sound id="MS1"/>
 			<sound id="MS2"/>
 			<random id="MS1or2">
@@ -79,6 +86,19 @@
 			</sounds>
 		</sounds>
 	</level>
+	<level ai_group_type="america" briefing_dialog="" id="PP_ALTESCAPEDAY" intro_event="" max_bags="999" player_style="generic">
+		<assets/>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages/>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+
 	<narrative briefing_event="" contact="custom" icon="guis/textures/mods/icons/piracy_icon" id="piracy_pandemonium_nar">
 		<chain>
 			<table level_id="piracy_pandemonium_lev" type="d" type_id="heist_type_assault"/>
