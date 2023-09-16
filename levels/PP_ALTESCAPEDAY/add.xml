@@ -515,10 +515,107 @@
 		<unit path="units/pd2_dlc_chill/props/chl_prop_cardboard_swat_b/chl_prop_cardboard_swat_b"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight" type="unit">
-		<unit path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
-		<object path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
 		<material_config path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
-		<sequence_manager path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
+		<object path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
 		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
+		<unit path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/res/res_forest_house_b" type="unit">
+		<material_config path="units/payday2/architecture/res/res_forest_house_b"/>
+		<object path="units/payday2/architecture/res/res_forest_house_b"/>
+		<unit path="units/payday2/architecture/res/res_forest_house_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest" type="unit">
+		<material_config path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest"/>
+		<object path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest"/>
+		<unit path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_01_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment"/>
+		<object path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_01_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_01_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/eus/eus_veg_forest_tree_redoak/eus_veg_forest_tree_redoak" type="unit">
+		<object path="units/payday2/nature/eus/eus_veg_forest_tree_redoak/eus_veg_forest_tree_redoak"/>
+		<unit path="units/payday2/nature/eus/eus_veg_forest_tree_redoak/eus_veg_forest_tree_redoak"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2_daylight" type="unit">
+		<material_config path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2_daylight"/>
+		<object path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2_daylight"/>
+		<unit path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2_daylight"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2" type="unit">
+		<material_config path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest"/>
+		<object path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2"/>
+		<unit path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+		<object path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_grass_16x16m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_01_grass"/>
+		<object path="units/payday2/architecture/str/str_ext_grass_16x16m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_grass_16x16m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop"/>
+		<object path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/bnk_vehicle_truck_police_anim_1/bnk_vehicle_truck_police_anim_1" type="unit">
+		<unit path="units/payday2/vehicles/bnk_vehicle_truck_police_anim_1/bnk_vehicle_truck_police_anim_1"/>
+		<object path="units/payday2/vehicles/bnk_vehicle_truck_police_anim_1/bnk_vehicle_truck_police_anim_1"/>
+		<sequence_manager path="units/payday2/vehicles/bnk_vehicle_truck_police_anim_1/bnk_vehicle_truck_police_anim_1"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
+		<sequence_manager path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
+		<bnk path="soundbanks/weapon_swatturret"/>
+		<material_config path="units/payday2/vehicles/bnk_vehicle_truck_police_anim_1/bnk_vehicle_truck_police_anim_1"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_a_1/str_veg_forest_tree_a_1" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_a_1/str_veg_forest_tree_a_1"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_a_1/str_veg_forest_tree_a_1"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_a_1/str_veg_forest_tree_a_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_a_2/str_veg_forest_tree_a_2" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_a_2/str_veg_forest_tree_a_2"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_a_2/str_veg_forest_tree_a_2"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_a_2/str_veg_forest_tree_a_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_a_3/str_veg_forest_tree_a_3" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_a_3/str_veg_forest_tree_a_3"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_a_3/str_veg_forest_tree_a_3"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_a_3/str_veg_forest_tree_a_3"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_b_3/str_veg_forest_tree_b_3" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_b_3/str_veg_forest_tree_b_3"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_b_3/str_veg_forest_tree_b_3"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_3/str_veg_forest_tree_b_3"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4" type="unit">
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
 	</add>
 </table>
