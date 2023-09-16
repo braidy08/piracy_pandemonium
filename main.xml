@@ -20,7 +20,6 @@
 			<value_node value="modpackages/mod_bain"/>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 			<value_node value="packages/escape_park"/>
-			<value_node value="packages/narr_framing_1"/>
 			<value_node value="packages/narr_run"/>
 			<value_node value="packages/narr_alex3"/>
 			<value_node value="levels/narratives/h_alex_must_die/stage_3/world/world"/>
@@ -28,9 +27,9 @@
 			<value_node value="levels/narratives/classics/man/world/world"/>
 			<value_node value="levels/narratives/escapes/escape_street/world/world"/>
 			<value_node value="levels/narratives/escapes/escape_cafe/world"/>
-			<value_node value="packages/narr_mia_2"/>
 			<value_node value="levels/narratives/classics/run/dhruva_art/dhruva_art"/>
 			<value_node value="levels/instances/unique/pbr/pbr_mountain_entrance/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -81,7 +80,17 @@
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
-		<packages/>
+		<packages>
+			<value_node value="levels/narratives/h_alex_must_die/stage_2/world/world"/>
+			<value_node value="modpackages/mod_bain"/>
+			<value_node value="packages/escape_park"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_3/world_sounds"/>
+			<value_node value="levels/narratives/classics/man/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_street/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_cafe/world"/>
+			<value_node value="levels/narratives/classics/run/dhruva_art/dhruva_art"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_entrance/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
