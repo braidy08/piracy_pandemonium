@@ -77,6 +77,14 @@
 	</level>
 	<level ai_group_type="america" briefing_dialog="" id="PP_ALTESCAPEDAY" intro_event="" max_bags="999" player_style="generic">
 		<assets/>
+		<hooks directory="hooks">
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
+			<hook file="tweakdatapd2escapeday.lua" source_file="lib/tweak_data/tweakdatapd2"/>
+			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="local_strings.lua" source_file="lib/tweak_data/tweakdata"/>
+		</hooks>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>

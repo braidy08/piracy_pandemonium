@@ -472,8 +472,53 @@
 		<unit path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
 		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/test/jocke/oneplanetorulethemall" type="unit">
+		<material_config path="units/test/jocke/simple_temp"/>
+		<object path="units/test/jocke/oneplanetorulethemall"/>
+		<unit path="units/test/jocke/oneplanetorulethemall"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_ext_wall_8m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_8m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_8m_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/vehicles/str_vehicle_car_police_csgo_1/str_vehicle_car_police_csgo_1" type="unit">
+		<material_config path="units/pd2_dlc2/vehicles/str_vehicle_car_police_csgo_1/str_vehicle_car_police_csgo_1"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc2/vehicles/str_vehicle_car_police_csgo_1/str_vehicle_car_police_csgo_1"/>
+		<sequence_manager path="units/pd2_dlc2/vehicles/str_vehicle_car_police_csgo_1/str_vehicle_car_police_csgo_1"/>
+		<unit path="units/pd2_dlc2/vehicles/str_vehicle_car_police_csgo_1/str_vehicle_car_police_csgo_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/vehicles/str_vehicle_car_police_csgo_2/str_vehicle_car_police_csgo_2" type="unit">
+		<material_config path="units/pd2_dlc2/vehicles/str_vehicle_car_police_csgo_2/str_vehicle_car_police_csgo_2"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc2/vehicles/str_vehicle_car_police_csgo_2/str_vehicle_car_police_csgo_2"/>
+		<sequence_manager path="units/pd2_dlc2/vehicles/str_vehicle_car_police_csgo_2/str_vehicle_car_police_csgo_2"/>
+		<unit path="units/pd2_dlc2/vehicles/str_vehicle_car_police_csgo_2/str_vehicle_car_police_csgo_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_police_anim_mllcrsh_1/str_vehicle_car_police_anim_mllcrsh_1" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_car_police_anim_mllcrsh_1/str_vehicle_car_police_anim_mllcrsh_1"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_police_anim_mllcrsh_1/str_vehicle_car_police_anim_mllcrsh_1"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_police_anim_mllcrsh_1/str_vehicle_car_police_anim_mllcrsh_1"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_police_anim_mllcrsh_1/str_vehicle_car_police_anim_mllcrsh_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_cardboard_swat_b/chl_prop_cardboard_swat_b" type="unit">
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_in"/>
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_cardboard_swat_a/chl_prop_cardboard_swat_a"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_cardboard_swat_b/chl_prop_cardboard_swat_b"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_cardboard_swat_a/chl_prop_cardboard_swat_a"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_cardboard_swat_b/chl_prop_cardboard_swat_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight" type="unit">
+		<unit path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
+		<object path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
+		<material_config path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
+		<sequence_manager path="units/payday2/props/gen_prop_swat_searchlight/gen_prop_swat_searchlight"/>
+		<physic_effect path="physic_effects/push_sphere"/>
 	</add>
 </table>
