@@ -614,8 +614,157 @@
 		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_3/str_veg_forest_tree_b_3"/>
 	</add>
 	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4" type="unit">
-		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
-		<object path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
 		<material_config path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier" type="unit">
+		<material_config path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<object path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<sequence_manager path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<unit path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_police_barrier_lights/gen_prop_police_barrier_lights" type="unit">
+		<material_config path="units/payday2/props/gen_prop_police_barrier_lights/gen_prop_police_barrier_lights"/>
+		<object path="units/payday2/props/gen_prop_police_barrier_lights/gen_prop_police_barrier_lights"/>
+		<sequence_manager path="units/payday2/props/gen_prop_police_barrier_lights/gen_prop_police_barrier_lights"/>
+		<unit path="units/payday2/props/gen_prop_police_barrier_lights/gen_prop_police_barrier_lights"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/terrain/pta_2_grass_tufts_mix_medium" type="unit">
+		<material_config path="units/pd2_dlc_peta/terrain/pta_2_foliage"/>
+		<object path="units/pd2_dlc_peta/terrain/pta_2_grass_tufts_mix_medium"/>
+		<unit path="units/pd2_dlc_peta/terrain/pta_2_grass_tufts_mix_medium"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_b_1/str_veg_forest_tree_b_1" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_b_1/str_veg_forest_tree_b_1"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_b_1/str_veg_forest_tree_b_1"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_1/str_veg_forest_tree_b_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_concrete_rubble_a" type="unit">
+		<material_config path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_concrete"/>
+		<object path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_concrete_rubble_a"/>
+		<unit path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_concrete_rubble_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_grass_4m" type="unit">
+		<material_config path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground"/>
+		<object path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_grass_4m"/>
+		<unit path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_grass_4m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_center_12m" type="unit">
+		<material_config path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground"/>
+		<object path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_center_12m"/>
+		<unit path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_center_12m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_gravel_park_set_piece" type="unit">
+		<material_config path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground"/>
+		<object path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_gravel_park_set_piece"/>
+		<unit path="units/payday2/architecture/str_ext_park_ground/str_ext_park_ground_gravel_park_set_piece"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_gate" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_gate"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_gate"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_1m" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_1m"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_3m" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_3m"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_corner" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_corner"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_corner"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_bench_new/str_prop_park_bench_new" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_bench_new/str_prop_park_bench_new"/>
+		<object path="units/payday2/props/str_prop_park_bench_new/str_prop_park_bench_new"/>
+		<unit path="units/payday2/props/str_prop_park_bench_new/str_prop_park_bench_new"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_end" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_end"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_end"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_pillar" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_pillar"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_pillar"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_red_oak_entrance" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_red_oak_entrance"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_red_oak_entrance"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_red_oak_entrance"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_stairs" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_stairs"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_stairs"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_wall_fence_broken" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_wall_fence_broken"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_wall_fence_broken"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence_v2/str_prop_park_fence_high_3m_v2" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence_v2/str_prop_park_wall_3m_v2"/>
+		<object path="units/payday2/props/str_prop_park_fence_v2/str_prop_park_fence_high_3m_v2"/>
+		<unit path="units/payday2/props/str_prop_park_fence_v2/str_prop_park_fence_high_3m_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_wall_corner" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_wall_corner"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_wall_corner"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence_v2/str_prop_park_fence_high_pillar_v2" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence_v2/str_prop_park_wall_instanced"/>
+		<object path="units/payday2/props/str_prop_park_fence_v2/str_prop_park_fence_high_pillar_v2"/>
+		<unit path="units/payday2/props/str_prop_park_fence_v2/str_prop_park_fence_high_pillar_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_fence_door" type="unit">
+		<unit path="units/payday2/architecture/bnk/bnk_int_fence_door"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_fence_door"/>
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<effect load="true" path="effects/payday2/environment/drill"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/payday2/architecture/bnk/bnk_int_fence_door"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_fence_gate" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_fence_gate"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_fence_gate"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_fence_wall" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_fence_wall"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_fence_wall"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01" type="unit">
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01"/>
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_kosugi"/>
 	</add>
 </table>
