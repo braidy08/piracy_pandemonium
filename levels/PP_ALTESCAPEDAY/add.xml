@@ -763,8 +763,164 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01" type="unit">
-		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01"/>
-		<object path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01"/>
 		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_kosugi"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/res_veg_bush_staphyleapinnata/res_veg_bush_staphyleapinnata_small" type="unit">
+		<material_config path="units/payday2/vegetation/res_veg_bush_staphyleapinnata/res_veg_bush_staphyleapinnata"/>
+		<object path="units/payday2/vegetation/res_veg_bush_staphyleapinnata/res_veg_bush_staphyleapinnata_small"/>
+		<unit path="units/payday2/vegetation/res_veg_bush_staphyleapinnata/res_veg_bush_staphyleapinnata_small"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense"/>
+		<object path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a"/>
+		<unit path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a_brighter" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense"/>
+		<object path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a_brighter"/>
+		<unit path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_a_brighter"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_b" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense"/>
+		<object path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_b"/>
+		<unit path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/vegetation/str_veg_bush_leaf/str_veg_bush_leaf" type="unit">
+		<material_config path="units/pd2_dlc1/vegetation/str_veg_bush_leaf/str_veg_bush_leaf"/>
+		<object path="units/pd2_dlc1/vegetation/str_veg_bush_leaf/str_veg_bush_leaf"/>
+		<unit path="units/pd2_dlc1/vegetation/str_veg_bush_leaf/str_veg_bush_leaf"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac_half" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac"/>
+		<object path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac_half"/>
+		<unit path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac_half"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac"/>
+		<object path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac"/>
+		<unit path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_bush_juniperus/bush_juniperus_sabina" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_bush_juniperus/bush_juniperus_sabina"/>
+		<object path="units/payday2/vegetation/str_veg_bush_juniperus/bush_juniperus_sabina"/>
+		<unit path="units/payday2/vegetation/str_veg_bush_juniperus/bush_juniperus_sabina"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props/de_train/bush2" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props/de_train/bush2"/>
+		<object path="units/pd2_dlc2/csgo_models/props/de_train/bush2"/>
+		<unit path="units/pd2_dlc2/csgo_models/props/de_train/bush2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_foliage/urban_bush_angled_128" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_foliage/urban_bush_angled_128"/>
+		<object path="units/pd2_dlc2/csgo_models/props_foliage/urban_bush_angled_128"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_foliage/urban_bush_angled_128"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_foliage/urban_bush_angled_256" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_foliage/urban_bush_angled_256"/>
+		<object path="units/pd2_dlc2/csgo_models/props_foliage/urban_bush_angled_256"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_foliage/urban_bush_angled_256"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_plants/bush" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_plants/bush"/>
+		<object path="units/pd2_dlc2/csgo_models/props_plants/bush"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_plants/bush"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_end_left_12x8m_a" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy_v2"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_end_left_12x8m_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_end_left_12x8m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_end_tile_8x8m_a" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy_v2"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_end_tile_8x8m_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_end_tile_8x8m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_flat_a" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_flat_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_flat_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_slope_24x72m_a" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_slope_24x72m_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_slope_24x72m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_corner_1x1m_a" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy_v2"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_corner_1x1m_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_corner_1x1m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_a" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy_v2"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/hwy_prop_signs/hwy_prop_signs_underpass_a" type="unit">
+		<material_config path="units/payday2/props/hwy_prop_signs/hwy_prop_signs"/>
+		<object path="units/payday2/props/hwy_prop_signs/hwy_prop_signs_underpass_a"/>
+		<unit path="units/payday2/props/hwy_prop_signs/hwy_prop_signs_underpass_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_b" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_b"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_door_8x6m_a" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_door_8x6m_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_door_8x6m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_slope_24x72m_b" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_slope_24x72m_b"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_slope_24x72m_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a" type="unit">
+		<material_config path="units/payday2/architecture/com_int_construction_floor/com_int_construction_walls"/>
+		<object path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a"/>
+		<unit path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_china_plank/com_prop_china_plank" type="unit">
+		<material_config path="units/payday2/props/com_prop_china_plank/com_prop_china_plank"/>
+		<object path="units/payday2/props/com_prop_china_plank/com_prop_china_plank"/>
+		<sequence_manager path="units/payday2/props/com_prop_china_plank/com_prop_china_plank"/>
+		<unit path="units/payday2/props/com_prop_china_plank/com_prop_china_plank"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plank" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_road_16x24m_a" type="unit">
+		<material_config path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge"/>
+		<object path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_road_16x24m_a"/>
+		<unit path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_road_16x24m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_road_turn" type="unit">
+		<material_config path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge"/>
+		<object path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_road_turn"/>
+		<unit path="units/payday2/architecture/bri_ext_bridge/bri_ext_bridge_road_turn"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_onellane_32x32" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_backdrop_street"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_onellane_32x32"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_onellane_32x32"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_end_right_12x8m_a" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy_v2"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_end_right_12x8m_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_end_right_12x8m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_pillar_a" type="unit">
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_pillar_a"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_pillar_a"/>
+		<material_config path="units/payday2/architecture/hwy/hwy_v2"/>
 	</add>
 </table>
