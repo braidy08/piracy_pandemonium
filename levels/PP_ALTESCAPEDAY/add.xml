@@ -945,8 +945,23 @@
 		<unit path="units/payday2/props/str_prop_street_planter_flower/str_prop_street_planter_flower_a"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_fex/architecture/fex_ext_fountain/fex_ext_flower_pot" type="unit">
-		<unit path="units/pd2_dlc_fex/architecture/fex_ext_fountain/fex_ext_flower_pot"/>
-		<object path="units/pd2_dlc_fex/architecture/fex_ext_fountain/fex_ext_flower_pot"/>
 		<material_config path="units/pd2_dlc_fex/architecture/fex_ext_fountain/fex_ext_flower_pot"/>
+		<object path="units/pd2_dlc_fex/architecture/fex_ext_fountain/fex_ext_flower_pot"/>
+		<unit path="units/pd2_dlc_fex/architecture/fex_ext_fountain/fex_ext_flower_pot"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_road_16x8m_garageroadexit_mallcrasher_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_road"/>
+		<object path="units/payday2/architecture/str/str_ext_road_16x8m_garageroadexit_mallcrasher_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_road_16x8m_garageroadexit_mallcrasher_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_road_16x24m_tcross_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_road"/>
+		<object path="units/payday2/architecture/str/str_ext_road_16x24m_tcross_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_road_16x24m_tcross_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_road_24x24m_tcross_a" type="unit">
+		<unit path="units/payday2/architecture/str/str_ext_road_24x24m_tcross_a"/>
+		<object path="units/payday2/architecture/str/str_ext_road_24x24m_tcross_a"/>
+		<material_config path="units/payday2/architecture/str/str_road"/>
 	</add>
 </table>
