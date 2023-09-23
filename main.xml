@@ -39,7 +39,27 @@
 		<sounds directory="assets/sounds">
 			<sound id="knockondoorstart" path="doorknock1.ogg"/>
 			<sound id="baindies"/>
+			<sound id="BainBagged"/>
+			<sound id="Bainsecured"/>
+			<sound id="BainUpsies"/>
+			<sound id="BileArrived"/>
+			<sound id="CB2"/>
+			<sound id="Announcement"/>
+			<sound id="AfterAnnouncement1"/>
+			<sound id="IdNameThisButNothingIsGoingToBeFunnierThanBainFeetPics"/>
 			<sound id="pp_briefing" path="briefing.ogg"/>
+			<sound id="Cocke1"/>
+			<sound id="Cocke2"/>
+			<random id="cockeran">
+			<sound id="Cocke1"/>
+			<sound id="Cocke2"/>
+			</random>
+			<sound id="CopKILL1"/>
+			<sound id="CopKILL2"/>
+			<random id="copkillran">
+			<sound id="CopKILL1"/>
+			<sound id="CopKILL2"/>
+			</random>
 			<sound id="coparrival1"/>
 			<sound id="coparrival2"/>
 			<random id="coparrivalran">

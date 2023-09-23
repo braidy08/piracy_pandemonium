@@ -16,5 +16,12 @@ Hooks:PostHook(CarryTweakData, "init", "init_piracypandemonium", function(self, 
 		unit = "units/payday2/pickups/gen_pku_bodybag/gen_pku_bodybag",
 		visual_unit_name = "units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1",
 	}
+	self.bainfeetpics = {
+		type = "medium",
+		name_id = "hud_carry_bainfeetpics",
+		bag_value = "mad_master_server_value_3",
+		unit = "units/payday2/pickups/gen_pku_bodybag/gen_pku_bodybag",
+		visual_unit_name = "units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1",
+	}
 end)
 
