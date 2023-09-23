@@ -919,8 +919,34 @@
 		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_end_right_12x8m_a"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_pillar_a" type="unit">
-		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_pillar_a"/>
-		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_pillar_a"/>
 		<material_config path="units/payday2/architecture/hwy/hwy_v2"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_pillar_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_bridge_pillar_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_road_16x24m_cross_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_road"/>
+		<object path="units/payday2/architecture/str/str_ext_road_16x24m_cross_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_road_16x24m_cross_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_road_16x24m_b" type="unit">
+		<material_config path="units/payday2/architecture/str/str"/>
+		<object path="units/payday2/architecture/str/str_ext_road_16x24m_b"/>
+		<unit path="units/payday2/architecture/str/str_ext_road_16x24m_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_road_16x24m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_road"/>
+		<object path="units/payday2/architecture/str/str_ext_road_16x24m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_road_16x24m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_street_planter_flower/str_prop_street_planter_flower_a" type="unit">
+		<material_config path="units/payday2/props/str_prop_street_planter_flower/str_prop_street_planter_flower_a"/>
+		<object path="units/payday2/props/str_prop_street_planter_flower/str_prop_street_planter_flower_a"/>
+		<sequence_manager path="units/payday2/props/str_prop_street_planter_flower/str_prop_street_planter_flower_a"/>
+		<unit path="units/payday2/props/str_prop_street_planter_flower/str_prop_street_planter_flower_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fex/architecture/fex_ext_fountain/fex_ext_flower_pot" type="unit">
+		<unit path="units/pd2_dlc_fex/architecture/fex_ext_fountain/fex_ext_flower_pot"/>
+		<object path="units/pd2_dlc_fex/architecture/fex_ext_fountain/fex_ext_flower_pot"/>
+		<material_config path="units/pd2_dlc_fex/architecture/fex_ext_fountain/fex_ext_flower_pot"/>
 	</add>
 </table>
