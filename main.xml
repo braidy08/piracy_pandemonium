@@ -38,6 +38,7 @@
 		</script_data_mods>
 		<sounds directory="assets/sounds">
 			<sound id="knockondoorstart" path="doorknock1.ogg"/>
+			<sound id="CopAlert1"/>
 			<sound id="baindies"/>
 			<sound id="BainBagged"/>
 			<sound id="Bainsecured"/>
@@ -59,6 +60,12 @@
 			<random id="copkillran">
 			<sound id="CopKILL1"/>
 			<sound id="CopKILL2"/>
+			</random>
+			<sound id="CopsareWHAT"/>
+			<sound id="CopsareWHAT2"/>
+			<random id="copsatplaceran">
+				<sound id="CopsareWHAT"/>
+				<sound id="CopsareWHAT2"/>
 			</random>
 			<sound id="coparrival1"/>
 			<sound id="coparrival2"/>
