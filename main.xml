@@ -52,14 +52,14 @@
 			<sound id="Cocke1"/>
 			<sound id="Cocke2"/>
 			<random id="cockeran">
-			<sound id="Cocke1"/>
-			<sound id="Cocke2"/>
+				<sound id="Cocke1"/>
+				<sound id="Cocke2"/>
 			</random>
 			<sound id="CopKILL1"/>
 			<sound id="CopKILL2"/>
 			<random id="copkillran">
-			<sound id="CopKILL1"/>
-			<sound id="CopKILL2"/>
+				<sound id="CopKILL1"/>
+				<sound id="CopKILL2"/>
 			</random>
 			<sound id="CopsareWHAT"/>
 			<sound id="CopsareWHAT2"/>
@@ -126,6 +126,7 @@
 			<value_node value="levels/narratives/classics/run/dhruva_art/dhruva_art"/>
 			<value_node value="levels/instances/unique/pbr/pbr_mountain_entrance/world/world"/>
 			<value_node value="levels/narratives/armadillo/arm_hcm/world"/>
+			<value_node value="levels/narratives/escapes/escape_garage/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
