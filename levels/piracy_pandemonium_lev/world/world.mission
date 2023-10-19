@@ -7021,27 +7021,27 @@
 				<entry key="module" type="string" value="CoreElementArea"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="string" value="1"/>
+					<entry key="amount" type="string" value="all"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="depth" type="number" value="250"/>
 					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="height" type="number" value="500"/>
-					<entry key="instigator" type="string" value="vehicle"/>
+					<entry key="instigator" type="string" value="player"/>
 					<entry key="instigator_name" type="string" value=""/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100112"/>
+							<entry key="id" type="number" value="100114"/>
 						</entry>
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100114"/>
+							<entry key="id" type="number" value="100115"/>
 						</entry>
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100115"/>
+							<entry key="id" type="number" value="100112"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="4652.94 -8798.59 30.0009"/>
