@@ -471,4 +471,29 @@
 		<sequence_manager path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker"/>
 		<unit path="units/payday2/props/gen_prop_car_goal_marker/gen_prop_car_goal_marker"/>
 	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a" type="unit">
+		<material_config path="units/payday2/architecture/com_int_construction_floor/com_int_construction_walls"/>
+		<object path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a"/>
+		<unit path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/res_ext_apartment/res_apartment_blockade_01" type="unit">
+		<material_config path="units/payday2/architecture/res_ext_apartment/res_apartment_blockade"/>
+		<object path="units/payday2/architecture/res_ext_apartment/res_apartment_blockade_01"/>
+		<unit path="units/payday2/architecture/res_ext_apartment/res_apartment_blockade_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/res_ext_apartment/res_apartment_blockade_03" type="unit">
+		<material_config path="units/payday2/architecture/res_ext_apartment/res_apartment_blockade"/>
+		<object path="units/payday2/architecture/res_ext_apartment/res_apartment_blockade_03"/>
+		<unit path="units/payday2/architecture/res_ext_apartment/res_apartment_blockade_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_construction_debris_a/str_prop_construction_debris_a" type="unit">
+		<material_config path="units/payday2/props/str_prop_construction_debris_a/str_prop_construction_debris_a"/>
+		<object path="units/payday2/props/str_prop_construction_debris_a/str_prop_construction_debris_a"/>
+		<unit path="units/payday2/props/str_prop_construction_debris_a/str_prop_construction_debris_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_construction_debris_b/str_prop_construction_debris_b" type="unit">
+		<material_config path="units/payday2/props/str_prop_construction_debris_b/str_prop_construction_debris_b"/>
+		<object path="units/payday2/props/str_prop_construction_debris_b/str_prop_construction_debris_b"/>
+		<unit path="units/payday2/props/str_prop_construction_debris_b/str_prop_construction_debris_b"/>
+	</add>
 </table>
