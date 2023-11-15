@@ -2387,8 +2387,17 @@
 		<unit path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_01"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_16x3m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_16x3m"/>
-		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_16x3m"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_16x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_16x3m"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/gas_vent_branchbank" type="effect">
+		<effect load="true" path="effects/payday2/environment/gas_vent_branchbank"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker_1x1/dev_ai_vis_blocker_1x1" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker_1x1/dev_ai_vis_blocker_1x1"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker_1x1/dev_ai_vis_blocker_1x1"/>
+		<material_config path="core/material_configs/hub_elements"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker_1x1/dev_ai_vis_blocker_1x1"/>
 	</add>
 </table>

@@ -496,4 +496,29 @@
 		<object path="units/payday2/props/str_prop_construction_debris_b/str_prop_construction_debris_b"/>
 		<unit path="units/payday2/props/str_prop_construction_debris_b/str_prop_construction_debris_b"/>
 	</add>
+	<add from_db="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_02" type="unit">
+		<material_config path="units/world/architecture/backdrops/scrapers/backdrop_scrapers"/>
+		<object path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_02"/>
+		<unit path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_02"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_03" type="unit">
+		<material_config path="units/world/architecture/backdrops/scrapers/backdrop_scrapers"/>
+		<object path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_03"/>
+		<unit path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_far_skyscrapers" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_industrial"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_far_skyscrapers"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_far_skyscrapers"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_ext_hcm_n/str_ext_hcm_n_backdrop" type="unit">
+		<material_config path="units/payday2/architecture/str_ext_hcm_n/str_ext_hcm_n_backdrop"/>
+		<object path="units/payday2/architecture/str_ext_hcm_n/str_ext_hcm_n_backdrop"/>
+		<unit path="units/payday2/architecture/str_ext_hcm_n/str_ext_hcm_n_backdrop"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2_daylight" type="unit">
+		<material_config path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2_daylight"/>
+		<object path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2_daylight"/>
+		<unit path="units/payday2/architecture/str_bdrop_buildings_forest/str_bdrop_buildings_forest_v2_daylight"/>
+	</add>
 </table>
