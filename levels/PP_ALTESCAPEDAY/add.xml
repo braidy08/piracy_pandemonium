@@ -2446,8 +2446,225 @@
 		<unit path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16_il"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16" type="unit">
-		<unit path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16"/>
-		<object path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16"/>
 		<material_config path="units/payday2/architecture/hcm/hcm_backdrop_street"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_walls_01" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_kosugi"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_walls_01"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_walls_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_walls_03" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_kosugi"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_walls_03"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_walls_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_kosugi"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_02_shout" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_kosugi"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_02_shout"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_02_shout"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_4x3" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_kosugi"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_4x3"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_4x3"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_concrete_ground_16x16m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str"/>
+		<object path="units/payday2/architecture/str/str_ext_concrete_ground_16x16m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_concrete_ground_16x16m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_concrete_ground_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str"/>
+		<object path="units/payday2/architecture/str/str_ext_concrete_ground_4x4m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_concrete_ground_4x4m_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x6x12m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x6x12m"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x6x12m"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x6x12m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x2x2m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x2x2m"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x2x2m"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x2x2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse" type="unit">
+		<material_config path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse"/>
+		<object path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse"/>
+		<unit path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse_door_cover" type="unit">
+		<material_config path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse_door_cover"/>
+		<object path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse_door_cover"/>
+		<unit path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse_door_cover"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_prop_club_window_small" type="unit">
+		<material_config path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_prop_club_window"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_prop_club_window_small"/>
+		<sequence_manager path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_prop_club_window_small"/>
+		<unit path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_prop_club_window_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse_storage" type="unit">
+		<material_config path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse"/>
+		<object path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse_storage"/>
+		<unit path="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse_storage"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_biker_1/ene_biker_1" type="unit">
+		<unit load="true" path="units/payday2/characters/ene_biker_1/ene_biker_1"/>
+		<unit load="true" path="units/payday2/characters/ene_biker_1/ene_biker_1_husk"/>
+		<object path="units/payday2/characters/ene_biker_1/ene_biker_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_biker_2/ene_biker_2" type="unit">
+		<unit load="true" path="units/payday2/characters/ene_biker_2/ene_biker_2"/>
+		<unit load="true" path="units/payday2/characters/ene_biker_2/ene_biker_2_husk"/>
+		<object path="units/payday2/characters/ene_biker_2/ene_biker_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_biker_3/ene_biker_3" type="unit">
+		<unit load="true" path="units/payday2/characters/ene_biker_3/ene_biker_3"/>
+		<unit load="true" path="units/payday2/characters/ene_biker_3/ene_biker_3_husk"/>
+		<object path="units/payday2/characters/ene_biker_3/ene_biker_3"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_biker_4/ene_biker_4" type="unit">
+		<unit load="true" path="units/payday2/characters/ene_biker_4/ene_biker_4"/>
+		<unit load="true" path="units/payday2/characters/ene_biker_4/ene_biker_4_husk"/>
+		<object path="units/payday2/characters/ene_biker_4/ene_biker_4"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/characters/ene_biker_female_1/ene_biker_female_1" type="unit">
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_biker_female_1/ene_biker_female_1"/>
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_biker_female_1/ene_biker_female_1_husk"/>
+		<object path="units/pd2_dlc_born/characters/ene_biker_female_1/ene_biker_female_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2" type="unit">
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2"/>
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2_husk"/>
+		<object path="units/pd2_dlc_born/characters/ene_biker_female_2/ene_biker_female_2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3" type="unit">
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3"/>
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3_husk"/>
+		<object path="units/pd2_dlc_born/characters/ene_biker_female_3/ene_biker_female_3"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss" type="unit">
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss"/>
+		<unit load="true" path="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss_husk"/>
+		<object path="units/pd2_dlc_born/characters/ene_gang_biker_boss/ene_gang_biker_boss"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_bus_metro_crashed/str_vehicle_bus_metro_crashed" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_bus_metro_crashed/str_vehicle_bus_metro_crashed"/>
+		<object path="units/payday2/vehicles/str_vehicle_bus_metro_crashed/str_vehicle_bus_metro_crashed"/>
+		<unit path="units/payday2/vehicles/str_vehicle_bus_metro_crashed/str_vehicle_bus_metro_crashed"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_crossover/str_vehicle_car_crossover"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_sedan_2/str_vehicle_car_sedan_2" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_sedan_2/str_vehicle_car_sedan_2"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_sedan_2/str_vehicle_car_sedan_2"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_sedan_2/str_vehicle_car_sedan_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_alt_burnt" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_burnt"/>
+		<object path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_alt_burnt"/>
+		<unit path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_alt_burnt"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_burnt" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_burnt"/>
+		<object path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_burnt"/>
+		<unit path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_burnt"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_dented" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_dented"/>
+		<object path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_dented"/>
+		<unit path="units/payday2/vehicles/str_vehicle_sedan_dmg/str_vehicle_sedan_dmg_dented"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_suburban_fbi/str_vehicle_suburban_fbi" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_suburban_fbi/str_vehicle_suburban_fbi"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_suburban_fbi/str_vehicle_suburban_fbi"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_suburban_fbi/str_vehicle_suburban_fbi"/>
+		<unit path="units/payday2/vehicles/str_vehicle_suburban_fbi/str_vehicle_suburban_fbi"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_truck/str_vehicle_truck" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_truck/str_vehicle_truck"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_truck/str_vehicle_truck"/>
+		<unit path="units/payday2/vehicles/str_vehicle_truck/str_vehicle_truck"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_truck_ambulance/str_vehicle_truck_ambulance" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_truck_ambulance/str_vehicle_truck_ambulance"/>
+		<object path="units/payday2/vehicles/str_vehicle_truck_ambulance/str_vehicle_truck_ambulance"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_truck_ambulance/str_vehicle_truck_ambulance"/>
+		<unit path="units/payday2/vehicles/str_vehicle_truck_ambulance/str_vehicle_truck_ambulance"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_truck_boxvan_anim_eday/str_vehicle_truck_boxvan_anim_eday" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_truck_boxvan_anim_eday/str_vehicle_truck_boxvan_anim_eday"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_truck_boxvan_anim_eday/str_vehicle_truck_boxvan_anim_eday"/>
+		<unit path="units/payday2/vehicles/str_vehicle_truck_boxvan_anim_eday/str_vehicle_truck_boxvan_anim_eday"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_ford_graffiti/str_vehicle_car_ford_graffiti" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_ford_graffiti/str_vehicle_car_ford_graffiti"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_ford_graffiti/str_vehicle_car_ford_graffiti"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_ford_graffiti/str_vehicle_car_ford_graffiti"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_sedan_2_burned/str_vehicle_car_sedan_2_burned" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/vehicle_fire"/>
+		<effect load="true" path="effects/payday2/particles/explosions/explosion_parts/fire_burnpuff_small"/>
+		<effect load="true" path="effects/payday2/particles/explosions/explosion_parts/fire_burnpuff"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_sedan_2_burned/str_vehicle_car_sedan_2_burned"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_sedan_2_burned/str_vehicle_car_sedan_2_burned"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_sedan_2_burned/str_vehicle_car_sedan_2_burned"/>
+	</add>
+	<add from_db="true" path="effects/particles/environment/heavy_smoke_and_fire" type="effect">
+		<effect load="true" path="effects/particles/environment/heavy_smoke_and_fire"/>
+	</add>
+	<add from_db="true" path="effects/particles/environment/static_fire" type="effect">
+		<effect load="true" path="effects/particles/environment/static_fire"/>
+		<effect load="true" path="effects/particles/fire/firepuff"/>
+	</add>
+	<add from_db="true" path="effects/particles/environment/static_fire_ver2" type="effect">
+		<effect load="true" path="effects/particles/environment/static_fire_ver2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport1" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport1"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport1"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport1"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport1"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport_showroom" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport_showroom"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/car_aftersmoke"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport_showroom"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport_showroom"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_sport/str_vehicle_car_sport_showroom"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family"/>
+		<unit path="units/payday2/vehicles/str_vehicle_car_suv_family/str_vehicle_car_suv_family"/>
 	</add>
 </table>
