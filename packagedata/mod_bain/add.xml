@@ -15,7 +15,6 @@
 		<sequence_manager path="units/pd2_modbain/invisible_interaction_bagbain/invisible_interaction_bagbain"/>
 		<unit path="units/pd2_modbain/invisible_interaction_bagbain/invisible_interaction_bagbain"/>
 	</add>
-	
 	<add path="units/pd2_modbain/bainlaptop/ranc_int_laptop" type="unit">
 		<cooked_physics path="units/pd2_modbain/bainlaptop/ranc_int_laptop"/>
 		<material_config path="units/pd2_modbain/bainlaptop/ranc_int_laptop"/>
@@ -24,16 +23,14 @@
 		<sequence_manager path="units/pd2_modbain/bainlaptop/ranc_int_laptop"/>
 		<unit path="units/pd2_modbain/bainlaptop/ranc_int_laptop"/>
 	</add>
-	
-		<add path="units/pd2_modbain/bainlaptop/ranc_int_laptop_outline" type="unit">
+	<add path="units/pd2_modbain/bainlaptop/ranc_int_laptop_outline" type="unit">
 		<cooked_physics path="units/pd2_modbain/bainlaptop/ranc_int_laptop_outline"/>
 		<model path="units/pd2_modbain/bainlaptop/ranc_int_laptop_outline"/>
 		<object path="units/pd2_modbain/bainlaptop/ranc_int_laptop_outline"/>
 		<sequence_manager path="units/pd2_modbain/bainlaptop/ranc_int_laptop_outline"/>
 		<unit path="units/pd2_modbain/bainlaptop/ranc_int_laptop_outline"/>
 	</add>
-	
-		<add path="units/pd2_modbain/bainlaptop/ranc_pku_laptop" type="unit">
+	<add path="units/pd2_modbain/bainlaptop/ranc_pku_laptop" type="unit">
 		<cooked_physics path="units/pd2_modbain/bainlaptop/ranc_pku_laptop"/>
 		<model path="units/pd2_modbain/bainlaptop/ranc_pku_laptop"/>
 		<object path="units/pd2_modbain/bainlaptop/ranc_pku_laptop"/>

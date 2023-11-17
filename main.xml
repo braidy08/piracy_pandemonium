@@ -134,6 +134,28 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<level ai_group_type="america" id="PP_UNLUCKYSURVIVAL" max_bags="54">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
+			<hook file="tweakdatapd2escapeday.lua" source_file="lib/tweak_data/tweakdatapd2"/>
+			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="local_stringssurvival.lua" source_file="lib/tweak_data/tweakdata"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="levels/narratives/escapes/escape_cafe/world/world"/>
+			<value_node value="levels/narratives/armadillo/arm_hcm/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_park/backdrop/backdrop"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/textures/mods/icons/piracy_icon"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_df"/>
