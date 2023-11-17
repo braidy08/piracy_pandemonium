@@ -2986,7 +2986,108 @@
 	</add>
 	<add from_db="true" path="units/pd2_dlc1/characters/ene_security_gensec_2/ene_security_gensec_2" type="unit">
 		<unit load="true" path="units/pd2_dlc1/characters/ene_security_gensec_2/ene_security_gensec_2"/>
-		<object path="units/pd2_dlc1/characters/ene_security_gensec_2/ene_security_gensec_2"/>
 		<unit load="true" path="units/pd2_dlc1/characters/ene_security_gensec_2/ene_security_gensec_2_husk"/>
+		<object path="units/pd2_dlc1/characters/ene_security_gensec_2/ene_security_gensec_2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile_single" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/fire_trail_missile"/>
+		<effect load="true" path="effects/payday2/particles/explosions/burnpuff"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_trail"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile_single"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile_single"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile_single"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/fire_trail_missile"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/smoke_trail"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_missile/mad_prop_missile"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_military_missileammobox/mad_prop_military_missileammobox" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_military_missileammobox/mad_prop_military_missileammobox"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_military_missileammobox/mad_prop_military_missileammobox"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_military_missileammobox/mad_prop_military_missileammobox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox" type="unit">
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox"/>
+	</add>
+	<add from_db="true" path="effects/particles/explosions/apartment_explosion" type="effect">
+		<effect load="true" path="effects/particles/explosions/apartment_explosion"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/effects/trai_e_local_rain_01" type="unit">
+		<effect load="true" path="effects/particles/rain/trai_rain_local"/>
+		<material_config path="units/pd2_dlc_trai/effects/trai_e_dripping_water_2m"/>
+		<object path="units/pd2_dlc_trai/effects/trai_e_local_rain_01"/>
+		<unit path="units/pd2_dlc_trai/effects/trai_e_local_rain_01"/>
+	</add>
+	<add from_db="true" path="effects/particles/rain/rain_01_a" type="effect">
+		<effect load="true" path="effects/particles/rain/rain_01_a"/>
+	</add>
+	<add from_db="true" path="effects/particles/rain/rain_glace_inside" type="effect">
+		<effect load="true" path="effects/particles/rain/rain_glace_inside"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/rain_fast_fall" type="effect">
+		<effect load="true" path="effects/payday2/environment/rain_fast_fall"/>
+	</add>
+	<add from_db="true" path="effects/particles/rain/rain_sah" type="effect">
+		<effect load="true" path="effects/particles/rain/rain_sah"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_wwh/characters/ene_locke/ene_locke" type="unit">
+		<unit load="true" path="units/pd2_dlc_wwh/characters/ene_locke/ene_locke"/>
+		<unit load="true" path="units/pd2_dlc_wwh/characters/ene_locke/ene_locke_husk"/>
+		<object path="units/pd2_dlc_wwh/characters/ene_locke/ene_locke"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_1/ene_murkywater_bulldozer_1" type="unit">
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_1/ene_murkywater_bulldozer_1"/>
+		<object path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_1/ene_murkywater_bulldozer_1"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_helmet_plate/ene_acc_bulldozer_helmet_plate_1/ene_acc_bulldozer_helmet_plate_1"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_helmet_plate/ene_acc_bulldozer_helmet_plate_3/ene_acc_bulldozer_helmet_plate_3"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_helmet_plate/ene_acc_bulldozer_helmet_plate_3/ene_acc_bulldozer_helmet_plate_3"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_chest/ene_acc_bulldozer_chest_1/ene_acc_bulldozer_chest_1"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_chest/ene_acc_bulldozer_chest_1/ene_acc_bulldozer_chest_1"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_chest/ene_acc_bulldozer_chest_1/ene_acc_bulldozer_chest_1"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_stomache/ene_acc_bulldozer_stomache_1/ene_acc_bulldozer_stomache_1"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_stomache/ene_acc_bulldozer_stomache_1/ene_acc_bulldozer_stomache_1"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_stomache/ene_acc_bulldozer_stomache_1/ene_acc_bulldozer_stomache_1"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_back/ene_acc_bulldozer_back_1/ene_acc_bulldozer_back_1"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_back/ene_acc_bulldozer_back_1/ene_acc_bulldozer_back_1"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_back/ene_acc_bulldozer_back_1/ene_acc_bulldozer_back_1"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_throat/ene_acc_bulldozer_throat_1/ene_acc_bulldozer_throat_1"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_throat/ene_acc_bulldozer_throat_1/ene_acc_bulldozer_throat_1"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_throat/ene_acc_bulldozer_throat_1/ene_acc_bulldozer_throat_1"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_neck/ene_acc_bulldozer_neck_1/ene_acc_bulldozer_neck_1"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_neck/ene_acc_bulldozer_neck_1/ene_acc_bulldozer_neck_1"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_neck/ene_acc_bulldozer_neck_1/ene_acc_bulldozer_neck_1"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_1/ene_murkywater_bulldozer_1_husk"/>
+		<sequence_manager path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_1/ene_murkywater_bulldozer_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2" type="unit">
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2"/>
+		<object path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2"/>
+		<sequence_manager path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_helmet_plate/ene_acc_bulldozer_helmet_plate_2/ene_acc_bulldozer_helmet_plate_2"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_helmet_plate/ene_acc_bulldozer_helmet_plate_2/ene_acc_bulldozer_helmet_plate_2"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_helmet_plate/ene_acc_bulldozer_helmet_plate_2/ene_acc_bulldozer_helmet_plate_2"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_chest/ene_acc_bulldozer_chest_2/ene_acc_bulldozer_chest_2"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_chest/ene_acc_bulldozer_chest_2/ene_acc_bulldozer_chest_2"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_chest/ene_acc_bulldozer_chest_2/ene_acc_bulldozer_chest_2"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_stomache/ene_acc_bulldozer_stomache_2/ene_acc_bulldozer_stomache_2"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_stomache/ene_acc_bulldozer_stomache_2/ene_acc_bulldozer_stomache_2"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_stomache/ene_acc_bulldozer_stomache_2/ene_acc_bulldozer_stomache_2"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_back/ene_acc_bulldozer_back_2/ene_acc_bulldozer_back_2"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_back/ene_acc_bulldozer_back_2/ene_acc_bulldozer_back_2"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_back/ene_acc_bulldozer_back_2/ene_acc_bulldozer_back_2"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_throat/ene_acc_bulldozer_throat_2/ene_acc_bulldozer_throat_2"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_throat/ene_acc_bulldozer_throat_2/ene_acc_bulldozer_throat_2"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_throat/ene_acc_bulldozer_throat_2/ene_acc_bulldozer_throat_2"/>
+		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_neck/ene_acc_bulldozer_neck_2/ene_acc_bulldozer_neck_2"/>
+		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_neck/ene_acc_bulldozer_neck_2/ene_acc_bulldozer_neck_2"/>
+		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_neck/ene_acc_bulldozer_neck_2/ene_acc_bulldozer_neck_2"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2_husk"/>
 	</add>
 </table>
