@@ -547,8 +547,26 @@
 		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_16x3m"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m"/>
-		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button" type="unit">
+		<material_config path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+		<object path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+		<sequence_manager path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+		<unit path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button" type="unit">
+		<material_config path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_prop_keypad"/>
+		<object path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button"/>
+		<sequence_manager path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button"/>
+		<unit path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button" type="unit">
+		<unit path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
 	</add>
 </table>
