@@ -1,6 +1,9 @@
 <table>
 	<editor_groups/>
-	<instances/>
+	<instances>
+		<table continent="world" folder="levels/instances/unique/dah/dah_blackhawk_sniper/world" index_size="250" name="dah_blackhawk_sniper_001" position="57393.8 -920.891 21973.3" rotation="0 0 0.707107 0.707107" script="default" start_index="0"/>
+		<table continent="world" folder="levels/instances/unique/chca/chca_helicopter_enemies/world" index_size="250" name="chca_helicopter_enemies_001" position="33922.6 7309.95 -11.0201" rotation="0 0 0 1" script="default" start_index="250"/>
+	</instances>
 	<statics>
 		<table>
 			<unit_data _prev_pos="-94.046 194.07 -24.996" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_van_equipment_explosive_bag" name="units/pd2_modbain/vehicles/fps_vehicle_player_van/fps_vehicle_player_van" name_id="fps_vehicle_player_van_001" position="-94.046 194.07 -24.996" rotation="-0 0 -0 -1" unit_id="100001"/>
@@ -15215,7 +15218,7 @@
 			<unit_data _prev_pos="55275 2100 0" _prev_rot="0 0 0 -1" continent="world" local_pos="-4800 3200 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_sidewalk_16x16m_a" name_id="str_ext_sidewalk_16x16m_a_122" position="56475 2100 0" rotation="0 0 0 -1" unit_id="105004"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="55275 3700 0" _prev_rot="0 0 0 -1" continent="world" local_pos="-4800 4800 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_sidewalk_16x16m_a" name_id="str_ext_sidewalk_16x16m_a_123" position="56475 3700 0" rotation="0 0 0 -1" unit_id="105005"/>
+			<unit_data _prev_pos="56475 3700 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_sidewalk_16x16m_a" name_id="str_ext_sidewalk_16x16m_a_123" position="56475 3700 0" rotation="0 0 0 -1" unit_id="105005"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="56875 5300 0" _prev_rot="0 0 0 -1" continent="world" local_pos="-3200 6400 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_sidewalk_16x16m_a" name_id="str_ext_sidewalk_16x16m_a_124" position="58075 5300 0" rotation="0 0 0 -1" unit_id="105006"/>
@@ -17124,6 +17127,1320 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="24081.4 -5564.94 914.146" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" name_id="mkp_int_floor_1x1m_a_004" position="24056.4 -5564.94 914.146" rotation="0 0 0 -1" unit_id="105593"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 1200" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 799.999 -5600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_001" position="62075 -9100 1200" rotation="0 0 0 -1" unit_id="105594"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 1200" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -5600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_002" position="62075 -7500 1200" rotation="0 0 0 -1" unit_id="105595"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 1200" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -5600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_004" position="62075 -5900 1200" rotation="0 0 0 -1" unit_id="105597"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 1200" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -5600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_001" position="62075 -4300 1200" rotation="0 0 0 -1" unit_id="105596"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 1200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_005" position="62075 -3500 1200" rotation="0 0 -0.707107 -0.707107" unit_id="105598"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 1200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_006" position="60475 -3500 1200" rotation="0 0 -0.707107 -0.707107" unit_id="105599"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 1200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_007" position="57275 -3500 1200" rotation="0 0 -0.707107 -0.707107" unit_id="105600"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 1200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-6400 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_008" position="58875 -3500 1200" rotation="0 0 -0.707107 -0.707107" unit_id="105601"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 1200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -5600" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_009" position="52475 -5100 1200" rotation="0 0 -1 1.49012e-007" unit_id="105602"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 1200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -5600" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_010" position="52475 -3500 1200" rotation="0 0 -1 1.49012e-007" unit_id="105603"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 1200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_011" position="54075 -3500 1200" rotation="0 0 -0.707107 -0.707107" unit_id="105604"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 1200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_012" position="55675 -3500 1200" rotation="0 0 -0.707107 -0.707107" unit_id="105605"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 1200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -5600" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_013" position="52475 -6700 1200" rotation="0 0 1 -1.49012e-007" unit_id="105606"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 1200" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -5600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_002" position="52475 -8300 1200" rotation="0 0 1 4.37114e-008" unit_id="105607"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 2000" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -4800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_003" position="52475 -8300 2000" rotation="0 0 1 4.37114e-008" unit_id="105608"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 2000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -4800" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_014" position="52475 -6700 2000" rotation="0 0 1 -1.49012e-007" unit_id="105609"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 2000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -4800" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_015" position="52475 -5100 2000" rotation="0 0 1 -1.49012e-007" unit_id="105610"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 2000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -4800" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_016" position="52475 -3500 2000" rotation="0 0 1 -1.49012e-007" unit_id="105611"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 2000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_017" position="54075 -3500 2000" rotation="0 0 -0.707107 -0.707107" unit_id="105612"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 2000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_018" position="55675 -3500 2000" rotation="0 0 -0.707107 -0.707107" unit_id="105613"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 2000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_019" position="57275 -3500 2000" rotation="0 0 -0.707107 -0.707107" unit_id="105614"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 2000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-6400 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_020" position="58875 -3500 2000" rotation="0 0 -0.707107 -0.707107" unit_id="105615"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 2000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_021" position="60475 -3500 2000" rotation="0 0 -0.707107 -0.707107" unit_id="105616"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 2000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_022" position="62075 -3500 2000" rotation="0 0 -0.707107 -0.707107" unit_id="105617"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 2000" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 799.999 -4800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_003" position="62075 -9100 2000" rotation="0 0 0 -1" unit_id="105618"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 2000" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -4800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_023" position="62075 -7500 2000" rotation="0 0 0 -1" unit_id="105619"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 2000" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -4800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_024" position="62075 -5900 2000" rotation="0 0 0 -1" unit_id="105620"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 2000" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -4800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_004" position="62075 -4300 2000" rotation="0 0 0 -1" unit_id="105621"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 3600" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -3200" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_005" position="52475 -8300 3600" rotation="0 0 1 4.37114e-008" unit_id="105622"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 3600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -3200" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_025" position="52475 -6700 3600" rotation="0 0 1 -1.49012e-007" unit_id="105623"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 3600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -3200" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_026" position="52475 -5100 3600" rotation="0 0 1 -1.49012e-007" unit_id="105624"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 3600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -3200" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_027" position="52475 -3500 3600" rotation="0 0 1 -1.49012e-007" unit_id="105625"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 3600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -3200" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_028" position="54075 -3500 3600" rotation="0 0 -0.707107 -0.707107" unit_id="105626"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 3600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -3200" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_029" position="55675 -3500 3600" rotation="0 0 -0.707107 -0.707107" unit_id="105627"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 3600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -3200" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_030" position="57275 -3500 3600" rotation="0 0 -0.707107 -0.707107" unit_id="105628"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 3600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-6400 -4800 0" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_031" position="58875 -3500 3600" rotation="0 0 -0.707107 -0.707107" unit_id="105629"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 3600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -3200" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_032" position="60475 -3500 3600" rotation="0 0 -0.707107 -0.707107" unit_id="105630"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 3600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -3200" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_033" position="62075 -3500 3600" rotation="0 0 -0.707107 -0.707107" unit_id="105631"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 3600" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_034" position="62075 -9100 3600" rotation="0 0 0 -1" unit_id="105632"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 3600" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -3200" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_035" position="62075 -7500 3600" rotation="0 0 0 -1" unit_id="105633"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 3600" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -3200" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_036" position="62075 -5900 3600" rotation="0 0 0 -1" unit_id="105634"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 3600" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -3200" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_006" position="62075 -4300 3600" rotation="0 0 0 -1" unit_id="105635"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 2800" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -4000" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_037" position="62075 -5900 2800" rotation="0 0 0 -1" unit_id="105636"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 2800" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 799.999 -4000" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_038" position="62075 -9100 2800" rotation="0 0 0 -1" unit_id="105637"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 2800" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -4000" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_039" position="62075 -7500 2800" rotation="0 0 0 -1" unit_id="105638"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 2800" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -4000" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_007" position="62075 -4300 2800" rotation="0 0 0 -1" unit_id="105639"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 2800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_040" position="62075 -3500 2800" rotation="0 0 -0.707107 -0.707107" unit_id="105640"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 2800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_041" position="60475 -3500 2800" rotation="0 0 -0.707107 -0.707107" unit_id="105641"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 2800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-6400 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_042" position="58875 -3500 2800" rotation="0 0 -0.707107 -0.707107" unit_id="105642"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 2800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_043" position="57275 -3500 2800" rotation="0 0 -0.707107 -0.707107" unit_id="105643"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 2800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_044" position="55675 -3500 2800" rotation="0 0 -0.707107 -0.707107" unit_id="105644"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 2800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_045" position="54075 -3500 2800" rotation="0 0 -0.707107 -0.707107" unit_id="105645"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 2800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -4000" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_046" position="52475 -3500 2800" rotation="0 0 1 -1.49012e-007" unit_id="105646"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 2800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -4000" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_047" position="52475 -5100 2800" rotation="0 0 1 -1.49012e-007" unit_id="105647"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 2800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -4000" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_048" position="52475 -6700 2800" rotation="0 0 1 -1.49012e-007" unit_id="105648"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 2800" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -4000" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_008" position="52475 -8300 2800" rotation="0 0 1 4.37114e-008" unit_id="105649"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 6800" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_009" position="52475 -8300 6800" rotation="0 0 1 4.37114e-008" unit_id="105650"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 6800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 0" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_049" position="52475 -6700 6800" rotation="0 0 1 -1.49012e-007" unit_id="105651"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 6800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 0" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_050" position="52475 -5100 6800" rotation="0 0 1 -1.49012e-007" unit_id="105652"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 6800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 0" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_051" position="52475 -3500 6800" rotation="0 0 1 -1.49012e-007" unit_id="105653"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 6800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 0" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_052" position="54075 -3500 6800" rotation="0 0 -0.707107 -0.707107" unit_id="105654"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 6800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 0" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_053" position="55675 -3500 6800" rotation="0 0 -0.707107 -0.707107" unit_id="105655"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 6800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 0" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_054" position="57275 -3500 6800" rotation="0 0 -0.707107 -0.707107" unit_id="105656"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 6800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-6400 -4800 0" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_055" position="58875 -3500 6800" rotation="0 0 -0.707107 -0.707107" unit_id="105657"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 6800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 0" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_056" position="60475 -3500 6800" rotation="0 0 -0.707107 -0.707107" unit_id="105658"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 6800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 0" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_057" position="62075 -3500 6800" rotation="0 0 -0.707107 -0.707107" unit_id="105659"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 6800" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 799.999 0" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_058" position="62075 -9100 6800" rotation="0 0 0 -1" unit_id="105660"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 6800" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 0" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_059" position="62075 -7500 6800" rotation="0 0 0 -1" unit_id="105661"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 6800" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 0" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_060" position="62075 -5900 6800" rotation="0 0 0 -1" unit_id="105662"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 6800" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 0" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_010" position="62075 -4300 6800" rotation="0 0 0 -1" unit_id="105663"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 6000" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_061" position="62075 -5900 6000" rotation="0 0 0 -1" unit_id="105664"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 6000" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 799.999 -800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_062" position="62075 -9100 6000" rotation="0 0 0 -1" unit_id="105665"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 6000" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_063" position="62075 -7500 6000" rotation="0 0 0 -1" unit_id="105666"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 6000" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_011" position="62075 -4300 6000" rotation="0 0 0 -1" unit_id="105667"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 6000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_064" position="62075 -3500 6000" rotation="0 0 -0.707107 -0.707107" unit_id="105668"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 6000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_065" position="60475 -3500 6000" rotation="0 0 -0.707107 -0.707107" unit_id="105669"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 6000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-6400 -4800 -800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_066" position="58875 -3500 6000" rotation="0 0 -0.707107 -0.707107" unit_id="105670"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 6000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_067" position="57275 -3500 6000" rotation="0 0 -0.707107 -0.707107" unit_id="105671"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 6000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_068" position="55675 -3500 6000" rotation="0 0 -0.707107 -0.707107" unit_id="105672"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 6000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_069" position="54075 -3500 6000" rotation="0 0 -0.707107 -0.707107" unit_id="105673"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 6000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -800" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_070" position="52475 -3500 6000" rotation="0 0 1 -1.49012e-007" unit_id="105674"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 6000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -800" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_071" position="52475 -5100 6000" rotation="0 0 1 -1.49012e-007" unit_id="105675"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 6000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -800" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_072" position="52475 -6700 6000" rotation="0 0 1 -1.49012e-007" unit_id="105676"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 6000" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_012" position="52475 -8300 6000" rotation="0 0 1 4.37114e-008" unit_id="105677"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 5200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -1600" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_073" position="52475 -3500 5200" rotation="0 0 1 -1.49012e-007" unit_id="105678"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 5200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -1600" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_074" position="52475 -5100 5200" rotation="0 0 1 -1.49012e-007" unit_id="105679"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 5200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -1600" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_075" position="52475 -6700 5200" rotation="0 0 1 -1.49012e-007" unit_id="105680"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 5200" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_013" position="52475 -8300 5200" rotation="0 0 1 4.37114e-008" unit_id="105681"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 4400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -2400" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_076" position="52475 -3500 4400" rotation="0 0 1 -1.49012e-007" unit_id="105682"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 4400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -2400" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_077" position="52475 -5100 4400" rotation="0 0 1 -1.49012e-007" unit_id="105683"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 4400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -2400" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_078" position="52475 -6700 4400" rotation="0 0 1 -1.49012e-007" unit_id="105684"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 4400" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_014" position="52475 -8300 4400" rotation="0 0 1 4.37114e-008" unit_id="105685"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 4400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -2400" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_079" position="54075 -3500 4400" rotation="0 0 -0.707107 -0.707107" unit_id="105686"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 5200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -1600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_080" position="54075 -3500 5200" rotation="0 0 -0.707107 -0.707107" unit_id="105687"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 5200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -1600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_081" position="55675 -3500 5200" rotation="0 0 -0.707107 -0.707107" unit_id="105688"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 4400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -2400" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_082" position="55675 -3500 4400" rotation="0 0 -0.707107 -0.707107" unit_id="105689"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 4400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -2400" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_083" position="57275 -3500 4400" rotation="0 0 -0.707107 -0.707107" unit_id="105690"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 5200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -1600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_084" position="57275 -3500 5200" rotation="0 0 -0.707107 -0.707107" unit_id="105691"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 5200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-6400 -4800 -1600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_085" position="58875 -3500 5200" rotation="0 0 -0.707107 -0.707107" unit_id="105692"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 4400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-6400 -4800 -2400" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_086" position="58875 -3500 4400" rotation="0 0 -0.707107 -0.707107" unit_id="105693"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 4400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -2400" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_087" position="60475 -3500 4400" rotation="0 0 -0.707107 -0.707107" unit_id="105694"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 5200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -1600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_088" position="60475 -3500 5200" rotation="0 0 -0.707107 -0.707107" unit_id="105695"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 5200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -1600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_089" position="62075 -3500 5200" rotation="0 0 -0.707107 -0.707107" unit_id="105696"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 4400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -2400" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_090" position="62075 -3500 4400" rotation="0 0 -0.707107 -0.707107" unit_id="105697"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 4400" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -2400" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_015" position="62075 -4300 4400" rotation="0 0 0 -1" unit_id="105698"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 5200" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -1600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_016" position="62075 -4300 5200" rotation="0 0 0 -1" unit_id="105699"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 5200" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -1600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_091" position="62075 -5900 5200" rotation="0 0 0 -1" unit_id="105700"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 4400" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -2400" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_092" position="62075 -5900 4400" rotation="0 0 0 -1" unit_id="105701"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 4400" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -2400" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_093" position="62075 -7500 4400" rotation="0 0 0 -1" unit_id="105702"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 5200" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -1600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_094" position="62075 -7500 5200" rotation="0 0 0 -1" unit_id="105703"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 5200" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 799.999 -1600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_095" position="62075 -9100 5200" rotation="0 0 0 -1" unit_id="105704"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 13200" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 2400" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_017" position="52475 -8300 13200" rotation="0 0 1 4.37114e-008" unit_id="105705"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 13200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 2400" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_096" position="52475 -6700 13200" rotation="0 0 1 -1.49012e-007" unit_id="105706"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 13200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 2400" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_097" position="52475 -5100 13200" rotation="0 0 1 -1.49012e-007" unit_id="105707"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 13200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 2400" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_098" position="52475 -3500 13200" rotation="0 0 1 -1.49012e-007" unit_id="105708"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 13200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_099" position="54075 -3500 13200" rotation="0 0 -0.707107 -0.707107" unit_id="105709"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 13200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_100" position="55675 -3500 13200" rotation="0 0 -0.707107 -0.707107" unit_id="105710"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 13200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_101" position="57275 -3500 13200" rotation="0 0 -0.707107 -0.707107" unit_id="105711"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 13200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_102" position="58875 -3500 13200" rotation="0 0 -0.707107 -0.707107" unit_id="105712"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 13200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_103" position="60475 -3500 13200" rotation="0 0 -0.707107 -0.707107" unit_id="105713"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 13200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_104" position="62075 -3500 13200" rotation="0 0 -0.707107 -0.707107" unit_id="105714"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 13200" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_105" position="62075 -9100 13200" rotation="0 0 0 -1" unit_id="105715"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 13200" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_106" position="62075 -7500 13200" rotation="0 0 0 -1" unit_id="105716"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 13200" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_107" position="62075 -5900 13200" rotation="0 0 0 -1" unit_id="105717"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 13200" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_018" position="62075 -4300 13200" rotation="0 0 0 -1" unit_id="105718"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 12400" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_108" position="62075 -5900 12400" rotation="0 0 0 -1" unit_id="105719"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 12400" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_109" position="62075 -9100 12400" rotation="0 0 0 -1" unit_id="105720"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 12400" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_110" position="62075 -7500 12400" rotation="0 0 0 -1" unit_id="105721"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 12400" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_019" position="62075 -4300 12400" rotation="0 0 0 -1" unit_id="105722"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 12400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_111" position="62075 -3500 12400" rotation="0 0 -0.707107 -0.707107" unit_id="105723"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 12400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_112" position="60475 -3500 12400" rotation="0 0 -0.707107 -0.707107" unit_id="105724"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 12400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_113" position="58875 -3500 12400" rotation="0 0 -0.707107 -0.707107" unit_id="105725"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 12400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_114" position="57275 -3500 12400" rotation="0 0 -0.707107 -0.707107" unit_id="105726"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 12400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_115" position="55675 -3500 12400" rotation="0 0 -0.707107 -0.707107" unit_id="105727"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 12400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_116" position="54075 -3500 12400" rotation="0 0 -0.707107 -0.707107" unit_id="105728"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 12400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 1600" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_117" position="52475 -3500 12400" rotation="0 0 1 -1.49012e-007" unit_id="105729"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 12400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 1600" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_118" position="52475 -5100 12400" rotation="0 0 1 -1.49012e-007" unit_id="105730"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 12400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 1600" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_119" position="52475 -6700 12400" rotation="0 0 1 -1.49012e-007" unit_id="105731"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 12400" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 1600" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_020" position="52475 -8300 12400" rotation="0 0 1 4.37114e-008" unit_id="105732"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 11600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_120" position="52475 -3500 11600" rotation="0 0 1 -1.49012e-007" unit_id="105733"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 11600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_121" position="52475 -5100 11600" rotation="0 0 1 -1.49012e-007" unit_id="105734"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 11600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_122" position="52475 -6700 11600" rotation="0 0 1 -1.49012e-007" unit_id="105735"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 11600" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 800" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_021" position="52475 -8300 11600" rotation="0 0 1 4.37114e-008" unit_id="105736"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 10800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_123" position="52475 -3500 10800" rotation="0 0 1 -1.49012e-007" unit_id="105737"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 10800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_124" position="52475 -5100 10800" rotation="0 0 1 -1.49012e-007" unit_id="105738"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 10800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_125" position="52475 -6700 10800" rotation="0 0 1 -1.49012e-007" unit_id="105739"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 10800" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 0" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_022" position="52475 -8300 10800" rotation="0 0 1 4.37114e-008" unit_id="105740"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 10800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_126" position="54075 -3500 10800" rotation="0 0 -0.707107 -0.707107" unit_id="105741"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 11600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_127" position="54075 -3500 11600" rotation="0 0 -0.707107 -0.707107" unit_id="105742"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 11600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_128" position="55675 -3500 11600" rotation="0 0 -0.707107 -0.707107" unit_id="105743"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 10800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_129" position="55675 -3500 10800" rotation="0 0 -0.707107 -0.707107" unit_id="105744"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 10800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_130" position="57275 -3500 10800" rotation="0 0 -0.707107 -0.707107" unit_id="105745"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 11600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_131" position="57275 -3500 11600" rotation="0 0 -0.707107 -0.707107" unit_id="105746"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 11600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_132" position="58875 -3500 11600" rotation="0 0 -0.707107 -0.707107" unit_id="105747"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 10800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_133" position="58875 -3500 10800" rotation="0 0 -0.707107 -0.707107" unit_id="105748"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 10800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_134" position="60475 -3500 10800" rotation="0 0 -0.707107 -0.707107" unit_id="105749"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 11600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_135" position="60475 -3500 11600" rotation="0 0 -0.707107 -0.707107" unit_id="105750"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 11600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_136" position="62075 -3500 11600" rotation="0 0 -0.707107 -0.707107" unit_id="105751"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 10800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_137" position="62075 -3500 10800" rotation="0 0 -0.707107 -0.707107" unit_id="105752"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 10800" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_023" position="62075 -4300 10800" rotation="0 0 0 -1" unit_id="105753"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 11600" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_024" position="62075 -4300 11600" rotation="0 0 0 -1" unit_id="105754"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 11600" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_138" position="62075 -5900 11600" rotation="0 0 0 -1" unit_id="105755"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 10800" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_139" position="62075 -5900 10800" rotation="0 0 0 -1" unit_id="105756"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 10800" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_140" position="62075 -7500 10800" rotation="0 0 0 -1" unit_id="105757"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 11600" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_141" position="62075 -7500 11600" rotation="0 0 0 -1" unit_id="105758"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 11600" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_142" position="62075 -9100 11600" rotation="0 0 0 -1" unit_id="105759"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 10025" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -3200" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_025" position="52475 -8300 10000" rotation="0 0 1 4.37114e-008" unit_id="105760"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 9225" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -4000" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_026" position="52475 -8300 9200" rotation="0 0 1 4.37114e-008" unit_id="105761"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 8425" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -4800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_027" position="52475 -8300 8400" rotation="0 0 1 4.37114e-008" unit_id="105762"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 7625" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 -5600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_028" position="52475 -8300 7600" rotation="0 0 1 4.37114e-008" unit_id="105763"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 7625" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -5600" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_143" position="52475 -6700 7600" rotation="0 0 1 -1.49012e-007" unit_id="105764"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 8425" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -4800" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_144" position="52475 -6700 8400" rotation="0 0 1 -1.49012e-007" unit_id="105765"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 9225" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -4000" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_145" position="52475 -6700 9200" rotation="0 0 1 -1.49012e-007" unit_id="105766"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 10025" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000139876 -1600 -3200" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_146" position="52475 -6700 10000" rotation="0 0 1 -1.49012e-007" unit_id="105767"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 10025" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -3200" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_147" position="52475 -5100 10000" rotation="0 0 1 -1.49012e-007" unit_id="105768"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 9225" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -4000" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_148" position="52475 -5100 9200" rotation="0 0 1 -1.49012e-007" unit_id="105769"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 9225" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -4000" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_149" position="52475 -3500 9200" rotation="0 0 1 -1.49012e-007" unit_id="105770"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 10025" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -3200" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_150" position="52475 -3500 10000" rotation="0 0 1 -1.49012e-007" unit_id="105771"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 8425" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -4800" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_151" position="52475 -3500 8400" rotation="0 0 1 -1.49012e-007" unit_id="105772"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 8425" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -4800" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_152" position="52475 -5100 8400" rotation="0 0 1 -1.49012e-007" unit_id="105773"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 7625" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000279753 -3200 -5600" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_153" position="52475 -5100 7600" rotation="0 0 1 -1.49012e-007" unit_id="105774"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 7625" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000419629 -4800 -5600" local_rot="0 0 1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_154" position="52475 -3500 7600" rotation="0 0 1 -1.49012e-007" unit_id="105775"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 7625" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_155" position="54075 -3500 7600" rotation="0 0 -0.707107 -0.707107" unit_id="105776"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 8425" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_156" position="54075 -3500 8400" rotation="0 0 -0.707107 -0.707107" unit_id="105777"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 9225" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_157" position="54075 -3500 9200" rotation="0 0 -0.707107 -0.707107" unit_id="105778"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 9225" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_158" position="55675 -3500 9200" rotation="0 0 -0.707107 -0.707107" unit_id="105779"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 9225" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_159" position="57275 -3500 9200" rotation="0 0 -0.707107 -0.707107" unit_id="105780"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 10025" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -3200" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_160" position="55675 -3500 10000" rotation="0 0 -0.707107 -0.707107" unit_id="105781"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 10025" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -4800 -3200" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_161" position="54075 -3500 10000" rotation="0 0 -0.707107 -0.707107" unit_id="105782"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 10025" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -3200" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_162" position="57275 -3500 10000" rotation="0 0 -0.707107 -0.707107" unit_id="105783"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57065.3 -6182.2 11450" _prev_rot="0.707107 0 0 -0.707107" continent="world" local_pos="-4590.3 -2117.8 -1775" local_rot="3.09086e-008 -0.707107 0.707107 -3.09086e-008" name="units/dev_tools/level_tools/shadow_caster_100x100" name_id="shadow_caster_100x100_007" position="57065.3 -6182.2 11425" rotation="0.707107 0 0 -0.707107" unit_id="105784"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 10025" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -3200" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_163" position="60475 -3500 10000" rotation="0 0 -0.707107 -0.707107" unit_id="105785"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 10025" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -3200" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_164" position="62075 -3500 10000" rotation="0 0 -0.707107 -0.707107" unit_id="105786"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 9200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_165" position="58875 -3500 9200" rotation="0 0 -0.707107 -0.707107" unit_id="105787"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 9225" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_166" position="60475 -3500 9200" rotation="0 0 -0.707107 -0.707107" unit_id="105788"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 9225" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -4000" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_167" position="62075 -3500 9200" rotation="0 0 -0.707107 -0.707107" unit_id="105789"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 8425" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_168" position="60475 -3500 8400" rotation="0 0 -0.707107 -0.707107" unit_id="105790"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 8425" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_169" position="62075 -3500 8400" rotation="0 0 -0.707107 -0.707107" unit_id="105791"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 8425" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-6400 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_170" position="58875 -3500 8400" rotation="0 0 -0.707107 -0.707107" unit_id="105792"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 8425" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_171" position="57275 -3500 8400" rotation="0 0 -0.707107 -0.707107" unit_id="105793"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 8425" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -4800" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_172" position="55675 -3500 8400" rotation="0 0 -0.707107 -0.707107" unit_id="105794"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 7625" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-3200 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_173" position="55675 -3500 7600" rotation="0 0 -0.707107 -0.707107" unit_id="105795"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 7625" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-4800 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_174" position="57275 -3500 7600" rotation="0 0 -0.707107 -0.707107" unit_id="105796"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 7625" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-6400 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_175" position="58875 -3500 7600" rotation="0 0 -0.707107 -0.707107" unit_id="105797"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 7625" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8000 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_176" position="60475 -3500 7600" rotation="0 0 -0.707107 -0.707107" unit_id="105798"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 7625" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-9600 -4800 -5600" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_177" position="62075 -3500 7600" rotation="0 0 -0.707107 -0.707107" unit_id="105799"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 10000" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 6400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_178" position="62075 -9100 10000" rotation="0 0 0 -1" unit_id="105800"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 10025" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -3200" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_179" position="62075 -7500 10000" rotation="0 0 0 -1" unit_id="105801"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 10025" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -3200" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_180" position="62075 -5900 10000" rotation="0 0 0 -1" unit_id="105802"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 10025" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -3200" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_029" position="62075 -4300 10000" rotation="0 0 0 -1" unit_id="105803"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 9225" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -4000" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_030" position="62075 -4300 9200" rotation="0 0 0 -1" unit_id="105804"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 9225" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -4000" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_181" position="62075 -5900 9200" rotation="0 0 0 -1" unit_id="105805"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 9225" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -4000" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_182" position="62075 -7500 9200" rotation="0 0 0 -1" unit_id="105806"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 9225" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 799.999 -4000" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_183" position="62075 -9100 9200" rotation="0 0 0 -1" unit_id="105807"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 8425" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 799.999 -4800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_184" position="62075 -9100 8400" rotation="0 0 0 -1" unit_id="105808"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 7625" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 799.999 -5600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_185" position="62075 -9100 7600" rotation="0 0 0 -1" unit_id="105809"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 7625" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -5600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_186" position="62075 -7500 7600" rotation="0 0 0 -1" unit_id="105810"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 8425" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -800.001 -4800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_187" position="62075 -7500 8400" rotation="0 0 0 -1" unit_id="105811"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 8425" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -4800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_188" position="62075 -5900 8400" rotation="0 0 0 -1" unit_id="105812"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 7625" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -2400 -5600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_189" position="62075 -5900 7600" rotation="0 0 0 -1" unit_id="105813"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 7625" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -5600" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_031" position="62075 -4300 7600" rotation="0 0 0 -1" unit_id="105814"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 8425" _prev_rot="0 0 0 -1" continent="world" local_pos="-9600 -4000 -4800" local_rot="0 0 1 -4.37114e-008" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_032" position="62075 -4300 8400" rotation="0 0 0 -1" unit_id="105815"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 3600" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_190" position="62075 -9100 4400" rotation="0 0 0 -1" unit_id="105816"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 10800" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_191" position="62075 -9100 10800" rotation="0 0 0 -1" unit_id="105817"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 9200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_192" position="58875 -3500 10000" rotation="0 0 -0.707107 -0.707107" unit_id="105818"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_193" position="55675 -3500 14000" rotation="0 0 -0.707107 -0.707107" unit_id="105819"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_194" position="55675 -3500 14800" rotation="0 0 -0.707107 -0.707107" unit_id="105820"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_195" position="55675 -3500 15600" rotation="0 0 -0.707107 -0.707107" unit_id="105821"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_196" position="55675 -3500 16400" rotation="0 0 -0.707107 -0.707107" unit_id="105822"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_197" position="54075 -3500 16400" rotation="0 0 -0.707107 -0.707107" unit_id="105823"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_198" position="54075 -3500 15600" rotation="0 0 -0.707107 -0.707107" unit_id="105824"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_199" position="54075 -3500 14800" rotation="0 0 -0.707107 -0.707107" unit_id="105825"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_200" position="54075 -3500 14000" rotation="0 0 -0.707107 -0.707107" unit_id="105826"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 14000" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 0" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_033" position="52475 -8300 14000" rotation="0 0 1 4.37114e-008" unit_id="105827"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 14000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_201" position="52475 -6700 14000" rotation="0 0 1 -1.49012e-007" unit_id="105828"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 14000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_202" position="52475 -5100 14000" rotation="0 0 1 -1.49012e-007" unit_id="105829"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 14000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_203" position="52475 -3500 14000" rotation="0 0 1 -1.49012e-007" unit_id="105830"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 14800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_204" position="52475 -3500 14800" rotation="0 0 1 -1.49012e-007" unit_id="105831"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 14800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_205" position="52475 -5100 14800" rotation="0 0 1 -1.49012e-007" unit_id="105832"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 14800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_206" position="52475 -6700 14800" rotation="0 0 1 -1.49012e-007" unit_id="105833"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 15600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 1600" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_207" position="52475 -6700 15600" rotation="0 0 1 -1.49012e-007" unit_id="105834"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 15600" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 1600" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_034" position="52475 -8300 15600" rotation="0 0 1 4.37114e-008" unit_id="105835"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 14800" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 800" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_035" position="52475 -8300 14800" rotation="0 0 1 4.37114e-008" unit_id="105836"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 16400" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 2400" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_036" position="52475 -8300 16400" rotation="0 0 1 4.37114e-008" unit_id="105837"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 16400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 2400" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_208" position="52475 -6700 16400" rotation="0 0 1 -1.49012e-007" unit_id="105838"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 16400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 2400" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_209" position="52475 -5100 16400" rotation="0 0 1 -1.49012e-007" unit_id="105839"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 16400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 2400" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_210" position="52475 -3500 16400" rotation="0 0 1 -1.49012e-007" unit_id="105840"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 15600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 1600" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_211" position="52475 -3500 15600" rotation="0 0 1 -1.49012e-007" unit_id="105841"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 15600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 1600" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_212" position="52475 -5100 15600" rotation="0 0 1 -1.49012e-007" unit_id="105842"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_213" position="57275 -3500 14000" rotation="0 0 -0.707107 -0.707107" unit_id="105843"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_214" position="57275 -3500 14800" rotation="0 0 -0.707107 -0.707107" unit_id="105844"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_215" position="57275 -3500 15600" rotation="0 0 -0.707107 -0.707107" unit_id="105845"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_216" position="57275 -3500 16400" rotation="0 0 -0.707107 -0.707107" unit_id="105846"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_217" position="58875 -3500 14000" rotation="0 0 -0.707107 -0.707107" unit_id="105847"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_218" position="58875 -3500 14800" rotation="0 0 -0.707107 -0.707107" unit_id="105848"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_219" position="58875 -3500 15600" rotation="0 0 -0.707107 -0.707107" unit_id="105849"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_220" position="58875 -3500 16400" rotation="0 0 -0.707107 -0.707107" unit_id="105850"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_221" position="60475 -3500 14000" rotation="0 0 -0.707107 -0.707107" unit_id="105851"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_222" position="60475 -3500 14800" rotation="0 0 -0.707107 -0.707107" unit_id="105852"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_223" position="60475 -3500 15600" rotation="0 0 -0.707107 -0.707107" unit_id="105853"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_224" position="60475 -3500 16400" rotation="0 0 -0.707107 -0.707107" unit_id="105854"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57065.3 -6182.2 15400" _prev_rot="0.707107 0 0 -0.707107" continent="world" local_pos="-2682.2 -1390.3 1400" local_rot="-0.5 0.5 -0.5 0.5" name="units/dev_tools/level_tools/shadow_caster_100x100" name_id="shadow_caster_100x100_008" position="57065.3 -6182.2 15400" rotation="0.707107 0 0 -0.707107" unit_id="105855"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_225" position="62075 -3500 14000" rotation="0 0 -0.707107 -0.707107" unit_id="105856"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_226" position="62075 -3500 14800" rotation="0 0 -0.707107 -0.707107" unit_id="105857"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_227" position="62075 -3500 15600" rotation="0 0 -0.707107 -0.707107" unit_id="105858"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_228" position="62075 -3500 16400" rotation="0 0 -0.707107 -0.707107" unit_id="105859"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 14000" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_229" position="62075 -5900 14000" rotation="0 0 0 -1" unit_id="105860"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 14800" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_230" position="62075 -5900 14800" rotation="0 0 0 -1" unit_id="105861"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 14800" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_037" position="62075 -4300 14800" rotation="0 0 0 -1" unit_id="105862"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 15600" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_038" position="62075 -4300 15600" rotation="0 0 0 -1" unit_id="105863"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 16400" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_039" position="62075 -4300 16400" rotation="0 0 0 -1" unit_id="105864"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 16400" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_231" position="62075 -5900 16400" rotation="0 0 0 -1" unit_id="105865"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 14000" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_040" position="62075 -4300 14000" rotation="0 0 0 -1" unit_id="105866"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 14000" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_232" position="62075 -7500 14000" rotation="0 0 0 -1" unit_id="105867"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 14000" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_233" position="62075 -9100 14000" rotation="0 0 0 -1" unit_id="105868"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 14800" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_234" position="62075 -9100 14800" rotation="0 0 0 -1" unit_id="105869"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 14800" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_235" position="62075 -7500 14800" rotation="0 0 0 -1" unit_id="105870"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 15600" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_236" position="62075 -5900 15600" rotation="0 0 0 -1" unit_id="105871"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 15600" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_237" position="62075 -7500 15600" rotation="0 0 0 -1" unit_id="105872"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 15600" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_238" position="62075 -9100 15600" rotation="0 0 0 -1" unit_id="105873"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 16400" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_239" position="62075 -9100 16400" rotation="0 0 0 -1" unit_id="105874"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 16400" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_240" position="62075 -7500 16400" rotation="0 0 0 -1" unit_id="105875"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_241" position="55675 -3500 17200" rotation="0 0 -0.707107 -0.707107" unit_id="105876"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_242" position="55675 -3500 18000" rotation="0 0 -0.707107 -0.707107" unit_id="105877"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_243" position="55675 -3500 18800" rotation="0 0 -0.707107 -0.707107" unit_id="105878"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_244" position="55675 -3500 19600" rotation="0 0 -0.707107 -0.707107" unit_id="105879"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_245" position="54075 -3500 19600" rotation="0 0 -0.707107 -0.707107" unit_id="105880"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_246" position="54075 -3500 18800" rotation="0 0 -0.707107 -0.707107" unit_id="105881"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_247" position="54075 -3500 18000" rotation="0 0 -0.707107 -0.707107" unit_id="105882"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_248" position="54075 -3500 17200" rotation="0 0 -0.707107 -0.707107" unit_id="105883"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 14000" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 0" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_041" position="52475 -8300 17200" rotation="0 0 1 4.37114e-008" unit_id="105884"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 14000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_249" position="52475 -6700 17200" rotation="0 0 1 -1.49012e-007" unit_id="105885"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 14000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_250" position="52475 -5100 17200" rotation="0 0 1 -1.49012e-007" unit_id="105886"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 14000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_251" position="52475 -3500 17200" rotation="0 0 1 -1.49012e-007" unit_id="105887"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 14800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_252" position="52475 -3500 18000" rotation="0 0 1 -1.49012e-007" unit_id="105888"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 14800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_253" position="52475 -5100 18000" rotation="0 0 1 -1.49012e-007" unit_id="105889"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 14800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_254" position="52475 -6700 18000" rotation="0 0 1 -1.49012e-007" unit_id="105890"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 15600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 1600" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_255" position="52475 -6700 18800" rotation="0 0 1 -1.49012e-007" unit_id="105891"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 15600" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 1600" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_042" position="52475 -8300 18800" rotation="0 0 1 4.37114e-008" unit_id="105892"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 14800" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 800" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_043" position="52475 -8300 18000" rotation="0 0 1 4.37114e-008" unit_id="105893"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 16400" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 2400" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_044" position="52475 -8300 19600" rotation="0 0 1 4.37114e-008" unit_id="105894"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 16400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 2400" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_256" position="52475 -6700 19600" rotation="0 0 1 -1.49012e-007" unit_id="105895"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 16400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 2400" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_257" position="52475 -5100 19600" rotation="0 0 1 -1.49012e-007" unit_id="105896"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 16400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 2400" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_258" position="52475 -3500 19600" rotation="0 0 1 -1.49012e-007" unit_id="105897"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 15600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 1600" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_259" position="52475 -3500 18800" rotation="0 0 1 -1.49012e-007" unit_id="105898"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 15600" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 1600" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_260" position="52475 -5100 18800" rotation="0 0 1 -1.49012e-007" unit_id="105899"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_261" position="57275 -3500 17200" rotation="0 0 -0.707107 -0.707107" unit_id="105900"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_262" position="57275 -3500 18000" rotation="0 0 -0.707107 -0.707107" unit_id="105901"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_263" position="57275 -3500 18800" rotation="0 0 -0.707107 -0.707107" unit_id="105902"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_264" position="57275 -3500 19600" rotation="0 0 -0.707107 -0.707107" unit_id="105903"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_265" position="58875 -3500 17200" rotation="0 0 -0.707107 -0.707107" unit_id="105904"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_266" position="58875 -3500 18000" rotation="0 0 -0.707107 -0.707107" unit_id="105905"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_267" position="58875 -3500 18800" rotation="0 0 -0.707107 -0.707107" unit_id="105906"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_268" position="58875 -3500 19600" rotation="0 0 -0.707107 -0.707107" unit_id="105907"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_269" position="60475 -3500 17200" rotation="0 0 -0.707107 -0.707107" unit_id="105908"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_270" position="60475 -3500 18000" rotation="0 0 -0.707107 -0.707107" unit_id="105909"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_271" position="60475 -3500 18800" rotation="0 0 -0.707107 -0.707107" unit_id="105910"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_272" position="60475 -3500 19600" rotation="0 0 -0.707107 -0.707107" unit_id="105911"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57065.3 -6182.2 15400" _prev_rot="0.707107 0 0 -0.707107" continent="world" local_pos="-2682.2 -1390.3 1400" local_rot="-0.5 0.5 -0.5 0.5" name="units/dev_tools/level_tools/shadow_caster_100x100" name_id="shadow_caster_100x100_009" position="57065.3 -6182.2 18600" rotation="0.707107 0 0 -0.707107" unit_id="105912"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 14000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_273" position="62075 -3500 17200" rotation="0 0 -0.707107 -0.707107" unit_id="105913"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 14800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_274" position="62075 -3500 18000" rotation="0 0 -0.707107 -0.707107" unit_id="105914"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 15600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_275" position="62075 -3500 18800" rotation="0 0 -0.707107 -0.707107" unit_id="105915"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 16400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_276" position="62075 -3500 19600" rotation="0 0 -0.707107 -0.707107" unit_id="105916"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 14000" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_277" position="62075 -5900 17200" rotation="0 0 0 -1" unit_id="105917"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 14800" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_278" position="62075 -5900 18000" rotation="0 0 0 -1" unit_id="105918"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 14800" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_045" position="62075 -4300 18000" rotation="0 0 0 -1" unit_id="105919"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 15600" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_046" position="62075 -4300 18800" rotation="0 0 0 -1" unit_id="105920"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 16400" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_047" position="62075 -4300 19600" rotation="0 0 0 -1" unit_id="105921"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 16400" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_279" position="62075 -5900 19600" rotation="0 0 0 -1" unit_id="105922"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 14000" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_048" position="62075 -4300 17200" rotation="0 0 0 -1" unit_id="105923"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 14000" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_280" position="62075 -7500 17200" rotation="0 0 0 -1" unit_id="105924"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 14000" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_281" position="62075 -9100 17200" rotation="0 0 0 -1" unit_id="105925"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 14800" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_282" position="62075 -9100 18000" rotation="0 0 0 -1" unit_id="105926"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 14800" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_283" position="62075 -7500 18000" rotation="0 0 0 -1" unit_id="105927"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 15600" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_284" position="62075 -5900 18800" rotation="0 0 0 -1" unit_id="105928"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 15600" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_285" position="62075 -7500 18800" rotation="0 0 0 -1" unit_id="105929"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 15600" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_286" position="62075 -9100 18800" rotation="0 0 0 -1" unit_id="105930"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 16400" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_287" position="62075 -9100 19600" rotation="0 0 0 -1" unit_id="105931"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 16400" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 2400" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_288" position="62075 -7500 19600" rotation="0 0 0 -1" unit_id="105932"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 17200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_289" position="55675 -3500 20400" rotation="0 0 -0.707107 -0.707107" unit_id="105933"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 18000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_290" position="55675 -3500 21200" rotation="0 0 -0.707107 -0.707107" unit_id="105934"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 18800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_291" position="55675 -3500 22000" rotation="0 0 -0.707107 -0.707107" unit_id="105935"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="55675 -3500 22700" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_292" position="55675 -3500 22700" rotation="0 0 -0.707107 -0.707107" unit_id="105936"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 18800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_294" position="54075 -3500 22000" rotation="0 0 -0.707107 -0.707107" unit_id="105938"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 18000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_295" position="54075 -3500 21200" rotation="0 0 -0.707107 -0.707107" unit_id="105939"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 17200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="8.39234e-005 1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_296" position="54075 -3500 20400" rotation="0 0 -0.707107 -0.707107" unit_id="105940"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 17200" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 0" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_049" position="52475 -8300 20400" rotation="0 0 1 4.37114e-008" unit_id="105941"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 17200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_297" position="52475 -6700 20400" rotation="0 0 1 -1.49012e-007" unit_id="105942"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 17200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_298" position="52475 -5100 20400" rotation="0 0 1 -1.49012e-007" unit_id="105943"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 17200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_299" position="52475 -3500 20400" rotation="0 0 1 -1.49012e-007" unit_id="105944"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 18000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000320434 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_300" position="52475 -3500 21200" rotation="0 0 1 -1.49012e-007" unit_id="105945"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 18000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_301" position="52475 -5100 21200" rotation="0 0 1 -1.49012e-007" unit_id="105946"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 18000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 800" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_302" position="52475 -6700 21200" rotation="0 0 1 -1.49012e-007" unit_id="105947"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 22000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000953674 3200 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_303" position="52475 -6700 22000" rotation="0 0 1 -1.49012e-007" unit_id="105948"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 22000" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0.00143051 4800 0" local_rot="0 0 -1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_050" position="52475 -8300 22000" rotation="0 0 1 4.37114e-008" unit_id="105949"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 18000" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 800" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_051" position="52475 -8300 21200" rotation="0 0 1 4.37114e-008" unit_id="105950"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 22000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_307" position="52475 -3500 22000" rotation="0 0 1 -1.49012e-007" unit_id="105955"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 22000" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000476837 1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_308" position="52475 -5100 22000" rotation="0 0 1 -1.49012e-007" unit_id="105956"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 17200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_309" position="57275 -3500 20400" rotation="0 0 -0.707107 -0.707107" unit_id="105957"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 18000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_310" position="57275 -3500 21200" rotation="0 0 -0.707107 -0.707107" unit_id="105958"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 18800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_311" position="57275 -3500 22000" rotation="0 0 -0.707107 -0.707107" unit_id="105959"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57275 -3500 22725" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-8.39234e-005 -1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_312" position="57275 -3500 22700" rotation="0 0 -0.707107 -0.707107" unit_id="105960"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 17200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_313" position="58875 -3500 20400" rotation="0 0 -0.707107 -0.707107" unit_id="105961"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 18000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_314" position="58875 -3500 21200" rotation="0 0 -0.707107 -0.707107" unit_id="105962"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 18800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_315" position="58875 -3500 22000" rotation="0 0 -0.707107 -0.707107" unit_id="105963"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="58875 -3500 22725" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000320434 -3200 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_316" position="58875 -3500 22700" rotation="0 0 -0.707107 -0.707107" unit_id="105964"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 17200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_317" position="60475 -3500 20400" rotation="0 0 -0.707107 -0.707107" unit_id="105965"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 18000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_318" position="60475 -3500 21200" rotation="0 0 -0.707107 -0.707107" unit_id="105966"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 18800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_319" position="60475 -3500 22000" rotation="0 0 -0.707107 -0.707107" unit_id="105967"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60475 -3500 22725" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_320" position="60475 -3500 22700" rotation="0 0 -0.707107 -0.707107" unit_id="105968"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="57065.3 -6182.2 18600" _prev_rot="0.707107 0 0 -0.707107" continent="world" local_pos="-2682.2 -1390.3 1400" local_rot="-0.5 0.5 -0.5 0.5" name="units/dev_tools/level_tools/shadow_caster_100x100" name_id="shadow_caster_100x100_010" position="57065.3 -6182.2 21800" rotation="0.707107 0 0 -0.707107" unit_id="105969"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 17200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_321" position="62075 -3500 20400" rotation="0 0 -0.707107 -0.707107" unit_id="105970"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 18000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_322" position="62075 -3500 21200" rotation="0 0 -0.707107 -0.707107" unit_id="105971"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 18800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_323" position="62075 -3500 22000" rotation="0 0 -0.707107 -0.707107" unit_id="105972"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -3500 22725" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_324" position="62075 -3500 22700" rotation="0 0 -0.707107 -0.707107" unit_id="105973"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 17200" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_325" position="62075 -5900 20400" rotation="0 0 0 -1" unit_id="105974"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 18000" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_326" position="62075 -5900 21200" rotation="0 0 0 -1" unit_id="105975"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 18000" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_053" position="62075 -4300 21200" rotation="0 0 0 -1" unit_id="105976"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 18800" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_054" position="62075 -4300 22000" rotation="0 0 0 -1" unit_id="105977"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 22725" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_055" position="62075 -4300 22700" rotation="0 0 0 -1" unit_id="105978"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 22725" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_327" position="62075 -5900 22700" rotation="0 0 0 -1" unit_id="105979"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -4300 17200" _prev_rot="0 0 0 -1" continent="world" local_pos="-800 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_056" position="62075 -4300 20400" rotation="0 0 0 -1" unit_id="105980"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 17200" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_328" position="62075 -7500 20400" rotation="0 0 0 -1" unit_id="105981"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 17200" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_329" position="62075 -9100 20400" rotation="0 0 0 -1" unit_id="105982"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 18000" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_330" position="62075 -9100 21200" rotation="0 0 0 -1" unit_id="105983"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 18000" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 800" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_331" position="62075 -7500 21200" rotation="0 0 0 -1" unit_id="105984"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -5900 18800" _prev_rot="0 0 0 -1" continent="world" local_pos="-2400 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_332" position="62075 -5900 22000" rotation="0 0 0 -1" unit_id="105985"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 18800" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_333" position="62075 -7500 22000" rotation="0 0 0 -1" unit_id="105986"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 18800" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_334" position="62075 -9100 22000" rotation="0 0 0 -1" unit_id="105987"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -9100 22725" _prev_rot="0 0 0 -1" continent="world" local_pos="-5600 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_335" position="62075 -9100 22700" rotation="0 0 0 -1" unit_id="105988"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62075 -7500 22725" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_336" position="62075 -7500 22700" rotation="0 0 0 -1" unit_id="105989"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 22800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -0.000255585 0" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_293" position="54075 -3500 22800" rotation="0 0 -0.707107 -0.707107" unit_id="105937"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 22800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_337" position="52475 -3500 22800" rotation="0 0 1 -1.49012e-007" unit_id="105951"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 22800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000476837 1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_338" position="52475 -5100 22800" rotation="0 0 1 -1.49012e-007" unit_id="105952"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 22800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000953674 3200 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_304" position="52475 -6700 22800" rotation="0 0 1 -1.49012e-007" unit_id="105953"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 22800" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0.00143051 4800 0" local_rot="0 0 -1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_052" position="52475 -8300 22800" rotation="0 0 1 4.37114e-008" unit_id="105954"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62350 2100 18350" _prev_rot="0.707107 -0.707107 3.09086e-008 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_16x16m_corner_d" name_id="hcm_ext_roof_16x16m_corner_d_005" position="62350 2100 18350" rotation="0.707107 -0.707107 3.09086e-008 -3.09086e-008" unit_id="105990"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60750 6900 18350" _prev_rot="-1.49012e-007 1 8.47033e-022 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_16x16m_corner_d" name_id="hcm_ext_roof_16x16m_corner_d_006" position="60750 6900 18350" rotation="-1.49012e-007 1 8.47033e-022 4.37114e-008" unit_id="105991"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62350 2100 18350" _prev_rot="0.707107 -0.707107 -3.09086e-008 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_8x16m_d" name_id="hcm_ext_roof_8x16m_d_007" position="63950 2100 18350" rotation="0.707107 -0.707107 -3.09086e-008 -3.09086e-008" unit_id="105992"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="65600 3700 18350" _prev_rot="1 1.49012e-007 4.37114e-008 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_16x16m_corner_d" name_id="hcm_ext_roof_16x16m_corner_d_007" position="65550 3700 18350" rotation="1 1.49012e-007 4.37114e-008 -0" unit_id="105993"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60750 5300 18350" _prev_rot="1 0 4.37114e-008 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_8x16m_d" name_id="hcm_ext_roof_8x16m_d_008" position="60750 5300 18350" rotation="-4.37114e-008 1 -1.91069e-015 4.37114e-008" unit_id="105994"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60750 6900 18350" _prev_rot="1 0 4.37114e-008 -0" continent="world" local_pos="0.000139876 -1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_8x16m_d" name_id="hcm_ext_roof_8x16m_d_009" position="60750 3700 18350" rotation="-4.37114e-008 1 -1.91069e-015 4.37114e-008" unit_id="105995"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="61550 3550 18300" _prev_rot="0.707107 0.707107 3.09086e-008 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_8x16m_b" name_id="hcm_ext_roof_8x16m_b_044" position="61550 3700 18300" rotation="0.707107 0.707107 3.09086e-008 3.09086e-008" unit_id="105996"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="61550 4525 18300" _prev_rot="0.707107 0.707107 3.09086e-008 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_8x16m_b" name_id="hcm_ext_roof_8x16m_b_045" position="61550 4525 18300" rotation="0.707107 0.707107 3.09086e-008 3.09086e-008" unit_id="105997"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="61550 4525 18300" _prev_rot="0.707107 0.707107 3.09086e-008 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_8x16m_b" name_id="hcm_ext_roof_8x16m_b_046" position="61550 7675 18300" rotation="0.707107 0.707107 3.09086e-008 3.09086e-008" unit_id="105998"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="63950 8500 18350" _prev_rot="0.707107 0.707107 -3.09086e-008 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_8x16m_d" name_id="hcm_ext_roof_8x16m_d_010" position="62350 8500 18350" rotation="0.707107 0.707107 -3.09086e-008 3.09086e-008" unit_id="105999"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="64275 8500 18350" _prev_rot="0.707107 0.707107 3.09086e-008 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_16x16m_corner_d" name_id="hcm_ext_roof_16x16m_corner_d_008" position="63950 8500 18350" rotation="0.707107 0.707107 3.09086e-008 3.09086e-008" unit_id="106000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="65475 8500 19150" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_005" position="65475 8525 19150" rotation="-0.707107 0 0 -0.707107" unit_id="106001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60825 8525 19150" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_006" position="60825 8525 19150" rotation="-0.707107 0 0 -0.707107" unit_id="106002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60825 7725 19150" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_007" position="60825 7725 19150" rotation="-0.707107 0 0 -0.707107" unit_id="106003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60825 7725 19150" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_008" position="60825 6125 19150" rotation="-0.707107 0 0 -0.707107" unit_id="106004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60825 6925 19150" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_009" position="60825 6925 19150" rotation="-0.707107 0 0 -0.707107" unit_id="106005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60825 6125 19150" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_010" position="60825 4525 19150" rotation="-0.707107 0 0 -0.707107" unit_id="106006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60825 6925 19150" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 -800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_011" position="60825 5325 19150" rotation="-0.707107 0 0 -0.707107" unit_id="106007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60825 2925 19150" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_012" position="60825 2925 19150" rotation="-0.707107 0 0 -0.707107" unit_id="106008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60825 5325 19150" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 -800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_013" position="60825 3725 19150" rotation="-0.707107 0 0 -0.707107" unit_id="106009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60725 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 -4000" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_014" position="60725 2175 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="61525 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 -3200" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_015" position="61525 2175 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62325 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 -2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_016" position="62325 2175 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="63125 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 -1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_017" position="63125 2175 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="63925 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 -800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_018" position="63925 2175 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="64725 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_019" position="64725 2175 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="64725 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_020" position="64725 8425 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60725 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 -4000" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_021" position="60725 8425 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="61525 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 -3200" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_022" position="61525 8425 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="62325 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 -2400" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_023" position="62325 8425 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106019"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="63125 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 -1600" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_024" position="63125 8425 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106020"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="63925 2175 19150" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 -800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x1m_corner_a" name_id="hcm_ext_8x1m_corner_a_025" position="63925 8425 19150" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="106021"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 22800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_339" position="52475 -3500 23600" rotation="0 0 1 -1.49012e-007" unit_id="106022"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 22800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000476837 1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_340" position="52475 -5100 23600" rotation="0 0 1 -1.49012e-007" unit_id="106023"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 22800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0.000953674 3200 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_305" position="52475 -6700 23600" rotation="0 0 1 -1.49012e-007" unit_id="106024"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 22800" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0.00143051 4800 0" local_rot="0 0 -1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_057" position="52475 -8300 23600" rotation="0 0 1 4.37114e-008" unit_id="106025"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 23600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 -800" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_306" position="54075 -3500 23600" rotation="0 0 -0.707107 -0.707107" unit_id="106026"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -3500 24400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-0.000160217 1600 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_341" position="52475 -3500 24400" rotation="0 0 1 -1.49012e-007" unit_id="106027"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -5100 24400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 1600 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_342" position="52475 -5100 24400" rotation="0 0 1 -1.49012e-007" unit_id="106028"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -6700 24400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_343" position="52475 -6700 24400" rotation="0 0 1 -1.49012e-007" unit_id="106029"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="52475 -8300 23600" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0.00143051 4800 0" local_rot="0 0 -1.92723e-007 1" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_058" position="52475 -8300 24400" rotation="0 0 1 4.37114e-008" unit_id="106030"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="54075 -3500 24400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_344" position="54075 -3500 24400" rotation="0 0 -0.707107 -0.707107" unit_id="106031"/>
 		</table>
 	</statics>
 	<values>
