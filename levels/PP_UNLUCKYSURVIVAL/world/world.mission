@@ -47,7 +47,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="200 100 0"/>
+					<entry key="position" type="vector3" value="200 -1225 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -64,7 +64,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="100 100 0"/>
+					<entry key="position" type="vector3" value="100 -1225 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -81,7 +81,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-25 100 0"/>
+					<entry key="position" type="vector3" value="-25 -1225 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -98,7 +98,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-125 100 0"/>
+					<entry key="position" type="vector3" value="-125 -1225 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -145,7 +145,7 @@
 							<entry key="id" type="number" value="100005"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="98.545 93.6953 25"/>
+					<entry key="position" type="vector3" value="98.545 -1231.3 25"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -363,7 +363,7 @@
 							<entry key="id" type="number" value="100049"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="98.545 93.6953 -4.76837e-005"/>
+					<entry key="position" type="vector3" value="98.545 -1231.3 -4.76837e-005"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>

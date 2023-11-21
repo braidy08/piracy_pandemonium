@@ -590,8 +590,13 @@
 		<unit path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_tcrossing_16x16_il"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16" type="unit">
-		<unit path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16"/>
-		<object path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16"/>
 		<material_config path="units/payday2/architecture/hcm/hcm_backdrop_street"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_mid_road_straight16x16"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain" type="unit">
+		<unit path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain"/>
+		<object path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain_husk"/>
 	</add>
 </table>

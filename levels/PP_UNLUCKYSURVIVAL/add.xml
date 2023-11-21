@@ -337,8 +337,48 @@
 		<unit path="units/payday2/architecture/hcm/hcm_ext_3x8m_a"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_ext_framingframe3_rooftop_a" type="unit">
-		<unit path="units/payday2/architecture/hcm/hcm_ext_framingframe3_rooftop_a"/>
-		<object path="units/payday2/architecture/hcm/hcm_ext_framingframe3_rooftop_a"/>
 		<material_config path="units/payday2/architecture/hcm/hcm_ext_framingframe3_rooftop_a"/>
+		<object path="units/payday2/architecture/hcm/hcm_ext_framingframe3_rooftop_a"/>
+		<unit path="units/payday2/architecture/hcm/hcm_ext_framingframe3_rooftop_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_rollupgaragedoor_a" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_garagedoor01"/>
+		<object path="units/payday2/architecture/ind/ind_ext_rollupgaragedoor_a"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_rollupgaragedoor_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/shadow_mullplan/mullplan_vehicle_light" type="unit">
+		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
+		<object path="units/payday2/props/shadow_mullplan/mullplan_vehicle_light"/>
+		<unit path="units/payday2/props/shadow_mullplan/mullplan_vehicle_light"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/shadow_mullplan/mullplan_vehicle_small" type="unit">
+		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
+		<object path="units/payday2/props/shadow_mullplan/mullplan_vehicle_small"/>
+		<unit path="units/payday2/props/shadow_mullplan/mullplan_vehicle_small"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/shadow_mullplan/vit_mullplan_long_01" type="unit">
+		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
+		<object path="units/payday2/props/shadow_mullplan/vit_mullplan_long_01"/>
+		<unit path="units/payday2/props/shadow_mullplan/vit_mullplan_long_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/ind_container_mul/mullplan_container" type="unit">
+		<material_config path="units/pd2_dlc_cro/ind_container_mul/mullplan_container"/>
+		<object path="units/pd2_dlc_cro/ind_container_mul/mullplan_container"/>
+		<unit path="units/pd2_dlc_cro/ind_container_mul/mullplan_container"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/shadow_mullplan/vit_mullplan_short_03" type="unit">
+		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
+		<object path="units/payday2/props/shadow_mullplan/vit_mullplan_short_03"/>
+		<unit path="units/payday2/props/shadow_mullplan/vit_mullplan_short_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02" type="unit">
+		<unit path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02"/>
+		<object path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02"/>
+		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
 	</add>
 </table>
