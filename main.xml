@@ -165,6 +165,7 @@
 		<achievement hidden_achievement="true" id="PP_FEETPICS" rank="3" reward_amount="6" reward_type="cc"/>
 		<achievement hidden_achievement="true" id="PP_ESCAPEDAYCOMPLETED" rank="3" reward_amount="6" reward_type="cc"/>
 		<achievement hidden_achievement="true" id="PP_SURVIVALDAY" rank="4" reward_amount="20" reward_type="cc"/>
+		<achievement icon="guis/textures/mods/icons/copkiller_icon" id="PP_KILLEDCOPSSPEED" rank="2"/>
 		<achievement id="PP_ESCAPEALLLOOT" rank="1"/>
 		<achievement id="PP_NORMAL" rank="1"/>
 		<achievement id="PP_HARD" rank="1"/>
@@ -177,6 +178,7 @@
 	</Achievements>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/textures/mods/icons/piracy_icon"/>
+		<texture path="guis/textures/mods/icons/copkiller_icon"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_df"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>

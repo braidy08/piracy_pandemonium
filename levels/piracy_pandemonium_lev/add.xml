@@ -596,7 +596,47 @@
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain" type="unit">
 		<unit path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain"/>
-		<object path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain"/>
 		<unit load="true" path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain_husk"/>
+		<object path="units/pd2_dlc_bph/characters/ene_male_bain/ene_male_bain"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_airport" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_airport"/>
+		<unit path="units/payday2/mockup/occluder_airport"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_diamond" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_diamond"/>
+		<unit path="units/payday2/mockup/occluder_diamond"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_cage_01" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_cage_01"/>
+		<unit path="units/payday2/mockup/occluder_cage_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_escape_overpass" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_escape_overpass"/>
+		<unit path="units/payday2/mockup/occluder_escape_overpass"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_firestarter_01" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_firestarter_01"/>
+		<unit path="units/payday2/mockup/occluder_firestarter_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_arm_hcm" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_arm_hcm"/>
+		<unit path="units/payday2/mockup/occluder_arm_hcm"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_arm_cro" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_arm_cro"/>
+		<unit path="units/payday2/mockup/occluder_arm_cro"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_safehouse" type="unit">
+		<unit path="units/payday2/mockup/occluder_safehouse"/>
+		<object path="units/payday2/mockup/occluder_safehouse"/>
+		<material_config path="units/payday2/mockup/occluder_plane"/>
 	</add>
 </table>

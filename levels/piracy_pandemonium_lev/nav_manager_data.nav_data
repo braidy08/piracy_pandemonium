@@ -8782,13 +8782,15 @@
 			</entry>
 		</entry>
 		<entry index="12" type="table">
+			<entry key="disabled_neighbours" type="table">
+				<entry index="13" type="table">
+					<entry index="1" type="number" value="1379"/>
+				</entry>
+			</entry>
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="10" type="table">
 					<entry index="1" type="number" value="1115"/>
-				</entry>
-				<entry index="13" type="table">
-					<entry index="1" type="number" value="1379"/>
 				</entry>
 			</entry>
 			<entry key="pos" type="vector3" value="-15.7826 5208.66 400"/>
@@ -8798,11 +8800,13 @@
 		</entry>
 		<entry index="13" type="table">
 			<entry key="blocked_group" type="string" value="enemies"/>
-			<entry key="location_id" type="string" value="location_unknown"/>
-			<entry key="neighbours" type="table">
+			<entry key="disabled_neighbours" type="table">
 				<entry index="12" type="table">
 					<entry index="1" type="number" value="1379"/>
 				</entry>
+			</entry>
+			<entry key="location_id" type="string" value="location_unknown"/>
+			<entry key="neighbours" type="table">
 			</entry>
 			<entry key="pos" type="vector3" value="-27.8455 6562.75 400"/>
 			<entry key="vis_groups" type="table">
