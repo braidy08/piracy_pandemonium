@@ -16976,7 +16976,7 @@
 			<unit_data _prev_pos="22411.9 -5257.79 3.72529e-007" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_born/architecture/bor_clubhouse/bor_clubhouse" name_id="bor_clubhouse_001" position="22411.9 -5257.79 3.72529e-007" rotation="0 0 0 -1" unit_id="105533"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="24664.4 -1676.73 4.61936e-005" _prev_rot="0 0 0.965926 0.258819" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_004" position="24664.4 -1676.73 4.61936e-005" rotation="0 0 0.965926 0.258819" unit_id="105534">
+			<unit_data _prev_pos="24664.4 -1676.73 0" _prev_rot="0 0 0.965926 0.258819" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_004" position="24664.4 -1676.73 0" rotation="0 0 0.965926 0.258819" unit_id="105534">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -18441,6 +18441,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="54075 -3500 24400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_344" position="54075 -3500 24400" rotation="0 0 -0.707107 -0.707107" unit_id="106031"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="33250 5450 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_001" only_visible_in_editor="true" position="33200 5450 0" rotation="0 0 0 -1" unit_id="106032"/>
 		</table>
 	</statics>
 	<values>

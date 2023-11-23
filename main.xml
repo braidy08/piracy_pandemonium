@@ -184,8 +184,8 @@
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>
 	</AddFiles>
 	<AssetUpdates branch="master" id="braidy08/piracy_pandemonium" provider="github"/>
-	<Localization default="english.json" directory="loc">
-		<loc file="english.json" language="english"/>
+	<Localization default="english.yaml" directory="loc">
+		<loc file="english.yaml" language="english"/>
 	</Localization>
 	<Package file="packagedata/mod_bain/add.xml" id="modpackages/mod_bain"/>
 	<narrative briefing_event="" contact="custom" icon="guis/textures/mods/icons/piracy_icon" id="piracy_pandemonium_nar">

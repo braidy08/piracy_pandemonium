@@ -3119,8 +3119,18 @@
 		<unit path="units/world/props/street/streetplanters_vision_blocker"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_pent/architecture/int/pent_int_penthouse_b/ai_vision_blocker/pent_vision_blocker" type="unit">
-		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_penthouse_b/ai_vision_blocker/pent_vision_blocker"/>
-		<object path="units/pd2_dlc_pent/architecture/int/pent_int_penthouse_b/ai_vision_blocker/pent_vision_blocker"/>
 		<material_config path="units/pd2_dlc_pent/architecture/int/pent_int_penthouse_b/ai_vision_blocker/pent_vision_blocker"/>
+		<object path="units/pd2_dlc_pent/architecture/int/pent_int_penthouse_b/ai_vision_blocker/pent_vision_blocker"/>
+		<unit path="units/pd2_dlc_pent/architecture/int/pent_int_penthouse_b/ai_vision_blocker/pent_vision_blocker"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x5x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x5x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x5x3"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>
