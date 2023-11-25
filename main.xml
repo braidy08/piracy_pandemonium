@@ -1,5 +1,5 @@
 <table min_lib_ver="4.5" name="piracy_pandemonium">
-	<level ai_group_type="america" briefing_dialog="pp_briefing" id="piracy_pandemonium_lev" intro_event="Intro2" max_bags="999" player_style="generic">
+	<level ai_group_type="america" briefing_dialog="pp_briefing" id="piracy_pandemonium_lev" intro_event="Intro2" max_bags="999" player_style="generic" load_screen="guis/textures/mods/icons/PP_LOADINGSCREEN">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -178,6 +178,7 @@
 	</Achievements>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/textures/mods/icons/piracy_icon"/>
+		<texture load="true" path="guis/textures/mods/icons/PP_LOADINGSCREEN"/>
 		<texture path="guis/textures/mods/icons/copkiller_icon"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_df"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il"/>
