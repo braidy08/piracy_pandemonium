@@ -1,5 +1,5 @@
 <table min_lib_ver="4.5" name="piracy_pandemonium">
-	<level ai_group_type="america" briefing_dialog="pp_briefing" id="piracy_pandemonium_lev" intro_event="Intro2" max_bags="999" player_style="generic" load_screen="guis/textures/mods/icons/PP_LOADINGSCREEN">
+	<level ai_group_type="america" briefing_dialog="pp_briefing" id="piracy_pandemonium_lev" intro_event="Intro2" load_screen="guis/textures/mods/icons/PP_LOADINGSCREEN" max_bags="999" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -158,6 +158,31 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<instance id="PP_spawn_hallway">
+		<add directory="assets"/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_street/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="PP_spawn_hallway_int">
+		<add directory="assets"/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_street/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
+	<instance id="PP_truck_map_edge">
+		<add directory="assets"/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_overpass/world/world"/>
+			<value_node value="levels/narratives/continental/fish/editor_only/editor_only"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
 	<Achievements id="PP_ACHIEVEMENTS">
 		<achievement id="PP_250BAGS" rank="3" reward_amount="12" reward_type="cc"/>
 		<achievement id="PP_1000BAGS" rank="4" reward_amount="15" reward_type="cc"/>
