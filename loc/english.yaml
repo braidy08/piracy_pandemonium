@@ -1,29 +1,50 @@
 ---
-# i converted this to yaml just so i can comment lmao
+# Custom bags
 hud_carry_bainbag: Bain
 hud_carry_moviebag: Adam Sandler Movie
 hud_carry_bainfeetpics: Bain Feet Pics
+
+# Custom PONR
+
 hud_assault_point_no_holyshityoudroppedbain: 'you killed bain:'
 hud_assault_point_no_OMGGETTHEHELLOUT: 'Overwhelmed in:'
+
+# Custom interactions
+
 hud_int_hold_take_bain: Hold $BTN_INTERACT to pickup the bain
+
+# Heist names
+
 heist_piracy_pandemonium_nar_brief: "Alright, clowns. Hope you've brought some popcorn, cause this time we'll be doing some good ole' movie piracy. An inside man rented a run down hotel and put a laptop in there, so all you need to worry about is stealing movies. \n\n»Steal Movies \n»??? \n»Escape"
 heist_piracy_pandemonium_nar_name: Piracy Pandemonium
 heist_piracy_pandemonium_lev_brief: Okay, gang. I found a cool movie piracy website called MoviesFreeNoVirus.gov. It seems to be perfectly legitimate, so I'm taking  you guys to an old, run down hotel so the police don't get suspicious. I had an inside man rent a room for the night and put a laptop with the site in our room, so all you guys have to worry about is steal some movies and getting out when you're done. Hopefully this job is easier than some of the others ones we did.
 heist_PP_ALTESCAPEDAY_name: The Streets
 heist_PP_ALTESCAPEDAY_brief: FUCK the cops are still on our asses. (totally not a placeholder)
 heist_piracy_pandemonium_lev_name: The Apartments
+
+# Subtitles
+
 intro2_01: Okay guys, this should be the place.
 intro2_02: Get outta the van and enter through the gate, I'll tell you what to do from there.
 intro2_03: Man, who woulda thought it'd be here huh...
-intro1: Okay guys, this is the place... I think. Get outta the van and enter through the gate, I'll guide you from there. Is it really a coincidence that it's here of all places?
+
+# Objectives
+
 getyogoofygoobertothedamnlappy: Get to the laptop
-getyogoofygoobertothedamnlappy_desc: STOP READING THIS AND GET TO THE LAPTOP
+getyogoofygoobertothedamnlappy_desc: ''
 moviesman: Pirate movies
-moviesman_desc: do i really need to give you a description
+moviesman_desc: ''
 OHGODHEISHURTY: Secure Bain
-OHGODHEISHURTY_desc: HOLY SHIT BAIN
+OHGODHEISHURTY_desc: ''
 escapeordontidc: Escape or pirate more movies
-escapeordontidc_desc: cant you read???
+escapeordontidc_desc: ''
+PP_RESTARTWIFI: Restart the internet
+PP_RESTARTWIFI_desc: ''
+PP_TURNPOWERON: Turn the power back on
+PP_TURNPOWERON_desc: ''
+
+# Achievements
+
 PP_ACHIEVEMENTS_name: Piracy Pandemonium Achievements
 PP_NORMAL_name: Normal
 PP_NORMAL_desc: ''
@@ -76,3 +97,8 @@ PP_KILLEDCOPSSPEED_objective: Kill one of the two police in under 10 seconds aft
 PP_DOMINATEDCOPS_name: Best frenemies
 PP_DOMINATEDCOPS_desc: ''
 PP_DOMINATEDCOPS_objective: Dominate both of the police that arrive after pirating 1 movie.
+
+
+# Unused Remove in the future!!!
+
+intro1: Okay guys, this is the place... I think. Get outta the van and enter through the gate, I'll guide you from there. Is it really a coincidence that it's here of all places?

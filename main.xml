@@ -190,6 +190,9 @@
 		<loc file="english.yaml" language="english"/>
 	</Localization>
 	<Package file="packagedata/mod_bain/add.xml" id="modpackages/mod_bain"/>
+	<hooks directory="hooks">
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</hooks>
 	<narrative briefing_event="" contact="custom" icon="guis/textures/mods/icons/piracy_icon" id="piracy_pandemonium_nar">
 		<chain>
 			<table level_id="piracy_pandemonium_lev" type="d" type_id="heist_type_assault"/>
