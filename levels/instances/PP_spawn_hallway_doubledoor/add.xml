@@ -1,0 +1,24 @@
+<table directory="assets">
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2" type="unit">
+		<unit path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<object path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<material_config path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<effect load="true" path="effects/payday2/environment/drill"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+	</add>
+</table>

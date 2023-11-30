@@ -166,6 +166,15 @@
 		</packages>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
+	<instance id="PP_spawn_hallway_doubledoor">
+		<add directory="assets"/>
+		<packages>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_street/world/world"/>
+			<value_node value="levels/narratives/locke/bph/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
 	<instance id="PP_spawn_hallway_int">
 		<add directory="assets"/>
 		<packages>
