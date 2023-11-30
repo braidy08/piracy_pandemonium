@@ -3203,8 +3203,39 @@
 		<unit path="units/dev_tools/level_tools/navigation/navigation_blocker_01m_square"/>
 	</add>
 	<add from_db="true" path="units/payday2/mockup/occluder_plane_16x16" type="unit">
-		<unit path="units/payday2/mockup/occluder_plane_16x16"/>
-		<object path="units/payday2/mockup/occluder_plane_16x16"/>
 		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_plane_16x16"/>
+		<unit path="units/payday2/mockup/occluder_plane_16x16"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_plane_8x8" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_plane_8x8"/>
+		<unit path="units/payday2/mockup/occluder_plane_8x8"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/ai_blockade" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/ai_blockade"/>
+		<unit path="units/dev_tools/level_tools/ai_blockade"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_equipment_forbidden_collision/dev_equipment_forbidden_collision_1x1m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_equipment_forbidden_collision/dev_equipment_forbidden_collision_1x1m"/>
+		<unit path="units/dev_tools/level_tools/dev_equipment_forbidden_collision/dev_equipment_forbidden_collision_1x1m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_equipment_forbidden_collision/dev_equipment_forbidden_collision_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_equipment_forbidden_collision/dev_equipment_forbidden_collision_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_equipment_forbidden_collision/dev_equipment_forbidden_collision_1x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/target_hitbox/target_hitbox" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+		<sequence_manager path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+		<unit path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/waitng_camera_helper/waiting_camera_helper" type="unit">
+		<unit path="units/dev_tools/level_tools/waitng_camera_helper/waiting_camera_helper"/>
+		<object path="units/dev_tools/level_tools/waitng_camera_helper/waiting_camera_helper"/>
+		<material_config path="units/dev_tools/level_tools/waitng_camera_helper/waiting_camera_helper"/>
 	</add>
 </table>
