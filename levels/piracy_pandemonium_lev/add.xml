@@ -735,10 +735,45 @@
 		<unit path="units/pd2_dlc_casino/architecture/cas_computer_it_room/cas_computer_it_room"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer" type="unit">
-		<unit path="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer"/>
-		<object path="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer"/>
-		<material_config path="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer"/>
-		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer"/>
 		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_security_computer/cas_prop_security_computer"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x2x2m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x2x2m"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x2x2m"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x2x2m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x6x12m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x6x12m"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x6x12m"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_001x6x12m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2" type="unit">
+		<unit path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<object path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<material_config path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<effect load="true" path="effects/payday2/environment/drill"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
 	</add>
 </table>

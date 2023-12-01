@@ -2,7 +2,7 @@
 	<entry key="ambience_enabled" type="boolean" value="true"/>
 	<entry key="default_ambience" type="string" value="ambience_ext_big_city_day"/>
 	<entry key="default_environment" type="string" value="acoustics_outdoor_medium"/>
-	<entry key="default_occasional" type="string" value="occasionals_silent"/>
+	<entry key="default_occasional" type="string" value="occasionals_skyscraper"/>
 	<entry key="sound_area_emitters" type="table">
 	</entry>
 	<entry key="sound_emitters" type="table">
@@ -14,7 +14,7 @@
 			<entry key="environment" type="string" value="acoustics_outdoor_small"/>
 			<entry key="height" type="number" value="1000"/>
 			<entry key="name" type="string" value="none"/>
-			<entry key="occasional_event" type="string" value="occasionals_silent"/>
+			<entry key="occasional_event" type="string" value="occasionals_skyscraper"/>
 			<entry key="position" type="vector3" value="-803.458 5.09741 3.72529e-007"/>
 			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 			<entry key="type" type="string" value="box"/>

@@ -377,8 +377,64 @@
 		<unit path="units/payday2/props/shadow_mullplan/vit_mullplan_short_03"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02" type="unit">
-		<unit path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02"/>
-		<object path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02"/>
 		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
+		<object path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02"/>
+		<unit path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player" type="unit">
+		<animation_def path="anims/units/van/van"/>
+		<animation_state_machine path="anims/units/van/van"/>
+		<animation_states path="anims/units/van/std"/>
+		<animation_subset path="anims/units/van/std"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
+		<sequence_manager path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
+		<unit path="units/payday2/vehicles/anim_vehicle_van_player/anim_vehicle_van_player"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_bdrop_far_01_cars" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_backdrop"/>
+		<object path="units/payday2/architecture/hcm/hcm_bdrop_far_01_cars"/>
+		<unit path="units/payday2/architecture/hcm/hcm_bdrop_far_01_cars"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_van_alex_1/str_vehicle_van_alex_1" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_van_alex_1/str_vehicle_van_alex_1"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_van_alex_1/str_vehicle_van_alex_1"/>
+		<unit path="units/payday2/vehicles/str_vehicle_van_alex_1/str_vehicle_van_alex_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse"/>
+		<unit path="units/payday2/vehicles/str_vehicle_van_anim_shouse/str_vehicle_van_anim_shouse"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_van_escape_overpass/str_vehicle_van_escape_overpass" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_van_escape_overpass/str_vehicle_van_escape_overpass"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_van_escape_overpass/str_vehicle_van_escape_overpass"/>
+		<unit path="units/payday2/vehicles/str_vehicle_van_escape_overpass/str_vehicle_van_escape_overpass"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_van_escape_park_3/str_vehicle_van_escape_park_3" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_van_escape_park_3/str_vehicle_van_escape_park_3"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_van_escape_park_3/str_vehicle_van_escape_park_3"/>
+		<unit path="units/payday2/vehicles/str_vehicle_van_escape_park_3/str_vehicle_van_escape_park_3"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_van_escape_park_2/str_vehicle_van_escape_park_2" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/vehicles/str_vehicle_van_escape_park_2/str_vehicle_van_escape_park_2"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_van_escape_park_2/str_vehicle_van_escape_park_2"/>
+		<unit path="units/payday2/vehicles/str_vehicle_van_escape_park_2/str_vehicle_van_escape_park_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_van_escape_park_1/str_vehicle_van_escape_park_1" type="unit">
+		<unit path="units/payday2/vehicles/str_vehicle_van_escape_park_1/str_vehicle_van_escape_park_1"/>
+		<object path="units/payday2/vehicles/str_vehicle_van_escape_park_1/str_vehicle_van_escape_park_1"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_van_escape_park_1/str_vehicle_van_escape_park_1"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 	</add>
 </table>
