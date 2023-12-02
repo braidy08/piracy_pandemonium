@@ -19666,6 +19666,18 @@
 		<table>
 			<unit_data _prev_pos="56653.2 -4771.44 23350" _prev_rot="0 0 0.906308 0.422618" continent="world" local_pos="0 -200 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_wall_2m_a" name_id="mkp_int_wall_2m_a_025" position="56396.1 -4465.02 23350" rotation="0 0 -0.906308 -0.422618" unit_id="106421"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="57875.3 -7978.26 23650" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_004" position="57875.3 -7978.26 23625" rotation="-0.707107 0 0 -0.707107" unit_id="106422">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="1.58" render_template="Text" text="I GOT NO MOTIVATION RN SO PROBABLY NOT FOR AWHILE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
