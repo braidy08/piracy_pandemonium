@@ -578,31 +578,6 @@
 		<object path="units/dev_tools/editable_text_long/editable_text_long"/>
 		<unit path="units/dev_tools/editable_text_long/editable_text_long"/>
 	</add>
-	<add from_db="true" path="units/equipment/c4_charge/c4_plantable" type="unit" used="true">
-		<material_config path="units/equipment/c4_charge/c4_plantable"/>
-		<object path="units/equipment/c4_charge/c4_plantable"/>
-		<sequence_manager path="units/equipment/c4_charge/c4_plantable"/>
-		<unit path="units/equipment/c4_charge/c4_plantable"/>
-	</add>
-	<add from_db="true" path="units/equipment/c4_charge_special/c4_plantable_special" type="unit" used="true">
-		<material_config path="units/equipment/c4_charge_special/c4_plantable_special"/>
-		<object path="units/equipment/c4_charge_special/c4_plantable_special"/>
-		<sequence_manager path="units/equipment/c4_charge_special/c4_plantable_special"/>
-		<unit path="units/equipment/c4_charge_special/c4_plantable_special"/>
-	</add>
-	<add from_db="true" path="units/equipment/c4_charge/c4_diffusible" type="unit" used="true">
-		<material_config path="units/equipment/c4_charge/c4_diffusible"/>
-		<object path="units/equipment/c4_charge/c4_diffusible"/>
-		<sequence_manager path="units/equipment/c4_charge/c4_diffusible"/>
-		<unit path="units/equipment/c4_charge/c4_diffusible"/>
-	</add>
-	<add from_db="true" path="units/equipment/c4_charge/gen_plantable_c4_x10" type="unit" used="true">
-		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
-		<material_config path="units/equipment/c4_charge/c4_mission_door"/>
-		<object path="units/equipment/c4_charge/gen_plantable_c4_x10"/>
-		<sequence_manager path="units/equipment/c4_charge/gen_plantable_c4_x10"/>
-		<unit path="units/equipment/c4_charge/gen_plantable_c4_x10"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives" type="unit" used="true">
 		<object path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
 		<sequence_manager path="units/pd2_dlc1/pickups/gen_pku_c4_explosives/gen_pku_c4_explosives"/>
@@ -613,12 +588,6 @@
 		<object path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4"/>
 		<sequence_manager path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4"/>
 		<unit path="units/pd2_dlc_jolly/equipment/gen_plant_c4/gen_plant_c4"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_chas/pickups/chas_pku_invis_c4/chas_pku_invis_c4" type="unit" used="true">
-		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_invis_c4/chas_pku_invis_c4"/>
-		<object path="units/pd2_dlc_chas/pickups/chas_pku_invis_c4/chas_pku_invis_c4"/>
-		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_invis_c4/chas_pku_invis_c4"/>
-		<unit path="units/pd2_dlc_chas/pickups/chas_pku_invis_c4/chas_pku_invis_c4"/>
 	</add>
 	<add from_db="true" path="units/payday2/vehicles/str_vehicle_big_truck/str_vehicle_big_truck" type="unit" used="true">
 		<material_config path="units/payday2/vehicles/str_vehicle_big_truck/str_vehicle_big_truck"/>
