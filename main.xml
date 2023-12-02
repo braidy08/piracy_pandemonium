@@ -134,7 +134,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" briefing_dialog="" id="PP_UNLUCKYSURVIVAL" intro_event="" max_bags="54" player_style="generic" repossess_bags="true">
+	<level ai_group_type="america" briefing_dialog="" id="PP_UNLUCKYSURVIVAL" intro_event="" max_bags="999" player_style="generic" repossess_bags="true">
 		<assets/>
 		<hooks directory="hooks">
 			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
@@ -150,7 +150,13 @@
 		<packages>
 			<value_node value="levels/narratives/escapes/escape_cafe/world/world"/>
 			<value_node value="levels/narratives/armadillo/arm_hcm/world/world"/>
+			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
+			<value_node value="levels/narratives/escapes/escape_street/world/world"/>
+			<value_node value="levels/narratives/locke/bph/world"/>
+			<value_node value="levels/narratives/continental/fish/editor_only/editor_only"/>
 			<value_node value="levels/narratives/escapes/escape_park/backdrop/backdrop"/>
+			<value_node value="levels/narratives/mcshay/trai/world"/>
+			<value_node value="packages/narr_hvh"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

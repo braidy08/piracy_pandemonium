@@ -109,13 +109,7 @@
 				<value_node value="100370"/>
 				<value_node value="100371"/>
 				<value_node value="100372"/>
-				<value_node value="100373"/>
-				<value_node value="100374"/>
-				<value_node value="100375"/>
-				<value_node value="100376"/>
 				<value_node value="100377"/>
-				<value_node value="100378"/>
-				<value_node value="100379"/>
 				<value_node value="100380"/>
 				<value_node value="100381"/>
 				<value_node value="100382"/>
@@ -1120,32 +1114,7 @@
 			<unit_data _prev_pos="-127 6305 670.339" _prev_rot="0 0 1 -0" continent="world" local_pos="-506 599 229.339" local_rot="0 0 -0.707107 -0.707107" name="units/world/props/apartment/fire_bell/fire_bell_01" name_id="fire_bell_01_002" position="-127 6305 670.679" rotation="0 0 1 0" unit_id="100372"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="466 6398 399.659" _prev_rot="0 0 1 2.68221e-007" continent="world" local_pos="-413 6 -41.341" local_rot="-0 0 -0.707107 -0.707107" name="units/world/props/apartment/bathtub/apartment_bathtub" name_id="apartment_bathtub_004" position="466 6398 399.999" rotation="0 0 1 2.68221e-007" unit_id="100373"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="385 6307 563.546" _prev_rot="0 0 0 -1" continent="world" local_pos="-504 87 122.546" local_rot="0 0 -0.707107 0.707107" name="units/world/props/apartment/bathroom_mirror/bathroom_mirror" name_id="bathroom_mirror_002" position="385 6307 563.886" rotation="0 0 0 -1" unit_id="100374"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="311 6562 399.659" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-249 161 -41.341" local_rot="0 0 0 1" name="units/world/props/apartment/toilet/apartment_toilet" name_id="apartment_toilet_004" position="311 6562 399.999" rotation="0 0 -0.707107 -0.707107" unit_id="100375"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="297 6540 407.659" _prev_rot="-5.96046e-008 0.707107 -5.96046e-008 -0.707107" continent="world" local_pos="-271 175 -33.341" local_rot="-0.5 -0.5 -0.5 0.5" name="units/world/props/apartment/toiletpaper_roll/toiletpaper_roll" name_id="toiletpaper_roll_004" position="297 6540 407.999" rotation="-5.96046e-008 0.707107 -5.96046e-008 -0.707107" unit_id="100376"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="500.99 6256.01 399.659" _prev_rot="0 0 -0.707106 -0.707108" continent="world" local_pos="-554.99 -28.99 -41.341" local_rot="0 0 -1.40071e-006 1" name="units/payday2/architecture/res_apartments/res_apartment_8x8m_v2" name_id="res_apartment_8x8m_v2_001" position="500.99 6256.01 399.999" rotation="0 0 -0.707106 -0.707108" unit_id="100377"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="281 6531 407.659" _prev_rot="-5.96046e-008 0.707107 -5.96046e-008 -0.707107" continent="world" local_pos="-280 191 -33.341" local_rot="-0.5 -0.5 -0.5 0.5" name="units/world/props/apartment/toiletpaper_roll/toiletpaper_roll" name_id="toiletpaper_roll_005" position="281 6531 407.999" rotation="-5.96046e-008 0.707107 -5.96046e-008 -0.707107" unit_id="100378"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="401 6431 699.659" _prev_rot="0 0 1 -0" continent="world" local_pos="-380 71 258.659" local_rot="0 0 -0.707107 -0.707107" name="units/world/props/apartment/hanging_lightbulb/hanging_lightbulb" name_id="hanging_lightbulb_017" position="401 6431 699.999" projection_light="lo_omni" rotation="0 0 1 0" unit_id="100379">
-				<lights>
-					<table clipping_values="10000 -10000 0" color="0.972549 0.854902 0.580392" enabled="true" falloff_exponent="6.6" far_range="550" multiplier="@ID748ce7d9371994d6@" name="lo_omni" near_range="0" spot_angle_end="-1" spot_angle_start="-1"/>
-				</lights>
-				<projection_lights>
-					<lo_omni x="64" y="64"/>
-				</projection_lights>
-			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="98 6631 699.659" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-180 374 258.659" local_rot="0 0 -1 0" name="units/world/props/apartment/hanging_lightbulb/hanging_lightbulb" name_id="hanging_lightbulb_001" position="98 6631 699.999" projection_light="lo_omni" rotation="0 0 0.707107 -0.707107" unit_id="100380">
@@ -5886,7 +5855,7 @@
 			<unit_data _prev_pos="6350 7175 -4650" _prev_rot="0 0 0 -1" continent="world" local_pos="7800 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_run/architecture/run_ext_skyscrape_02/run_ext_skyscrape_02_top_20x40" name_id="run_ext_skyscrape_02_top_20x40_005" position="6350 7175 -5400" rotation="0 0 0 -1" unit_id="101895"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3200 1575 825" _prev_rot="0 0 0 -1" continent="world" local_pos="-1600 -800 0" local_rot="0 0 0 1" name="units/payday2/architecture/lcm_b/lcm_b_ext_roof4_plane_8x8m_a" name_id="lcm_b_ext_roof4_plane_8x8m_a_078" position="3200 1575 825" rotation="0 0 0 -1" unit_id="101896"/>
+			<unit_data _prev_pos="3200 1575 825" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lcm_b/lcm_b_ext_roof4_plane_8x8m_a" name_id="lcm_b_ext_roof4_plane_8x8m_a_078" position="3200 1575 825" rotation="0 0 0 -1" unit_id="101896"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="3200 2375 825" _prev_rot="0 0 0 -1" continent="world" local_pos="-1600 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lcm_b/lcm_b_ext_roof4_plane_8x8m_a" name_id="lcm_b_ext_roof4_plane_8x8m_a_079" position="3200 2375 825" rotation="0 0 0 -1" unit_id="101900"/>
