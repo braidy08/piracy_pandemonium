@@ -157,6 +157,7 @@
 			<value_node value="levels/narratives/escapes/escape_park/backdrop/backdrop"/>
 			<value_node value="levels/narratives/mcshay/trai/world"/>
 			<value_node value="packages/narr_hvh"/>
+			<value_node value="levels/narratives/classics/glace/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -226,13 +227,13 @@
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>
 	</AddFiles>
 	<AssetUpdates branch="master" id="braidy08/piracy_pandemonium" provider="github"/>
+	<Hooks directory="hooks">
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+	</Hooks>
 	<Localization default="english.yaml" directory="loc">
 		<loc file="english.yaml" language="english"/>
 	</Localization>
 	<Package file="packagedata/mod_bain/add.xml" id="modpackages/mod_bain"/>
-	<Hooks directory="hooks">
-		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
-	</Hooks>
 	<narrative briefing_event="" contact="custom" icon="guis/textures/mods/icons/piracy_icon" id="piracy_pandemonium_nar">
 		<chain>
 			<table level_id="piracy_pandemonium_lev" type="d" type_id="heist_type_assault"/>
