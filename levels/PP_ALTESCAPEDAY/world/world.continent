@@ -12,6 +12,7 @@
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway_doubledoor/world" index_size="250" name="PP_spawn_hallway_doubledoor_001" position="31674.3 4710.18 -0.256805" rotation="0 0 1 -5.96046e-008" script="default" start_index="2000"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway_doubledoor/world" index_size="250" name="PP_spawn_hallway_doubledoor_002" position="31675.7 5089.82 -0.256805" rotation="0 0 -8.9407e-008 -1" script="default" start_index="2250"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_004" position="40274.9 -1899.7 -4.56886" rotation="-0 0 5.96046e-008 1" script="default" start_index="2500"/>
+		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_005" position="20495 4700 -600" rotation="0 0 0.707107 -0.707107" script="default" start_index="2750"/>
 	</instances>
 	<statics>
 		<table>
@@ -1723,9 +1724,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="20450 6100 -600" _prev_rot="0 0 0 -1" continent="world" local_pos="-19.315 348.17 940.4" local_rot="0 -0.707107 0 0.707107" name="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_a" name_id="hwy_ext_road_underpass_wall_tile_8x6m_a_027" position="20425 6100 -600" rotation="0 0 0 -1" unit_id="100621"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="20450 5300 -600" _prev_rot="0 0 0 -1" continent="world" local_pos="-19.315 -451.83 940.4" local_rot="0 -0.707107 0 0.707107" name="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_a" name_id="hwy_ext_road_underpass_wall_tile_8x6m_a_028" position="20425 5300 -600" rotation="0 0 0 -1" unit_id="100622"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="20450 4500 -600" _prev_rot="0 0 0 -1" continent="world" local_pos="-19.315 -1251.83 940.4" local_rot="0 -0.707107 0 0.707107" name="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_tile_8x6m_a" name_id="hwy_ext_road_underpass_wall_tile_8x6m_a_029" position="20425 4500 -600" rotation="0 0 0 -1" unit_id="100623"/>
@@ -5961,10 +5959,10 @@
 			<unit_data _prev_pos="15075 3775 0" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" name_id="dev_vehicle_collision_16x32m_011" only_visible_in_editor="true" position="15100 3775 0" rotation="0 0 1 -0" unit_id="100535"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="19700 3600 -625" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" name_id="dev_vehicle_collision_16x32m_012" only_visible_in_editor="true" position="19700 3575 -625" rotation="0 0 -0.707107 -0.707107" unit_id="100536"/>
+			<unit_data _prev_pos="19700 3575 -625" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 1600 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" name_id="dev_vehicle_collision_16x32m_012" only_visible_in_editor="true" position="19700 2325 -625" rotation="0 0 -0.707107 -0.707107" unit_id="100536"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="19700 3575 -625" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" name_id="dev_vehicle_collision_16x32m_013" only_visible_in_editor="true" position="21300 3575 -625" rotation="0 0 -0.707107 -0.707107" unit_id="100557"/>
+			<unit_data _prev_pos="21300 3575 -625" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_16x32m" name_id="dev_vehicle_collision_16x32m_013" only_visible_in_editor="true" position="21300 2325 -625" rotation="0 0 -0.707107 -0.707107" unit_id="100557"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="18000 3375 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_4x32m" name_id="dev_vehicle_collision_4x32m_001" only_visible_in_editor="true" position="18125 3375 0" rotation="0 0 0 -1" unit_id="100562"/>
@@ -16449,24 +16447,6 @@
 			<unit_data _prev_pos="19055.6 2749.49 -620" _prev_rot="0 0 0.984808 -0.173648" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab_open" name_id="str_vehicle_pickuptruck_sportcab_open_001" position="19055.6 2749.49 -620" rotation="0 0 0.984808 -0.173648" unit_id="105586"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="19072.1 2853.52 -539.036" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="74.9997 0.000211716 0" local_rot="0 0 -5.96046e-008 1" mesh_variation="state_interaction_disabled" name="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static" name_id="gen_pku_methbag_static_001" position="19072.1 2853.52 -539.036" rotation="0 0 -0.173648 -0.984808" unit_id="105587"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="19001.6 2827.87 -539.036" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static" name_id="gen_pku_methbag_static_002" position="19001.6 2827.87 -539.036" rotation="0 0 -0.173648 -0.984808" unit_id="105588"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="19001.6 2827.87 -539.036" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static" name_id="gen_pku_methbag_static_003" position="18993.1 2851.36 -539.036" rotation="0 0 -0.173648 -0.984808" unit_id="105589"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="19072.1 2853.52 -539.036" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="74.9997 0.000211716 0" local_rot="0 0 -5.96046e-008 1" mesh_variation="state_interaction_disabled" name="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static" name_id="gen_pku_methbag_static_004" position="19063.6 2877.01 -539.036" rotation="0 0 -0.173648 -0.984808" unit_id="105590"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="18993.1 2851.36 -539.036" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interaction_disabled" name="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static" name_id="gen_pku_methbag_static_005" position="18984.5 2874.85 -539.036" rotation="0 0 -0.173648 -0.984808" unit_id="105591"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="19063.6 2877.01 -539.036" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="74.9997 0.000211716 0" local_rot="0 0 -4.47035e-008 1" mesh_variation="state_interaction_disabled" name="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static" name_id="gen_pku_methbag_static_006" position="19055 2900.5 -539.036" rotation="0 0 -0.173648 -0.984808" unit_id="105592"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="24081.4 -5564.94 914.146" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" name_id="mkp_int_floor_1x1m_a_004" position="24056.4 -5564.94 914.146" rotation="0 0 0 -1" unit_id="105593"/>
 		</table>
 		<table>
@@ -19956,6 +19936,59 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="18050 14100 -600" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="-0.000244784 -2800 -200" local_rot="0 0 0 1" name="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x4m_a" name_id="lcm_b_ext_vtile1_4x4m_a_1001" position="18050 17300 -600" rotation="0 0 1 -4.37114e-008" unit_id="106519"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18125 3375 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_4x32m" name_id="dev_vehicle_collision_4x32m_002" only_visible_in_editor="true" position="18125 2975 0" rotation="0 0 0 -1" unit_id="106508"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18125 2975 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_4x32m" name_id="dev_vehicle_collision_4x32m_003" only_visible_in_editor="true" position="18125 2575 0" rotation="0 0 0 -1" unit_id="106509"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18125 2575 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_4x32m" name_id="dev_vehicle_collision_4x32m_004" only_visible_in_editor="true" position="18125 2175 0" rotation="0 0 0 -1" unit_id="106510"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18973.4 2823.18 -539.037" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_money/gen_pku_money" name_id="gen_pku_money_001" position="18970.5 2822.15 -539.037" rotation="0 0 -0.173648 -0.984808" unit_id="105587"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19017.5 2839.25 -539.037" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_money/gen_pku_money" name_id="gen_pku_money_002" position="19017.5 2839.25 -539.037" rotation="0 0 -0.173648 -0.984808" unit_id="105588"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19017.5 2839.25 -539.037" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_money/gen_pku_money" name_id="gen_pku_money_003" position="19064.5 2856.36 -539.037" rotation="0 0 -0.173648 -0.984808" unit_id="105589"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19047.4 2903.34 -539.037" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_money/gen_pku_money" name_id="gen_pku_money_004" position="19023.9 2894.79 -539.037" rotation="0 0 -0.173648 -0.984808" unit_id="105590"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="19023.9 2894.79 -539.037" _prev_rot="0 0 -0.173648 -0.984808" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/payday2/pickups/gen_pku_money/gen_pku_money" name_id="gen_pku_money_005" position="18976.9 2877.69 -539.037" rotation="0 0 -0.173648 -0.984808" unit_id="105591"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20425 5300 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_door_8x6m_a" name_id="hwy_ext_road_underpass_wall_door_8x6m_a_001" position="20425 5300 -600" rotation="0 0 0 -1" unit_id="105592"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20475 4500 -600" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_sidewalk_8x8m_a" name_id="str_ext_sidewalk_8x8m_a_131" position="20475 4100 -600" rotation="0 0 0 -1" unit_id="100622"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="60376.1 -1796.36 4.61936e-005" _prev_rot="0 0 0.965926 0.258819" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="mull_plane_enable" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_008" position="60288.6 -1947.92 0" rotation="0 0 0.965926 0.258819" unit_id="106511">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+				</lights>
+				<projection_textures ls_left="units/lights/spot_light_projection_textures/default_df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="18614.9 3020.63 -736" _prev_rot="0 0 -0.422618 -0.906308" continent="world" local_pos="0.000640869 -95.001 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_001" only_visible_in_editor="true" position="18618.8 3025.22 -736" rotation="0 0 -0.422618 -0.906308" unit_id="106521"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18542.1 3081.69 -736" _prev_rot="0 0 -0.422618 -0.906308" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_002" only_visible_in_editor="true" position="18546 3086.29 -736" rotation="0 0 -0.422618 -0.906308" unit_id="106520"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18811.8 3257.18 -456.681" _prev_rot="0.241845 0.664463 0.241845 -0.664463" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" name_id="dev_bag_collision_1x1m_001" only_visible_in_editor="true" position="18811.8 3257.18 -455.681" rotation="0.241845 0.664463 0.241845 -0.664463" unit_id="106522"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18811.8 3257.18 -455.681" _prev_rot="0.241845 0.664463 0.241845 -0.664463" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" name_id="dev_bag_collision_1x1m_002" only_visible_in_editor="true" position="18754.4 3305.39 -455.681" rotation="0.241845 0.664463 0.241845 -0.664463" unit_id="106523"/>
 		</table>
 	</statics>
 	<values>

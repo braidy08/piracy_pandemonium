@@ -1411,4 +1411,23 @@
 		<object path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
 		<unit path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
 	</add>
+	<add from_db="true" path="effects/particles/dest/smoke_pocket" type="effect">
+		<effect load="true" path="effects/particles/dest/smoke_pocket"/>
+	</add>
+	<add from_db="true" path="effects/particles/environment/smoke_light" type="effect">
+		<effect load="true" path="effects/particles/environment/smoke_light"/>
+	</add>
+	<add from_db="true" path="effects/particles/environment/huge_chimney_smoke" type="effect">
+		<effect load="true" path="effects/particles/environment/huge_chimney_smoke"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_door_8x6m_a" type="unit">
+		<material_config path="units/payday2/architecture/hwy/hwy"/>
+		<object path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_door_8x6m_a"/>
+		<unit path="units/payday2/architecture/hwy/hwy_ext_road_underpass_wall_door_8x6m_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
 </table>

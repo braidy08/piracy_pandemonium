@@ -141,7 +141,7 @@
 	<instances>
 		<table continent="world" folder="levels/instances/unique/dah/dah_blackhawk_sniper/world" index_size="250" name="dah_blackhawk_sniper_001" position="-431.152 -920.891 673.285" rotation="0 0 -0.707107 0.707107" script="default" start_index="0"/>
 		<table continent="world" folder="levels/instances/unique/chca/chca_helicopter_enemies/world" index_size="250" name="chca_helicopter_enemies_001" position="-1653.14 -7813.16 2.9137" rotation="0 0 0.422618 0.906308" script="default" start_index="250"/>
-		<table continent="world" folder="levels/instances/unique/chca/chca_helicopter_enemies/world" index_size="250" name="chca_helicopter_enemies_002" position="67.9558 3779.99 1800.08" rotation="0 0 0.258819 0.965926" script="default" start_index="500"/>
+		<table continent="world" folder="levels/instances/unique/chca/chca_helicopter_enemies/world" index_size="250" name="chca_helicopter_enemies_002" position="-1092.51 4639.97 1400.08" rotation="0 0 0.258819 0.965926" script="default" start_index="500"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway_int/world" index_size="250" name="PP_spawn_hallway_int_001" position="229 2399 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="750"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway_int/world" index_size="250" name="PP_spawn_hallway_int_002" position="-221 2801 0" rotation="0 0 0.707107 0.707107" script="default" start_index="1000"/>
 	</instances>
@@ -10239,6 +10239,15 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="1825 1625 -650" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/mockup/occluder_plane_16x16" name_id="occluder_plane_16x16_034" only_visible_in_editor="true" position="1825 1650 -650" rotation="0 0 1 -0" unit_id="103278"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-550 975 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" name_id="dev_bag_collision_8x3m_049" only_visible_in_editor="true" position="-550 975 0" rotation="0 0 0 -1" unit_id="103279"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1325 975 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" name_id="dev_bag_collision_8x3m_050" only_visible_in_editor="true" position="-1325 975 0" rotation="0 0 0.707107 -0.707107" unit_id="103280"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-550 975 275" _prev_rot="0 0.707107 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" name_id="dev_bag_collision_8x3m_051" only_visible_in_editor="true" position="-550 975 275" rotation="0 0.707107 0 -0.707107" unit_id="103281"/>
 		</table>
 	</statics>
 	<values>
