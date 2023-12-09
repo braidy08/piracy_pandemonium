@@ -24,8 +24,8 @@
 			<entry key="width" type="number" value="1650"/>
 		</entry>
 		<entry index="2" type="table">
-			<entry key="ambience_event" type="string" value="ambience_ext_cold_winds"/>
-			<entry key="depth" type="number" value="5000"/>
+			<entry key="ambience_event" type="string" value="ambience_int_fans_1"/>
+			<entry key="depth" type="number" value="5500"/>
 			<entry key="environment" type="string" value="acoustics_indoor_default"/>
 			<entry key="height" type="number" value="1600"/>
 			<entry key="name" type="string" value="none"/>
@@ -33,9 +33,9 @@
 			<entry key="position" type="vector3" value="-803.458 1630.1 -225"/>
 			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 			<entry key="type" type="string" value="box"/>
-			<entry key="use_ambience" type="boolean" value="false"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
 			<entry key="use_environment" type="boolean" value="true"/>
-			<entry key="use_occasional" type="boolean" value="false"/>
+			<entry key="use_occasional" type="boolean" value="true"/>
 			<entry key="width" type="number" value="1550"/>
 		</entry>
 	</entry>
