@@ -232,4 +232,80 @@
 		<sequence_manager path="units/payday2/vehicles/air_vehicle_blackhawk/vehicle_blackhawk"/>
 		<unit path="units/payday2/vehicles/air_vehicle_blackhawk/vehicle_blackhawk"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_small/lxa_vegetation_bush_small_a" type="unit">
+		<material_config path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_small/lxa_vegetation_bush_small_a"/>
+		<object path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_small/lxa_vegetation_bush_small_a"/>
+		<unit path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_small/lxa_vegetation_bush_small_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_03" type="unit">
+		<material_config path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_03"/>
+		<object path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_03"/>
+		<unit path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_01" type="unit">
+		<material_config path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_01"/>
+		<object path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_01"/>
+		<unit path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04" type="unit">
+		<material_config path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
+		<object path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
+		<unit path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_02" type="unit">
+		<material_config path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_02"/>
+		<object path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_02"/>
+		<unit path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/dest_glass/glass_shatter_big" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/props/dest_glass/glass_shatter_big"/>
+		<unit path="units/payday2/props/dest_glass/glass_shatter_big"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/dest_glass/glass_shatter_small" type="unit">
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/props/dest_glass/glass_shatter_small"/>
+		<unit path="units/payday2/props/dest_glass/glass_shatter_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_glass_shatter/mex_prop_glass_shatter_02" type="unit">
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_glass_shatter/mex_prop_glass_shatter"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_glass_shatter/mex_prop_glass_shatter_02"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_glass_shatter/mex_prop_glass_shatter_02"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/glass_shatter_decal/glass_shatter_decal" type="unit">
+		<material_config path="units/world/props/diamond_heist/glass_shatter_decal/glass_shatter_decal"/>
+		<object path="units/world/props/diamond_heist/glass_shatter_decal/glass_shatter_decal"/>
+		<sequence_manager path="units/world/props/diamond_heist/glass_shatter_decal/glass_shatter_decal"/>
+		<unit path="units/world/props/diamond_heist/glass_shatter_decal/glass_shatter_decal"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_mobster_1/ene_gang_mobster_1" type="unit">
+		<unit load="true" path="units/payday2/characters/ene_gang_mobster_1/ene_gang_mobster_1"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_mobster_1/ene_gang_mobster_1_husk"/>
+		<object path="units/payday2/characters/ene_gang_mobster_1/ene_gang_mobster_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1" type="unit">
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1_husk"/>
+		<object path="units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2" type="unit">
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2_husk"/>
+		<object path="units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3" type="unit">
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3_husk"/>
+		<object path="units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4" type="unit">
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4_husk"/>
+		<object path="units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5" type="unit">
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5"/>
+		<object path="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5"/>
+		<unit load="true" path="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5_husk"/>
+	</add>
 </table>
