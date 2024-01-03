@@ -1,0 +1,13 @@
+<table directory="assets">
+	<add from_db="true" path="units/equipment/c4_charge/c4_diffusible" type="unit">
+		<unit path="units/equipment/c4_charge/c4_diffusible"/>
+		<object path="units/equipment/c4_charge/c4_diffusible"/>
+		<material_config path="units/equipment/c4_charge/c4_diffusible"/>
+		<sequence_manager path="units/equipment/c4_charge/c4_diffusible"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+</table>

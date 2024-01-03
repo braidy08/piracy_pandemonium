@@ -263,7 +263,7 @@
 			<unit_data continent="editor_only" local_pos="-1600 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_032" only_exists_in_editor="true" position="20425 -1950 0" rotation="0 0 0 -1" unit_id="200090"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_115" only_exists_in_editor="true" position="20550 0 -250" rotation="0 0 -0.707107 -0.707107" unit_id="200091"/>
+			<unit_data _prev_pos="20550 0 -250" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_115" only_exists_in_editor="true" position="20550 0 -250" rotation="0 0 -0.707107 -0.707107" unit_id="200091"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" local_pos="1600 0 0" local_rot="0 0 0.707107 0.707107" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_061" only_exists_in_editor="true" position="20475 -1900 -25" rotation="0 0 0.707107 -0.707107" unit_id="200092"/>
@@ -934,6 +934,30 @@
 		<table>
 			<unit_data _prev_pos="57875.3 -5403.26 23725" _prev_rot="-0.707107 0 0 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_003" position="57875.3 -5403.26 23750" rotation="-0.707107 0 0 -0.707107" unit_id="200078">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="5.95" render_template="Text" text="hey people looking in the editor" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="45253.2 -3187.82 1575" _prev_rot="0 0.707107 0.707107 -0" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_005" position="45253.2 -3187.82 1575" rotation="0 0.707107 0.707107 -0" unit_id="200079">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="5.77397" render_template="Text" text="no cheater barrier" vertical="center" word_wrap="false" wrap="true">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="44928.2 -2312.82 1575" _prev_rot="-0.707107 -3.09086e-008 -3.09086e-008 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_006" position="44928.2 -2312.82 1575" rotation="-0.707107 -3.09086e-008 -3.09086e-008 -0.707107" unit_id="200080">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="5.77397" render_template="Text" text="no cheater barrier" vertical="center" word_wrap="false" wrap="true">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>
