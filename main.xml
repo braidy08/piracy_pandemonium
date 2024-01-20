@@ -202,6 +202,13 @@
 	<instance id="PP_spooky_c4landmines">
 		<packages/>
 	</instance>
+	<instance id="PP_helicopter_enemies">
+		<packages>
+			<value_node value="levels/instances/unique/chca/chca_helicopter_enemies/world"/>
+			<value_node value="levels/instances/unique/chca/chca_helicopter_enemies/world_sounds"/>
+			<value_node value="levels/instances/unique/chca/chca_helicopter_enemies/world/world"/>
+		</packages>
+	</instance>
 	<Achievements id="PP_ACHIEVEMENTS">
 		<achievement id="PP_250BAGS" rank="3" reward_amount="12" reward_type="cc"/>
 		<achievement id="PP_1000BAGS" rank="4" reward_amount="15" reward_type="cc"/>

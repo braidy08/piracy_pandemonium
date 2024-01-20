@@ -1435,4 +1435,21 @@
 		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m"/>
 		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_4x3m"/>
 	</add>
+	<add from_db="true" path="effects/particles/equipment/c4_bank/c4_explosion" type="effect">
+		<effect load="true" path="effects/particles/equipment/c4_bank/c4_explosion"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/deep_oil_fire_no_explosion" type="effect">
+		<effect load="true" path="effects/payday2/environment/deep_oil_fire_no_explosion"/>
+	</add>
+	<add from_db="true" path="effects/payday2/particles/explosions/c4_wall_explosion_large" type="effect">
+		<effect load="true" path="effects/payday2/particles/explosions/c4_wall_explosion_large"/>
+	</add>
+	<add from_db="true" path="effects/payday2/particles/explosions/c4_wall_explosion" type="effect">
+		<effect load="true" path="effects/payday2/particles/explosions/c4_wall_explosion"/>
+	</add>
+	<add from_db="true" path="units/test/jocke/plane_black_temp" type="unit">
+		<unit path="units/test/jocke/plane_black_temp"/>
+		<object path="units/test/jocke/plane_black_temp"/>
+		<material_config path="units/test/jocke/plane_black_temp"/>
+	</add>
 </table>

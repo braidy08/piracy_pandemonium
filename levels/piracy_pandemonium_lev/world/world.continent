@@ -10291,6 +10291,60 @@
 		<table>
 			<unit_data _prev_pos="-1000 3275 750" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/mockup/occluder_plane_16x16" name_id="occluder_plane_16x16_059" only_visible_in_editor="true" position="-1025 3275 750" rotation="-0.707107 0 0 -0.707107" unit_id="103304"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="800 1080.31 107.751" _prev_rot="0 0.707107 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button" name_id="MAKEEDITORONLY4" position="800 1080.31 107.751" rotation="0 0.707107 0 -0.707107" unit_id="103305"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="800 830.311 107.751" _prev_rot="0 0.707107 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button" name_id="MAKEEDITORONLY5" position="800 830.311 107.751" rotation="0 0.707107 0 -0.707107" unit_id="103306"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="799 1013.31 273.39" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="MAKEEDITORONLY2" position="799 1013.31 273.39" rotation="-0.5 0.5 0.5 -0.5" unit_id="103307">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.59" render_template="Text" text="DEBUG" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="799 938.308 198.39" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="MAKEEDITORONLY3" position="799 938.308 198.39" rotation="-0.5 0.5 0.5 -0.5" unit_id="103308">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.59" render_template="Text" text="HELIESCAPEDAY" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="799 1138.31 198.39" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="MAKEEDITORONLY1" position="799 1138.31 198.39" rotation="-0.5 0.5 0.5 -0.5" unit_id="103309">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.59" render_template="Text" text="ESCAPEDAY" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="799 1013.31 248.39" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="MAKEEDITORONLY6" position="799 1013.31 248.39" rotation="-0.5 0.5 0.5 -0.5" unit_id="103310">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="0.6" render_template="Text" text="only cool people allowed to see this" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

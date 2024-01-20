@@ -1419,6 +1419,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100051"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100467"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="33285 5558.92 239.588"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -1465,6 +1469,14 @@
 						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100347"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="6"/>
+							<entry key="id" type="number" value="100463"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="6"/>
+							<entry key="id" type="number" value="100464"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="33285 5356.47 213.383"/>
@@ -2524,6 +2536,10 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="100456"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="58178 -8223.27 23675"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -4792,7 +4808,7 @@
 							<entry key="id" type="number" value="100164"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="58793.6 -5726.26 23700"/>
+					<entry key="position" type="vector3" value="58793.6 -5751.26 23700"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -8107,7 +8123,7 @@
 					<entry key="event_list" type="table">
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="start_spawn"/>
-							<entry key="instance" type="string" value="chca_helicopter_enemies_001"/>
+							<entry key="instance" type="string" value="PP_helicopter_enemies_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -8130,7 +8146,7 @@
 					<entry key="event_list" type="table">
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="heli_despawned"/>
-							<entry key="instance" type="string" value="chca_helicopter_enemies_001"/>
+							<entry key="instance" type="string" value="PP_helicopter_enemies_001"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -10155,6 +10171,7 @@
 					<entry key="execute_on_startup" type="boolean" value="true"/>
 					<entry key="followup_elements" type="table">
 					</entry>
+					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="1"/>
@@ -10174,7 +10191,7 @@
 					<entry key="rotation" type="quaternion" value="-0 -0 1.39091e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="2000"/>
-					<entry key="search_position" type="vector3" value="20926 15550 0"/>
+					<entry key="search_position" type="vector3" value="20926 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
@@ -10203,6 +10220,7 @@
 					<entry key="execute_on_startup" type="boolean" value="true"/>
 					<entry key="followup_elements" type="table">
 					</entry>
+					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="1"/>
@@ -10219,10 +10237,10 @@
 					<entry key="pose" type="string" value="none"/>
 					<entry key="position" type="vector3" value="21100 15394 1200"/>
 					<entry key="repeatable" type="boolean" value="true"/>
-					<entry key="rotation" type="quaternion" value="-0 -0 4.37114e-008 -1"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="2000"/>
-					<entry key="search_position" type="vector3" value="21226 15550 0"/>
+					<entry key="search_position" type="vector3" value="21226 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
@@ -10251,6 +10269,7 @@
 					<entry key="execute_on_startup" type="boolean" value="true"/>
 					<entry key="followup_elements" type="table">
 					</entry>
+					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="1"/>
@@ -10270,7 +10289,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="2000"/>
-					<entry key="search_position" type="vector3" value="21576 15550 0"/>
+					<entry key="search_position" type="vector3" value="21576 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
@@ -10299,6 +10318,7 @@
 					<entry key="execute_on_startup" type="boolean" value="true"/>
 					<entry key="followup_elements" type="table">
 					</entry>
+					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="1"/>
@@ -10318,7 +10338,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="2000"/>
-					<entry key="search_position" type="vector3" value="22076 15550 0"/>
+					<entry key="search_position" type="vector3" value="22076 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
@@ -10347,6 +10367,7 @@
 					<entry key="execute_on_startup" type="boolean" value="true"/>
 					<entry key="followup_elements" type="table">
 					</entry>
+					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="1"/>
@@ -10366,7 +10387,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="2000"/>
-					<entry key="search_position" type="vector3" value="22601 15550 0"/>
+					<entry key="search_position" type="vector3" value="22601 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
@@ -10395,6 +10416,7 @@
 					<entry key="execute_on_startup" type="boolean" value="true"/>
 					<entry key="followup_elements" type="table">
 					</entry>
+					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="1"/>
@@ -10414,7 +10436,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="2000"/>
-					<entry key="search_position" type="vector3" value="23026 15550 0"/>
+					<entry key="search_position" type="vector3" value="23026 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
@@ -10443,6 +10465,7 @@
 					<entry key="execute_on_startup" type="boolean" value="true"/>
 					<entry key="followup_elements" type="table">
 					</entry>
+					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="1"/>
@@ -10462,7 +10485,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="2000"/>
-					<entry key="search_position" type="vector3" value="23426 15550 0"/>
+					<entry key="search_position" type="vector3" value="23426 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
@@ -12593,6 +12616,10 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100462"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="57757.1 -1950 23808.1"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -12640,35 +12667,445 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
+			<entry index="457" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_001"/>
+				<entry key="id" type="number" value="100456"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="effects/payday2/particles/explosions/c4_wall_explosion"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100458"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100461"/>
+						</entry>
+					</entry>
+					<entry key="player_damage" type="number" value="60"/>
+					<entry key="position" type="vector3" value="58030.1 -8330.61 23683.1"/>
+					<entry key="range" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="true"/>
+					<entry key="use_rumble" type="boolean" value="true"/>
+				</entry>
+			</entry>
+			<entry index="458" type="table">
+				<entry key="class" type="string" value="ElementAreaTrigger"/>
+				<entry key="editor_name" type="string" value="area_trigger_024"/>
+				<entry key="id" type="number" value="100457"/>
+				<entry key="module" type="string" value="CoreElementArea"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="string" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="depth" type="number" value="500"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="height" type="number" value="500"/>
+					<entry key="instigator" type="string" value="player"/>
+					<entry key="instigator_name" type="string" value=""/>
+					<entry key="interval" type="number" value="0.1"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100460"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="58029 -8330.61 23690.7"/>
+					<entry key="radius" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="shape_type" type="string" value="sphere"/>
+					<entry key="spawn_unit_elements" type="table">
+					</entry>
+					<entry key="substitute_object" type="string" value=""/>
+					<entry key="trigger_on" type="string" value="both"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_disabled_shapes" type="boolean" value="false"/>
+					<entry key="width" type="number" value="500"/>
+				</entry>
+			</entry>
+			<entry index="459" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_018"/>
+				<entry key="id" type="number" value="100458"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100457"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="100459"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="58061.2 -8330.61 23685.7"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="on"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="460" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_019"/>
+				<entry key="id" type="number" value="100459"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100457"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="58061.2 -8330.61 23735.7"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="off"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="461" type="table">
+				<entry key="class" type="string" value="ElementPushInstigator"/>
+				<entry key="editor_name" type="string" value="push_instigator_001"/>
+				<entry key="id" type="number" value="100460"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="mass" type="number" value="100"/>
+					<entry key="multiply" type="number" value="1"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="58029.1 -8330.61 23744.9"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="velocity" type="vector3" value="500 500 500"/>
+				</entry>
+			</entry>
+			<entry index="462" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="play_sound_006"/>
+				<entry key="id" type="number" value="100461"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="58023.6 -8300 23670.9"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sound_event" type="string" value="c4_explode_metal"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="463" type="table">
+				<entry key="class" type="string" value="ElementDebug"/>
+				<entry key="editor_name" type="string" value="debug_005"/>
+				<entry key="id" type="number" value="100462"/>
+				<entry key="module" type="string" value="CoreElementDebug"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="as_subtitle" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_string" type="string" value="smh what you looking at"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="57757.1 -1950 23858.1"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="show_instigator" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="464" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_enemy_dummy_133"/>
+				<entry key="id" type="number" value="100463"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_biker_1/ene_biker_1"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="33020.9 5445.15 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.866025 -0.5"/>
+					<entry key="spawn_action" type="string" value="e_sp_stumble_var1"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="465" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_enemy_dummy_134"/>
+				<entry key="id" type="number" value="100464"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_biker_2/ene_biker_2"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100465"/>
+						</entry>
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="33028.8 5355.59 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.5 -0.866025"/>
+					<entry key="spawn_action" type="string" value="e_sp_stumble_var2"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="466" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_enemy_dummy_135"/>
+				<entry key="id" type="number" value="100465"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_biker_3/ene_biker_3"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100466"/>
+						</entry>
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="33023.3 5197.97 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.422618 -0.906308"/>
+					<entry key="spawn_action" type="string" value="e_sp_dizzy_look_around"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="467" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_enemy_dummy_136"/>
+				<entry key="id" type="number" value="100466"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_biker_4/ene_biker_4"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="32798.3 5297.97 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.642788 -0.766044"/>
+					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="468" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_enemy_dummy_137"/>
+				<entry key="id" type="number" value="100467"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_biker_1/ene_biker_1"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100468"/>
+						</entry>
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="32920.9 5445.15 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="469" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_enemy_dummy_138"/>
+				<entry key="id" type="number" value="100468"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_biker_2/ene_biker_2"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100469"/>
+						</entry>
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="32928.8 5355.59 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.5 -0.866025"/>
+					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="470" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_enemy_dummy_139"/>
+				<entry key="id" type="number" value="100469"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_biker_3/ene_biker_3"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100470"/>
+						</entry>
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="32923.3 5197.97 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.422618 -0.906308"/>
+					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="471" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_enemy_dummy_140"/>
+				<entry key="id" type="number" value="100470"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/payday2/characters/ene_biker_4/ene_biker_4"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="32698.3 5297.97 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.642788 -0.766044"/>
+					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
+				</entry>
+			</entry>
 		</entry>
 		<entry key="instances" type="table">
 			<entry index="1" type="string" value="dah_blackhawk_sniper_001"/>
-			<entry index="2" type="string" value="chca_helicopter_enemies_001"/>
-			<entry index="3" type="string" value="PP_truck_map_edge_001"/>
-			<entry index="4" type="string" value="PP_spawn_hallway_001"/>
-			<entry index="5" type="string" value="PP_truck_map_edge_002"/>
-			<entry index="6" type="string" value="PP_spawn_hallway_002"/>
-			<entry index="7" type="string" value="PP_spawn_hallway_003"/>
-			<entry index="8" type="string" value="chca_helicopter_enemies_002"/>
-			<entry index="9" type="string" value="PP_spawn_hallway_doubledoor_001"/>
-			<entry index="10" type="string" value="PP_spawn_hallway_doubledoor_002"/>
-			<entry index="11" type="string" value="PP_spawn_hallway_004"/>
-			<entry index="12" type="string" value="PP_spawn_hallway_005"/>
-			<entry index="13" type="string" value="PP_spooky_c4landmines_001"/>
-			<entry index="14" type="string" value="PP_spooky_c4landmines_002"/>
-			<entry index="15" type="string" value="PP_spooky_c4landmines_003"/>
-			<entry index="16" type="string" value="PP_spooky_c4landmines_004"/>
-			<entry index="17" type="string" value="PP_spooky_c4landmines_005"/>
-			<entry index="18" type="string" value="PP_spooky_c4landmines_006"/>
-			<entry index="19" type="string" value="PP_spooky_c4landmines_007"/>
-			<entry index="20" type="string" value="PP_spooky_c4landmines_008"/>
-			<entry index="21" type="string" value="PP_spooky_c4landmines_009"/>
-			<entry index="22" type="string" value="PP_spooky_c4landmines_010"/>
-			<entry index="23" type="string" value="PP_spooky_c4landmines_012"/>
-			<entry index="24" type="string" value="PP_spooky_c4landmines_013"/>
-			<entry index="25" type="string" value="PP_spooky_c4landmines_014"/>
-			<entry index="26" type="string" value="PP_spooky_c4landmines_015"/>
-			<entry index="27" type="string" value="PP_spooky_c4landmines_016"/>
+			<entry index="2" type="string" value="PP_truck_map_edge_001"/>
+			<entry index="3" type="string" value="PP_spawn_hallway_001"/>
+			<entry index="4" type="string" value="PP_truck_map_edge_002"/>
+			<entry index="5" type="string" value="PP_spawn_hallway_002"/>
+			<entry index="6" type="string" value="PP_spawn_hallway_003"/>
+			<entry index="7" type="string" value="PP_spawn_hallway_doubledoor_001"/>
+			<entry index="8" type="string" value="PP_spawn_hallway_doubledoor_002"/>
+			<entry index="9" type="string" value="PP_spawn_hallway_004"/>
+			<entry index="10" type="string" value="PP_spawn_hallway_005"/>
+			<entry index="11" type="string" value="PP_spooky_c4landmines_001"/>
+			<entry index="12" type="string" value="PP_spooky_c4landmines_002"/>
+			<entry index="13" type="string" value="PP_spooky_c4landmines_003"/>
+			<entry index="14" type="string" value="PP_spooky_c4landmines_004"/>
+			<entry index="15" type="string" value="PP_spooky_c4landmines_005"/>
+			<entry index="16" type="string" value="PP_spooky_c4landmines_006"/>
+			<entry index="17" type="string" value="PP_spooky_c4landmines_007"/>
+			<entry index="18" type="string" value="PP_spooky_c4landmines_008"/>
+			<entry index="19" type="string" value="PP_spooky_c4landmines_009"/>
+			<entry index="20" type="string" value="PP_spooky_c4landmines_010"/>
+			<entry index="21" type="string" value="PP_spooky_c4landmines_012"/>
+			<entry index="22" type="string" value="PP_spooky_c4landmines_013"/>
+			<entry index="23" type="string" value="PP_spooky_c4landmines_014"/>
+			<entry index="24" type="string" value="PP_spooky_c4landmines_015"/>
+			<entry index="25" type="string" value="PP_spooky_c4landmines_016"/>
+			<entry index="26" type="string" value="PP_helicopter_enemies_002"/>
+			<entry index="27" type="string" value="PP_helicopter_enemies_001"/>
 		</entry>
 		<entry key="name" type="string" value="default"/>
 	</entry>

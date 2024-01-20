@@ -2,13 +2,11 @@
 	<editor_groups/>
 	<instances>
 		<table continent="world" folder="levels/instances/unique/dah/dah_blackhawk_sniper/world" index_size="250" name="dah_blackhawk_sniper_001" position="57393.8 -920.891 22223.3" rotation="0 0 0.707107 0.707107" script="default" start_index="0"/>
-		<table continent="world" folder="levels/instances/unique/chca/chca_helicopter_enemies/world" index_size="250" name="chca_helicopter_enemies_001" position="33922.6 7309.95 -11.0201" rotation="0 0 0 1" script="default" start_index="250"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_truck_map_edge/world" index_size="250" name="PP_truck_map_edge_001" position="-403.966 -1074.3 -6.16" rotation="0 0 1 -4.37114e-008" script="default" start_index="500"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_001" position="37875.1 -3490.19 2.06015" rotation="0 0 1 -4.37114e-008" script="default" start_index="750"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_truck_map_edge/world" index_size="250" name="PP_truck_map_edge_002" position="59864.1 -2744.66 -4.95182" rotation="0 0 -0.707107 0.707107" script="default" start_index="1000"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_002" position="34875.3 9900.06 -4.56886" rotation="0 0 -0.707107 0.707107" script="default" start_index="1250"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_003" position="25274 13100 0" rotation="0 0 0.707107 -0.707107" script="default" start_index="1500"/>
-		<table continent="world" folder="levels/instances/unique/chca/chca_helicopter_enemies/world" index_size="250" name="chca_helicopter_enemies_002" position="21260.6 14946.5 1188.98" rotation="0 0 -0.422618 0.906308" script="default" start_index="1750"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway_doubledoor/world" index_size="250" name="PP_spawn_hallway_doubledoor_001" position="31674.3 4710.18 -0.256805" rotation="0 0 1 -5.96046e-008" script="default" start_index="2000"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway_doubledoor/world" index_size="250" name="PP_spawn_hallway_doubledoor_002" position="31675.7 5089.82 -0.256805" rotation="0 0 -8.9407e-008 -1" script="default" start_index="2250"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_004" position="40274.9 -1899.7 -4.56886" rotation="-0 0 5.96046e-008 1" script="default" start_index="2500"/>
@@ -28,6 +26,8 @@
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spooky_c4landmines/world" index_size="250" name="PP_spooky_c4landmines_014" position="46225.5 -2942.78 -19.9991" rotation="0 0 -0.707107 0.707107" script="default" start_index="6250"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spooky_c4landmines/world" index_size="250" name="PP_spooky_c4landmines_015" position="47550.5 -2967.78 -19.9991" rotation="0 0 -0.707107 0.707107" script="default" start_index="6500"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spooky_c4landmines/world" index_size="250" name="PP_spooky_c4landmines_016" position="49325.5 -2492.78 -19.9991" rotation="0 0 -0.707107 0.707107" script="default" start_index="6750"/>
+		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_helicopter_enemies/world" index_size="250" name="PP_helicopter_enemies_002" position="21260.6 14946.5 1188.98" rotation="0 0 -0.422618 0.906308" script="default" start_index="1750"/>
+		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_helicopter_enemies/world" index_size="250" name="PP_helicopter_enemies_001" position="33922.6 7309.95 -11.02" rotation="-0 0 -0 -1" script="default" start_index="5500"/>
 	</instances>
 	<statics>
 		<table>
@@ -7876,7 +7876,7 @@
 			<unit_data _prev_pos="32075 2500 0" _prev_rot="0 0 0 -1" continent="world" local_pos="400 800 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a" name_id="hcm_int_floor_4x4m_a_048" position="32075 2500 0" rotation="0 0 0 -1" unit_id="103221"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="32075 1700 0" _prev_rot="0 0 0 -1" continent="world" local_pos="400 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a" name_id="hcm_int_floor_4x4m_a_051" position="32075 2900 0" rotation="0 0 0 -1" unit_id="103224"/>
+			<unit_data _prev_pos="32075 2900 0" _prev_rot="0 0 0 -1" continent="world" local_pos="279.296 133.509 8.17665e-005" local_rot="6.5263e-013 -3.76254e-007 0.996195 -0.087155" name="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a" name_id="hcm_int_floor_4x4m_a_051" position="32075 2900 -7.27596e-012" rotation="0 0 0 -1" unit_id="103224"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="32075 2100 0" _prev_rot="0 0 0 -1" continent="world" local_pos="400 400 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a" name_id="hcm_int_floor_4x4m_a_053" position="32075 3300 0" rotation="0 0 0 -1" unit_id="103226"/>
@@ -10506,7 +10506,7 @@
 			<unit_data _prev_pos="54075 -3500 25000" _prev_rot="0 0 0 -1" continent="world" local_pos="-1750 4400 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/mkp/mkp_int_floor_16x16_a" name_id="mkp_int_floor_16x16_a_014" position="54075 -3500 23525" rotation="0 0 0 -1" unit_id="104064"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="55675 -5100 25000" _prev_rot="0 0 0 -1" continent="world" local_pos="-3350 2800 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/mkp/mkp_int_floor_16x16_a" name_id="mkp_int_floor_16x16_a_015" position="55675 -5100 23525" rotation="0 0 0 -1" unit_id="104065"/>
+			<unit_data _prev_pos="55675 -5100 23525" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_16x16_a" name_id="mkp_int_floor_16x16_a_015" position="55675 -5100 23525" rotation="0 0 0 -1" unit_id="104065"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="55675 -3500 25000" _prev_rot="0 0 0 -1" continent="world" local_pos="-1750 2800 1600" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/mkp/mkp_int_floor_16x16_a" name_id="mkp_int_floor_16x16_a_016" position="55675 -3500 23525" rotation="0 0 0 -1" unit_id="104066"/>
@@ -12044,18 +12044,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="58275 -2300 23350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_wall_2m_a" name_id="mkp_int_wall_2m_a_004" position="58275 -2300 23375" rotation="0 0 -0.707107 -0.707107" unit_id="104576"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="57775.3 -7978.26 23650" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_001" position="57875.3 -7978.26 23650" rotation="-0.707107 0 0 -0.707107" unit_id="104577">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="1.58094" render_template="Text" text="THIS MIGHT BE FINISHED IN THE FUTURE" vertical="center" word_wrap="false" wrap="false">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
 		</table>
 		<table>
 			<unit_data _prev_pos="24759.9 15169.4 4.61936e-005" _prev_rot="0 0 -0.573577 -0.819152" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_002" position="24759.9 15169.4 0" rotation="0 0 -0.573577 -0.819152" unit_id="104578">
@@ -17500,7 +17488,7 @@
 			<unit_data _prev_pos="52475 -8300 17200" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-4800 3200 0" local_rot="-0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x8m_c" name_id="hcm_ext_8x8m_c_049" position="52475 -8300 20400" rotation="0 0 1 4.37114e-008" unit_id="105941"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="52475 -6700 17200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-3200 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_297" position="52475 -6700 20400" rotation="0 0 1 -1.49012e-007" unit_id="105942"/>
+			<unit_data _prev_pos="52475 -6700 20400" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_297" position="52475 -6700 20400" rotation="0 0 1 -1.49012e-007" unit_id="105942"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="52475 -5100 17200" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="-1600 3200 0" local_rot="0 0 -0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_298" position="52475 -5100 20400" rotation="0 0 1 -1.49012e-007" unit_id="105943"/>
@@ -17569,7 +17557,7 @@
 			<unit_data _prev_pos="60475 -3500 22725" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000236511 -4800 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_320" position="60475 -3500 22700" rotation="0 0 -0.707107 -0.707107" unit_id="105968"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="57065.3 -6182.2 18600" _prev_rot="0.707107 0 0 -0.707107" continent="world" local_pos="-2682.2 -1390.3 1400" local_rot="-0.5 0.5 -0.5 0.5" name="units/dev_tools/level_tools/shadow_caster_100x100" name_id="shadow_caster_100x100_010" position="57065.3 -6182.2 21800" rotation="0.707107 0 0 -0.707107" unit_id="105969"/>
+			<unit_data _prev_pos="57065.3 -6182.2 21800" _prev_rot="0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/shadow_caster_100x100" name_id="shadow_caster_100x100_010" position="57065.3 -6182.2 21800" rotation="0.707107 0 0 -0.707107" unit_id="105969"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="62075 -3500 17200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0.000152588 -6400 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_321" position="62075 -3500 20400" rotation="0 0 -0.707107 -0.707107" unit_id="105970"/>
@@ -17632,7 +17620,7 @@
 			<unit_data _prev_pos="62075 -7500 22725" _prev_rot="0 0 0 -1" continent="world" local_pos="-4000 -6400 0" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_336" position="62075 -7500 22700" rotation="0 0 0 -1" unit_id="105989"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="54075 -3500 22800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-1600 -0.000255585 0" local_rot="0 0 0.707107 -0.707107" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_293" position="54075 -3500 22800" rotation="0 0 -0.707107 -0.707107" unit_id="105937"/>
+			<unit_data _prev_pos="54075 -3500 22800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_293" position="54075 -3500 22800" rotation="0 0 -0.707107 -0.707107" unit_id="105937"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="52475 -3500 22800" _prev_rot="0 0 1 -1.49012e-007" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_b" name_id="hcm_ext_8x16m_b_337" position="52475 -3500 22800" rotation="0 0 1 -1.49012e-007" unit_id="105951"/>
@@ -19656,18 +19644,6 @@
 			<unit_data _prev_pos="56653.2 -4771.44 23350" _prev_rot="0 0 0.906308 0.422618" continent="world" local_pos="0 -200 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_wall_2m_a" name_id="mkp_int_wall_2m_a_025" position="56396.1 -4465.02 23350" rotation="0 0 -0.906308 -0.422618" unit_id="106421"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="57875.3 -7978.26 23650" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_004" position="57875.3 -7978.26 23625" rotation="-0.707107 0 0 -0.707107" unit_id="106422">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="1.58" render_template="Text" text="I GOT NO MOTIVATION RN SO PROBABLY NOT FOR AWHILE" vertical="center" word_wrap="false" wrap="false">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
 			<unit_data _prev_pos="18309 2660.41 -613.031" _prev_rot="0.0468953 0.00262934 0.905629 -0.421462" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/vehicles/str_vehicle_modern_sedan_crashed/str_vehicle_modern_sedan_crashed" name_id="str_vehicle_modern_sedan_crashed_001" position="18309 2660.41 -613.031" rotation="0.0231726 -0.00840414 0.906546 -0.421386" unit_id="106423"/>
 		</table>
 		<table>
@@ -20143,6 +20119,30 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="17509 -2742.38 864.852" _prev_rot="0 0 0 -1" continent="world" local_pos="-580.624 -8663.64 19.8136" local_rot="0 0 -0.996195 0.0871552" name="units/payday2/architecture/ind/ind_ext_level/ind_warehouse_wall_fence_4x3" name_id="ind_warehouse_wall_fence_4x3_001" position="27675 -4700 0" rotation="0 0 0.707107 -0.707107" unit_id="105441"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="32787.8 2102 154.445" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_008" position="32787.8 2102 154.445" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="104577">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.59" render_template="Text" text="tbh idk what to put in here" vertical="center" word_wrap="true" wrap="true">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="32787.8 4077 404.445" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_012" position="32637.8 4077 404.445" rotation="-0.707107 0 0 -0.707107" unit_id="106422">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.59" render_template="Text" text="this here makes me wish i could resize units" vertical="center" word_wrap="true" wrap="true">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
 		</table>
 	</statics>
 	<values>
