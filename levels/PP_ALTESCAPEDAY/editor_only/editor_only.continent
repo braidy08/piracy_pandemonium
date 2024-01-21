@@ -726,7 +726,7 @@
 			<unit_data continent="editor_only" local_pos="-1600 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_015" only_exists_in_editor="true" position="41250 -3550 0" rotation="0 0 0 -1" unit_id="200250"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_050" only_exists_in_editor="true" position="41300 -3500 -25" rotation="0 0 0.707107 -0.707107" unit_id="200251"/>
+			<unit_data _prev_pos="41300 -3500 -25" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_050" only_exists_in_editor="true" position="41300 -3500 -25" rotation="0 0 0.707107 -0.707107" unit_id="200251"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_008" only_exists_in_editor="true" position="38425 15650 0" rotation="0 0 0 -1" unit_id="200252"/>
@@ -1083,8 +1083,8 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="32567.2 15961.3 7530.19" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_013" position="32567.2 15861.3 7530.19" rotation="-0 0 -0 -1" unit_id="200145">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="core/fonts/diesel" font_color="1 1 0" font_size="3.37" render_template="Text" text="optimize d1 and other escape day" vertical="center" word_wrap="true" wrap="true">
+			<unit_data _prev_pos="32567.2 15861.3 7530.19" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_013" position="32567.2 15836.3 7530.19" rotation="-0 0 -0 -1" unit_id="200145">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="core/fonts/diesel" font_color="1 1 0" font_size="3.37" render_template="Text" text="optimize d1(already did d1 i guess) and other escape day" vertical="center" word_wrap="true" wrap="true">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>
@@ -1093,6 +1093,30 @@
 					</shape>
 				</editable_gui>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="32567.2 15711.3 7530.19" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_014" position="32567.2 15711.3 7530.19" rotation="-0 0 -0 -1" unit_id="200147">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="core/fonts/diesel" font_color="1 1 0" font_size="3.37" render_template="Text" text="finish making this crap" vertical="center" word_wrap="true" wrap="true">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="41300 -5100 -25" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_088" only_exists_in_editor="true" position="41300 -5100 -25" rotation="0 0 0.707107 -0.707107" unit_id="200154"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="41300 -6700 -25" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_124" only_exists_in_editor="true" position="41300 -6700 -25" rotation="0 0 0.707107 -0.707107" unit_id="200155"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="41300 -8300 -25" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_127" only_exists_in_editor="true" position="41300 -8300 -25" rotation="0 0 0.707107 -0.707107" unit_id="200156"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="41300 -9900 -25" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_128" only_exists_in_editor="true" position="41300 -9900 -25" rotation="0 0 0.707107 -0.707107" unit_id="200163"/>
 		</table>
 	</statics>
 	<values>

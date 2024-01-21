@@ -1448,8 +1448,14 @@
 		<effect load="true" path="effects/payday2/particles/explosions/c4_wall_explosion"/>
 	</add>
 	<add from_db="true" path="units/test/jocke/plane_black_temp" type="unit">
-		<unit path="units/test/jocke/plane_black_temp"/>
-		<object path="units/test/jocke/plane_black_temp"/>
 		<material_config path="units/test/jocke/plane_black_temp"/>
+		<object path="units/test/jocke/plane_black_temp"/>
+		<unit path="units/test/jocke/plane_black_temp"/>
+	</add>
+	<add from_db="true" path="units/equipment/c4_charge/c4_diffusible" type="unit">
+		<unit path="units/equipment/c4_charge/c4_diffusible"/>
+		<object path="units/equipment/c4_charge/c4_diffusible"/>
+		<material_config path="units/equipment/c4_charge/c4_diffusible"/>
+		<sequence_manager path="units/equipment/c4_charge/c4_diffusible"/>
 	</add>
 </table>
