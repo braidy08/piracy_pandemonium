@@ -1436,4 +1436,13 @@
 		<object path="units/test/jocke/plane_black_temp"/>
 		<unit path="units/test/jocke/plane_black_temp"/>
 	</add>
+	<add from_db="true" path="effects/payday2/particles/explosions/smoke_explosion/car_smoke" type="effect">
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/car_smoke"/>
+	</add>
+	<add from_db="true" path="effects/particles/explosions/suburbia_safe_explosion" type="effect">
+		<effect load="true" path="effects/particles/explosions/suburbia_safe_explosion"/>
+	</add>
+	<add from_db="true" path="effects/particles/explosions/suburbia_pool_explosion" type="effect">
+		<effect load="true" path="effects/particles/explosions/suburbia_pool_explosion"/>
+	</add>
 </table>

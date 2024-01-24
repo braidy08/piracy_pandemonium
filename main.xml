@@ -102,7 +102,7 @@
 			</sounds>
 		</sounds>
 	</level>
-	<level ai_group_type="america" briefing_dialog="" id="PP_ALTESCAPEDAY" intro_event="" max_bags="999" player_style="generic">
+	<level ai_group_type="america" briefing_dialog="" id="PP_ALTESCAPEDAY" intro_event="Day2start" max_bags="999" player_style="generic">
 		<assets/>
 		<hooks directory="hooks">
 			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
@@ -133,6 +133,9 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
+		<sounds directory="assets/sounds">
+			<sound id="Day2start"/>
+		</sounds>
 	</level>
 	<level ai_group_type="america" briefing_dialog="" id="PP_UNLUCKYSURVIVAL" intro_event="" max_bags="999" player_style="generic" repossess_bags="true">
 		<assets/>
