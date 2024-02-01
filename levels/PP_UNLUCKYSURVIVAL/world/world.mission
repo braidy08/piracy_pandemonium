@@ -3512,8 +3512,8 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="1321.86 723.861 -19.8136"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="position" type="vector3" value="1280.57 726.53 -19.8136"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.819152 -0.573576"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -3627,7 +3627,7 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-331.111 1988.36 14.9661"/>
+					<entry key="position" type="vector3" value="-297.066 1984.9 14.9661"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 -4.37114e-008"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
@@ -3647,8 +3647,8 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="2857.73 532.117 74.9815"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="position" type="vector3" value="2857.51 526.903 74.9815"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -3667,8 +3667,8 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="2707.73 532.117 74.9815"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="position" type="vector3" value="2697.5 528.451 74.9814"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.5 -0.866025"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -3687,8 +3687,8 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="2457.73 532.117 74.9815"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="position" type="vector3" value="2461.97 512.712 74.9813"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.34202 -0.939693"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -3707,8 +3707,8 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="2257.73 532.117 74.9815"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="position" type="vector3" value="2243.75 528.24 74.9813"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.422618 -0.906308"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -3720,7 +3720,7 @@
 				<entry key="id" type="number" value="100146"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="number" value="1"/>
+					<entry key="amount" type="number" value="11"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100135"/>
@@ -4163,24 +4163,6 @@
 				</entry>
 			</entry>
 			<entry index="165" type="table">
-				<entry key="class" type="string" value="ElementMusic"/>
-				<entry key="editor_name" type="string" value="music_002"/>
-				<entry key="id" type="number" value="100163"/>
-				<entry key="module" type="string" value="CoreElementMusic"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="music_event" type="string" value="music_heist_assault"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="-729.437 -152.38 75.0003"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="166" type="table">
 				<entry key="class" type="string" value="ElementAreaTrigger"/>
 				<entry key="editor_name" type="string" value="area_trigger_004"/>
 				<entry key="id" type="number" value="100165"/>
@@ -4215,7 +4197,7 @@
 					<entry key="width" type="number" value="5000"/>
 				</entry>
 			</entry>
-			<entry index="167" type="table">
+			<entry index="166" type="table">
 				<entry key="class" type="string" value="ElementPlayerState"/>
 				<entry key="editor_name" type="string" value="player_state_001"/>
 				<entry key="id" type="number" value="100166"/>
@@ -4233,7 +4215,7 @@
 					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="168" type="table">
+			<entry index="167" type="table">
 				<entry key="class" type="string" value="ElementAreaTrigger"/>
 				<entry key="editor_name" type="string" value="area_trigger_009"/>
 				<entry key="id" type="number" value="100167"/>
@@ -4268,7 +4250,7 @@
 					<entry key="width" type="number" value="750"/>
 				</entry>
 			</entry>
-			<entry index="169" type="table">
+			<entry index="168" type="table">
 				<entry key="class" type="string" value="ElementPlayerState"/>
 				<entry key="editor_name" type="string" value="player_state_002"/>
 				<entry key="id" type="number" value="100168"/>
@@ -4286,7 +4268,7 @@
 					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="170" type="table">
+			<entry index="169" type="table">
 				<entry key="class" type="string" value="ElementTimerTrigger"/>
 				<entry key="editor_name" type="string" value="timer_trigger_007"/>
 				<entry key="id" type="number" value="100169"/>
@@ -4307,11 +4289,11 @@
 					</entry>
 					<entry key="position" type="vector3" value="23.2094 -848.509 49.9999"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="time" type="number" value="8"/>
+					<entry key="time" type="number" value="5"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="171" type="table">
+			<entry index="170" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyGroup"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_group_008"/>
 				<entry key="id" type="number" value="100170"/>
@@ -4350,7 +4332,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="172" type="table">
+			<entry index="171" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_dummy_035"/>
 				<entry key="id" type="number" value="100171"/>
@@ -4375,7 +4357,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="173" type="table">
+			<entry index="172" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_dummy_036"/>
 				<entry key="id" type="number" value="100172"/>
@@ -4400,7 +4382,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="174" type="table">
+			<entry index="173" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_dummy_037"/>
 				<entry key="id" type="number" value="100173"/>
@@ -4425,7 +4407,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="175" type="table">
+			<entry index="174" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_dummy_038"/>
 				<entry key="id" type="number" value="100174"/>
@@ -4450,7 +4432,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="176" type="table">
+			<entry index="175" type="table">
 				<entry key="class" type="string" value="ElementSpawnCivilian"/>
 				<entry key="editor_name" type="string" value="spawn_civilian_008"/>
 				<entry key="id" type="number" value="100175"/>
@@ -4463,14 +4445,14 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="349.125 -1864.31 -19.9991"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="position" type="vector3" value="284.318 -1884.85 -9.53675e-005"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="cm_sp_look_at_phone"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="177" type="table">
+			<entry index="176" type="table">
 				<entry key="class" type="string" value="ElementSpawnCivilian"/>
 				<entry key="editor_name" type="string" value="spawn_civilian_009"/>
 				<entry key="id" type="number" value="100176"/>
@@ -4483,14 +4465,14 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-613.924 -119.708 0.000255555"/>
+					<entry key="position" type="vector3" value="-594.911 -137.717 0.000255555"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.965926 -0.258819"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="178" type="table">
+			<entry index="177" type="table">
 				<entry key="class" type="string" value="ElementSpawnCivilian"/>
 				<entry key="editor_name" type="string" value="spawn_civilian_010"/>
 				<entry key="id" type="number" value="100177"/>
@@ -4503,14 +4485,14 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="505.277 483.463 -19.8136"/>
+					<entry key="position" type="vector3" value="526.92 465.339 -19.8136"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.984808 -0.173648"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="179" type="table">
+			<entry index="178" type="table">
 				<entry key="class" type="string" value="ElementSpawnCivilian"/>
 				<entry key="editor_name" type="string" value="spawn_civilian_011"/>
 				<entry key="id" type="number" value="100178"/>
@@ -4523,8 +4505,8 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="288.794 884.998 -19.8136"/>
-					<entry key="rotation" type="quaternion" value="0 0 0.984808 -0.173648"/>
+					<entry key="position" type="vector3" value="271.594 907.185 -19.8136"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.996195 0.087156"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
