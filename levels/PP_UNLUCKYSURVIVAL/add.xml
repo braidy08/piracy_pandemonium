@@ -309,8 +309,13 @@
 		<object path="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_parachute/gen_prop_parachute" type="unit">
-		<unit path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
-		<object path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
 		<material_config path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
+		<object path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
+		<unit path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_casual_3/civ_male_casual_3" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_casual_3/civ_male_casual_3"/>
+		<object path="units/payday2/characters/civ_male_casual_3/civ_male_casual_3"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_3/civ_male_casual_3_husk"/>
 	</add>
 </table>

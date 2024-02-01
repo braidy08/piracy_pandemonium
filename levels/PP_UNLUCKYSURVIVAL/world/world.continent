@@ -1,7 +1,7 @@
 <table>
 	<editor_groups/>
 	<instances>
-		<table continent="world" folder="levels/instances/unique/chca/chca_helicopter_enemies/world" index_size="250" name="chca_helicopter_enemies_001" position="251.709 614.27 -8.33301" rotation="0 0 -0.707107 0.707107" script="default" start_index="0"/>
+		<table continent="world" folder="levels/instances/unique/chca/chca_helicopter_enemies/world" index_size="250" name="chca_helicopter_enemies_001" position="1001.71 614.27 -8.33301" rotation="0 0 -0.707107 0.707107" script="default" start_index="0"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_001" position="34.6909 -7547.83 3.42041" rotation="0 0 0.707107 0.707107" script="default" start_index="250"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_002" position="7026.59 1567.09 -13.2924" rotation="0 0 0 1" script="default" start_index="500"/>
 	</instances>
@@ -46,7 +46,7 @@
 			<unit_data _prev_pos="2409.88 528.846 -19.999" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="open_doors" name="units/payday2/vehicles/str_vehicle_bus_metro/str_vehicle_bus_metro" name_id="str_vehicle_bus_metro_001" position="2410 529 -20" rotation="0 0 -0.707107 -0.707107" unit_id="100015"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3418 563 -20" _prev_rot="0 0 0.422618 -0.906308" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="turn_real_lights_on" name="units/payday2/vehicles/str_vehicle_car_ford/str_vehicle_car_ford" name_id="str_vehicle_car_ford_001" position="3418 563 -20" rotation="0 0 0.766044 -0.642788" unit_id="100017">
+			<unit_data _prev_pos="3418 563 -20" _prev_rot="0 0 0.766044 -0.642788" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="turn_real_lights_on" name="units/payday2/vehicles/str_vehicle_car_ford/str_vehicle_car_ford" name_id="str_vehicle_car_ford_001" position="3541.1 541.294 -20" rotation="0 0 0.766044 -0.642788" unit_id="100017">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.937255 0.694118" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -220,7 +220,7 @@
 			<unit_data _prev_pos="1650 -25 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_001" only_visible_in_editor="true" position="1650 -25 0" rotation="0 0 0 -1" unit_id="100070"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2400 50 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_002" only_visible_in_editor="true" position="-2400 25 0" rotation="0 0 0 -1" unit_id="100071"/>
+			<unit_data _prev_pos="-2600 25 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_002" only_visible_in_editor="true" position="-2650 25 0" rotation="0 0 0 -1" unit_id="100071"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-2525 -768 15" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_rollupgaragedoor_a" name_id="ind_ext_rollupgaragedoor_a_001" position="-2523 -768 15" rotation="0 0 -0.707107 -0.707107" unit_id="100072"/>
@@ -940,7 +940,7 @@
 			<unit_data _prev_pos="-2375 -775 2325" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_roof_8x8m_a" name_id="hcm_ext_roof_8x8m_a_002" position="-2375 -775 2350" rotation="0 0 0 -1" unit_id="100297"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-2400 -25 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_004" only_visible_in_editor="true" position="-2400 300 0" rotation="0 0 0 -1" unit_id="100298"/>
+			<unit_data _prev_pos="-2600 300 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 275 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_004" only_visible_in_editor="true" position="-2650 300 0" rotation="0 0 0 -1" unit_id="100298"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-525 1975 200" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_001" only_visible_in_editor="true" position="-500 1975 200" rotation="-0 0 -0 -1" unit_id="100305">
@@ -1215,6 +1215,46 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="679.576 -315.05 -19.9991" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/glass_shatter/glass_shatter" name_id="glass_shatter_001" position="679.576 -315.05 -19.9991" rotation="0 0 0 -1" unit_id="100375"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -9806.7 -24" _prev_rot="0 0 -0.5 -0.866025" continent="world" local_pos="930.32 11.3621 0" local_rot="0 0 -0.258819 0.965926" mesh_variation="lights_on" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_005" position="775 -9831.7 -24" rotation="0 0 -0.5 -0.866025" unit_id="100299">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+				</lights>
+				<projection_textures ls_left="units/lights/spot_light_projection_textures/default_df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="786.362 -10737 -24" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="lights_on" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_006" position="786.362 -10762 -24" rotation="0 0 -0.707107 -0.707107" unit_id="100300">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+				</lights>
+				<projection_textures ls_left="units/lights/spot_light_projection_textures/default_df"/>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1846.6 592.239 -19.9991" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_truck/str_vehicle_truck" name_id="str_vehicle_truck_001" position="-1846.6 592.239 -19.9991" rotation="0 0 -0.766044 -0.642788" unit_id="100301"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="520.935 -1174.58 -19.9991" _prev_rot="0 0 0.984808 0.173648" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/vehicles/str_vehicle_car_compact_crushed_roof/str_vehicle_car_compact_crushed_roof" name_id="str_vehicle_car_compact_crushed_roof_001" position="595.935 -1174.58 -19.9991" rotation="0 0 0.984808 0.173648" unit_id="100302"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="552.865 -1781.85 -19.9991" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/vehicles/str_vehicle_car_compact_open/str_vehicle_car_compact_open" name_id="str_vehicle_car_compact_open_001" position="552.865 -1781.85 -19.9991" rotation="0 0 1 4.37114e-008" unit_id="100303"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-685.386 55.4252 -7.15256e-005" _prev_rot="0 0 0.642788 -0.766044" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/vehicles/str_vehicle_car_modernsedan2_open/str_vehicle_car_modernsedan2_open" name_id="str_vehicle_car_modernsedan2_open_001" position="-685.386 55.4252 -7.15256e-005" rotation="0 0 0.642788 -0.766044" unit_id="100304"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="366.848 645.694 -19.8136" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc1/vehicles/str_vehicle_car_ford_open/str_vehicle_car_ford_open" name_id="str_vehicle_car_ford_open_001" position="366.848 645.694 -19.8136" rotation="0 0 0.5 -0.866025" unit_id="100376"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2400 0 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_005" only_visible_in_editor="true" position="-2400 4 0" rotation="0 0 -0.707107 -0.707107" unit_id="100377"/>
 		</table>
 	</statics>
 	<values>
