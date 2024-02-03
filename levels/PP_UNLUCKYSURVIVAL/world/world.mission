@@ -32,10 +32,6 @@
 						</entry>
 						<entry index="5" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100146"/>
-						</entry>
-						<entry index="6" type="table">
-							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100147"/>
 						</entry>
 					</entry>
@@ -55,7 +51,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="50 -1225 0"/>
+					<entry key="position" type="vector3" value="-150 -1225 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -72,7 +68,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-50 -1225 0"/>
+					<entry key="position" type="vector3" value="-250 -1225 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -89,7 +85,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-175 -1225 0"/>
+					<entry key="position" type="vector3" value="-375 -1225 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -106,7 +102,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-275 -1225 0"/>
+					<entry key="position" type="vector3" value="-475 -1225 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -376,8 +372,16 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100158"/>
 						</entry>
+						<entry index="38" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100146"/>
+						</entry>
+						<entry index="39" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100008"/>
+						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-101.455 -1231.3 150"/>
+					<entry key="position" type="vector3" value="-301.455 -1231.3 150"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -3864,7 +3868,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="enemy" type="string" value="units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2"/>
-					<entry key="execute_on_startup" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
 					<entry key="on_executed" type="table">
@@ -3889,7 +3893,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="enemy" type="string" value="units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3"/>
-					<entry key="execute_on_startup" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
 					<entry key="on_executed" type="table">
@@ -3914,7 +3918,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="enemy" type="string" value="units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4"/>
-					<entry key="execute_on_startup" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
 					<entry key="on_executed" type="table">
@@ -3939,7 +3943,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="enemy" type="string" value="units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5"/>
-					<entry key="execute_on_startup" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="interval" type="number" value="5"/>
 					<entry key="on_executed" type="table">
@@ -4347,6 +4351,39 @@
 					<entry key="rotation" type="quaternion" value="0 0 0.996195 0.087156"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="173" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="mission_script_001"/>
+				<entry key="id" type="number" value="100008"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100162"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100159"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100161"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100160"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-413.482 -878.853 189.966"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
