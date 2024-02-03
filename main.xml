@@ -102,7 +102,7 @@
 			</sounds>
 		</sounds>
 	</level>
-	<level ai_group_type="america" briefing_dialog="" id="PP_ALTESCAPEDAY" intro_event="Day2start" max_bags="999" player_style="generic">
+	<level ai_group_type="america" briefing_dialog="" id="PP_ALTESCAPEDAY" intro_event="Day2start" load_screen="guis/textures/mods/icons/PP_ALTESCAPEDAY_loadingscreen" max_bags="999" player_style="generic">
 		<assets/>
 		<hooks directory="hooks">
 			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
@@ -236,6 +236,7 @@
 		<texture load="true" path="guis/textures/mods/icons/piracy_icon"/>
 		<texture load="true" path="guis/textures/mods/icons/PP_LOADINGSCREEN"/>
 		<texture load="true" path="guis/textures/mods/icons/PP_unluckysurvival_loadingscreen"/>
+		<texture load="true" path="guis/textures/mods/icons/PP_ALTESCAPEDAY_loadingscreen"/>
 		<texture path="guis/textures/mods/icons/copkiller_icon"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_df"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il"/>
