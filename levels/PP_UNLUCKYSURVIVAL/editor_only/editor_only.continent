@@ -241,6 +241,18 @@
 		<table>
 			<unit_data _prev_pos="-2297.42 1205.43 -19.9991" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_044" only_exists_in_editor="true" position="-2297.42 1205.43 -19.9991" rotation="0 0 0.445597 -0.895234" unit_id="200079"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-370.834 -1100 1822.33" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_001" position="-370.834 -1100 1822.33" rotation="-0 0 -0 -1" unit_id="200080">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="core/fonts/diesel" font_color="1 1 1" font_size="2.59" render_template="Text" text="this kept making pd2 crash when landing on the ground smh" vertical="center" word_wrap="true" wrap="true">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
