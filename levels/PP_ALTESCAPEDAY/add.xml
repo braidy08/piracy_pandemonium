@@ -1445,4 +1445,26 @@
 	<add from_db="true" path="effects/particles/explosions/suburbia_pool_explosion" type="effect">
 		<effect load="true" path="effects/particles/explosions/suburbia_pool_explosion"/>
 	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan" type="unit" used="true">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker_vehicle_sedan"/>
+	</add>
+	<add from_db="true" path="units/equipment/c4_charge/c4_diffusible" type="unit" used="true">
+		<material_config path="units/equipment/c4_charge/c4_diffusible"/>
+		<object path="units/equipment/c4_charge/c4_diffusible"/>
+		<sequence_manager path="units/equipment/c4_charge/c4_diffusible"/>
+		<unit path="units/equipment/c4_charge/c4_diffusible"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a" type="unit" used="true">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x2x2m" type="unit" used="true">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x2x2m"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x2x2m"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x2x2m"/>
+	</add>
 </table>
