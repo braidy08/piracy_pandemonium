@@ -37,7 +37,15 @@
 			</mod>
 		</script_data_mods>
 		<sounds directory="assets/sounds">
-			<sound id="doorknock1"/>
+			<sound id="Door3">
+				<markers>
+					<marker label="Door3_01" position="0.1"/>
+					<marker label="Door3_02" position="2.537"/>
+					<marker label="Door3_03" position="7.362"/>
+					<marker label="Door3_04" position="8.737"/>
+					<marker label="Door3_05" position="13.669"/>
+				</markers>
+			</sound>
 			<sound id="CopAlert1"/>
 			<sound id="baindies"/>
 			<sound id="BainBagged"/>
@@ -134,7 +142,19 @@
 			</mod>
 		</script_data_mods>
 		<sounds directory="assets/sounds">
-			<sound id="Day2start"/>
+			<sounds directory="d2">
+				<sound id="BileArrivedDay2Edition"/>
+				<sound id="BileComing"/>
+			</sounds>
+			<sounds directory="intros">
+				<sound id="Day2Start">
+					<markers>
+						<marker label="Day2Start_01" position="0.877"/>
+						<marker label="Day2Start_02" position="5.809"/>
+						<marker label="Day2Start_03" position="10.207"/>
+					</markers>
+				</sound>
+			</sounds>
 		</sounds>
 	</level>
 	<level ai_group_type="america" briefing_dialog="" id="PP_UNLUCKYSURVIVAL" intro_event="" load_screen="guis/textures/mods/icons/PP_unluckysurvival_loadingscreen" max_bags="999" player_style="generic" repossess_bags="true">

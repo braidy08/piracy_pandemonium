@@ -501,10 +501,7 @@
 			<unit_data continent="editor_only" local_pos="0 0 0" local_rot="0 0 0.707107 0.707107" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_089" only_exists_in_editor="true" position="23675 15700 -25" rotation="0 0 0.707107 -0.707107" unit_id="200175"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_052" only_exists_in_editor="true" position="28475 -1900 -25" rotation="0 0 1 -0" unit_id="200176"/>
-		</table>
-		<table>
-			<unit_data continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_041" only_exists_in_editor="true" position="28425 -3550 0" rotation="0 0 0 -1" unit_id="200177"/>
+			<unit_data _prev_pos="28475 -1900 -25" _prev_rot="0 0 1 -0" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_052" only_exists_in_editor="true" position="29300 -1900 -25" rotation="0 0 1 -0" unit_id="200176"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" local_pos="3125 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_062" only_exists_in_editor="true" position="23625 17225 0" rotation="0 0 0 -1" unit_id="200178"/>
@@ -541,12 +538,6 @@
 		</table>
 		<table>
 			<unit_data continent="editor_only" local_pos="1650 1550 25" local_rot="0 0 0.707107 0.707107" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_051" only_exists_in_editor="true" position="29250 -6750 0" rotation="0 0 0 -1" unit_id="200189"/>
-		</table>
-		<table>
-			<unit_data continent="editor_only" local_pos="-3225 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_053" only_exists_in_editor="true" position="30075 -1900 -25" rotation="0 0 1 -0" unit_id="200190"/>
-		</table>
-		<table>
-			<unit_data continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_044" only_exists_in_editor="true" position="30025 -3550 0" rotation="0 0 0 -1" unit_id="200191"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" local_pos="4725 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_063" only_exists_in_editor="true" position="25225 17225 0" rotation="0 0 0 -1" unit_id="200192"/>
@@ -999,19 +990,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="32567.2 16211.3 7530.19" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_009" position="32567.2 16211.3 7530.19" rotation="-0 0 -0 -1" unit_id="200314">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="core/fonts/diesel" font_color="1 1 0" font_size="3.37" render_template="Text" text="FIX NAVIGATION WHAT THE FUCK (it works so i probably wont)" vertical="center" word_wrap="true" wrap="true">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
-			<unit_data _prev_pos="32567.2 16086.3 7530.19" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_010" position="32567.2 16086.3 7530.19" rotation="-0 0 -0 -1" unit_id="200315">
+			<unit_data _prev_pos="35592.2 16086.3 7530.19" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_010" position="35592.2 16186.3 7530.19" rotation="0 0 0 -1" unit_id="200315">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="core/fonts/diesel" font_color="1 1 0" font_size="3.37" render_template="Text" text="figure out why the SO navlinks wont work" vertical="center" word_wrap="true" wrap="true">
 					<shape>
 						<value_node value="0"/>
@@ -1071,7 +1050,7 @@
 			<unit_data _prev_pos="33038 15871 7525" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="-3000 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_016" position="33038 13871 7525" rotation="0 0 0 -1" unit_id="200339"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="32567.2 15961.3 7530.19" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_011" position="32567.2 15961.3 7530.19" rotation="-0 0 -0 -1" unit_id="200340">
+			<unit_data _prev_pos="32567.2 15961.3 7530.19" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_011" position="32567.2 16211.3 7530.19" rotation="0 0 0 -1" unit_id="200340">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="core/fonts/diesel" font_color="1 1 0" font_size="3.37" render_template="Text" text="add voicelines (waiting simulator)" vertical="center" word_wrap="true" wrap="true">
 					<shape>
 						<value_node value="0"/>
@@ -1083,19 +1062,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="32567.2 15861.3 7530.19" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_013" position="32567.2 15836.3 7530.19" rotation="-0 0 -0 -1" unit_id="200145">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="core/fonts/diesel" font_color="1 1 0" font_size="3.37" render_template="Text" text="optimize d1(already did d1 i guess) and other escape day" vertical="center" word_wrap="true" wrap="true">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
-			<unit_data _prev_pos="32567.2 15711.3 7530.19" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_014" position="32567.2 15711.3 7530.19" rotation="-0 0 -0 -1" unit_id="200147">
+			<unit_data _prev_pos="32567.2 16111.3 7530.19" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_014" position="32567.2 16111.3 7530.19" rotation="0 0 0 -1" unit_id="200147">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="core/fonts/diesel" font_color="1 1 0" font_size="3.37" render_template="Text" text="finish making this crap" vertical="center" word_wrap="true" wrap="true">
 					<shape>
 						<value_node value="0"/>
@@ -1774,6 +1741,18 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="61148.8 -5691.04 23525" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_002" only_exists_in_editor="true" position="61148.8 -5691.04 23525" rotation="0 0 0.470963 -0.882153" unit_id="200559"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="35567.2 16311.3 7530.19" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="dontwanttodolisttitle" position="35592.2 16311.3 7530.19" rotation="-0 0 -0 -1" unit_id="200145">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="core/fonts/diesel" font_color="1 1 0" font_size="3.37" render_template="Text" text="DONT WANT TODO LIST" vertical="center" word_wrap="true" wrap="true">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
 		</table>
 	</statics>
 	<values>
