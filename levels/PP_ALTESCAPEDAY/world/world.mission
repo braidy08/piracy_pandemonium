@@ -8400,6 +8400,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100408"/>
 						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100520"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="19292.4 5181.75 -570"/>
 					<entry key="radius" type="number" value="250"/>
@@ -10189,23 +10193,23 @@
 					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
-					<entry key="interrupt_dmg" type="number" value="1"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interrupt_objective" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="10"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
-					<entry key="path_stance" type="string" value="hos"/>
+					<entry key="path_stance" type="string" value="cbt"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
-					<entry key="pose" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="20800 15394 1200"/>
 					<entry key="repeatable" type="boolean" value="true"/>
 					<entry key="rotation" type="quaternion" value="-0 -0 1.39091e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
-					<entry key="search_distance" type="number" value="2000"/>
+					<entry key="search_distance" type="number" value="0"/>
 					<entry key="search_position" type="vector3" value="20926 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
@@ -10238,23 +10242,23 @@
 					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
-					<entry key="interrupt_dmg" type="number" value="1"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interrupt_objective" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="10"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
-					<entry key="path_stance" type="string" value="hos"/>
+					<entry key="path_stance" type="string" value="cbt"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
-					<entry key="pose" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="21100 15394 1200"/>
 					<entry key="repeatable" type="boolean" value="true"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
-					<entry key="search_distance" type="number" value="2000"/>
+					<entry key="search_distance" type="number" value="0"/>
 					<entry key="search_position" type="vector3" value="21226 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
@@ -10287,23 +10291,23 @@
 					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
-					<entry key="interrupt_dmg" type="number" value="1"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interrupt_objective" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="10"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
-					<entry key="path_stance" type="string" value="hos"/>
+					<entry key="path_stance" type="string" value="cbt"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
-					<entry key="pose" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="21450 15394 1200"/>
 					<entry key="repeatable" type="boolean" value="true"/>
 					<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
-					<entry key="search_distance" type="number" value="2000"/>
+					<entry key="search_distance" type="number" value="0"/>
 					<entry key="search_position" type="vector3" value="21576 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
@@ -10336,23 +10340,23 @@
 					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
-					<entry key="interrupt_dmg" type="number" value="1"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interrupt_objective" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="10"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
-					<entry key="path_stance" type="string" value="hos"/>
+					<entry key="path_stance" type="string" value="cbt"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
-					<entry key="pose" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="21950 15394 1200"/>
 					<entry key="repeatable" type="boolean" value="true"/>
 					<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
-					<entry key="search_distance" type="number" value="2000"/>
+					<entry key="search_distance" type="number" value="0"/>
 					<entry key="search_position" type="vector3" value="22076 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
@@ -10385,23 +10389,23 @@
 					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
-					<entry key="interrupt_dmg" type="number" value="1"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interrupt_objective" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="10"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
-					<entry key="path_stance" type="string" value="hos"/>
+					<entry key="path_stance" type="string" value="cbt"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
-					<entry key="pose" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="22475 15394 1200"/>
 					<entry key="repeatable" type="boolean" value="true"/>
 					<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
-					<entry key="search_distance" type="number" value="2000"/>
+					<entry key="search_distance" type="number" value="0"/>
 					<entry key="search_position" type="vector3" value="22601 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
@@ -10434,23 +10438,23 @@
 					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
-					<entry key="interrupt_dmg" type="number" value="1"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interrupt_objective" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="10"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
-					<entry key="path_stance" type="string" value="hos"/>
+					<entry key="path_stance" type="string" value="cbt"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
-					<entry key="pose" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="22900 15394 1200"/>
 					<entry key="repeatable" type="boolean" value="true"/>
 					<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
-					<entry key="search_distance" type="number" value="2000"/>
+					<entry key="search_distance" type="number" value="0"/>
 					<entry key="search_position" type="vector3" value="23026 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
@@ -10483,23 +10487,23 @@
 					<entry key="forced" type="boolean" value="true"/>
 					<entry key="interaction_voice" type="string" value="none"/>
 					<entry key="interrupt_dis" type="number" value="0"/>
-					<entry key="interrupt_dmg" type="number" value="1"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interrupt_objective" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="10"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
-					<entry key="path_stance" type="string" value="hos"/>
+					<entry key="path_stance" type="string" value="cbt"/>
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
-					<entry key="pose" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="23300 15394 1200"/>
 					<entry key="repeatable" type="boolean" value="true"/>
 					<entry key="rotation" type="quaternion" value="0 0 4.37114e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
-					<entry key="search_distance" type="number" value="2000"/>
+					<entry key="search_distance" type="number" value="0"/>
 					<entry key="search_position" type="vector3" value="23426 15560 0"/>
 					<entry key="so_action" type="string" value="e_nl_down_12m"/>
 					<entry key="spawn_instigator_ids" type="table">
@@ -10691,7 +10695,7 @@
 					<entry key="event_list" type="table">
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="start_spawn"/>
-							<entry key="instance" type="string" value="chca_helicopter_enemies_002"/>
+							<entry key="instance" type="string" value="PP_helicopter_enemies_002"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -10738,7 +10742,7 @@
 					<entry key="event_list" type="table">
 						<entry index="1" type="table">
 							<entry key="event" type="string" value="heli_despawned"/>
-							<entry key="instance" type="string" value="chca_helicopter_enemies_002"/>
+							<entry key="instance" type="string" value="PP_helicopter_enemies_002"/>
 						</entry>
 					</entry>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -14566,19 +14570,64 @@
 					</entry>
 					<entry key="path_haste" type="string" value="run"/>
 					<entry key="path_stance" type="string" value="cbt"/>
-					<entry key="path_style" type="string" value="destination"/>
+					<entry key="path_style" type="string" value="precise"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="31939.2 3179.4 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="scan" type="boolean" value="true"/>
-					<entry key="search_distance" type="number" value="2500"/>
+					<entry key="search_distance" type="number" value="0"/>
 					<entry key="search_position" type="vector3" value="32173 3173 0"/>
 					<entry key="so_action" type="string" value="e_nl_jump_over_1m_var1"/>
 					<entry key="spawn_instigator_ids" type="table">
 					</entry>
 					<entry key="test_unit" type="string" value="default"/>
-					<entry key="trigger_on" type="string" value="interact"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="521" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="mission_script_012"/>
+				<entry key="id" type="number" value="100520"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100371"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100372"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100373"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100374"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100375"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100376"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100377"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="21512.7 15307.4 1350"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
