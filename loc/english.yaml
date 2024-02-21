@@ -11,7 +11,13 @@ hud_assault_point_no_OMGGETTHEHELLOUT: 'Overwhelmed in:'
 
 # Custom interactions
 
+# Bain pickup
 hud_int_hold_take_bain: Hold $BTN_INTERACT to pickup the bain
+hud_action_taking_bain: Grabbing bain
+
+# use tool
+hud_int_hold_PP_usetool: Hold $BTN_INTERACT to use tools
+hud_action_using_PP_usetool: Fixing
 
 # Heist names
 
@@ -129,7 +135,9 @@ PP_KILLEDCOPSSPEED_objective: Kill one of the two police in under 10 seconds aft
 PP_DOMINATEDCOPS_name: Best frenemies
 PP_DOMINATEDCOPS_desc: ''
 PP_DOMINATEDCOPS_objective: Dominate both of the police that arrive after pirating 1 movie.
-
+PP_GOODSAMARITAN_name: Good Samaritan
+PP_GOODSAMARITAN_desc: ''
+PP_GOODSAMARITAN_objective: Repair the broken AC
 
 # Unused Remove in the future!!!
 

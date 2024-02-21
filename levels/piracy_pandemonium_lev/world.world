@@ -1208,14 +1208,14 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="_prev_pos" type="vector3" value="1726.26 2334.16 1400"/>
+				<entry key="_prev_pos" type="vector3" value="1901.26 2334.16 1400"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
-				<entry key="local_pos" type="vector3" value="3210.7 25.2249 0"/>
+				<entry key="local_pos" type="vector3" value="3426.77 -2457.66 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_046"/>
-				<entry key="position" type="vector3" value="1726.26 2334.16 1400"/>
+				<entry key="position" type="vector3" value="1901.26 2334.16 1400"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="65"/>
 			</entry>
@@ -1231,14 +1231,14 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="_prev_pos" type="vector3" value="1504.73 3823.23 1400"/>
+				<entry key="_prev_pos" type="vector3" value="1804.73 3823.23 1400"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_047"/>
-				<entry key="position" type="vector3" value="1554.73 3823.23 1400"/>
+				<entry key="position" type="vector3" value="1804.73 3823.23 1400"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="66"/>
 			</entry>
@@ -2343,6 +2343,14 @@
 	<entry key="brush" type="table">
 		<entry key="file" type="string" value="massunit"/>
 		<entry key="preload_units" type="table">
+			<entry index="1" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_3"/>
+			<entry index="2" type="string" value="units/world/brushes/trash/trash_brush_03"/>
+			<entry index="3" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_4"/>
+			<entry index="4" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_1"/>
+			<entry index="5" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_5"/>
+			<entry index="6" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_7"/>
+			<entry index="7" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_6"/>
+			<entry index="8" type="string" value="units/world/architecture/secret_stash/props/secret_stash_props_trash_2"/>
 		</entry>
 	</entry>
 	<entry key="camera_bookmarks" type="table">

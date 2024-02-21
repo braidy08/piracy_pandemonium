@@ -8,5 +8,15 @@ Hooks:PostHook(InteractionTweakData, "init", "init_piracypandemonium", function(
 		sound_done = "bar_bag_money_finished",
 		blocked_hint = "carry_block"
     }
-    
+    self.PP_usetool = {
+		text_id = "hud_int_hold_PP_usetool",
+		equipment_text_id = "hud_int_requires_tool",
+		action_text_id = "hud_action_using_PP_usetool",
+		timer = 20,
+		sound_start = "bar_drill_fix",
+		sound_interupt = "bar_drill_fix_cancel",
+		sound_done = "bar_drill_fix_finished",
+		special_equipment = "tool",
+		equipment_consume = true
+	}
 end)
