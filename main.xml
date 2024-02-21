@@ -135,26 +135,23 @@
 			<value_node value="levels/instances/unique/pbr/pbr_mountain_entrance/world/world"/>
 			<value_node value="levels/narratives/armadillo/arm_hcm/world"/>
 			<value_node value="levels/narratives/escapes/escape_garage/world/world"/>
+			<value_node value="levels/narratives/pbr/jerry/world_sounds"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
-		<sounds directory="assets/sounds">
-			<sounds directory="d2">
+		<sounds directory="assets/sounds/d2">
 				<sound id="BileArrivedDay2Edition"/>
 				<sound id="BileComing"/>
-			</sounds>
-			<sounds directory="intros">
-				<sound id="Day2Start">
+				<sound id="Day2start">
 					<markers>
-						<marker label="Day2Start_01" position="0.2"/>
-						<marker label="Day2Start_02" position="5.209"/>
-						<marker label="Day2Start_03" position="9.607"/>
+						<marker label="Day2start_01" position="0.2"/>
+						<marker label="Day2start_02" position="5.209"/>
+						<marker label="Day2start_03" position="9.607"/>
 					</markers>
 				</sound>
-			</sounds>
 		</sounds>
 	</level>
 	<level ai_group_type="america" briefing_dialog="" id="PP_UNLUCKYSURVIVAL" intro_event="" load_screen="guis/textures/mods/icons/PP_unluckysurvival_loadingscreen" max_bags="999" player_style="generic" repossess_bags="true">
