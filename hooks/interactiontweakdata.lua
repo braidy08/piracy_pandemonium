@@ -19,4 +19,12 @@ Hooks:PostHook(InteractionTweakData, "init", "init_piracypandemonium", function(
 		special_equipment = "tool",
 		equipment_consume = true
 	}
+	self.PP_rearmc4 = {
+        text_id = "hud_int_hold_PP_rearmc4",
+		action_text_id = "hud_action_rearming_PP_rearmc4",
+		timer = 3,
+		sound_start = "bar_plant_breaching_detonator",
+		sound_interupt = "bar_plant_breaching_detonator_cancel",
+		sound_done = "bar_plant_breaching_detonator_finished"
+    }
 end)
