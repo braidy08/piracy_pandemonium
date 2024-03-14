@@ -1457,4 +1457,17 @@
 		<object path="units/pd2_dlc_tag/architecture/tag_int/tag_int_trims_pillars/tag_int_pillar_a_elevator"/>
 		<unit path="units/pd2_dlc_tag/architecture/tag_int/tag_int_trims_pillars/tag_int_pillar_a_elevator"/>
 	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_long_b" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/panorama_window"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_long_b"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_long_b"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_long_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_facade_01" type="unit">
+		<unit path="units/payday2/architecture/lux/lux_ext_facade_01"/>
+		<object path="units/payday2/architecture/lux/lux_ext_facade_01"/>
+		<material_config path="units/payday2/architecture/lux/lux_villavivaldi"/>
+	</add>
 </table>
