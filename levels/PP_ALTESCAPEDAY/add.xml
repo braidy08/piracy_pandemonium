@@ -1524,10 +1524,35 @@
 		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_window"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door" type="unit">
-		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
-		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
 		<material_config path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
-		<sequence_manager path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
+		<sequence_manager path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
+		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall1_025m_cap_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_wall1_025m_cap_a"/>
+		<unit path="units/payday2/architecture/lux/lux_int_wall1_025m_cap_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall1_050m_cap_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_wall1_050m_cap_a"/>
+		<unit path="units/payday2/architecture/lux/lux_int_wall1_050m_cap_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_doorway_splitter_2x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_doorway_splitter_2x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_doorway_splitter_2x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_floor_2x2m_a_wood" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_floor_2x2m_a_wood"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_floor_2x2m_a_wood"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet" type="unit">
+		<unit path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet"/>
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
 	</add>
 </table>
