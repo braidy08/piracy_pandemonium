@@ -1466,8 +1466,68 @@
 		<unit path="units/payday2/architecture/lux/lux_ext_glass_long_b"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_facade_01" type="unit">
-		<unit path="units/payday2/architecture/lux/lux_ext_facade_01"/>
-		<object path="units/payday2/architecture/lux/lux_ext_facade_01"/>
 		<material_config path="units/payday2/architecture/lux/lux_villavivaldi"/>
+		<object path="units/payday2/architecture/lux/lux_ext_facade_01"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_facade_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_ext_3x8m_b" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm/hcm_ext_3x8m_b"/>
+		<sequence_manager path="units/payday2/architecture/hcm/hcm_ext_3x8m_b"/>
+		<unit path="units/payday2/architecture/hcm/hcm_ext_3x8m_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_ext_3x8m_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/payday2/architecture/hcm/hcm_ext_3x8m_a"/>
+		<sequence_manager path="units/payday2/architecture/hcm/hcm_ext_3x8m_a"/>
+		<unit path="units/payday2/architecture/hcm/hcm_ext_3x8m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_ext_16x16m_corner_e" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm"/>
+		<object path="units/payday2/architecture/hcm/hcm_ext_16x16m_corner_e"/>
+		<unit path="units/payday2/architecture/hcm/hcm_ext_16x16m_corner_e"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_ext_8x16m_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm"/>
+		<object path="units/payday2/architecture/hcm/hcm_ext_8x16m_a"/>
+		<unit path="units/payday2/architecture/hcm/hcm_ext_8x16m_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass/ind_prop_cardealership_glass" type="unit">
+		<material_config path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass/ind_prop_cardealership_glass"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/dest/bottle_dest"/>
+		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass/ind_prop_cardealership_glass"/>
+		<sequence_manager path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass/ind_prop_cardealership_glass"/>
+		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass/ind_prop_cardealership_glass"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall" type="unit">
+		<material_config path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall"/>
+		<sequence_manager path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall"/>
+		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall_corner" type="unit">
+		<material_config path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall_corner"/>
+		<sequence_manager path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall_corner"/>
+		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall_corner"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_window" type="unit">
+		<material_config path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_wall"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_window"/>
+		<sequence_manager path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_window"/>
+		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_window"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door" type="unit">
+		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
+		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
+		<material_config path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
+		<sequence_manager path="units/pd2_dlc_cage/props/ind_prop_cardealership_glass_set/ind_prop_cardealership_glass_door"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 	</add>
 </table>
