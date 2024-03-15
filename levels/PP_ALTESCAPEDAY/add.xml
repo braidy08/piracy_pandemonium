@@ -1551,8 +1551,74 @@
 		<unit path="units/payday2/architecture/hcm/hcm_int_floor_2x2m_a_wood"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet" type="unit">
-		<unit path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet"/>
-		<object path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet"/>
 		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/cdr/cdr_int_concrete_pillar_1m_a" type="unit">
+		<material_config path="units/payday2/architecture/cdr/cdr_int"/>
+		<object path="units/payday2/architecture/cdr/cdr_int_concrete_pillar_1m_a"/>
+		<unit path="units/payday2/architecture/cdr/cdr_int_concrete_pillar_1m_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_64x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_64x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_64x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception_big_bank" type="unit">
+		<material_config path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception_big_bank"/>
+		<object path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception_big_bank"/>
+		<unit path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception_big_bank"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception" type="unit">
+		<material_config path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception"/>
+		<object path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception"/>
+		<unit path="units/payday2/props/com_prop_counter_reception/com_prop_counter_reception"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_wood" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_wood"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_wood"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_wood" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_wood"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_wood"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_wood" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_wood"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_wood"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_6m_server" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int_wall_6m_server"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_6m_server"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_6m_server"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_b_wood" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_b_wood"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_b_wood"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_metal_detector/gen_prop_security_metal_detector" type="unit">
+		<object path="units/payday2/props/gen_prop_security_metal_detector/gen_prop_security_metal_detector"/>
+		<sequence_manager path="units/payday2/props/gen_prop_security_metal_detector/gen_prop_security_metal_detector"/>
+		<unit path="units/payday2/props/gen_prop_security_metal_detector/gen_prop_security_metal_detector"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector" type="unit">
+		<object path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
+		<sequence_manager path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
+		<unit path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
+	</add>
+	<add from_db="true" path="units/world/props/gym/gym_cover_metaldetector/stn_cover_metaldetector" type="unit">
+		<material_config path="units/world/props/gym/gym_cover_metaldetector/stn_cover_metaldetector"/>
+		<object path="units/world/props/gym/gym_cover_metaldetector/stn_cover_metaldetector"/>
+		<unit path="units/world/props/gym/gym_cover_metaldetector/stn_cover_metaldetector"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static" type="unit">
+		<unit path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
+		<object path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
+		<material_config path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
+		<sequence_manager path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
 	</add>
 </table>
