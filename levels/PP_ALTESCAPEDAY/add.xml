@@ -1616,9 +1616,59 @@
 		<unit path="units/world/props/gym/gym_cover_metaldetector/stn_cover_metaldetector"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static" type="unit">
-		<unit path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
-		<object path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
 		<material_config path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
+		<object path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
 		<sequence_manager path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
+		<unit path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_barrier_big/are_prop_barrier_big" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_barrier_big/are_prop_barrier_big"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_barrier_big/are_prop_barrier_big"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_barrier_big/are_prop_barrier_big"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_barrier_big/are_prop_barrier_big"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_a" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_a"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_b" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_b"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_c" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_c"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_d" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_d"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_2" type="unit">
+		<material_config path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes"/>
+		<object path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_2"/>
+		<unit path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_1" type="unit">
+		<material_config path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes"/>
+		<object path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_1"/>
+		<unit path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" type="unit">
+		<material_config path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes"/>
+		<object path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes"/>
+		<unit path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes"/>
+	</add>
+	<add from_db="true" path="units/world/props/nick/nick_bank_the_janitor" type="unit">
+		<material_config path="units/world/props/nick/nick_bank"/>
+		<object path="units/world/props/nick/nick_bank_the_janitor"/>
+		<unit path="units/world/props/nick/nick_bank_the_janitor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/characters/civ_male_janitor_pex_02/civ_male_janitor_pex_02_husk" type="unit">
+		<object path="units/pd2_dlc_pex/characters/civ_male_janitor_pex_02/civ_male_janitor_pex_02"/>
+		<unit path="units/pd2_dlc_pex/characters/civ_male_janitor_pex_02/civ_male_janitor_pex_02_husk"/>
 	</add>
 </table>
