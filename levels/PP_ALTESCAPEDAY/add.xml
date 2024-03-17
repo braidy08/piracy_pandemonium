@@ -1671,4 +1671,14 @@
 		<object path="units/pd2_dlc_pex/characters/civ_male_janitor_pex_02/civ_male_janitor_pex_02"/>
 		<unit path="units/pd2_dlc_pex/characters/civ_male_janitor_pex_02/civ_male_janitor_pex_02_husk"/>
 	</add>
+	<add from_db="true" path="units/payday2/props/lxa_prop_livingroom_table_coffee/lxa_prop_livingroom_table_coffee" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_livingroom_table_coffee/lxa_prop_livingroom_table_coffee"/>
+		<object path="units/payday2/props/lxa_prop_livingroom_table_coffee/lxa_prop_livingroom_table_coffee"/>
+		<unit path="units/payday2/props/lxa_prop_livingroom_table_coffee/lxa_prop_livingroom_table_coffee"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_generic_coffeemachine/off_prop_generic_coffeemachine" type="unit">
+		<unit path="units/payday2/props/off_prop_generic_coffeemachine/off_prop_generic_coffeemachine"/>
+		<object path="units/payday2/props/off_prop_generic_coffeemachine/off_prop_generic_coffeemachine"/>
+		<material_config path="units/payday2/props/off_prop_generic_coffeemachine/off_prop_generic_coffeemachine"/>
+	</add>
 </table>
