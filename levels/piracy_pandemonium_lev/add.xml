@@ -993,11 +993,31 @@
 		<unit path="units/pd2_dlc_glace/props/glc_prop_contruction_scaffold/glc_prop_contruction_scaffold_bottom_01"/>
 	</add>
 	<add from_db="true" path="units/payday2/vehicles/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition" type="unit">
-		<unit path="units/payday2/vehicles/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition"/>
-		<object path="units/payday2/vehicles/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition"/>
 		<material_config path="units/payday2/vehicles/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition"/>
-		<sequence_manager path="units/payday2/vehicles/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 		<effect load="true" path="effects/particles/bullet_hit/misc/misc_tire"/>
+		<object path="units/payday2/vehicles/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition"/>
+		<unit path="units/payday2/vehicles/str_vehicle_truck_boxvan/str_vehicle_truck_boxvan_player_edition"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar" type="unit">
+		<material_config path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar"/>
+		<object path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar"/>
+		<unit path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_chinese_calendar/chas_prop_chinese_calendar" type="unit">
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_chinese_calendar/chas_prop_chinese_calendar"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_chinese_calendar/chas_prop_chinese_calendar"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_chinese_calendar/chas_prop_chinese_calendar"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/wall_documents/calendar_01" type="unit">
+		<material_config path="units/world/props/office/wall_documents/wall_documents"/>
+		<object path="units/world/props/office/wall_documents/calendar_01"/>
+		<unit path="units/world/props/office/wall_documents/calendar_01"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/wall_documents/calendar_02" type="unit">
+		<unit path="units/world/props/office/wall_documents/calendar_02"/>
+		<object path="units/world/props/office/wall_documents/calendar_02"/>
+		<material_config path="units/world/props/office/wall_documents/wall_documents"/>
 	</add>
 </table>
