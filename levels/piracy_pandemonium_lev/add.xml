@@ -1016,8 +1016,13 @@
 		<unit path="units/world/props/office/wall_documents/calendar_01"/>
 	</add>
 	<add from_db="true" path="units/world/props/office/wall_documents/calendar_02" type="unit">
-		<unit path="units/world/props/office/wall_documents/calendar_02"/>
-		<object path="units/world/props/office/wall_documents/calendar_02"/>
 		<material_config path="units/world/props/office/wall_documents/wall_documents"/>
+		<object path="units/world/props/office/wall_documents/calendar_02"/>
+		<unit path="units/world/props/office/wall_documents/calendar_02"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker_1m" type="unit">
+		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
+		<object path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>

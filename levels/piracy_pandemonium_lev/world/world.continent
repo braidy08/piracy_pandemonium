@@ -1124,7 +1124,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-55.01 6255 399.999" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/payday2/equipment/gen_interactable_door_corridor/gen_interactable_door_corridor" name_id="gen_interactable_door_corridor_014" position="-55.01 6255 399.999" rotation="0 0 0.707107 -0.707107" unit_id="100381"/>
+			<unit_data _prev_pos="-55.01 6255 399.999" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/payday2/equipment/gen_interactable_door_corridor/gen_interactable_door_corridor" name_id="gen_interactable_door_corridor_014" position="-56.01 6255 399.999" rotation="0 0 0.707107 -0.707107" unit_id="100381"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="148.03 6883.41 480.091" _prev_rot="0 0 0.71325 -0.700909" continent="world" local_pos="72.4102 323.97 39.091" local_rot="0 0 -0.999962 -0.00872657" mesh_variation="disable_interaction" name="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" name_id="bnk_prop_vault_loot_special_money_019" position="148.03 6883.41 480.431" rotation="0 0 0.713251 -0.700909" unit_id="100382"/>
@@ -9461,9 +9461,6 @@
 			<unit_data _prev_pos="21175 -3325 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_bdrop_far_13_32x64" name_id="hcm_bdrop_far_13_32x64_001" position="21175 -3975 0" rotation="0 0 0 -1" unit_id="101399"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-50.175 6206.4 399.999" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" name_id="dev_door_blocker_1x1x3_001" only_visible_in_editor="true" position="-50.175 6206.4 399.999" rotation="-0 0 -0 -1" unit_id="101400"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="17564.6 68282.1 0" _prev_rot="0 0 -2.98023e-008 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_far_skyscrapers" name_id="lxa_bdrop_far_skyscrapers_002" position="17564.6 68282.1 0" rotation="0 0 -2.98023e-008 -1" unit_id="101805"/>
 		</table>
 		<table>
@@ -10536,6 +10533,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="6992.93 -8280.71 7.41113e-005" _prev_rot="0 0 -0.34202 -0.939693" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_lxy/props/yacht/boxes/lxy_cover_boxes_stacked_mid" name_id="lxy_cover_boxes_stacked_mid_014" position="6989.87 -8283.28 7.41113e-005" rotation="0 0 -0.34202 -0.939693" unit_id="103362"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1.01 6255 399.999" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/door_blocker/door_blocker_1m" name_id="door_blocker_1m_001" only_visible_in_editor="true" position="-1.01 6255 399.999" rotation="0 0 -0.707107 -0.707107" unit_id="101400"/>
 		</table>
 	</statics>
 	<values>
