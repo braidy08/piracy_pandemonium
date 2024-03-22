@@ -1539,4 +1539,9 @@
 		<object path="units/payday2/props/off_prop_generic_coffeemachine/off_prop_generic_coffeemachine"/>
 		<unit path="units/payday2/props/off_prop_generic_coffeemachine/off_prop_generic_coffeemachine"/>
 	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker_1m" type="unit">
+		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
+		<object path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
 </table>
