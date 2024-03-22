@@ -2037,6 +2037,14 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100607"/>
 						</entry>
+						<entry index="12" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100644"/>
+						</entry>
+						<entry index="13" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100645"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="58041.5 -8568.57 23753.1"/>
 					<entry key="radius" type="number" value="250"/>
@@ -16953,6 +16961,1336 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="show_instigator" type="boolean" value="false"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="609" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_010"/>
+				<entry key="id" type="number" value="100297"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="60659.2 -3689.2 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="60675 -3387 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="610" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_001"/>
+				<entry key="id" type="number" value="100609"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100297"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100610"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="60614.8 -3698.46 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="611" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_001"/>
+				<entry key="id" type="number" value="100610"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="60631.4 -3509.4 23624.8"/>
+					<entry key="range" type="number" value="5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="612" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_002"/>
+				<entry key="id" type="number" value="100611"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100613"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100612"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="60939.8 -3698.46 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="613" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_002"/>
+				<entry key="id" type="number" value="100612"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="60956.4 -3509.4 23624.8"/>
+					<entry key="range" type="number" value="5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="614" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_011"/>
+				<entry key="id" type="number" value="100613"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="60984.2 -3689.2 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="61000 -3387 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="615" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_012"/>
+				<entry key="id" type="number" value="100614"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="61434.2 -3689.2 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="61450 -3387 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="616" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_003"/>
+				<entry key="id" type="number" value="100615"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100614"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100616"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="61389.8 -3698.46 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="617" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_003"/>
+				<entry key="id" type="number" value="100616"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="61406.4 -3509.4 23624.8"/>
+					<entry key="range" type="number" value="5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="618" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_013"/>
+				<entry key="id" type="number" value="100617"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="59309.2 -3689.2 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="59325 -3387 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="619" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_004"/>
+				<entry key="id" type="number" value="100618"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100617"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100619"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="59264.8 -3698.46 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="620" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_004"/>
+				<entry key="id" type="number" value="100619"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="59281.4 -3509.4 23624.8"/>
+					<entry key="range" type="number" value="5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="621" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_014"/>
+				<entry key="id" type="number" value="100620"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="56934.2 -3689.2 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="56950 -3387 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="622" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_005"/>
+				<entry key="id" type="number" value="100621"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100620"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100622"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="56889.8 -3698.46 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="623" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_005"/>
+				<entry key="id" type="number" value="100622"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="56906.4 -3509.4 23624.8"/>
+					<entry key="range" type="number" value="5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="624" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_015"/>
+				<entry key="id" type="number" value="100623"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="55859.2 -3689.2 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="55875 -3387 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="625" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_006"/>
+				<entry key="id" type="number" value="100624"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100623"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100625"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="55814.8 -3698.46 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="626" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_006"/>
+				<entry key="id" type="number" value="100625"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="55831.4 -3509.4 23624.8"/>
+					<entry key="range" type="number" value="5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="627" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_016"/>
+				<entry key="id" type="number" value="100626"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="55384.2 -3689.2 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="55400 -3387 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="628" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_007"/>
+				<entry key="id" type="number" value="100627"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100626"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100628"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="55339.8 -3698.46 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="629" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_007"/>
+				<entry key="id" type="number" value="100628"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="55356.4 -3509.4 23624.8"/>
+					<entry key="range" type="number" value="5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="630" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_017"/>
+				<entry key="id" type="number" value="100629"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="55034.2 -3689.2 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="55050 -3387 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="631" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_008"/>
+				<entry key="id" type="number" value="100630"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100629"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100631"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="54989.8 -3698.46 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="632" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_008"/>
+				<entry key="id" type="number" value="100631"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="55006.4 -3509.4 23624.8"/>
+					<entry key="range" type="number" value="5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="633" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_018"/>
+				<entry key="id" type="number" value="100632"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="54609.2 -3689.2 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="54625 -3387 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="634" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_009"/>
+				<entry key="id" type="number" value="100633"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100632"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100634"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="54564.8 -3698.46 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="635" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_009"/>
+				<entry key="id" type="number" value="100634"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="54581.4 -3509.4 23624.8"/>
+					<entry key="range" type="number" value="5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="636" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_019"/>
+				<entry key="id" type="number" value="100635"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="54234.2 -3689.2 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="54250 -3387 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="637" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_010"/>
+				<entry key="id" type="number" value="100636"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100635"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100637"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="54189.8 -3698.46 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="638" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_010"/>
+				<entry key="id" type="number" value="100637"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="54206.4 -3509.4 23624.8"/>
+					<entry key="range" type="number" value="5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="639" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_020"/>
+				<entry key="id" type="number" value="100638"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="57448.7 -7740.53 23500"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="57147 -7724 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="640" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_011"/>
+				<entry key="id" type="number" value="100639"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100638"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100640"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="57458 -7784.92 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="641" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_011"/>
+				<entry key="id" type="number" value="100640"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="57268.9 -7768.33 23624.8"/>
+					<entry key="range" type="number" value="125"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="642" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="special_objective_021"/>
+				<entry key="id" type="number" value="100641"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="16096"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="engage"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="0"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interrupt_objective" type="boolean" value="false"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="run"/>
+					<entry key="path_stance" type="string" value="cbt"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="none"/>
+					<entry key="pose" type="string" value="stand"/>
+					<entry key="position" type="vector3" value="58700.9 -7742.43 23500"/>
+					<entry key="rotation" type="quaternion" value="-0 -0 0.707107 -0.707107"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="0"/>
+					<entry key="search_position" type="vector3" value="59003 -7759 23500"/>
+					<entry key="so_action" type="string" value="e_nl_cs_jump_window"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="643" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="special_objective_trigger_012"/>
+				<entry key="id" type="number" value="100642"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100641"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="anim_start"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100643"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="58691.7 -7698.03 23575"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="644" type="table">
+				<entry key="class" type="string" value="ElementExplosion"/>
+				<entry key="editor_name" type="string" value="explosion_012"/>
+				<entry key="id" type="number" value="100643"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="above_camera_effect" type="string" value="none"/>
+					<entry key="above_camera_effect_distance" type="number" value="0.5"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="camera_shake_amplitude" type="number" value="1"/>
+					<entry key="camera_shake_attack" type="number" value="0.1"/>
+					<entry key="camera_shake_decay" type="number" value="2.1"/>
+					<entry key="camera_shake_effect" type="string" value="mission_triggered"/>
+					<entry key="camera_shake_frequency" type="number" value="1"/>
+					<entry key="camera_shake_sustain" type="number" value="0.3"/>
+					<entry key="damage" type="number" value="40"/>
+					<entry key="effect" type="string" value="mission_triggered"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="explosion_effect" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="player_damage" type="number" value="0"/>
+					<entry key="position" type="vector3" value="58880.7 -7714.63 23624.8"/>
+					<entry key="range" type="number" value="125"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+					<entry key="rumble_attack" type="number" value="0.1"/>
+					<entry key="rumble_peak" type="number" value="1"/>
+					<entry key="rumble_release" type="number" value="2.1"/>
+					<entry key="rumble_sustain" type="number" value="0.3"/>
+					<entry key="sound_event" type="string" value="no_sound"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_camera_shake" type="boolean" value="false"/>
+					<entry key="use_rumble" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="645" type="table">
+				<entry key="class" type="string" value="ElementPlayEffect"/>
+				<entry key="editor_name" type="string" value="play_effect_003"/>
+				<entry key="id" type="number" value="100644"/>
+				<entry key="module" type="string" value="CoreElementPlayEffect"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="base_time" type="number" value="0"/>
+					<entry key="effect" type="string" value="effects/payday2/environment/bengal_flare"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="max_amount" type="number" value="0"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="58551.6 -2076.15 23504"/>
+					<entry key="random_time" type="number" value="0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="screen_space" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="646" type="table">
+				<entry key="class" type="string" value="ElementPlaySound"/>
+				<entry key="editor_name" type="string" value="play_sound_006"/>
+				<entry key="id" type="number" value="100645"/>
+				<entry key="module" type="string" value="CoreElementPlaySound"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="append_prefix" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="interrupt" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="58548 -2094.79 23515.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="sound_event" type="string" value="flare_start_loop"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_play_func" type="boolean" value="false"/>
 				</entry>
 			</entry>
 		</entry>

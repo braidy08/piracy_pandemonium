@@ -19,6 +19,9 @@
 		<material_config path="units/pd2_modbain/vehicles/fps_vehicle_player_van/fps_vehicle_player_van_yellow" unload="true"/>
 		<sequence_manager path="units/pd2_modbain/vehicles/fps_vehicle_player_van/fps_vehicle_player_van" unload="true"/>
 	</add>
+	<add from_db="true" path="environments/pd2_env_trai/pd2_env_trai_ext_01_norain" type="environment">
+		<environment path="environments/pd2_env_trai/pd2_env_trai_ext_01_norain"/>
+	</add>
 	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop" type="unit" used="true">
 		<gui path="guis/timer_gui"/>
 		<object path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
@@ -1540,8 +1543,47 @@
 		<unit path="units/payday2/props/off_prop_generic_coffeemachine/off_prop_generic_coffeemachine"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker_1m" type="unit">
-		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
-		<object path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
+		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_roadflare/gen_prop_roadflare" type="unit">
+		<material_config path="units/payday2/props/gen_prop_roadflare/gen_prop_roadflare"/>
+		<object path="units/payday2/props/gen_prop_roadflare/gen_prop_roadflare"/>
+		<unit path="units/payday2/props/gen_prop_roadflare/gen_prop_roadflare"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_roadflare/gen_prop_roadflare_whole" type="unit">
+		<material_config path="units/payday2/props/gen_prop_roadflare/gen_prop_roadflare"/>
+		<object path="units/payday2/props/gen_prop_roadflare/gen_prop_roadflare_whole"/>
+		<unit path="units/payday2/props/gen_prop_roadflare/gen_prop_roadflare_whole"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_roadflare/cas_prop_roadflare" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_roadflare/cas_prop_roadflare"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_roadflare/cas_prop_roadflare"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_roadflare/cas_prop_roadflare"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_roadflare/cas_prop_roadflare"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_roadflare/gen_interactable_roadflare" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_roadflare/gen_interactable_roadflare"/>
+		<object path="units/payday2/equipment/gen_interactable_roadflare/gen_interactable_roadflare"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_roadflare/gen_interactable_roadflare"/>
+		<unit path="units/payday2/equipment/gen_interactable_roadflare/gen_interactable_roadflare"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_flares/gen_flare_01_5x5" type="unit">
+		<material_config path="units/payday2/props/gen_prop_flares/gen_flare_01"/>
+		<object path="units/payday2/props/gen_prop_flares/gen_flare_01_5x5"/>
+		<unit path="units/payday2/props/gen_prop_flares/gen_flare_01_5x5"/>
+	</add>
+	<add from_db="true" path="effects/particles/fire/flare" type="effect">
+		<effect load="true" path="effects/particles/fire/flare"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/contour_blocker/contour_blocker" type="unit">
+		<material_config path="units/dev_tools/contour_blocker/contour_blocker"/>
+		<object path="units/dev_tools/contour_blocker/contour_blocker"/>
+		<sequence_manager path="units/dev_tools/contour_blocker/contour_blocker"/>
+		<unit path="units/dev_tools/contour_blocker/contour_blocker"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/bengal_flare" type="effect">
+		<effect load="true" path="effects/payday2/environment/bengal_flare"/>
 	</add>
 </table>
