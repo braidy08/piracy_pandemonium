@@ -174,9 +174,6 @@
 			<unit_data _prev_pos="2400 -1600 0" _prev_rot="0 0 0 -1" continent="world" local_pos="1600 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_a" name_id="str_ext_road_16x16m_a_005" position="2400 -1600 0" rotation="0 0 0 -1" unit_id="100005"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="4000 -1600 0" _prev_rot="0 0 0 -1" continent="world" local_pos="-1600 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_a" name_id="str_ext_road_16x16m_a_006" position="4000 -1600 0" rotation="0 0 0 -1" unit_id="100007"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-5600 -1600 0" _prev_rot="0 0 0 -1" continent="world" local_pos="1600 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_a" name_id="str_ext_road_16x16m_a_008" position="-5600 -1600 0" rotation="0 0 0 -1" unit_id="100009"/>
 		</table>
 		<table>
@@ -4733,9 +4730,9 @@
 			<unit_data _prev_pos="-825 2979 700" _prev_rot="0 0 0 -1" continent="world" local_pos="400 100 300" local_rot="0 0 1 4.37114e-008" name="units/payday2/architecture/res_int/res_int_ceiling_middle_1m_02" name_id="res_int_ceiling_middle_1m_02_213" position="-825 2979 1100" rotation="0 0 0 -1" unit_id="101526"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-475 475 19.5" _prev_rot="0 0 -1.3411e-007 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/bnk_vehicle_car_police_anim_1/bnk_vehicle_car_police_anim_1" name_id="car001" position="-475 475 19.5" rotation="0 0 -1.3411e-007 -1" unit_id="101527">
+			<unit_data _prev_pos="-475 475 19.5" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/bnk_vehicle_car_police_anim_1/bnk_vehicle_car_police_anim_1" name_id="car001" position="-475 475 19.5" rotation="-0 0 -0 -1" unit_id="101527">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.118 0.5149 1" enabled="true" falloff_exponent="4" far_range="350" multiplier="@IDd07c4dc12188729d@" name="li_light_blue" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+					<table clipping_values="10000 -10000 0" color="0.109804 0.513726 1" enabled="true" falloff_exponent="4" far_range="350" multiplier="@IDc1749c1433ffb099@" name="li_light_blue" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 					<table clipping_values="10000 -10000 0" color="1 0.118 0.118" enabled="true" falloff_exponent="4" far_range="350" multiplier="@ID90cc6917c5799ad8@" name="li_light_red" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
 				</lights>
 			</unit_data>
@@ -5050,7 +5047,7 @@
 			<unit_data _prev_pos="51.47 2382.98 1400" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -200 0" local_rot="0 0 0 1" name="units/world/architecture/diamondheist/props/diamondheist_roof_gen_large_01" name_id="diamondheist_roof_gen_large_01_003" position="51.47 2382.98 1400" rotation="0 0 0 -1" unit_id="101619"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-911.032 463.148 0" _prev_rot="0 0 0.0871558 -0.996195" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/bnk_vehicle_truck_police_anim_1/bnk_vehicle_truck_police_anim_1" name_id="bnk_vehicle_truck_police_anim_1_001" position="-911.032 463.148 0" rotation="0 0 0.0871558 -0.996195" unit_id="101621"/>
+			<unit_data _prev_pos="-911.032 463.148 0" _prev_rot="0 0 0.0871558 -0.996195" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/bnk_vehicle_truck_police_anim_1/bnk_vehicle_truck_police_anim_1" name_id="bnk_vehicle_truck_police_anim_1_001" position="-911.032 463.148 0" rotation="0 0 0.0871558 -0.996195" unit_id="101621"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="925 -1600 -25" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -800 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_vehicle_collision/dev_vehicle_collision_8x3m" name_id="dev_vehicle_collision_8x3m_001" only_visible_in_editor="true" position="925 -1600 -25" rotation="0 0 0 -1" unit_id="101622"/>
@@ -7553,90 +7550,6 @@
 			<unit_data _prev_pos="-4050 -7600 -400" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_run/architecture/run_ext_facade_industrial/run_ext_facade_industrial_02_10m" name_id="run_ext_facade_industrial_02_10m_006" position="-4050 -7600 -400" rotation="0 0 0.707107 -0.707107" unit_id="102470"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5600 -8000 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1525 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_010" position="-5600 -8000 0" rotation="0 0 0.707107 -0.707107" unit_id="102485"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8254 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1271 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_011" position="-5600 -8254 0" rotation="0 0 0.707107 -0.707107" unit_id="102486"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8762 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-763 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_012" position="-5600 -8762 0" rotation="0 0 0.707107 -0.707107" unit_id="102487"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8508 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1017 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_013" position="-5600 -8508 0" rotation="0 0 0.707107 -0.707107" unit_id="102488"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9271 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-254 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_016" position="-5600 -9271 0" rotation="0 0 0.707107 -0.707107" unit_id="102491"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9017 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-508 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_017" position="-5600 -9017 0" rotation="0 0 0.707107 -0.707107" unit_id="102501"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9525 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence_small" name_id="plywood_fence_small_001" position="-5600 -9525 0" rotation="0 0 0.707107 -0.707107" unit_id="102489"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9525 200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence_small" name_id="plywood_fence_small_002" position="-5600 -9525 200" rotation="0 0 0.707107 -0.707107" unit_id="102490"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9271 200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-254 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_018" position="-5600 -9271 200" rotation="0 0 0.707107 -0.707107" unit_id="102502"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9017 200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-508 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_019" position="-5600 -9017 200" rotation="0 0 0.707107 -0.707107" unit_id="102503"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8762 200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-763 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_014" position="-5600 -8762 200" rotation="0 0 0.707107 -0.707107" unit_id="102504"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8508 200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1017 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_015" position="-5600 -8508 200" rotation="0 0 0.707107 -0.707107" unit_id="102505"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8254 200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1271 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_020" position="-5600 -8254 200" rotation="0 0 0.707107 -0.707107" unit_id="102506"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8000 200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1525 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_021" position="-5600 -8000 200" rotation="0 0 0.707107 -0.707107" unit_id="102507"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9525 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="254 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence_small" name_id="plywood_fence_small_003" position="-5600 -9525 600" rotation="0 0 0.707107 -0.707107" unit_id="102517"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9271 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_022" position="-5600 -9271 600" rotation="0 0 0.707107 -0.707107" unit_id="102518"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9017 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-254 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_023" position="-5600 -9017 600" rotation="0 0 0.707107 -0.707107" unit_id="102519"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8762 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-509 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_024" position="-5600 -8762 600" rotation="0 0 0.707107 -0.707107" unit_id="102520"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8508 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-763 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_025" position="-5600 -8508 600" rotation="0 0 0.707107 -0.707107" unit_id="102521"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8254 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1017 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_026" position="-5600 -8254 600" rotation="0 0 0.707107 -0.707107" unit_id="102522"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8000 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1271 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_027" position="-5600 -8000 600" rotation="0 0 0.707107 -0.707107" unit_id="102523"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9271 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-254 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_028" position="-5600 -9271 400" rotation="0 0 0.707107 -0.707107" unit_id="102524"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9525 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence_small" name_id="plywood_fence_small_004" position="-5600 -9525 400" rotation="0 0 0.707107 -0.707107" unit_id="102525"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9017 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-508 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_029" position="-5600 -9017 400" rotation="0 0 0.707107 -0.707107" unit_id="102526"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8762 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-763 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_030" position="-5600 -8762 400" rotation="0 0 0.707107 -0.707107" unit_id="102527"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8508 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1017 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_031" position="-5600 -8508 400" rotation="0 0 0.707107 -0.707107" unit_id="102528"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8254 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1271 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_032" position="-5600 -8254 400" rotation="0 0 0.707107 -0.707107" unit_id="102529"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8000 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1525 0 -200" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_033" position="-5600 -8000 400" rotation="0 0 0.707107 -0.707107" unit_id="102530"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-2400 -9600 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_a" name_id="str_ext_road_16x16m_a_031" position="-7200 -9600 0" rotation="0 0 0 -1" unit_id="102531"/>
 		</table>
 		<table>
@@ -7646,97 +7559,25 @@
 			<unit_data _prev_pos="-4975 -7975 -400" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_run/architecture/run_ext_facade_industrial/run_ext_facade_industrial_02_10m" name_id="run_ext_facade_industrial_02_10m_008" position="-5975 -7975 -400" rotation="0 0 1 -0" unit_id="102533"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5605 -9625 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1400 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_009" position="-5605 -9625 0" rotation="0 0 0.707107 -0.707107" unit_id="102534"/>
+			<unit_data _prev_pos="-5600 -9271 800" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-254 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_034" position="-5609 -9271 800" rotation="0 0 0.707107 -0.707107" unit_id="102558"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5605 -9425 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1200 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_010" position="-5605 -9425 0" rotation="0 0 0.707107 -0.707107" unit_id="102535"/>
+			<unit_data _prev_pos="-5600 -9525 800" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence_small" name_id="plywood_fence_small_005" position="-5609 -9525 800" rotation="0 0 0.707107 -0.707107" unit_id="102559"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5605 -9025 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="800 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_011" position="-5605 -9025 0" rotation="0 0 0.707107 -0.707107" unit_id="102536"/>
+			<unit_data _prev_pos="-5600 -9017 800" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-508 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_035" position="-5609 -9017 800" rotation="0 0 0.707107 -0.707107" unit_id="102560"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5605 -9225 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1000 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_012" position="-5605 -9225 0" rotation="0 0 0.707107 -0.707107" unit_id="102537"/>
+			<unit_data _prev_pos="-5600 -8762 800" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-763 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_036" position="-5609 -8762 800" rotation="0 0 0.707107 -0.707107" unit_id="102561"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5605 -8225 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_013" position="-5605 -8225 0" rotation="0 0 0.707107 -0.707107" unit_id="102538"/>
+			<unit_data _prev_pos="-5600 -8508 800" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1017 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_037" position="-5609 -8508 800" rotation="0 0 0.707107 -0.707107" unit_id="102562"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5605 -8425 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="200 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_014" position="-5605 -8425 0" rotation="0 0 0.707107 -0.707107" unit_id="102539"/>
+			<unit_data _prev_pos="-5600 -8000 800" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1525 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_038" position="-5609 -8000 800" rotation="0 0 0.707107 -0.707107" unit_id="102563"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-5605 -8625 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_019" position="-5605 -8625 0" rotation="0 0 0.707107 -0.707107" unit_id="102540"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -8825 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="600 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_034" position="-5605 -8825 0" rotation="0 0 0.707107 -0.707107" unit_id="102541"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -8225 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_035" position="-5605 -8225 300" rotation="0 0 0.707107 -0.707107" unit_id="102542"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -8425 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="200 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_036" position="-5605 -8425 300" rotation="0 0 0.707107 -0.707107" unit_id="102543"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -8625 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_037" position="-5605 -8625 300" rotation="0 0 0.707107 -0.707107" unit_id="102544"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -8825 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="600 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_038" position="-5605 -8825 300" rotation="0 0 0.707107 -0.707107" unit_id="102545"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -9025 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="800 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_039" position="-5605 -9025 300" rotation="0 0 0.707107 -0.707107" unit_id="102546"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -9225 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1000 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_040" position="-5605 -9225 300" rotation="0 0 0.707107 -0.707107" unit_id="102547"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -9425 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1200 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_050" position="-5605 -9425 300" rotation="0 0 0.707107 -0.707107" unit_id="102548"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -9625 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1400 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_051" position="-5605 -9625 300" rotation="0 0 0.707107 -0.707107" unit_id="102549"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -8225 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_052" position="-5605 -8225 600" rotation="0 0 0.707107 -0.707107" unit_id="102550"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -8425 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="200 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_053" position="-5605 -8425 600" rotation="0 0 0.707107 -0.707107" unit_id="102551"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -8625 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_054" position="-5605 -8625 600" rotation="0 0 0.707107 -0.707107" unit_id="102552"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -8825 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="600 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_055" position="-5605 -8825 600" rotation="0 0 0.707107 -0.707107" unit_id="102553"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -9025 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="800 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_056" position="-5605 -9025 600" rotation="0 0 0.707107 -0.707107" unit_id="102554"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -9225 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1000 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_066" position="-5605 -9225 600" rotation="0 0 0.707107 -0.707107" unit_id="102555"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -9425 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1200 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_067" position="-5605 -9425 600" rotation="0 0 0.707107 -0.707107" unit_id="102556"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5605 -9625 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1400 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_03x02m_068" position="-5605 -9625 600" rotation="0 0 0.707107 -0.707107" unit_id="102557"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9271 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_034" position="-5600 -9271 800" rotation="0 0 0.707107 -0.707107" unit_id="102558"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9525 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="254 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence_small" name_id="plywood_fence_small_005" position="-5600 -9525 800" rotation="0 0 0.707107 -0.707107" unit_id="102559"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -9017 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-254 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_035" position="-5600 -9017 800" rotation="0 0 0.707107 -0.707107" unit_id="102560"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8762 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-509 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_036" position="-5600 -8762 800" rotation="0 0 0.707107 -0.707107" unit_id="102561"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8508 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-763 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_037" position="-5600 -8508 800" rotation="0 0 0.707107 -0.707107" unit_id="102562"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8000 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1271 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_038" position="-5600 -8000 800" rotation="0 0 0.707107 -0.707107" unit_id="102563"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-5600 -8254 600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1017 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_039" position="-5600 -8254 800" rotation="0 0 0.707107 -0.707107" unit_id="102564"/>
+			<unit_data _prev_pos="-5600 -8254 800" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-1271 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_fence" name_id="plywood_fence_039" position="-5609 -8254 800" rotation="0 0 0.707107 -0.707107" unit_id="102564"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7550 -8850 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_run/props/run_prop_construction_crane_01/run_prop_construction_crane_foundation_01" name_id="run_prop_construction_crane_foundation_01_001" position="-6200 -8850 0" rotation="0 0 0.707107 -0.707107" unit_id="102565"/>
@@ -10385,7 +10226,7 @@
 			<unit_data _prev_pos="1288.37 4061.8 1400" _prev_rot="0 0 0.984808 0.173648" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox" name_id="bor_prop_garage_toolbox_001" position="1288.37 4061.8 1400" rotation="0 0 0.984808 0.173648" unit_id="103342"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-609.645 -1185.47 -19.9991" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_ford/str_vehicle_car_ford" name_id="str_vehicle_car_ford_001" position="-609.645 -1185.47 -19.9991" rotation="0 0 0.707107 -0.707107" unit_id="103333">
+			<unit_data _prev_pos="-609.645 -1185.47 -19.9991" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_ford/str_vehicle_car_ford" name_id="str_vehicle_car_ford_001" position="-609.645 -1185.47 -19.9991" rotation="0 0 -0.707107 -0.707107" unit_id="103333">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.94 0.7" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDccbbe27c7fdc0fd9@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -10394,13 +10235,13 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1456.63 -1176.41 -19.9991" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_charger/str_vehicle_car_charger" name_id="str_vehicle_car_charger_001" position="-1456.63 -1176.41 -19.9991" rotation="0 0 -0.707107 -0.707107" unit_id="103344"/>
+			<unit_data _prev_pos="-1456.63 -1176.41 -19.9991" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_charger/str_vehicle_car_charger" name_id="str_vehicle_car_charger_001" position="-1456.63 -1176.41 -19.9991" rotation="0 0 -0.707107 0.707107" unit_id="103344"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1063.04 -1175.52 -19.9991" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_compact/str_vehicle_car_compact" name_id="str_vehicle_car_compact_001" position="1063.04 -1175.52 -19.9991" rotation="0 0 0.707107 -0.707107" unit_id="103345"/>
+			<unit_data _prev_pos="1063.04 -1175.52 -19.9991" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_compact/str_vehicle_car_compact" name_id="str_vehicle_car_compact_001" position="1063.04 -1175.52 -19.9991" rotation="0 0 -0.707107 -0.707107" unit_id="103345"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1738.04 -375.52 -19.999" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_car_mondeo/str_vehicle_car_mondeo" name_id="str_vehicle_car_mondeo_001" position="1738.04 -400.52 -19.999" rotation="0 0 0.707107 -0.707107" unit_id="103346">
+			<unit_data _prev_pos="-1211.96 -400.52 -19.999" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_car_mondeo/str_vehicle_car_mondeo" name_id="str_vehicle_car_mondeo_001" position="-1211.96 -400.52 -19.999" rotation="0 0 0.707107 0.707107" unit_id="103346">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.933333 0.654902" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.94 0.7" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -10428,10 +10269,10 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="971.716 -8434.37 -19.9991" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_charger/str_vehicle_car_charger" name_id="str_vehicle_car_charger_002" position="971.716 -8434.37 -19.9991" rotation="0 0 0.707107 -0.707107" unit_id="103351"/>
+			<unit_data _prev_pos="971.716 -8434.37 -19.9991" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_charger/str_vehicle_car_charger" name_id="str_vehicle_car_charger_002" position="971.716 -8434.37 -19.9991" rotation="0 0 0.707107 0.707107" unit_id="103351"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1963.68 -9188.05 -19.9991" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_mercedes/str_vehicle_car_mercedes" name_id="str_vehicle_car_mercedes_001" position="-1963.68 -9188.05 -19.9991" rotation="0 0 -0.707107 -0.707107" unit_id="103352">
+			<unit_data _prev_pos="-1963.68 -9188.05 -19.9991" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_mercedes/str_vehicle_car_mercedes" name_id="str_vehicle_car_mercedes_001" position="-1963.68 -9188.05 -19.9991" rotation="0 0 0.707107 -0.707107" unit_id="103352">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.94 0.7" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -10440,7 +10281,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-682.536 -9145 -19.9991" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_modernsedan/str_vehicle_car_modernsedan" name_id="str_vehicle_car_modernsedan_001" position="-682.536 -9145 -19.9991" rotation="0 0 0.707107 -0.707107" unit_id="103353">
+			<unit_data _prev_pos="-682.536 -9145 -19.9991" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_modernsedan/str_vehicle_car_modernsedan" name_id="str_vehicle_car_modernsedan_001" position="-682.536 -9145 -19.9991" rotation="0 0 -0.707107 -0.707107" unit_id="103353">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.94 0.7" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -10449,7 +10290,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="1997.03 -9145.24 -19.9991" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_mondeo/str_vehicle_car_mondeo" name_id="str_vehicle_car_mondeo_002" position="1997.03 -9145.24 -19.9991" rotation="0 0 -0.707107 -0.707107" unit_id="103354">
+			<unit_data _prev_pos="1997.03 -9145.24 -19.9991" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_car_mondeo/str_vehicle_car_mondeo" name_id="str_vehicle_car_mondeo_002" position="1997.03 -9145.24 -19.9991" rotation="0 0 -0.707107 0.707107" unit_id="103354">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 0.934481 0.657" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 0.94 0.7" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -10522,6 +10363,60 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="225 3275 -450" _prev_rot="0 0 -7.45058e-009 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/mockup/occluder_plane_16x16" name_id="occluder_plane_16x16_072" only_visible_in_editor="true" position="225 3275 -250" rotation="0 0 -7.45058e-009 -1" unit_id="103369"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5600 -300 0" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_road_16x16m_construction_b" name_id="str_ext_road_16x16m_construction_b_002" position="5600 -0.00012207 0" rotation="0 0 1 4.37114e-008" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5225 -975 -19" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_flat/props/flat_prop_plywood_fence/flt_prop_plywood_03x02m" name_id="flt_prop_plywood_03x02m_001" position="5225 -975 -15" rotation="-0.5 0.5 0.5 -0.5" unit_id="103370"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5225 -775 -19" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="-200 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_flat/props/flat_prop_plywood_fence/flt_prop_plywood_03x02m" name_id="flt_prop_plywood_03x02m_002" position="5225 -775 -15" rotation="-0.5 0.5 0.5 -0.5" unit_id="103371"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5525 -775 -19" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="-200 0 -300" local_rot="0 0 0 1" name="units/pd2_dlc_flat/props/flat_prop_plywood_fence/flt_prop_plywood_03x02m" name_id="flt_prop_plywood_03x02m_003" position="5525 -775 -15" rotation="-0.5 0.5 0.5 -0.5" unit_id="103372"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5525 -975 -19" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="0 0 -300" local_rot="0 0 0 1" name="units/pd2_dlc_flat/props/flat_prop_plywood_fence/flt_prop_plywood_03x02m" name_id="flt_prop_plywood_03x02m_004" position="5525 -975 -15" rotation="-0.5 0.5 0.5 -0.5" unit_id="103373"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5600 -9000 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="600 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_construction_plywood_8m/str_prop_construction_plywood_8m" name_id="str_prop_construction_plywood_8m_001" position="-5600 -9000 0" rotation="0 0 -0.707107 -0.707107" unit_id="103374"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5600 -9600 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_construction_plywood_8m/str_prop_construction_plywood_8m" name_id="str_prop_construction_plywood_8m_002" position="-5600 -9600 0" rotation="0 0 -0.707107 -0.707107" unit_id="102485"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5600 -8400 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="1200 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_construction_plywood_8m/str_prop_construction_plywood_8m" name_id="str_prop_construction_plywood_8m_003" position="-5600 -8400 0" rotation="0 0 -0.707107 -0.707107" unit_id="102486"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3950 -900 -19.189" _prev_rot="-3.75984e-005 -3.54929e-005 0.707107 -0.707106" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="make_dynamic" name="units/payday2/props/str_prop_construction_sign_road/str_prop_construction_sign_road" name_id="str_prop_construction_sign_road_001" position="3950 -900 -19.189" rotation="-3.7024e-005 -3.7024e-005 0.707107 -0.707107" unit_id="102488"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5600 -1925 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_construction_waterbarrier_4m/str_prop_construction_waterbarrier_4m" name_id="str_prop_construction_waterbarrier_4m_003" position="5600 -1925 -25" rotation="0 0 0 -1" unit_id="102487"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6025 -1900 -25" _prev_rot="0 0 0.906308 0.422618" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_construction_waterbarrier_4m/str_prop_construction_waterbarrier_4m" name_id="str_prop_construction_waterbarrier_4m_004" position="6008.93 -1880.85 -25" rotation="0 0 0.906308 0.422618" unit_id="102489"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6400 -1925 -25" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/str_prop_construction_waterbarrier_4m/str_prop_construction_waterbarrier_4m" name_id="str_prop_construction_waterbarrier_4m_005" position="6400 -1925 -25" rotation="0 0 0 -1" unit_id="102490"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3575 -1600 0" _prev_rot="0 0 0.965926 -0.258819" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift" name_id="ind_vehicle_truck_forklift_002" position="3553.35 -1612.5 0" rotation="0 0 0.965926 -0.258819" unit_id="102491"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3600 -4100 -25" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_pickuptruck_sportcab/str_vehicle_pickuptruck_sportcab" name_id="str_vehicle_pickuptruck_sportcab_001" position="-3600 -4100 -19.999" rotation="0 0 1 -4.37114e-008" unit_id="102501"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2800 -6175 -25" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/str_vehicle_car_charger/str_vehicle_car_charger" name_id="str_vehicle_car_charger_003" position="-2800 -6175 -19.999" rotation="-0 0 -0 -1" unit_id="102502"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3700 -5625.09 -7.58147" _prev_rot="0.029452 -0.0295431 0.706654 -0.706328" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="car_destructable" name="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier" name_id="gen_prop_police_barrier_001" position="-3700 -5625.09 -7.581" rotation="0.0294556 -0.0295435 0.706656 -0.706326" unit_id="102503"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3200 -5625 -17.9555" _prev_rot="1.47091e-006 -3.89278e-007 -0.707101 -0.707112" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="car_destructable" name="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier" name_id="gen_prop_police_barrier_002" position="-3200 -5625 -17.956" rotation="0 -0 -0.707101 -0.707113" unit_id="102504"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2700 -5624.91 -7.58137" _prev_rot="0.0295441 0.0294518 -0.706328 -0.706655" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="car_destructable" name="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier" name_id="gen_prop_police_barrier_003" position="-2700 -5624.91 -7.581" rotation="0.0295435 0.0294556 -0.706326 -0.706656" unit_id="102505"/>
 		</table>
 	</statics>
 	<values>

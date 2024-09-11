@@ -1036,4 +1036,164 @@
 	<add from_db="true" path="effects/particles/rain/raindrop_screen" type="effect">
 		<effect load="true" path="effects/particles/rain/raindrop_screen"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a_roadclosed" type="unit">
+		<material_config path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a_roadclosed"/>
+		<object path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a_roadclosed"/>
+		<sequence_manager path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a"/>
+		<unit path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_a_roadclosed"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_left" type="unit">
+		<material_config path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_arrow"/>
+		<object path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_left"/>
+		<sequence_manager path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b"/>
+		<unit path="units/pd2_dlc1/props/str_prop_road_signs/str_prop_road_sign_b_left"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_construction_sign_road/str_prop_construction_sign_road" type="unit">
+		<unit path="units/payday2/props/str_prop_construction_sign_road/str_prop_construction_sign_road"/>
+		<object path="units/payday2/props/str_prop_construction_sign_road/str_prop_construction_sign_road"/>
+		<unit path="units/payday2/props/str_prop_construction_sign_road/str_prop_construction_sign_road_debris"/>
+		<object path="units/payday2/props/str_prop_construction_sign_road/str_prop_construction_sign_road_debris"/>
+		<bnk path="soundbanks/regular_car_sfx"/>
+		<material_config path="units/payday2/props/str_prop_construction_sign_road/str_prop_construction_sign_road"/>
+		<sequence_manager path="units/payday2/props/str_prop_construction_sign_road/str_prop_construction_sign_road"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_construction_container/brb_prop_construction_container" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_construction_container/brb_prop_construction_container"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_construction_container/brb_prop_construction_container"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_construction_container/brb_prop_construction_container"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_construction_debris/brb_prop_construction_debris_a" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_construction_debris/brb_prop_construction_debris_a"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_construction_debris/brb_prop_construction_debris_a"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_construction_debris/brb_prop_construction_debris_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_construction_mobileoffice/brb_prop_construction_mobileoffice" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_construction_mobileoffice/brb_prop_construction_mobileoffice"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_construction_mobileoffice/brb_prop_construction_mobileoffice"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_construction_mobileoffice/brb_prop_construction_mobileoffice"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_8m" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_8m"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_8m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_red_2m" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_red_2m"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_red_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_4m" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_4m"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_construction_light_b/dah_prop_construction_tripod_base" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_construction_light_b/dah_prop_construction_light_b"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_construction_light_b/dah_prop_construction_tripod_base"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_construction_light_b/dah_prop_construction_tripod_base"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/props/rvd_prop_street_barrier_pole/rvd_prop_street_barrier_pole" type="unit">
+		<material_config path="units/pd2_dlc_rvd/props/rvd_prop_street_barrier_pole/rvd_prop_street_barrier_pole"/>
+		<object path="units/pd2_dlc_rvd/props/rvd_prop_street_barrier_pole/rvd_prop_street_barrier_pole"/>
+		<unit path="units/pd2_dlc_rvd/props/rvd_prop_street_barrier_pole/rvd_prop_street_barrier_pole"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/concrete_barrier/concrete_barrier_stripes" type="unit">
+		<material_config path="units/world/props/street/concrete_barrier/concrete_barrier_stripes"/>
+		<object path="units/world/props/street/concrete_barrier/concrete_barrier_stripes"/>
+		<unit path="units/world/props/street/concrete_barrier/concrete_barrier_stripes"/>
+	</add>
+	<add from_db="true" path="units/world/street/concrete_barrier/concrete_barrier_01" type="unit">
+		<material_config path="units/world/street/concrete_barrier/concrete_barrier"/>
+		<object path="units/world/street/concrete_barrier/concrete_barrier_01"/>
+		<unit path="units/world/street/concrete_barrier/concrete_barrier_01"/>
+	</add>
+	<add from_db="true" path="units/world/environment/mansion/man_ground_ext/man_roadbarrier" type="unit">
+		<material_config path="units/world/environment/mansion/man_ground_ext/man_roadbarrier"/>
+		<object path="units/world/environment/mansion/man_ground_ext/man_roadbarrier"/>
+		<unit path="units/world/environment/mansion/man_ground_ext/man_roadbarrier"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_barrier_big/are_prop_barrier_big" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_barrier_big/are_prop_barrier_big"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_barrier_big/are_prop_barrier_big"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_barrier_big/are_prop_barrier_big"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_barrier_big/are_prop_barrier_big"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/architecture/are_lobby/are_corridor_barrier_small" type="unit">
+		<material_config path="units/pd2_dlc_arena/architecture/are_lobby/are_corridor_barrier"/>
+		<object path="units/pd2_dlc_arena/architecture/are_lobby/are_corridor_barrier_small"/>
+		<unit path="units/pd2_dlc_arena/architecture/are_lobby/are_corridor_barrier_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_barrier_b" type="unit">
+		<material_config path="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_barrier"/>
+		<object path="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_barrier_b"/>
+		<unit path="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_barrier_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_barrier_a" type="unit">
+		<material_config path="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_barrier"/>
+		<object path="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_barrier_a"/>
+		<unit path="units/pd2_dlc1/architecture/res_ext_gas_station/res_prop_gas_barrier_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_street_crashbarrier/str_prop_street_crashbarrier" type="unit">
+		<material_config path="units/payday2/props/str_prop_street_crashbarrier/str_prop_street_crashbarrier"/>
+		<object path="units/payday2/props/str_prop_street_crashbarrier/str_prop_street_crashbarrier"/>
+		<sequence_manager path="units/payday2/props/str_prop_street_crashbarrier/str_prop_street_crashbarrier"/>
+		<unit path="units/payday2/props/str_prop_street_crashbarrier/str_prop_street_crashbarrier"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier_a" type="unit">
+		<material_config path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier"/>
+		<object path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier_a"/>
+		<unit path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier_1m_a" type="unit">
+		<material_config path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier"/>
+		<object path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier_1m_a"/>
+		<unit path="units/payday2/props/str_prop_street_concrete_barrier/str_prop_street_concrete_barrier_1m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole" type="unit">
+		<material_config path="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole"/>
+		<object path="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole"/>
+		<unit path="units/payday2/props/str_prop_street_barrier_pole/str_prop_street_barrier_pole"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_street_barrier_fence/str_prop_street_barrier_fence" type="unit">
+		<material_config path="units/payday2/props/str_prop_street_barrier_fence/str_prop_street_barrier_fence"/>
+		<object path="units/payday2/props/str_prop_street_barrier_fence/str_prop_street_barrier_fence"/>
+		<unit path="units/payday2/props/str_prop_street_barrier_fence/str_prop_street_barrier_fence"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_construction_waterbarrier_white_2m/str_prop_construction_waterbarrier_white_2m" type="unit">
+		<material_config path="units/payday2/props/str_prop_construction_waterbarrier_white_2m/str_prop_construction_waterbarrier_white_2m"/>
+		<object path="units/payday2/props/str_prop_construction_waterbarrier_white_2m/str_prop_construction_waterbarrier_white_2m"/>
+		<unit path="units/payday2/props/str_prop_construction_waterbarrier_white_2m/str_prop_construction_waterbarrier_white_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_construction_waterbarrier_32m/str_prop_construction_waterbarrier_32m" type="unit">
+		<material_config path="units/payday2/props/str_prop_construction_waterbarrier_32m/str_prop_construction_waterbarrier_32m"/>
+		<object path="units/payday2/props/str_prop_construction_waterbarrier_32m/str_prop_construction_waterbarrier_32m"/>
+		<unit path="units/payday2/props/str_prop_construction_waterbarrier_32m/str_prop_construction_waterbarrier_32m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_com_barrier_keypad/str_prop_com_barrier_keypad" type="unit">
+		<material_config path="units/payday2/props/str_prop_com_barrier_keypad/str_prop_com_barrier_keypad"/>
+		<object path="units/payday2/props/str_prop_com_barrier_keypad/str_prop_com_barrier_keypad"/>
+		<sequence_manager path="units/payday2/props/str_prop_com_barrier_keypad/str_prop_com_barrier_keypad"/>
+		<unit path="units/payday2/props/str_prop_com_barrier_keypad/str_prop_com_barrier_keypad"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier" type="unit">
+		<material_config path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<object path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<sequence_manager path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<unit path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_mall_banditbarrier/com_prop_mall_banditbarrier_long_v2" type="unit">
+		<material_config path="units/payday2/props/com_prop_mall_banditbarrier/com_prop_mall_banditbarrier"/>
+		<object path="units/payday2/props/com_prop_mall_banditbarrier/com_prop_mall_banditbarrier_long_v2"/>
+		<unit path="units/payday2/props/com_prop_mall_banditbarrier/com_prop_mall_banditbarrier_long_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate" type="unit">
+		<unit path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
+		<object path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
+		<material_config path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
+	</add>
 </table>
