@@ -18766,7 +18766,7 @@
 							<entry key="id" type="number" value="100661"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="51250 -12350 175"/>
+					<entry key="position" type="vector3" value="51250 -12700 175"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="shape_type" type="string" value="box"/>
@@ -18820,6 +18820,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100655"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100667"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="51265.7 -12551.1 175"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -18872,6 +18876,29 @@
 					</entry>
 					<entry key="position" type="vector3" value="47150 -14350 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="668" type="table">
+				<entry key="class" type="string" value="ElementToggle"/>
+				<entry key="editor_name" type="string" value="toggle_019"/>
+				<entry key="id" type="number" value="100667"/>
+				<entry key="module" type="string" value="CoreElementToggle"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100657"/>
+						<entry index="2" type="number" value="100654"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="51301.6 -12571.3 250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="set_trigger_times" type="number" value="-1"/>
+					<entry key="toggle" type="string" value="on"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
