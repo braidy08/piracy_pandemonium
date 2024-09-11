@@ -1026,8 +1026,14 @@
 		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
-		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
-		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
 		<material_config path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
+	</add>
+	<add from_db="true" path="effects/particles/rain/rain_01_a" type="effect">
+		<effect load="true" path="effects/particles/rain/rain_01_a"/>
+	</add>
+	<add from_db="true" path="effects/particles/rain/raindrop_screen" type="effect">
+		<effect load="true" path="effects/particles/rain/raindrop_screen"/>
 	</add>
 </table>

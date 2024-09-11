@@ -1664,9 +1664,9 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="3.02072 3591.53 1105.12" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/apartment/hanging_lightbulb/hanging_lightbulb" name_id="hanging_lightbulb_002" position="3.02072 3591.53 1105.12" projection_light="lo_omni" rotation="0 0 0 -1" unit_id="100549">
+			<unit_data _prev_pos="3.02072 3591.53 1105.12" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/apartment/hanging_lightbulb/hanging_lightbulb" name_id="hanging_lightbulb_002" position="3.021 3591.53 1105.12" projection_light="lo_omni" rotation="-0 0 -0 -1" unit_id="100549">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="400" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="400" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -1699,7 +1699,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="603 3592 505" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/apartment/hanging_lightbulb/hanging_lightbulb" name_id="hanging_lightbulb_007" position="603 3592 105" projection_light="lo_omni" rotation="0 0 0 -1" unit_id="100563">
+			<unit_data _prev_pos="603 3592 105" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/world/props/apartment/hanging_lightbulb/hanging_lightbulb" name_id="hanging_lightbulb_007" position="603 3592 105" projection_light="lo_omni" rotation="-0 0 -0 -1" unit_id="100563">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="400" multiplier="@IDbca13ba1d306f87b@" name="lo_omni" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
