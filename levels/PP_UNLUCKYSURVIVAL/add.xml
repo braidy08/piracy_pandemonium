@@ -256,4 +256,21 @@
 		<unit load="true" path="units/payday2/characters/civ_male_casual_3/civ_male_casual_3_husk"/>
 		<object path="units/payday2/characters/civ_male_casual_3/civ_male_casual_3"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute" type="unit" used="true">
+		<material_config path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute"/>
+		<object path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute"/>
+		<sequence_manager path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute"/>
+		<unit path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll" type="unit" used="true">
+		<material_config path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute"/>
+		<object path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll"/>
+		<sequence_manager path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll"/>
+		<unit path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_parachute/gen_prop_parachute" type="unit">
+		<material_config path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
+		<object path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
+		<unit path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
+	</add>
 </table>
