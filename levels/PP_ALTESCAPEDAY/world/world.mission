@@ -34,6 +34,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100012"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100649"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1050 0 150"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -18360,6 +18364,103 @@
 					</entry>
 					<entry key="position" type="vector3" value="58097.2 -8300 23921.6"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="648" type="table">
+				<entry key="class" type="string" value="ElementEnvironmentOperator"/>
+				<entry key="editor_name" type="string" value="environment_operator_001"/>
+				<entry key="id" type="number" value="100647"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="blend_time" type="number" value="0"/>
+					<entry key="elements" type="table">
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="environment" type="string" value="levels/mods/piracy_pandemonium/PP_ALTESCAPEDAY/environments/rainrng"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100648"/>
+						</entry>
+					</entry>
+					<entry key="operation" type="string" value="set"/>
+					<entry key="position" type="vector3" value="-1062.97 26.1349 -2.38419e-005"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="649" type="table">
+				<entry key="class" type="string" value="ElementEnableSoundEnvironment"/>
+				<entry key="editor_name" type="string" value="enable_sound_environment_001"/>
+				<entry key="id" type="number" value="100648"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="string" value="rain1"/>
+						<entry index="2" type="string" value="rain2"/>
+						<entry index="3" type="string" value="rain3"/>
+						<entry index="4" type="string" value="rainupstairs"/>
+					</entry>
+					<entry key="enable" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-1068.8 90.1538 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="650" type="table">
+				<entry key="class" type="string" value="ElementEnableSoundEnvironment"/>
+				<entry key="editor_name" type="string" value="enable_sound_environment_002"/>
+				<entry key="id" type="number" value="100649"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="string" value="rain1"/>
+						<entry index="2" type="string" value="rain2"/>
+						<entry index="3" type="string" value="rain3"/>
+						<entry index="4" type="string" value="rainupstairs"/>
+					</entry>
+					<entry key="enable" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100650"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-1068.8 15.1538 50"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="651" type="table">
+				<entry key="class" type="string" value="ElementLogicChance"/>
+				<entry key="editor_name" type="string" value="logic_chance_003"/>
+				<entry key="id" type="number" value="100650"/>
+				<entry key="module" type="string" value="CoreElementLogicChance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance" type="number" value="100"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100647"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-1050.02 1.16842 25"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
