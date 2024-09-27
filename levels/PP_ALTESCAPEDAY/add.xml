@@ -2617,8 +2617,433 @@
 		<unit path="units/pd2_dlc_pines/vehicles/pna_vehicle_cessna_crashed/pna_vehicle_cessna_crashed_whole"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed" type="unit">
-		<unit path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed"/>
-		<object path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed"/>
 		<material_config path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed"/>
+		<object path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed"/>
+		<unit path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_large/lxa_vegetation_bush_large_b" type="unit">
+		<material_config path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_large/lxa_vegetation_bush_large_a"/>
+		<object path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_large/lxa_vegetation_bush_large_b"/>
+		<unit path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_large/lxa_vegetation_bush_large_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_small/lxa_vegetation_bush_small_c" type="unit">
+		<material_config path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_small/lxa_vegetation_bush_small_a"/>
+		<object path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_small/lxa_vegetation_bush_small_c"/>
+		<unit path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_small/lxa_vegetation_bush_small_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_tree/lxa_vegetation_tree_b" type="unit">
+		<material_config path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_tree/lxa_vegetation_tree_a"/>
+		<object path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_tree/lxa_vegetation_tree_b"/>
+		<unit path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_tree/lxa_vegetation_tree_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/props/lah_loot_tablet/lah_loot_tablet" type="unit">
+		<object path="units/pd2_dlc_cro/props/gen_int_tablet/gen_int_tablet"/>
+		<sequence_manager path="units/pd2_dlc_cro/props/gen_int_tablet/gen_int_tablet"/>
+		<unit path="units/pd2_dlc_holly/props/lah_loot_tablet/lah_loot_tablet"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_mid_industrial_a" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_industrial"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_mid_industrial_a"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_backdrop/lxa_bdrop_mid_industrial_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_01" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_01"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_6m" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_6m"/>
+		<sequence_manager path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_6m"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_6m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_01" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilars"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_01"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_02" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilars"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_02"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_03" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilars"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_03"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_04" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilars"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_04"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_04"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_road_broken_new" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_road_broken_new"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_road_broken_new"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_road_broken_new"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_hobo_bridge" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_hobo_bridge"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_hobo_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_05" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_05"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_05"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_05_v2" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_v2"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_05_v2"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_05_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_03_v2" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_v2"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_03_v2"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_03_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_02_v2" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_v2"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_02_v2"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_02_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_01_v2" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_v2"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_01_v2"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_01_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_graffitti/lxa_prop_graffitti_06" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_graffitti/lxa_prop_graffitti"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_graffitti/lxa_prop_graffitti_06"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_graffitti/lxa_prop_graffitti_06"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_graffitti/lxa_prop_graffitti_01" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_graffitti/lxa_prop_graffitti"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_graffitti/lxa_prop_graffitti_01"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_graffitti/lxa_prop_graffitti_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_guardhouse/lxa_window_glass_large" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_guardhouse/lxa_window_glass_small"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_guardhouse/lxa_window_glass_large"/>
+		<sequence_manager path="units/pd2_dlc_holly/river/props/lxa_prop_guardhouse/lxa_window_glass_small"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_guardhouse/lxa_window_glass_large"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_guardhouse/lxa_prop_guardhouse" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_guardhouse/lxa_prop_guardhouse"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_guardhouse/lxa_prop_guardhouse"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_guardhouse/lxa_prop_guardhouse"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_bucket/lxa_prop_hobo_bucket_b" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_bucket/lxa_prop_hobo_bucket"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_bucket/lxa_prop_hobo_bucket_b"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_bucket/lxa_prop_hobo_bucket_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_bucket/lxa_prop_hobo_bucket_a" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_bucket/lxa_prop_hobo_bucket"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_bucket/lxa_prop_hobo_bucket_a"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_bucket/lxa_prop_hobo_bucket_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_carts/lxa_prop_hobo_cart_a" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_carts/lxa_prop_hobo_carts"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_carts/lxa_prop_hobo_cart_a"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_carts/lxa_prop_hobo_cart_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_carts/lxa_prop_hobo_cart_b" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_carts/lxa_prop_hobo_carts"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_carts/lxa_prop_hobo_cart_b"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_carts/lxa_prop_hobo_cart_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center_side_01" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center_side_01"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center_side_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center_side_02" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center_side_02"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center_side_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center_side_entrance" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center_side_entrance"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center_side_entrance"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_left_corner" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_left_corner"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_left_corner"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_icechest/lxa_prop_hobo_icechest" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_icechest/lxa_prop_hobo_icechest"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_icechest/lxa_prop_hobo_icechest"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_icechest/lxa_prop_hobo_icechest"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_shampoo_bottle/lxa_prop_hobo_shampoo_bottle" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_shampoo_bottle/lxa_prop_hobo_shampoo_bottle"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_shampoo_bottle/lxa_prop_hobo_shampoo_bottle"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_shampoo_bottle/lxa_prop_hobo_shampoo_bottle"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_tents/lxa_prop_hobo_tent_a" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_tents/lxa_prop_hobo_tents"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_tents/lxa_prop_hobo_tent_a"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_tents/lxa_prop_hobo_tent_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_tents/lxa_prop_hobo_tent_b" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_tents/lxa_prop_hobo_tents"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_tents/lxa_prop_hobo_tent_b"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_tents/lxa_prop_hobo_tent_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_street_centercones/lxa_prop_street_centercones" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_street_centercones/lxa_prop_street_centercones"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_street_centercones/lxa_prop_street_centercones"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_street_centercones/lxa_prop_street_centercones"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_street_powerline/lxa_prop_powerlines" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_street_powerline/lxa_prop_street_powerline"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_street_powerline/lxa_prop_powerlines"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_street_powerline/lxa_prop_powerlines"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_street_powerline/lxa_prop_street_powerline" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_street_powerline/lxa_prop_street_powerline"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_street_powerline/lxa_prop_street_powerline"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_street_powerline/lxa_prop_street_powerline"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart"/>
+		<sequence_manager path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart_frontdoor" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart_frontdoor"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart_frontdoor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart_sidedoors" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart_sidedoors"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_traincart/lxa_prop_traincart_sidedoors"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_3m" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_3m"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_broken_02" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_broken_02"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_broken_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vegetation/lxa_veg_palmtree/lxa_veg_palmtree_large_v2" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/vegetation/lxa_veg_palmtree/lxa_veg_palmtree"/>
+		<object path="units/pd2_dlc_holly/river/vegetation/lxa_veg_palmtree/lxa_veg_palmtree_large_v2"/>
+		<unit path="units/pd2_dlc_holly/river/vegetation/lxa_veg_palmtree/lxa_veg_palmtree_large_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_crossover_wrecked/lxa_vehicle_car_crossover_wrecked" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_crossover_wrecked/lxa_vehicle_car_crossover_wrecked"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_crossover_wrecked/lxa_vehicle_car_crossover_wrecked"/>
+		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_crossover_wrecked/lxa_vehicle_car_crossover_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_sedan_wrecked/lxa_vehicle_car_sedan_wrecked" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_sedan_wrecked/lxa_vehicle_car_sedan_wrecked"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_sedan_wrecked/lxa_vehicle_car_sedan_wrecked"/>
+		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_sedan_wrecked/lxa_vehicle_car_sedan_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
+		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_rubble" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_rubble"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_traintrack_fence/lxa_prop_traintrack_fence_rubble"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_04_v2" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_v2"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_04_v2"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_04_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_01" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_01"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_debris/lxa_prop_debris_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_b" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_b"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_a" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_a"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_construction_rebarpile/lxa_prop_construction_rebarpile" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_construction_rebarpile/lxa_prop_construction_rebarpile"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_construction_rebarpile/lxa_prop_construction_rebarpile"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_construction_rebarpile/lxa_prop_construction_rebarpile"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_concrete_pipe/lxa_prop_concrete_pipes" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_concrete_pipe/lxa_prop_concrete_pipe"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_concrete_pipe/lxa_prop_concrete_pipes"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_concrete_pipe/lxa_prop_concrete_pipes"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars_highway" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars_highway"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars_highway"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars_street_01" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars_street_01"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars_street_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars_e" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars_e"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_bdrop_cars/lxa_bdrop_cars_e"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_traintrack_building" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_traintrack_building"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_traintrack_building"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_traintrack_building"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_rebars" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_rebars"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_rebars"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_rebars"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_new" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_new"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_new"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_new"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_bd_02" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_new"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_bd_02"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_bd_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_bd_01" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_new"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_bd_01"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_upper_highway_bd_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_side_straight" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_side_straight"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_side_straight"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_side" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_side"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_side"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_entrance" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_entrance"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_entrance"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_16m" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_16m"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_tunnel_16m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_outer_railings_v2" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilars"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_outer_railings_v2"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_outer_railings_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_outer_railings_4m_v3_dmg" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_outer_railings_4m_v3_dmg"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_outer_railings_4m_v3_dmg"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_arch" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_arch"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway_arch"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_riverside_v2" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_riverside_v2"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_riverside_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_dam" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_dam"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_dam"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_riverside" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_riverside"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_riverside"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_antenna" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_antenna"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_antenna"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_rail_tracks" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_rail_tracks"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_rail_tracks"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_rail_tracks"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddle_05" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddles"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddle_05"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_puddle_05"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_subcompact_wrecked/lxa_vehicle_car_subcompact_wrecked" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_subcompact_wrecked/lxa_vehicle_car_subcompact_wrecked"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_subcompact_wrecked/lxa_vehicle_car_subcompact_wrecked"/>
+		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_subcompact_wrecked/lxa_vehicle_car_subcompact_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked" type="unit">
+		<object path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_wrecked" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_wrecked"/>
+		<object path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_wrecked"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_crossover_wrecked/brb_vehicle_car_crossover_wrecked" type="unit">
+		<material_config path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_crossover_wrecked/brb_vehicle_car_crossover_wrecked"/>
+		<object path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_crossover_wrecked/brb_vehicle_car_crossover_wrecked"/>
+		<unit path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_crossover_wrecked/brb_vehicle_car_crossover_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_mattress/lxa_prop_hobo_mattress" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_mattress/lxa_prop_hobo_mattress"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_mattress/lxa_prop_hobo_mattress"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_mattress/lxa_prop_hobo_mattress"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_plasticcrate/lxa_prop_hobo_plasticcrate" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_plasticcrate/lxa_prop_hobo_plasticcrate"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_plasticcrate/lxa_prop_hobo_plasticcrate"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_plasticcrate/lxa_prop_hobo_plasticcrate"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier" type="unit">
+		<material_config path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<object path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<sequence_manager path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<unit path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/stn_ext_policestation/stn_ext_policestation_sign_a" type="unit">
+		<unit path="units/payday2/architecture/stn_ext_policestation/stn_ext_policestation_sign_a"/>
+		<object path="units/payday2/architecture/stn_ext_policestation/stn_ext_policestation_sign_a"/>
+		<material_config path="units/payday2/architecture/stn_ext_policestation/stn_ext_policestation"/>
 	</add>
 </table>
