@@ -3042,8 +3042,125 @@
 		<unit path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/stn_ext_policestation/stn_ext_policestation_sign_a" type="unit">
-		<unit path="units/payday2/architecture/stn_ext_policestation/stn_ext_policestation_sign_a"/>
-		<object path="units/payday2/architecture/stn_ext_policestation/stn_ext_policestation_sign_a"/>
 		<material_config path="units/payday2/architecture/stn_ext_policestation/stn_ext_policestation"/>
+		<object path="units/payday2/architecture/stn_ext_policestation/stn_ext_policestation_sign_a"/>
+		<unit path="units/payday2/architecture/stn_ext_policestation/stn_ext_policestation_sign_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_right_corner" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_right_corner"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_right_corner"/>
+	</add>
+	<add from_db="true" path="units/world/street/trash_pile/trash_pile_mix_big" type="unit">
+		<material_config path="units/world/street/trash_pile/trash_pile"/>
+		<object path="units/world/street/trash_pile/trash_pile_mix_big"/>
+		<unit path="units/world/street/trash_pile/trash_pile_mix_big"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/target_hitbox/target_hitbox" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+		<sequence_manager path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+		<unit path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/architecture/are_supply_room_boxes/are_supply_shelf_01_boxes" type="unit">
+		<material_config path="units/pd2_dlc_arena/architecture/are_supply_room_boxes/are_supply_shelf_01_boxes"/>
+		<object path="units/pd2_dlc_arena/architecture/are_supply_room_boxes/are_supply_shelf_01_boxes"/>
+		<sequence_manager path="units/pd2_dlc_arena/architecture/are_supply_room_boxes/are_supply_shelf_01_boxes"/>
+		<unit path="units/pd2_dlc_arena/architecture/are_supply_room_boxes/are_supply_shelf_01_boxes"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/architecture/are_supply_room_boxes/are_supply_shelf_03_boxes" type="unit">
+		<material_config path="units/pd2_dlc_arena/architecture/are_supply_room_boxes/are_supply_shelf_01_boxes"/>
+		<object path="units/pd2_dlc_arena/architecture/are_supply_room_boxes/are_supply_shelf_03_boxes"/>
+		<sequence_manager path="units/pd2_dlc_arena/architecture/are_supply_room_boxes/are_supply_shelf_03_boxes"/>
+		<unit path="units/pd2_dlc_arena/architecture/are_supply_room_boxes/are_supply_shelf_03_boxes"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_05" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_05"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_05"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_04" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_04"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_04"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_03" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_03"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_03"/>
+	</add>
+	<add from_db="true" path="units/world/props/yacht/cardboard_boxes/lxy_prop_cardboardbox_small_c" type="unit">
+		<material_config path="units/world/props/yacht/cardboard_boxes/cardboard_boxes"/>
+		<object path="units/world/props/yacht/cardboard_boxes/lxy_prop_cardboardbox_small_c"/>
+		<unit path="units/world/props/yacht/cardboard_boxes/lxy_prop_cardboardbox_small_c"/>
+	</add>
+	<add from_db="true" path="units/world/props/yacht/cardboard_boxes/lxy_prop_cardboardbox_small_d" type="unit">
+		<material_config path="units/world/props/yacht/cardboard_boxes/cardboard_boxes"/>
+		<object path="units/world/props/yacht/cardboard_boxes/lxy_prop_cardboardbox_small_d"/>
+		<unit path="units/world/props/yacht/cardboard_boxes/lxy_prop_cardboardbox_small_d"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_02" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_01"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_02"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_cardboard_boxes/lxy_prop_cardboard_box_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox"/>
+		<sequence_manager path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox_addon" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox_addon"/>
+		<sequence_manager path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox_addon"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox_addon"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_a" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_a"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_a"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_b" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_b"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_b"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_base" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_base"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_base"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_base"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_hangar_toolbox_addon/brb_prop_hangar_toolbox_addon" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_hangar_toolbox_addon/brb_prop_hangar_toolbox_addon"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_hangar_toolbox_addon/brb_prop_hangar_toolbox_addon"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_hangar_toolbox_addon/brb_prop_hangar_toolbox_addon"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/props/bph_prop_thermite_toolbox/bph_prop_thermite_toolbox" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+		<object path="units/pd2_dlc_bph/props/bph_prop_thermite_toolbox/bph_prop_thermite_toolbox"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+		<unit path="units/pd2_dlc_bph/props/bph_prop_thermite_toolbox/bph_prop_thermite_toolbox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_hutch" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_hutch"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_hutch"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_hutch"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_drive/architecture/hcm_buildings/hcm_f_building_01" type="unit">
+		<unit path="units/pd2_dlc_drive/architecture/hcm_buildings/hcm_f_building_01"/>
+		<object path="units/pd2_dlc_drive/architecture/hcm_buildings/hcm_f_building_01"/>
+		<material_config path="units/pd2_dlc_drive/architecture/hcm_buildings/hcm_f_building_01"/>
 	</add>
 </table>

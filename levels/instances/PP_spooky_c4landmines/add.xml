@@ -1,4 +1,10 @@
 <table directory="assets">
+	<add from_db="true" path="units/dev_tools/level_tools/target_hitbox/target_hitbox" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+		<sequence_manager path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+		<unit path="units/dev_tools/level_tools/target_hitbox/target_hitbox"/>
+	</add>
 	<add from_db="true" path="units/equipment/c4_charge/c4_diffusible" type="unit">
 		<material_config path="units/equipment/c4_charge/c4_diffusible"/>
 		<object path="units/equipment/c4_charge/c4_diffusible"/>
