@@ -113,11 +113,6 @@
 		<material_config path="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van"/>
 		<physic_effect path="physic_effects/push_sphere"/>
 	</add>
-	<add from_db="true" path="units/payday2/architecture/hcm/hcm_ext_storefront_16x16m_corner_b" type="unit">
-		<material_config path="units/payday2/architecture/hcm/hcm"/>
-		<object path="units/payday2/architecture/hcm/hcm_ext_storefront_16x16m_corner_b"/>
-		<unit path="units/payday2/architecture/hcm/hcm_ext_storefront_16x16m_corner_b"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_ext_storefront_8x16m_a" type="unit">
 		<material_config path="units/payday2/architecture/hcm/hcm"/>
 		<object path="units/payday2/architecture/hcm/hcm_ext_storefront_8x16m_a"/>
@@ -268,9 +263,14 @@
 		<sequence_manager path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll"/>
 		<unit path="units/pd2_dlc_jerry/props/jry_equipment_parachute/jry_equipment_parachute_ragdoll"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/gen_prop_parachute/gen_prop_parachute" type="unit">
+	<add from_db="true" path="units/payday2/props/gen_prop_parachute/gen_prop_parachute" type="unit" used="true">
 		<material_config path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
 		<object path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
 		<unit path="units/payday2/props/gen_prop_parachute/gen_prop_parachute"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_a" type="unit">
+		<material_config path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood"/>
+		<object path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_a"/>
+		<unit path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_a"/>
 	</add>
 </table>
