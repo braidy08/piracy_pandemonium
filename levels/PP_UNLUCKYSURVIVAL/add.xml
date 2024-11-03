@@ -273,4 +273,96 @@
 		<object path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_a"/>
 		<unit path="units/payday2/props/gen_prop_crate_wood/gen_prop_crate_wood_a"/>
 	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/navigation_blocker_10" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/navigation_blocker_10"/>
+		<unit path="units/dev_tools/level_tools/navigation_blocker_10"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_flowervase/com_prop_flowervase" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/dest_plant_matter"/>
+		<material_config path="units/payday2/props/com_prop_flowervase/com_prop_flowervase"/>
+		<object path="units/payday2/props/com_prop_flowervase/com_prop_flowervase"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/payday2/props/com_prop_flowervase/com_prop_flowervase"/>
+		<unit path="units/payday2/props/com_prop_flowervase/com_prop_flowervase"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/navigation_blocker" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/navigation_blocker"/>
+		<unit path="units/dev_tools/level_tools/navigation_blocker"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/hospital/props/fire_extinguisher/fireextinguisher01" type="unit">
+		<material_config path="units/world/architecture/hospital/props/fire_extinguisher/fire_extinguisher01"/>
+		<object path="units/world/architecture/hospital/props/fire_extinguisher/fireextinguisher01"/>
+		<unit path="units/world/architecture/hospital/props/fire_extinguisher/fireextinguisher01"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/navigation_splitter_1m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/navigation_splitter_1m"/>
+		<unit path="units/dev_tools/level_tools/navigation_splitter_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_2x2m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_wall"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_2x2m"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_2x2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_8x8m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_wall"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_8x8m"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_8x8m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker_1m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
+		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_1m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/door_blocker/door_blocker"/>
+		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1"/>
+		<unit path="units/dev_tools/level_tools/door_blocker/door_blocker_4x1"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop" type="unit">
+		<object path="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop"/>
+		<unit path="units/payday2/equipment/gen_interactable_laptop/gen_interactable_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop" type="unit">
+		<gui path="guis/timer_gui"/>
+		<object path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+		<sequence_manager path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+		<unit path="units/pd2_dlc_ranc/equipment/ranc_int_laptop/ranc_int_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/dah_interactable_laptop/dah_interactable_laptop" type="unit">
+		<material_config path="units/pd2_dlc_dah/dah_interactable_laptop/dah_interactable_laptop"/>
+		<object path="units/pd2_dlc_dah/dah_interactable_laptop/dah_interactable_laptop"/>
+		<sequence_manager path="units/pd2_dlc_dah/dah_interactable_laptop/dah_interactable_laptop"/>
+		<unit path="units/pd2_dlc_dah/dah_interactable_laptop/dah_interactable_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop" type="unit">
+		<material_config path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop"/>
+		<object path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop"/>
+		<sequence_manager path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop"/>
+		<unit path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_corp/equipment/corp_int_achievement_laptop/corp_int_achievement_laptop" type="unit">
+		<gui path="guis/timer_gui"/>
+		<object path="units/pd2_dlc_corp/equipment/corp_int_achievement_laptop/corp_int_achievement_laptop"/>
+		<sequence_manager path="units/pd2_dlc_corp/equipment/corp_int_achievement_laptop/corp_int_achievement_laptop"/>
+		<unit path="units/pd2_dlc_corp/equipment/corp_int_achievement_laptop/corp_int_achievement_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable" type="unit">
+		<unit path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_laptop_interactable/cas_prop_laptop_interactable"/>
+	</add>
 </table>
