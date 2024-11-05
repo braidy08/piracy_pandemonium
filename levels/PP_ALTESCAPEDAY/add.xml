@@ -2072,11 +2072,90 @@
 		<unit path="units/payday2/vehicles/anim_vehicle_pickup_sportcab_armored/anim_vehicle_pickup_sportcab_armored"/>
 	</add>
 	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab" type="unit">
-		<unit path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab"/>
-		<object path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab"/>
 		<material_config path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab"/>
-		<sequence_manager path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab"/>
-		<effect load="true" path="effects/payday2/environment/car_burnout"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/environment/car_burnout"/>
+		<object path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab"/>
+		<sequence_manager path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab"/>
+		<unit path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v3" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v3"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v3"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_c4_wire/cas_prop_c4_wire" type="unit">
+		<object path="units/pd2_dlc_casino/props/cas_prop_c4_wire/cas_prop_c4_wire"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_c4_wire/cas_prop_c4_wire"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_c4_wire/cas_prop_c4_wire"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4" type="unit">
+		<material_config path="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/chas_interactable_destructible_crate"/>
+		<object path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4"/>
+		<sequence_manager path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4"/>
+		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/gen_pku_c4_explosives_x1/gen_pku_c4_explosives_x1" type="unit">
+		<material_config path="units/pd2_dlc_cro/gen_pku_c4_explosives_x1/gen_pku_c4_explosives_x1"/>
+		<object path="units/pd2_dlc_cro/gen_pku_c4_explosives_x1/gen_pku_c4_explosives_x1"/>
+		<sequence_manager path="units/pd2_dlc_cro/gen_pku_c4_explosives_x1/gen_pku_c4_explosives_x1"/>
+		<unit path="units/pd2_dlc_cro/gen_pku_c4_explosives_x1/gen_pku_c4_explosives_x1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun_disassembled" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun_disassembled"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun_disassembled"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_max/props/max_prop_sicario_gunbox/max_prop_sicario_gunbox" type="unit">
+		<material_config path="units/pd2_dlc_max/props/max_prop_sicario_gunbox/max_prop_sicario_gunbox"/>
+		<object path="units/pd2_dlc_max/props/max_prop_sicario_gunbox/max_prop_sicario_gunbox"/>
+		<sequence_manager path="units/pd2_dlc_max/props/max_prop_sicario_gunbox/max_prop_sicario_gunbox"/>
+		<unit path="units/pd2_dlc_max/props/max_prop_sicario_gunbox/max_prop_sicario_gunbox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_display_weapon/chl_prop_display_weapon_minigun" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_display_weapon/chl_prop_display_weapon_small"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_display_weapon/chl_prop_display_weapon_minigun"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_display_weapon/chl_prop_display_weapon_minigun"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
+		<object path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
+		<material_config path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
+		<unit path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<object path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<material_config path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47_z_axis" type="unit">
+		<material_config path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<object path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+		<unit path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47_z_axis"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870" type="unit">
+		<unit path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
+		<object path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
+		<material_config path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
 	</add>
 </table>

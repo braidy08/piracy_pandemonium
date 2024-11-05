@@ -397,8 +397,58 @@
 		<unit path="units/pd2_dlc_chill/props/chl_prop_tapes_shelf/chl_prop_tapes_shelf_props_01"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_tapes_shelf/chl_prop_tapes_shelf_props_02" type="unit">
-		<unit path="units/pd2_dlc_chill/props/chl_prop_tapes_shelf/chl_prop_tapes_shelf_props_02"/>
-		<object path="units/pd2_dlc_chill/props/chl_prop_tapes_shelf/chl_prop_tapes_shelf_props_02"/>
 		<material_config path="units/pd2_dlc_chill/props/chl_prop_tapes_shelf/chl_prop_tapes_shelf"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_tapes_shelf/chl_prop_tapes_shelf_props_02"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_tapes_shelf/chl_prop_tapes_shelf_props_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/architecture/ext/pex_ext_concrete_block/pex_ext_concrete_block" type="unit">
+		<material_config path="units/pd2_dlc_pex/architecture/ext/pex_ext_concrete_block/pex_ext_concrete_block"/>
+		<object path="units/pd2_dlc_pex/architecture/ext/pex_ext_concrete_block/pex_ext_concrete_block"/>
+		<unit path="units/pd2_dlc_pex/architecture/ext/pex_ext_concrete_block/pex_ext_concrete_block"/>
+	</add>
+	<add from_db="true" path="units/world/props/concrete_blocks_cover/concrete_blocks_single" type="unit">
+		<material_config path="units/world/props/concrete_blocks_cover/concrete_blocks_cover"/>
+		<object path="units/world/props/concrete_blocks_cover/concrete_blocks_single"/>
+		<unit path="units/world/props/concrete_blocks_cover/concrete_blocks_single"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_drive/architecture/ind_concrete_wall_01/ind_concrete_wall_01" type="unit">
+		<material_config path="units/pd2_dlc_drive/architecture/ind_concrete_wall_01/ind_concrete_wall_01"/>
+		<object path="units/pd2_dlc_drive/architecture/ind_concrete_wall_01/ind_concrete_wall_01"/>
+		<unit path="units/pd2_dlc_drive/architecture/ind_concrete_wall_01/ind_concrete_wall_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_drive/props/str_trashcan_destructable/str_trashcan_destructable" type="unit">
+		<unit path="units/pd2_dlc_drive/props/str_trashcan_destructable/str_trashcan_destructable"/>
+		<object path="units/pd2_dlc_drive/props/str_trashcan_destructable/str_trashcan_destructable"/>
+		<unit path="units/pd2_dlc_drive/props/str_trashcan_destructable/str_trashcan_dynamic"/>
+		<object path="units/pd2_dlc_drive/props/str_trashcan_destructable/str_trashcan_dynamic"/>
+		<material_config path="units/pd2_dlc_drive/props/str_trashcan_destructable/str_trashcan_destructable"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_drive/props/str_trashcan_destructable/str_trashcan_destructable"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_drive/vehicles/str_drv_car_sedan_destructable/str_drv_car_sedan_destructable" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/vehicle_fire"/>
+		<effect load="true" path="effects/payday2/particles/explosions/explosion_parts/fire_burnpuff_small"/>
+		<effect load="true" path="effects/payday2/particles/explosions/explosion_parts/fire_burnpuff"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_drive/vehicles/str_drv_car_sedan_destructable/str_drv_car_sedan_destructable"/>
+		<sequence_manager path="units/pd2_dlc_drive/vehicles/str_drv_car_sedan_destructable/str_drv_car_sedan_destructable"/>
+		<unit path="units/pd2_dlc_drive/vehicles/str_drv_car_sedan_destructable/str_drv_car_sedan_destructable"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/architecture/sah_ext/sah_ext_garden_hedges/sah_ext_garden_hedges_driveway_right" type="unit">
+		<material_config path="units/pd2_dlc_sah/architecture/sah_ext/sah_ext_garden_hedges/sah_ext_garden_hedges"/>
+		<object path="units/pd2_dlc_sah/architecture/sah_ext/sah_ext_garden_hedges/sah_ext_garden_hedges_driveway_right"/>
+		<unit path="units/pd2_dlc_sah/architecture/sah_ext/sah_ext_garden_hedges/sah_ext_garden_hedges_driveway_right"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_drive/architecture/geo_industry_part/ind_junk_debris_pile_01" type="unit">
+		<material_config path="units/pd2_dlc_drive/architecture/geo_industry_part/ind_junk_debris_pile_01"/>
+		<object path="units/pd2_dlc_drive/architecture/geo_industry_part/ind_junk_debris_pile_01"/>
+		<unit path="units/pd2_dlc_drive/architecture/geo_industry_part/ind_junk_debris_pile_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_window_solid_debris" type="unit">
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_window_solid_debris"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_window_solid_debris"/>
+		<material_config path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_window_solid_debris"/>
+		<sequence_manager path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_window_solid_debris"/>
+		<physic_effect path="physic_effects/push_sphere"/>
 	</add>
 </table>

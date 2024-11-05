@@ -3445,9 +3445,9 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1456.48 254.87 -9.53674e-005"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="state" type="string" value="none"/>
+					<entry key="position" type="vector3" value="-1456.48 154.87 -9.53674e-005"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="state" type="string" value="cf_sp_lying_hurt"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -3465,7 +3465,7 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-1755.26 853.841 -19.9991"/>
+					<entry key="position" type="vector3" value="-1505.26 978.841 -19.9991"/>
 					<entry key="rotation" type="quaternion" value="-0 -0 0.707107 -0.707107"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
@@ -4305,7 +4305,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-594.911 -137.717 0.000255555"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.965926 -0.258819"/>
-					<entry key="state" type="string" value="none"/>
+					<entry key="state" type="string" value="cm_sp_take_cover_hide"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -4343,8 +4343,8 @@
 					<entry key="force_pickup" type="string" value="none"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="271.594 907.185 -19.8136"/>
-					<entry key="rotation" type="quaternion" value="0 0 0.996195 0.087156"/>
+					<entry key="position" type="vector3" value="344.787 825.781 -19.8136"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 					<entry key="state" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
