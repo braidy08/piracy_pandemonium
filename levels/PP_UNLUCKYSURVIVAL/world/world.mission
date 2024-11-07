@@ -452,9 +452,9 @@
 				<entry key="id" type="number" value="100013"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="AI_event" type="string" value="police_called"/>
+					<entry key="AI_event" type="string" value="police_weapons_hot"/>
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="blame" type="string" value="empty"/>
+					<entry key="blame" type="string" value="police_alerted"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -463,14 +463,14 @@
 							<entry key="id" type="number" value="100016"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="delay" type="number" value="1"/>
-							<entry key="id" type="number" value="100192"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100014"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="90.1611 224.349 198.981"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="wave_mode" type="string" value="besiege"/>
+					<entry key="wave_mode" type="string" value="hunt"/>
 				</entry>
 			</entry>
 			<entry index="14" type="table">
@@ -4926,29 +4926,6 @@
 				</entry>
 			</entry>
 			<entry index="192" type="table">
-				<entry key="class" type="string" value="ElementAiGlobalEvent"/>
-				<entry key="editor_name" type="string" value="ai_global_event_002"/>
-				<entry key="id" type="number" value="100192"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="AI_event" type="string" value="police_called"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="blame" type="string" value="empty"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100014"/>
-						</entry>
-					</entry>
-					<entry key="position" type="vector3" value="90.1611 299.349 198.981"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="wave_mode" type="string" value="hunt"/>
-				</entry>
-			</entry>
-			<entry index="193" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_dummy_010"/>
 				<entry key="id" type="number" value="100154"/>
@@ -4973,7 +4950,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="194" type="table">
+			<entry index="193" type="table">
 				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
 				<entry key="editor_name" type="string" value="spawn_enemy_dummy_011"/>
 				<entry key="id" type="number" value="100193"/>
@@ -4998,7 +4975,7 @@
 					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="195" type="table">
+			<entry index="194" type="table">
 				<entry key="class" type="string" value="ElementNavObstacle"/>
 				<entry key="editor_name" type="string" value="nav_obstacle_002"/>
 				<entry key="id" type="number" value="100194"/>
@@ -5022,7 +4999,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="196" type="table">
+			<entry index="195" type="table">
 				<entry key="class" type="string" value="ElementNavObstacle"/>
 				<entry key="editor_name" type="string" value="nav_obstacle_005"/>
 				<entry key="id" type="number" value="100195"/>
@@ -5046,7 +5023,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="197" type="table">
+			<entry index="196" type="table">
 				<entry key="class" type="string" value="ElementUnitSequence"/>
 				<entry key="editor_name" type="string" value="unit_sequence_009"/>
 				<entry key="id" type="number" value="100196"/>

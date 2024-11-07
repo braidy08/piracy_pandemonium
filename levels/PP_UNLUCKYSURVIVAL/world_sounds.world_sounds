@@ -2,7 +2,7 @@
 	<entry key="ambience_enabled" type="boolean" value="true"/>
 	<entry key="default_ambience" type="string" value="ambience_ext_heavy_rain_storm_asphalt"/>
 	<entry key="default_environment" type="string" value="acoustics_outdoor_medium"/>
-	<entry key="default_occasional" type="string" value="occasionals_silent"/>
+	<entry key="default_occasional" type="string" value="occasionals_outside_night"/>
 	<entry key="sound_area_emitters" type="table">
 	</entry>
 	<entry key="sound_emitters" type="table">
@@ -45,7 +45,7 @@
 		<entry index="7" type="table">
 			<entry key="emitter_event" type="string" value="emitter_rain_on_car"/>
 			<entry key="name" type="string" value="none"/>
-			<entry key="position" type="vector3" value="-627.538 53.0064 150.287"/>
+			<entry key="position" type="vector3" value="-624.069 69.5278 159.036"/>
 			<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 		</entry>
 		<entry index="8" type="table">
@@ -69,13 +69,13 @@
 		<entry index="11" type="table">
 			<entry key="emitter_event" type="string" value="emitter_rain_on_car"/>
 			<entry key="name" type="string" value="none"/>
-			<entry key="position" type="vector3" value="2056.52 526.991 294.304"/>
+			<entry key="position" type="vector3" value="2231.52 451.991 294.304"/>
 			<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 		</entry>
 		<entry index="12" type="table">
 			<entry key="emitter_event" type="string" value="emitter_rain_on_car"/>
 			<entry key="name" type="string" value="none"/>
-			<entry key="position" type="vector3" value="2731.52 526.991 294.304"/>
+			<entry key="position" type="vector3" value="3231.52 451.991 294.304"/>
 			<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 		</entry>
 		<entry index="13" type="table">
@@ -124,17 +124,62 @@
 	<entry key="sound_environments" type="table">
 		<entry index="1" type="table">
 			<entry key="ambience_event" type="string" value="ambience_int_office_medium_night"/>
-			<entry key="depth" type="number" value="2175"/>
+			<entry key="depth" type="number" value="1900"/>
 			<entry key="environment" type="string" value="acoustics_indoor_default"/>
 			<entry key="height" type="number" value="1500"/>
 			<entry key="name" type="string" value="none"/>
-			<entry key="position" type="vector3" value="-0.613 1608.56 -35.034"/>
+			<entry key="occasional_event" type="string" value="occasionals_silent"/>
+			<entry key="position" type="vector3" value="0 2100 -25"/>
 			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 			<entry key="type" type="string" value="box"/>
 			<entry key="use_ambience" type="boolean" value="true"/>
 			<entry key="use_environment" type="boolean" value="true"/>
 			<entry key="use_occasional" type="boolean" value="true"/>
-			<entry key="width" type="number" value="2200"/>
+			<entry key="width" type="number" value="3000"/>
+		</entry>
+		<entry index="2" type="table">
+			<entry key="ambience_event" type="string" value="ambience_int_office_medium_night"/>
+			<entry key="depth" type="number" value="5000"/>
+			<entry key="environment" type="string" value="acoustics_indoor_default"/>
+			<entry key="height" type="number" value="1500"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="occasional_event" type="string" value="occasionals_silent"/>
+			<entry key="position" type="vector3" value="-3000 4000 -25"/>
+			<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="true"/>
+			<entry key="width" type="number" value="10000"/>
+		</entry>
+		<entry index="3" type="table">
+			<entry key="ambience_event" type="string" value="ambience_ext_heavy_rain_storm_asphalt_softer"/>
+			<entry key="depth" type="number" value="875"/>
+			<entry key="environment" type="string" value="pd2_acoustics_indoor_small"/>
+			<entry key="height" type="number" value="500"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="position" type="vector3" value="-825.613 1558.56 -35.034"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="false"/>
+			<entry key="width" type="number" value="750"/>
+		</entry>
+		<entry index="4" type="table">
+			<entry key="ambience_event" type="string" value="ambience_ext_heavy_rain_storm_asphalt_softer"/>
+			<entry key="depth" type="number" value="500"/>
+			<entry key="environment" type="string" value="acoustics_indoor_default"/>
+			<entry key="height" type="number" value="1500"/>
+			<entry key="name" type="string" value="none"/>
+			<entry key="occasional_event" type="string" value="occasionals_silent"/>
+			<entry key="position" type="vector3" value="0 1600 -25"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+			<entry key="type" type="string" value="box"/>
+			<entry key="use_ambience" type="boolean" value="true"/>
+			<entry key="use_environment" type="boolean" value="true"/>
+			<entry key="use_occasional" type="boolean" value="true"/>
+			<entry key="width" type="number" value="3000"/>
 		</entry>
 	</entry>
 </generic_scriptdata>

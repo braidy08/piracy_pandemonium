@@ -816,9 +816,44 @@
 		<unit path="units/payday2/props/stn_prop_office_paperswall_a/stn_prop_office_paperswall_a"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc1/props/str_prop_motel_paper/str_prop_motel_paper" type="unit">
-		<unit path="units/pd2_dlc1/props/str_prop_motel_paper/str_prop_motel_paper"/>
-		<object path="units/pd2_dlc1/props/str_prop_motel_paper/str_prop_motel_paper"/>
 		<material_config path="units/pd2_dlc1/props/str_prop_motel_paper/str_prop_motel_paper"/>
+		<object path="units/pd2_dlc1/props/str_prop_motel_paper/str_prop_motel_paper"/>
 		<sequence_manager path="units/pd2_dlc1/props/str_prop_motel_paper/str_prop_motel_paper"/>
+		<unit path="units/pd2_dlc1/props/str_prop_motel_paper/str_prop_motel_paper"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked" type="unit">
+		<object path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vehicles/cara_95sedan_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_wrecked" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_wrecked"/>
+		<object path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_wrecked"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vehicles/flatnose_truck_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_crossover_wrecked/brb_vehicle_car_crossover_wrecked" type="unit">
+		<material_config path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_crossover_wrecked/brb_vehicle_car_crossover_wrecked"/>
+		<object path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_crossover_wrecked/brb_vehicle_car_crossover_wrecked"/>
+		<unit path="units/pd2_dlc_brb/vehicles/brb_vehicle_car_crossover_wrecked/brb_vehicle_car_crossover_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_crossover_wrecked/lxa_vehicle_car_crossover_wrecked" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_crossover_wrecked/lxa_vehicle_car_crossover_wrecked"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_crossover_wrecked/lxa_vehicle_car_crossover_wrecked"/>
+		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_crossover_wrecked/lxa_vehicle_car_crossover_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_sedan_wrecked/lxa_vehicle_car_sedan_wrecked" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_sedan_wrecked/lxa_vehicle_car_sedan_wrecked"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_sedan_wrecked/lxa_vehicle_car_sedan_wrecked"/>
+		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_sedan_wrecked/lxa_vehicle_car_sedan_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_subcompact_wrecked/lxa_vehicle_car_subcompact_wrecked" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_subcompact_wrecked/lxa_vehicle_car_subcompact_wrecked"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_subcompact_wrecked/lxa_vehicle_car_subcompact_wrecked"/>
+		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_subcompact_wrecked/lxa_vehicle_car_subcompact_wrecked"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked" type="unit">
+		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
+		<material_config path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
 	</add>
 </table>
