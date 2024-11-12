@@ -1,5 +1,5 @@
 <table min_lib_ver="4.5" name="piracy_pandemonium">
-	<level ai_group_type="america" briefing_dialog="pp_briefing" id="piracy_pandemonium_lev" intro_event="Intro2" load_screen="guis/textures/mods/icons/PP_LOADINGSCREEN" max_bags="999" player_style="generic">
+	<level ai_group_type="america" briefing_dialog="pp_briefing" id="piracy_pandemonium_lev" intro_event="" load_screen="guis/textures/mods/icons/PP_LOADINGSCREEN" max_bags="999" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -100,13 +100,18 @@
 				<sound id="Lappy2"/>
 			</random>
 			<sounds directory="intros">
-				<sound id="Intro2">
-					<markers>
-						<marker label="intro2_01" position="0.877"/>
-						<marker label="intro2_02" position="3.6"/>
-						<marker label="intro2_03" position="8.98"/>
-					</markers>
-				</sound>
+					<sound id="Intro2">
+						<markers>
+							<marker label="intro2_01" position="0.877"/>
+							<marker label="intro2_02" position="3.6"/>
+							<marker label="intro2_03" position="8.98"/>
+						</markers>
+					</sound>
+					<sound id="Intro1"/>
+				<random id="intro1or2">
+					<sound id="Intro2"/>
+					<sound id="Intro1"/>
+				</random>
 			</sounds>
 		</sounds>
 	</level>
