@@ -852,8 +852,28 @@
 		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_subcompact_wrecked/lxa_vehicle_car_subcompact_wrecked"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked" type="unit">
-		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
-		<object path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
 		<material_config path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
+		<object path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
+		<unit path="units/pd2_dlc_holly/river/vehicles/lxa_vehicle_car_suv_wrecked/lxa_vehicle_car_suv_wrecked"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/wall_documents/calendar_01" type="unit">
+		<material_config path="units/world/props/office/wall_documents/wall_documents"/>
+		<object path="units/world/props/office/wall_documents/calendar_01"/>
+		<unit path="units/world/props/office/wall_documents/calendar_01"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/wall_documents/calendar_02" type="unit">
+		<material_config path="units/world/props/office/wall_documents/wall_documents"/>
+		<object path="units/world/props/office/wall_documents/calendar_02"/>
+		<unit path="units/world/props/office/wall_documents/calendar_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_chinese_calendar/chas_prop_chinese_calendar" type="unit">
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_chinese_calendar/chas_prop_chinese_calendar"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_chinese_calendar/chas_prop_chinese_calendar"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_chinese_calendar/chas_prop_chinese_calendar"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar" type="unit">
+		<unit path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar"/>
+		<object path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar"/>
+		<material_config path="units/payday2/props/com_prop_jewelry_signs/com_prop_jewelry_calendar"/>
 	</add>
 </table>

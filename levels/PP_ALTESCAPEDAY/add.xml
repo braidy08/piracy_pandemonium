@@ -2064,13 +2064,6 @@
 		<object path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed"/>
 		<unit path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed"/>
 	</add>
-	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_pickup_sportcab_armored/anim_vehicle_pickup_sportcab_armored" type="unit">
-		<bnk path="soundbanks/job_g_hoxton_stage1"/>
-		<material_config path="units/payday2/vehicles/anim_vehicle_pickup_sportcab_armored/anim_vehicle_pickup_sportcab_armored"/>
-		<object path="units/payday2/vehicles/anim_vehicle_pickup_sportcab_armored/anim_vehicle_pickup_sportcab_armored"/>
-		<sequence_manager path="units/payday2/vehicles/anim_vehicle_pickup_sportcab_armored/anim_vehicle_pickup_sportcab_armored"/>
-		<unit path="units/payday2/vehicles/anim_vehicle_pickup_sportcab_armored/anim_vehicle_pickup_sportcab_armored"/>
-	</add>
 	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab" type="unit">
 		<material_config path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
@@ -2154,8 +2147,123 @@
 		<unit path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47_z_axis"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870" type="unit">
-		<unit path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
-		<object path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
 		<material_config path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
+		<object path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
+		<unit path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" type="unit">
+		<material_config path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
+		<object path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
+		<unit path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/equipment/gen_drone_camera/gen_drone_camera" type="unit">
+		<animation path="anims/level/dark/drone/hover_loop"/>
+		<animation path="anims/level/dark/drone/broken_loop"/>
+		<animation path="anims/level/dark/drone/hover_stop"/>
+		<animation path="anims/level/dark/drone/propeller_loop"/>
+		<animation path="anims/level/dark/drone/take_off"/>
+		<animation path="anims/level/dark/drone/propeller_stop"/>
+		<animation path="anims/level/dark/drone/fly_right_6m"/>
+		<animation path="anims/level/dark/drone/fly_right_6m_land"/>
+		<animation path="anims/level/dark/drone/fly_right_12m"/>
+		<animation path="anims/level/dark/drone/fly_right_12m_land"/>
+		<animation path="anims/level/dark/drone/fly_left_6m"/>
+		<animation path="anims/level/dark/drone/fly_left_6m_land"/>
+		<animation path="anims/level/dark/drone/fly_left_12m"/>
+		<animation path="anims/level/dark/drone/fly_left_12m_land"/>
+		<animation path="anims/level/dark/drone/fly_forward_6m"/>
+		<animation path="anims/level/dark/drone/fly_forward_6m_land"/>
+		<animation path="anims/level/dark/drone/fly_forward_12m"/>
+		<animation path="anims/level/dark/drone/fly_forward_12m_land"/>
+		<animation path="anims/level/dark/drone/fly_backward_6m"/>
+		<animation path="anims/level/dark/drone/fly_backward_6m_land"/>
+		<animation path="anims/level/dark/drone/fly_backward_12m"/>
+		<animation path="anims/level/dark/drone/fly_backward_12m_land"/>
+		<animation path="anims/level/dark/drone/fly_land"/>
+		<animation path="anims/level/dark/drone/fly_take_off"/>
+		<animation path="anims/level/dark/drone/fly_forward_6m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_forward_12m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_backward_6m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_backward_12m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_right_6m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_right_12m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_left_6m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_left_12m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_right_4m"/>
+		<animation path="anims/level/dark/drone/fly_right_4m_land"/>
+		<animation path="anims/level/dark/drone/fly_left_4m"/>
+		<animation path="anims/level/dark/drone/fly_left_4m_land"/>
+		<animation path="anims/level/dark/drone/fly_forward_32m"/>
+		<animation path="anims/level/dark/drone/fly_forward_32m_land"/>
+		<animation path="anims/level/dark/drone/fly_forward_64m"/>
+		<animation path="anims/level/dark/drone/fly_forward_64m_land"/>
+		<animation path="anims/level/dark/drone/fly_backward_32m"/>
+		<animation path="anims/level/dark/drone/fly_backward_32m_land"/>
+		<animation path="anims/level/dark/drone/fly_backward_64m"/>
+		<animation path="anims/level/dark/drone/fly_backward_64m_land"/>
+		<animation path="anims/level/dark/drone/fly_forward_32m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_forward_64m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_backward_32m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_backward_64m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_right_4m_no_take_off"/>
+		<animation path="anims/level/dark/drone/fly_left_4m_no_take_off"/>
+		<effect load="true" path="effects/payday2/particles/smoke_trail/drone_smoke"/>
+		<effect load="true" path="effects/payday2/particles/flares/drone_flare_red"/>
+		<effect load="true" path="effects/payday2/particles/flares/drone_flare_white"/>
+		<effect load="true" path="effects/payday2/particles/flares/drone_flare_blue"/>
+		<animation_def path="anims/units/level/dark/drone/def"/>
+		<animation_state_machine path="anims/units/level/dark/drone/machine"/>
+		<animation_states path="anims/units/level/dark/drone/states"/>
+		<animation_subset path="anims/units/level/dark/drone/anims"/>
+		<material_config path="units/pd2_dlc_dark/equipment/gen_drone_camera/gen_drone_camera"/>
+		<object path="units/pd2_dlc_dark/equipment/gen_drone_camera/gen_drone_camera"/>
+		<sequence_manager path="units/pd2_dlc_dark/equipment/gen_drone_camera/gen_drone_camera"/>
+		<unit path="units/pd2_dlc_dark/equipment/gen_drone_camera/gen_drone_camera"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_open" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_open"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_open"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_open"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_closed" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_closed"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_closed"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_closed"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_camera_bag/lxy_prop_camera_bag" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_camera_bag/lxy_prop_camera_bag"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_camera_bag/lxy_prop_camera_bag"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_camera_bag/lxy_prop_camera_bag"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_tv_camera/lxy_prop_tv_camera" type="unit">
+		<object path="units/pd2_dlc_fish/lxy_prop_tv_camera/lxy_prop_tv_camera"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_tv_camera/lxy_prop_tv_camera"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
+	</add>
+	<add from_db="true" path="units/world/props/security_camera/security_camera_white" type="unit">
+		<material_config path="units/world/props/security_camera/security_camera_white"/>
+		<object path="units/world/props/security_camera/security_camera_white"/>
+		<sequence_manager path="units/world/props/security_camera/security_camera"/>
+		<unit path="units/world/props/security_camera/security_camera_white"/>
+	</add>
+	<add from_db="true" path="units/world/props/gym/stn_prop_camera/stn_prop_camera" type="unit">
+		<object path="units/world/props/gym/stn_prop_camera/stn_prop_camera"/>
+		<sequence_manager path="units/world/props/gym/stn_prop_camera/stn_prop_camera"/>
+		<unit path="units/world/props/gym/stn_prop_camera/stn_prop_camera"/>
+	</add>
+	<add from_db="true" path="units/world/props/airport/airport_camera/airport_camera" type="unit">
+		<material_config path="units/world/props/airport/airport_camera/airport_camera"/>
+		<object path="units/world/props/airport/airport_camera/airport_camera"/>
+		<unit path="units/world/props/airport/airport_camera/airport_camera"/>
+	</add>
+	<add from_db="true" path="units/world/props/hotel/ceiling_camera/ceiling_camera" type="unit">
+		<unit path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
+		<object path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
+		<material_config path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
 	</add>
 </table>
