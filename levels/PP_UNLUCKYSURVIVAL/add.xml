@@ -1238,8 +1238,13 @@
 		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_wall_1x3m" type="unit">
-		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_wall_1x3m"/>
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_wall"/>
 		<object path="units/payday2/architecture/com_int_basement/com_int_basement_wall_1x3m"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_wall_1x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m" type="unit">
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m"/>
 		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_wall"/>
 	</add>
 </table>
