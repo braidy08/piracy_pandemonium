@@ -1243,8 +1243,122 @@
 		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_wall_1x3m"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m" type="unit">
-		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m"/>
-		<object path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m"/>
 		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_wall"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox"/>
+		<sequence_manager path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_hangar_toolbox_addon/brb_prop_hangar_toolbox_addon" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_hangar_toolbox_addon/brb_prop_hangar_toolbox_addon"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_hangar_toolbox_addon/brb_prop_hangar_toolbox_addon"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_hangar_toolbox_addon/brb_prop_hangar_toolbox_addon"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox_addon" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox_addon"/>
+		<sequence_manager path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox_addon"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_garage_toolbox/bor_prop_garage_toolbox_addon"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_b" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_b"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_b"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_a" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_a"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_a"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox_chrome/chl_prop_garage_toolbox_chrome_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_hutch" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_hutch"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_hutch"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_hutch"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_base" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_base"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_base"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_garage_toolbox/chl_prop_garage_toolbox_base"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/props/bph_prop_thermite_toolbox/bph_prop_thermite_toolbox" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+		<object path="units/pd2_dlc_bph/props/bph_prop_thermite_toolbox/bph_prop_thermite_toolbox"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_drill_toolbox/cas_prop_drill_toolbox"/>
+		<unit path="units/pd2_dlc_bph/props/bph_prop_thermite_toolbox/bph_prop_thermite_toolbox"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_hangar_toolbox/air_prop_hangar_toolbox" type="unit">
+		<material_config path="units/payday2/props/air_prop_hangar_toolbox/air_prop_hangar_toolbox"/>
+		<object path="units/payday2/props/air_prop_hangar_toolbox/air_prop_hangar_toolbox"/>
+		<unit path="units/payday2/props/air_prop_hangar_toolbox/air_prop_hangar_toolbox"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_top" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_top"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_top"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid_connect" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid_connect"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ladder_mid_connect"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_basement_cables_ceiling_ladder/com_prop_basement_cables_ceiling_ladder_drop_25_cm" type="unit">
+		<material_config path="units/payday2/props/com_prop_basement_cables_ceiling_ladder/com_prop_basement_cables_ceiling_ladder"/>
+		<object path="units/payday2/props/com_prop_basement_cables_ceiling_ladder/com_prop_basement_cables_ceiling_ladder_drop_25_cm"/>
+		<unit path="units/payday2/props/com_prop_basement_cables_ceiling_ladder/com_prop_basement_cables_ceiling_ladder_drop_25_cm"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder_short" type="unit">
+		<material_config path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder"/>
+		<object path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder_short"/>
+		<unit path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder_short"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder_folded" type="unit">
+		<material_config path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder"/>
+		<object path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder_folded"/>
+		<unit path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder_folded"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder" type="unit">
+		<material_config path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder"/>
+		<object path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder"/>
+		<unit path="units/payday2/props/are_prop_backstage_ladder/are_prop_backstage_ladder"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a" type="unit">
+		<material_config path="units/payday2/architecture/com_int_construction_floor/com_int_construction_walls"/>
+		<object path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a"/>
+		<unit path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_wall_covered_3m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_construction_floor/com_int_construction_walls"/>
+		<object path="units/payday2/architecture/com_int_construction_floor/com_int_construction_wall_covered_3m"/>
+		<unit path="units/payday2/architecture/com_int_construction_floor/com_int_construction_wall_covered_3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_wall_frame_1m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_construction_floor/com_int_construction_walls"/>
+		<object path="units/payday2/architecture/com_int_construction_floor/com_int_construction_wall_frame_1m"/>
+		<unit path="units/payday2/architecture/com_int_construction_floor/com_int_construction_wall_frame_1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_construction_light_a/dah_prop_construction_light_a" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_construction_light_a/dah_prop_construction_light_a"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_construction_light_a/dah_prop_construction_light_a"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_construction_light_a/dah_prop_construction_light_a"/>
+	</add>
+	<add from_db="true" path="core/units/light_spot/light_spot" type="unit">
+		<unit path="core/units/light_spot/light_spot"/>
+		<object path="core/units/light_spot/light_spot"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>
