@@ -100,14 +100,14 @@
 				<sound id="Lappy2"/>
 			</random>
 			<sounds directory="intros">
-					<sound id="Intro2">
-						<markers>
-							<marker label="intro2_01" position="0.877"/>
-							<marker label="intro2_02" position="3.6"/>
-							<marker label="intro2_03" position="8.98"/>
-						</markers>
-					</sound>
-					<sound id="Intro1"/>
+				<sound id="Intro2">
+					<markers>
+						<marker label="intro2_01" position="0.877"/>
+						<marker label="intro2_02" position="3.6"/>
+						<marker label="intro2_03" position="8.98"/>
+					</markers>
+				</sound>
+				<sound id="Intro1"/>
 				<random id="intro1or2">
 					<sound id="Intro2"/>
 					<sound id="Intro1"/>
@@ -185,6 +185,7 @@
 			<value_node value="levels/narratives/classics/glace/world"/>
 			<value_node value="levels/narratives/classics/glace/world"/>
 			<value_node value="levels/narratives/classics/glace/world_sounds"/>
+			<value_node value="levels/instances/unique/kenaz/small_storage/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

@@ -2262,8 +2262,18 @@
 		<unit path="units/world/props/airport/airport_camera/airport_camera"/>
 	</add>
 	<add from_db="true" path="units/world/props/hotel/ceiling_camera/ceiling_camera" type="unit">
-		<unit path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
-		<object path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
 		<material_config path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
+		<object path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
+		<unit path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
+	</add>
+	<add from_db="true" path="units/street/street_sidewalk_5x5" type="unit">
+		<material_config path="units/street/street"/>
+		<object path="units/street/street_sidewalk_5x5"/>
+		<unit path="units/street/street_sidewalk_5x5"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/street/ground/sidewalk/ground_sidewalk_10x10m" type="unit">
+		<unit path="units/world/architecture/street/ground/sidewalk/ground_sidewalk_10x10m"/>
+		<object path="units/world/architecture/street/ground/sidewalk/ground_sidewalk_10x10m"/>
+		<material_config path="units/world/architecture/street/ground/ground"/>
 	</add>
 </table>

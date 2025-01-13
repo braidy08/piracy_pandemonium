@@ -6,6 +6,7 @@
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_002" position="7026.59 1567.09 -13.2924" rotation="0 0 0 1" script="default" start_index="500"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_003" position="1775 2825 800" rotation="-0 0 1 0" script="default" start_index="750"/>
 		<table continent="world" folder="levels/instances/mods/piracy_pandemonium/PP_spawn_hallway/world" index_size="250" name="PP_spawn_hallway_004" position="25 1825 400" rotation="0 0 -0.707107 -0.707107" script="default" start_index="1000"/>
+		<table continent="world" folder="levels/instances/unique/kenaz/drill_signal/world" index_size="250" name="drill_signal_001" position="-1025 -1025 0" rotation="0 0 0 1" script="default" start_index="1250"/>
 	</instances>
 	<statics>
 		<table>
@@ -222,7 +223,7 @@
 			<unit_data _prev_pos="-1600 25 800" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_e" name_id="hcm_ext_8x16m_e_003" position="-1600 0 800" rotation="0 0 -0.707107 -0.707107" unit_id="100074"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3200 1600 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_storefront_8x16m_d" name_id="hcm_ext_storefront_8x16m_d_002" position="-4800 1600 0" rotation="0 0 0.707107 -0.707107" unit_id="100076"/>
+			<unit_data _prev_pos="-4800 1600 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_storefront_8x16m_d" name_id="hcm_ext_storefront_8x16m_d_002" position="-4800 1600 0" rotation="0 0 0.707107 -0.707107" unit_id="100076"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="3200 1600 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_store_barber/com_int_store_barber_8x16m_d" name_id="com_int_store_barber_8x16m_d_002" position="-4800 1600 0" rotation="0 0 0.707107 -0.707107" unit_id="100075"/>
@@ -272,9 +273,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-500 1975 15" _prev_rot="0 0 0.5 -0.866025" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/shadow_mullplan/mullplan_vehicle" name_id="mullplan_vehicle_003" position="-500 1975 15" rotation="0 0 -2.98023e-008 -1" unit_id="100089"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="3418 563 -20" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/shadow_mullplan/mullplan_vehicle" name_id="mullplan_vehicle_004" position="3418 563 -20" rotation="0 0 0.707107 -0.707107" unit_id="100090"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3200 1575 800" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 -1600 0" local_rot="0 0 0 1" name="units/payday2/architecture/hcm/hcm_ext_8x16m_e" name_id="hcm_ext_8x16m_e_004" position="-3200 1575 800" rotation="0 0 0.707107 -0.707107" unit_id="100091"/>
@@ -895,9 +893,9 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="2911.36 1137.98 -21" _prev_rot="-0.0234877 0.0208063 -0.260889 -0.964859" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="lights_on" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_004" position="2911.36 1137.98 -21" rotation="-0.0234877 0.0208063 -0.260889 -0.964859" unit_id="100285">
+			<unit_data _prev_pos="2911.36 1137.98 -21" _prev_rot="-0.0234877 0.0208063 -0.260889 -0.964859" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="lights_off" name="units/payday2/vehicles/str_vehicle_swat_van/str_vehicle_swat_van" name_id="str_vehicle_swat_van_004" position="2911.36 1137.98 -21" rotation="-0.0234877 0.0208063 -0.260889 -0.964859" unit_id="100285">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="false" falloff_exponent="1" far_range="1000" multiplier="@IDbca13ba1d306f87b@" name="ls_t_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -7452,6 +7450,9 @@
 					<lo_omni x="128" y="128"/>
 				</projection_lights>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="1975 4250 -400" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_dlc_casino/props/cas_prop_fireworks/cas_prop_fireworks" name_id="cas_prop_fireworks_001" position="1975 4250 -400" rotation="-0 0 -0 -1" unit_id="102037"/>
 		</table>
 	</statics>
 	<values>
