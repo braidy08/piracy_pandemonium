@@ -335,9 +335,6 @@
 			<unit_data continent="editor_only" local_pos="-0.000106812 500 0" local_rot="0 0 1.19209e-007 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_090" only_exists_in_editor="true" position="2130.13 1054.35 -25" rotation="0 0 0.422618 -0.906308" unit_id="200110"/>
 		</table>
 		<table>
-			<unit_data continent="editor_only" local_pos="111.674 373.738 37.5823" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_002" only_exists_in_editor="true" position="2336.26 565.674 17.5823" rotation="0 0 -0.707107 -0.707107" unit_id="200111"/>
-		</table>
-		<table>
 			<unit_data continent="editor_only" local_pos="225 -1050 0" local_rot="0 0 -0.707107 -0.707107" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_378" only_exists_in_editor="true" position="1575 1850 0" rotation="0 0 1 -0" unit_id="200112"/>
 		</table>
 		<table>
@@ -423,9 +420,6 @@
 		</table>
 		<table>
 			<unit_data continent="editor_only" local_pos="-7.62939e-005 -400 0" local_rot="0 0 5.96046e-008 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_055" only_exists_in_editor="true" position="-2996.65 635.704 -25" rotation="0 0 0.258819 -0.965926" unit_id="200140"/>
-		</table>
-		<table>
-			<unit_data continent="editor_only" local_pos="111.674 -301.262 37.5823" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" name_id="dev_nav_splitter_2x3m_001" only_exists_in_editor="true" position="3011.26 565.674 17.5823" rotation="0 0 -0.707107 -0.707107" unit_id="200141"/>
 		</table>
 		<table>
 			<unit_data continent="editor_only" local_pos="-6.10352e-005 -500 0" local_rot="0 0 5.96046e-008 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_054" only_exists_in_editor="true" position="-3046.65 549.102 -25" rotation="0 0 0.258819 -0.965926" unit_id="200142"/>
@@ -714,6 +708,12 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="1225 3225 -400" _prev_rot="0 0 0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="doors_open" name="units/pd2_dlc_pent/architecture/int/pent_int_elevator_shaft/double_sided_elevator_door/pent_int_elevator_doors_double_sided" name_id="pent_int_elevator_doors_double_sided_002" position="1225 3225 -400" rotation="-0 0 -0 -1" unit_id="200237"/>
+		</table>
+		<table>
+			<unit_data continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_1" name_id="navigation_blocker_1_002" only_exists_in_editor="true" position="2202.64 598.13 -19.9991" rotation="0 0 -0.707107 -0.707107" unit_id="200111"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2899.57 595.767 -19.9991" _prev_rot="0 0 -0.707107 -0.707107" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/navigation_blocker_1" name_id="navigation_blocker_1_001" only_exists_in_editor="true" position="2899.57 595.767 -19.9991" rotation="0 0 -0.707107 -0.707107" unit_id="200141"/>
 		</table>
 	</statics>
 	<values>
