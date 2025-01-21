@@ -1384,8 +1384,50 @@
 		<unit path="units/pd2_dlc_casino/dev/invisible_interaction_ignite_fireworks/invisible_interaction_ignite_fireworks"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/navigation_blocker_1" type="unit">
-		<unit path="units/dev_tools/level_tools/navigation_blocker_1"/>
-		<object path="units/dev_tools/level_tools/navigation_blocker_1"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/navigation_blocker_1"/>
+		<unit path="units/dev_tools/level_tools/navigation_blocker_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2" type="unit">
+		<object path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<material_config path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+		<unit path="units/pd2_dlc_arena/props/are_int_double_door_v2/are_int_double_door_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier" type="unit">
+		<material_config path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<object path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<sequence_manager path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+		<unit path="units/payday2/props/gen_prop_police_barrier/gen_prop_police_barrier"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes" type="unit">
+		<material_config path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes"/>
+		<object path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes"/>
+		<unit path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_janitor_mop/com_prop_janitor_mop_lying" type="unit">
+		<material_config path="units/payday2/props/com_prop_janitor_mop/com_prop_janitor_mop"/>
+		<object path="units/payday2/props/com_prop_janitor_mop/com_prop_janitor_mop_lying"/>
+		<unit path="units/payday2/props/com_prop_janitor_mop/com_prop_janitor_mop_lying"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_hotel_cart_cleaning/cas_prop_hotel_cart_cleaning" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_hotel_cart_cleaning/cas_prop_hotel_cart_cleaning"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_hotel_cart_cleaning/cas_prop_hotel_cart_cleaning"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_hotel_cart_cleaning/cas_prop_hotel_cart_cleaning"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_1" type="unit">
+		<material_config path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes"/>
+		<object path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_1"/>
+		<unit path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_2" type="unit">
+		<unit path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_2"/>
+		<object path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes_2"/>
+		<material_config path="units/payday2/props/com_prop_janitor_boxes/com_prop_janitor_boxes"/>
 	</add>
 </table>
