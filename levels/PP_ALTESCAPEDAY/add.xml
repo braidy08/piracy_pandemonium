@@ -1612,11 +1612,6 @@
 		<object path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_scaffolding_8x12"/>
 		<unit path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_scaffolding_8x12"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_pent/architecture/ext/pent_ext_far_backdrop/pent_ext_bdrop_skyscraper_02/pent_ext_bdrop_skyscraper_02" type="unit">
-		<material_config path="units/pd2_dlc_pent/architecture/ext/pent_ext_far_backdrop/pent_ext_bdrop_skyscraper_02/pent_ext_bdrop_skyscraper_02"/>
-		<object path="units/pd2_dlc_pent/architecture/ext/pent_ext_far_backdrop/pent_ext_bdrop_skyscraper_02/pent_ext_bdrop_skyscraper_02"/>
-		<unit path="units/pd2_dlc_pent/architecture/ext/pent_ext_far_backdrop/pent_ext_bdrop_skyscraper_02/pent_ext_bdrop_skyscraper_02"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_glace/props/glc_prop_construction_portabletoilet/glc_prop_construction_portabletoilet_closed" type="unit">
 		<material_config path="units/pd2_dlc_glace/props/glc_prop_construction_portabletoilet/glc_prop_construction_portabletoilet"/>
 		<object path="units/pd2_dlc_glace/props/glc_prop_construction_portabletoilet/glc_prop_construction_portabletoilet_closed"/>
@@ -2059,11 +2054,6 @@
 		<object path="units/payday2/architecture/lux/lux_int_wall1_1m_a"/>
 		<unit path="units/payday2/architecture/lux/lux_int_wall1_1m_a"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed" type="unit">
-		<material_config path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed"/>
-		<object path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed"/>
-		<unit path="units/pd2_dlc1/vehicles/str_vehicle_pickuptruck_sportcab_crashed/str_vehicle_pickuptruck_sportcab_crashed"/>
-	</add>
 	<add from_db="true" path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab" type="unit">
 		<material_config path="units/payday2/vehicles/anim_vehicle_pickup_sportcab/anim_vehicle_pickup_sportcab"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
@@ -2077,203 +2067,19 @@
 		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
 		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2" type="unit">
-		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
-		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2"/>
-		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v3" type="unit">
-		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
-		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v3"/>
-		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v3"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_c4_wire/cas_prop_c4_wire" type="unit">
-		<object path="units/pd2_dlc_casino/props/cas_prop_c4_wire/cas_prop_c4_wire"/>
-		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_c4_wire/cas_prop_c4_wire"/>
-		<unit path="units/pd2_dlc_casino/props/cas_prop_c4_wire/cas_prop_c4_wire"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4" type="unit">
-		<material_config path="units/pd2_dlc_chas/equipment/chas_interactable_destructible_crate/chas_interactable_destructible_crate"/>
-		<object path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4"/>
-		<sequence_manager path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4"/>
-		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_c4/chas_interactable_c4"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_cro/gen_pku_c4_explosives_x1/gen_pku_c4_explosives_x1" type="unit">
-		<material_config path="units/pd2_dlc_cro/gen_pku_c4_explosives_x1/gen_pku_c4_explosives_x1"/>
-		<object path="units/pd2_dlc_cro/gen_pku_c4_explosives_x1/gen_pku_c4_explosives_x1"/>
-		<sequence_manager path="units/pd2_dlc_cro/gen_pku_c4_explosives_x1/gen_pku_c4_explosives_x1"/>
-		<unit path="units/pd2_dlc_cro/gen_pku_c4_explosives_x1/gen_pku_c4_explosives_x1"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun" type="unit">
-		<material_config path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun"/>
-		<object path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun"/>
-		<unit path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun_disassembled" type="unit">
 		<material_config path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun"/>
 		<object path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun_disassembled"/>
 		<unit path="units/pd2_dlc_chill/props/chl_prop_sentry_gun/chl_prop_sentry_gun_disassembled"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret" type="unit">
-		<material_config path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret"/>
-		<object path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret"/>
-		<unit path="units/pd2_dlc_jfr/props/jfr_prop_machinegun_turret/jfr_prop_machinegun_turret"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_max/props/max_prop_sicario_gunbox/max_prop_sicario_gunbox" type="unit">
-		<material_config path="units/pd2_dlc_max/props/max_prop_sicario_gunbox/max_prop_sicario_gunbox"/>
-		<object path="units/pd2_dlc_max/props/max_prop_sicario_gunbox/max_prop_sicario_gunbox"/>
-		<sequence_manager path="units/pd2_dlc_max/props/max_prop_sicario_gunbox/max_prop_sicario_gunbox"/>
-		<unit path="units/pd2_dlc_max/props/max_prop_sicario_gunbox/max_prop_sicario_gunbox"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_display_weapon/chl_prop_display_weapon_minigun" type="unit">
-		<material_config path="units/pd2_dlc_chill/props/chl_prop_display_weapon/chl_prop_display_weapon_small"/>
-		<object path="units/pd2_dlc_chill/props/chl_prop_display_weapon/chl_prop_display_weapon_minigun"/>
-		<unit path="units/pd2_dlc_chill/props/chl_prop_display_weapon/chl_prop_display_weapon_minigun"/>
-	</add>
-	<add from_db="true" path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1" type="unit">
-		<unit path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
-		<object path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
-		<material_config path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_weapon_case_2x1/gen_interactable_weapon_case_2x1"/>
-		<unit path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
-		<object path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
-		<material_config path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
-	</add>
-	<add from_db="true" path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47_z_axis" type="unit">
-		<material_config path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
-		<object path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
-		<unit path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47_z_axis"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870" type="unit">
 		<material_config path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
 		<object path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
 		<unit path="units/payday2/props/gen_prop_weapon_r870/gen_prop_weapon_r870"/>
 	</add>
-	<add from_db="true" path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera" type="unit">
-		<material_config path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
-		<object path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
-		<sequence_manager path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
-		<unit path="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_dark/equipment/gen_drone_camera/gen_drone_camera" type="unit">
-		<animation path="anims/level/dark/drone/hover_loop"/>
-		<animation path="anims/level/dark/drone/broken_loop"/>
-		<animation path="anims/level/dark/drone/hover_stop"/>
-		<animation path="anims/level/dark/drone/propeller_loop"/>
-		<animation path="anims/level/dark/drone/take_off"/>
-		<animation path="anims/level/dark/drone/propeller_stop"/>
-		<animation path="anims/level/dark/drone/fly_right_6m"/>
-		<animation path="anims/level/dark/drone/fly_right_6m_land"/>
-		<animation path="anims/level/dark/drone/fly_right_12m"/>
-		<animation path="anims/level/dark/drone/fly_right_12m_land"/>
-		<animation path="anims/level/dark/drone/fly_left_6m"/>
-		<animation path="anims/level/dark/drone/fly_left_6m_land"/>
-		<animation path="anims/level/dark/drone/fly_left_12m"/>
-		<animation path="anims/level/dark/drone/fly_left_12m_land"/>
-		<animation path="anims/level/dark/drone/fly_forward_6m"/>
-		<animation path="anims/level/dark/drone/fly_forward_6m_land"/>
-		<animation path="anims/level/dark/drone/fly_forward_12m"/>
-		<animation path="anims/level/dark/drone/fly_forward_12m_land"/>
-		<animation path="anims/level/dark/drone/fly_backward_6m"/>
-		<animation path="anims/level/dark/drone/fly_backward_6m_land"/>
-		<animation path="anims/level/dark/drone/fly_backward_12m"/>
-		<animation path="anims/level/dark/drone/fly_backward_12m_land"/>
-		<animation path="anims/level/dark/drone/fly_land"/>
-		<animation path="anims/level/dark/drone/fly_take_off"/>
-		<animation path="anims/level/dark/drone/fly_forward_6m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_forward_12m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_backward_6m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_backward_12m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_right_6m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_right_12m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_left_6m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_left_12m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_right_4m"/>
-		<animation path="anims/level/dark/drone/fly_right_4m_land"/>
-		<animation path="anims/level/dark/drone/fly_left_4m"/>
-		<animation path="anims/level/dark/drone/fly_left_4m_land"/>
-		<animation path="anims/level/dark/drone/fly_forward_32m"/>
-		<animation path="anims/level/dark/drone/fly_forward_32m_land"/>
-		<animation path="anims/level/dark/drone/fly_forward_64m"/>
-		<animation path="anims/level/dark/drone/fly_forward_64m_land"/>
-		<animation path="anims/level/dark/drone/fly_backward_32m"/>
-		<animation path="anims/level/dark/drone/fly_backward_32m_land"/>
-		<animation path="anims/level/dark/drone/fly_backward_64m"/>
-		<animation path="anims/level/dark/drone/fly_backward_64m_land"/>
-		<animation path="anims/level/dark/drone/fly_forward_32m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_forward_64m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_backward_32m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_backward_64m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_right_4m_no_take_off"/>
-		<animation path="anims/level/dark/drone/fly_left_4m_no_take_off"/>
-		<effect load="true" path="effects/payday2/particles/smoke_trail/drone_smoke"/>
-		<effect load="true" path="effects/payday2/particles/flares/drone_flare_red"/>
-		<effect load="true" path="effects/payday2/particles/flares/drone_flare_white"/>
-		<effect load="true" path="effects/payday2/particles/flares/drone_flare_blue"/>
-		<animation_def path="anims/units/level/dark/drone/def"/>
-		<animation_state_machine path="anims/units/level/dark/drone/machine"/>
-		<animation_states path="anims/units/level/dark/drone/states"/>
-		<animation_subset path="anims/units/level/dark/drone/anims"/>
-		<material_config path="units/pd2_dlc_dark/equipment/gen_drone_camera/gen_drone_camera"/>
-		<object path="units/pd2_dlc_dark/equipment/gen_drone_camera/gen_drone_camera"/>
-		<sequence_manager path="units/pd2_dlc_dark/equipment/gen_drone_camera/gen_drone_camera"/>
-		<unit path="units/pd2_dlc_dark/equipment/gen_drone_camera/gen_drone_camera"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_open" type="unit">
-		<material_config path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_open"/>
-		<object path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_open"/>
-		<unit path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_open"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_closed" type="unit">
-		<material_config path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_closed"/>
-		<object path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_closed"/>
-		<unit path="units/pd2_dlc_fish/lxy_prop_camera_case/lxy_prop_camera_case_closed"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_camera_bag/lxy_prop_camera_bag" type="unit">
-		<material_config path="units/pd2_dlc_fish/lxy_prop_camera_bag/lxy_prop_camera_bag"/>
-		<object path="units/pd2_dlc_fish/lxy_prop_camera_bag/lxy_prop_camera_bag"/>
-		<unit path="units/pd2_dlc_fish/lxy_prop_camera_bag/lxy_prop_camera_bag"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_tv_camera/lxy_prop_tv_camera" type="unit">
-		<object path="units/pd2_dlc_fish/lxy_prop_tv_camera/lxy_prop_tv_camera"/>
-		<unit path="units/pd2_dlc_fish/lxy_prop_tv_camera/lxy_prop_tv_camera"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole" type="unit">
-		<material_config path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
-		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
-		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
-	</add>
-	<add from_db="true" path="units/world/props/security_camera/security_camera_white" type="unit">
-		<material_config path="units/world/props/security_camera/security_camera_white"/>
-		<object path="units/world/props/security_camera/security_camera_white"/>
-		<sequence_manager path="units/world/props/security_camera/security_camera"/>
-		<unit path="units/world/props/security_camera/security_camera_white"/>
-	</add>
-	<add from_db="true" path="units/world/props/gym/stn_prop_camera/stn_prop_camera" type="unit">
-		<object path="units/world/props/gym/stn_prop_camera/stn_prop_camera"/>
-		<sequence_manager path="units/world/props/gym/stn_prop_camera/stn_prop_camera"/>
-		<unit path="units/world/props/gym/stn_prop_camera/stn_prop_camera"/>
-	</add>
-	<add from_db="true" path="units/world/props/airport/airport_camera/airport_camera" type="unit">
-		<material_config path="units/world/props/airport/airport_camera/airport_camera"/>
-		<object path="units/world/props/airport/airport_camera/airport_camera"/>
-		<unit path="units/world/props/airport/airport_camera/airport_camera"/>
-	</add>
-	<add from_db="true" path="units/world/props/hotel/ceiling_camera/ceiling_camera" type="unit">
-		<material_config path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
-		<object path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
-		<unit path="units/world/props/hotel/ceiling_camera/ceiling_camera"/>
-	</add>
 	<add from_db="true" path="units/street/street_sidewalk_5x5" type="unit">
 		<material_config path="units/street/street"/>
 		<object path="units/street/street_sidewalk_5x5"/>
 		<unit path="units/street/street_sidewalk_5x5"/>
-	</add>
-	<add from_db="true" path="units/world/architecture/street/ground/sidewalk/ground_sidewalk_10x10m" type="unit">
-		<unit path="units/world/architecture/street/ground/sidewalk/ground_sidewalk_10x10m"/>
-		<object path="units/world/architecture/street/ground/sidewalk/ground_sidewalk_10x10m"/>
-		<material_config path="units/world/architecture/street/ground/ground"/>
 	</add>
 </table>
