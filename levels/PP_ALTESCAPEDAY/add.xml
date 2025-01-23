@@ -1870,13 +1870,6 @@
 		<object path="units/payday2/architecture/lux/lux_int_wall1_2m_a"/>
 		<unit path="units/payday2/architecture/lux/lux_int_wall1_2m_a"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01" type="unit">
-		<effect load="true" path="effects/payday2/particles/destruction/des_paper"/>
-		<material_config path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack"/>
-		<object path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01"/>
-		<sequence_manager path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder"/>
-		<unit path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor" type="unit">
 		<material_config path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor"/>
 		<object path="units/payday2/props/off_prop_appliance_monitor/off_prop_appliance_monitor"/>
@@ -2020,11 +2013,6 @@
 		<object path="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse"/>
 		<unit path="units/payday2/props/off_prop_appliance_mouse/off_prop_appliance_mouse"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open" type="unit">
-		<material_config path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox"/>
-		<object path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open"/>
-		<unit path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_long_open"/>
-	</add>
 	<add from_db="true" path="units/world/props/office/desk_accessories/desk_phone_02" type="unit">
 		<material_config path="units/world/props/office/desk_accessories/desk_phone_02"/>
 		<object path="units/world/props/office/desk_accessories/desk_phone_02"/>
@@ -2087,5 +2075,25 @@
 		<object path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
 		<sequence_manager path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
 		<unit path="units/payday2/equipment/gen_interactable_weapon_case_2x1/spawn_ak47"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_construction_fence_b_2_slab_4m/str_prop_construction_fence_b_2_slab_4m" type="unit">
+		<material_config path="units/payday2/props/str_prop_construction_fence_b_2_slab_4m/str_prop_construction_fence_b_2_slab_4m"/>
+		<object path="units/payday2/props/str_prop_construction_fence_b_2_slab_4m/str_prop_construction_fence_b_2_slab_4m"/>
+		<unit path="units/payday2/props/str_prop_construction_fence_b_2_slab_4m/str_prop_construction_fence_b_2_slab_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_b" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_b"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_b"/>
+	</add>
+	<add from_db="true" path="units/world/props/signs/construction_signs/construction_sign_noparking" type="unit">
+		<material_config path="units/world/props/signs/construction_signs/construction_sign_noparking"/>
+		<object path="units/world/props/signs/construction_signs/construction_sign_noparking"/>
+		<unit path="units/world/props/signs/construction_signs/construction_sign_noparking"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_a" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool"/>
+		<object path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_a"/>
+		<unit path="units/pd2_dlc_holly/river/props/lxa_prop_construction_wirespool/lxa_prop_construction_wirespool_a"/>
 	</add>
 </table>
