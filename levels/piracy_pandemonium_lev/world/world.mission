@@ -7170,7 +7170,7 @@
 					<entry key="action_duration_max" type="number" value="0"/>
 					<entry key="action_duration_min" type="number" value="0"/>
 					<entry key="ai_group" type="string" value="enemies"/>
-					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="true"/>
 					<entry key="allow_followup_self" type="boolean" value="false"/>
 					<entry key="attitude" type="string" value="engage"/>
@@ -7196,7 +7196,7 @@
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="873.386 -2404.03 1600"/>
-					<entry key="repeatable" type="boolean" value="true"/>
+					<entry key="repeatable" type="boolean" value="false"/>
 					<entry key="rotation" type="quaternion" value="-5.90566e-023 5.90566e-023 -0.707107 -0.707107"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="0"/>
@@ -7220,7 +7220,7 @@
 					<entry key="action_duration_max" type="number" value="0"/>
 					<entry key="action_duration_min" type="number" value="0"/>
 					<entry key="ai_group" type="string" value="enemies"/>
-					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="true"/>
 					<entry key="allow_followup_self" type="boolean" value="false"/>
 					<entry key="attitude" type="string" value="engage"/>
@@ -7246,7 +7246,7 @@
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="873.386 -4054.03 1600"/>
-					<entry key="repeatable" type="boolean" value="true"/>
+					<entry key="repeatable" type="boolean" value="false"/>
 					<entry key="rotation" type="quaternion" value="-5.90566e-023 5.90566e-023 -0.707107 -0.707107"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="0"/>
@@ -7270,7 +7270,7 @@
 					<entry key="action_duration_max" type="number" value="0"/>
 					<entry key="action_duration_min" type="number" value="0"/>
 					<entry key="ai_group" type="string" value="enemies"/>
-					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="true"/>
 					<entry key="allow_followup_self" type="boolean" value="false"/>
 					<entry key="attitude" type="string" value="engage"/>
@@ -7296,7 +7296,7 @@
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="873.386 -3054.03 1600"/>
-					<entry key="repeatable" type="boolean" value="true"/>
+					<entry key="repeatable" type="boolean" value="false"/>
 					<entry key="rotation" type="quaternion" value="-5.90566e-023 5.90566e-023 -0.707107 -0.707107"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="0"/>
@@ -7320,7 +7320,7 @@
 					<entry key="action_duration_max" type="number" value="0"/>
 					<entry key="action_duration_min" type="number" value="0"/>
 					<entry key="ai_group" type="string" value="enemies"/>
-					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_position" type="boolean" value="false"/>
 					<entry key="align_rotation" type="boolean" value="true"/>
 					<entry key="allow_followup_self" type="boolean" value="false"/>
 					<entry key="attitude" type="string" value="engage"/>
@@ -7346,7 +7346,7 @@
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="stand"/>
 					<entry key="position" type="vector3" value="873.386 -3504.03 1600"/>
-					<entry key="repeatable" type="boolean" value="true"/>
+					<entry key="repeatable" type="boolean" value="false"/>
 					<entry key="rotation" type="quaternion" value="-5.90566e-023 5.90566e-023 -0.707107 -0.707107"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="0"/>
@@ -14265,8 +14265,8 @@
 							<entry key="id" type="number" value="100518"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="275.768 1600 495.625"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="position" type="vector3" value="300.768 1575 495.625"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="worldcamera" type="string" value="t"/>
 					<entry key="worldcamera_sequence" type="string" value="tseq"/>
@@ -14291,7 +14291,7 @@
 						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="279.159 1600 540.176"/>
+					<entry key="position" type="vector3" value="304.159 1575 540.176"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
@@ -14313,7 +14313,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
-					<entry key="position" type="vector3" value="279.159 1600 590.176"/>
+					<entry key="position" type="vector3" value="304.159 1575 590.176"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>

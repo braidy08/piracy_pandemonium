@@ -1192,8 +1192,28 @@
 		<unit path="units/payday2/props/com_prop_mall_banditbarrier/com_prop_mall_banditbarrier_long_v2"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate" type="unit">
-		<unit path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
-		<object path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
 		<material_config path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
+		<object path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
+		<unit path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plank" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_4x8m_groundfloor_i" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_01b"/>
+		<object path="units/payday2/architecture/ind/ind_ext_4x8m_groundfloor_i"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_4x8m_groundfloor_i"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2" type="unit">
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2"/>
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
 	</add>
 </table>
