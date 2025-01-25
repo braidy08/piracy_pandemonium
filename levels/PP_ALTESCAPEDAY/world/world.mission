@@ -1703,12 +1703,13 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="music_event" type="string" value="stop_all_music"/>
+					<entry key="music_event" type="string" value="lets_go_shopping_menu"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="57750 -8500 -250"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
 			<entry index="58" type="table">
@@ -1726,7 +1727,7 @@
 					<entry key="position" type="vector3" value="58025 -8300 23500"/>
 					<entry key="remember_unit_position" type="boolean" value="false"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="speed" type="number" value="500"/>
+					<entry key="speed" type="number" value="750"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="unit_ids" type="table">
 						<entry index="1" type="number" value="102089"/>
@@ -2052,6 +2053,10 @@
 						<entry index="14" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100646"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100106"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="58041.5 -8568.57 23753.1"/>
@@ -18446,6 +18451,22 @@
 					<entry key="shape_type" type="string" value="box"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="width" type="number" value="500"/>
+				</entry>
+			</entry>
+			<entry index="650" type="table">
+				<entry key="class" type="string" value="ElementPickupCriminalDeployables"/>
+				<entry key="editor_name" type="string" value="pickup_criminal_deployables_001"/>
+				<entry key="id" type="number" value="100106"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="58035.9 -8205.99 23800"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>
