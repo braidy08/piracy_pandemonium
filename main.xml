@@ -269,7 +269,7 @@
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>
 	</AddFiles>
-	<AssetUpdates branch="master" id="braidy08/piracy_pandemonium" provider="github"/>
+	<AssetUpdates branch="master" id="braidy08/piracy_pandemonium" provider="github" is_standalone="false"/>
 	<Hooks directory="hooks">
 		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
 	</Hooks>
