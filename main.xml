@@ -246,10 +246,12 @@
 			<hook file="tweakdatapd2.lua" source_file="lib/tweak_data/tweakdatapd2"/>
 			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="GangsterEnemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="HudAssaultCorner.lua" source_file="lib/managers/hud/hudassaultcorner"/>
 		</hooks>
 		<outro_event/>
 		<packages>
 			<value_node value="packages/job_short2_stage1"/>
+			<value_node value="packages/lvl_mad"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

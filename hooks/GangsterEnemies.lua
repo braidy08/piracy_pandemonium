@@ -203,17 +203,11 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "america_groupai", fun
 
 
 
-        self.unit_categories.spooc.unit_types.america = { Idstring("units/payday2/characters/ene_spook_1/ene_spook_1") }
-        self.unit_categories.CS_tazer.unit_types.america = { Idstring("units/payday2/characters/ene_tazer_1/ene_tazer_1") }
+        self.unit_categories.spooc.unit_types.america = {}
+        self.unit_categories.CS_tazer.unit_types.america = {}
 
 
-        self.unit_categories.FBI_tank.unit_types.america = {
-            Idstring("units/payday2/characters/ene_bulldozer_1/ene_bulldozer_1"),
-            Idstring("units/payday2/characters/ene_bulldozer_2/ene_bulldozer_2"),
-            Idstring("units/payday2/characters/ene_bulldozer_3/ene_bulldozer_3"),
-            Idstring("units/pd2_dlc_drm/characters/ene_bulldozer_minigun_classic/ene_bulldozer_minigun_classic"),
-            Idstring("units/pd2_dlc_drm/characters/ene_bulldozer_medic/ene_bulldozer_medic")
-        }
+        self.unit_categories.FBI_tank.unit_types.america = {}
     end
 end)
 
