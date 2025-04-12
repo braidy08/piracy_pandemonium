@@ -122,10 +122,9 @@
 			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
-			<hook file="tweakdatapd2escapeday.lua" source_file="lib/tweak_data/tweakdatapd2"/>
+			<hook file="tweakdatapd2.lua" source_file="lib/tweak_data/tweakdatapd2"/>
 			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="local_strings.lua" source_file="lib/tweak_data/tweakdata"/>
-		<!--	<hook file="vehicledrivingext.lua" source_file="lib/units/vehicles/vehicledrivingext"/>-->
 		</hooks>
 		<outro_event>
 			<value_node value=""/>
@@ -166,7 +165,7 @@
 			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
-			<hook file="tweakdatapd2escapeday.lua" source_file="lib/tweak_data/tweakdatapd2"/>
+			<hook file="tweakdatapd2.lua" source_file="lib/tweak_data/tweakdatapd2"/>
 			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="local_stringssurvival.lua" source_file="lib/tweak_data/tweakdata"/>
 		</hooks>
@@ -238,6 +237,26 @@
 			<value_node value="levels/instances/unique/chca/chca_helicopter_enemies/world/world"/>
 		</packages>
 	</instance>
+	<level ai_group_type="america" id="PP_DAY2NORMAL" max_bags="54" team_ai_off="true">
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="interactiontweakdata.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
+			<hook file="tweakdatapd2.lua" source_file="lib/tweak_data/tweakdatapd2"/>
+			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="GangsterEnemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+		</hooks>
+		<outro_event/>
+		<packages>
+			<value_node value="packages/job_short2_stage1"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
 	<Achievements id="PP_ACHIEVEMENTS">
 		<achievement id="PP_250BAGS" rank="3" reward_amount="12" reward_type="cc"/>
 		<achievement id="PP_1000BAGS" rank="4" reward_amount="15" reward_type="cc"/>
@@ -270,7 +289,7 @@
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_il"/>
 		<texture load="true" path="units/pd2_modbain/bainlaptop/bainlaptopmaterial/gen_interactable_laptop_nm"/>
 	</AddFiles>
-	<AssetUpdates branch="master" id="braidy08/piracy_pandemonium" provider="github" is_standalone="false"/>
+	<AssetUpdates branch="master" id="braidy08/piracy_pandemonium" is_standalone="false" provider="github"/>
 	<Hooks directory="hooks">
 		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
 	</Hooks>
@@ -281,6 +300,11 @@
 	<narrative briefing_event="" contact="custom" icon="guis/textures/mods/icons/piracy_icon" id="piracy_pandemonium_nar">
 		<chain>
 			<table level_id="piracy_pandemonium_lev" type="d" type_id="heist_type_assault"/>
+			<table>
+				<table level_id="PP_DAY2NORMAL" type="d" type_id="heist_type_assault"/>
+				<table level_id="PP_UNLUCKYSURVIVAL" type="d" type_id="heist_type_assault"/>
+				<table level_id="PP_ALTESCAPEDAY" type="d" type_id="heist_type_assault"/>
+			</table>
 		</chain>
 		<contract_cost>
 			<value_node value="2000"/>
