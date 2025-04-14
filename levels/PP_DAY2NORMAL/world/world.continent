@@ -141,9 +141,6 @@
 			<unit_data _prev_pos="-700 1200 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" name_id="mkp_ext_wall_4m_a_018" position="-700 1200 0" rotation="0 0 -0.707107 -0.707107" unit_id="100046"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="100 1225 0" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_rvd/props/rvd_prop_double_door/rvd_int_double_door_v2" name_id="rvd_int_double_door_v2_001" position="100 1225 0" rotation="-0 0 -0 -1" unit_id="100047"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-100 1200 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" name_id="mkp_ext_wall_2m_a_003" position="-100 1200 0" rotation="0 0 -0.707107 -0.707107" unit_id="100018"/>
 		</table>
 		<table>
@@ -202,6 +199,9 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="200 1600 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" name_id="mkp_ext_wall_4m_a_025" position="200 1600 200" rotation="0 0 -0.707107 -0.707107" unit_id="100063"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="100 1225 0" _prev_rot="0 0 0 -1" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/pd2_dlc_rvd/props/rvd_prop_double_door/rvd_int_double_door_v2" name_id="rvd_int_double_door_v2_001" position="100 1225 0" rotation="-0 0 -0 -1" unit_id="100047"/>
 		</table>
 	</statics>
 	<values>
