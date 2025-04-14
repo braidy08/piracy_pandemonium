@@ -8,7 +8,7 @@ Hooks:PostHook(CarryTweakData, "init", "init_piracypandemonium", function(self, 
 		is_unique_loot = true,
 		skip_exit_secure = true
 	}
-	
+
 	self.moviebag = {
 		type = "medium",
 		name_id = "hud_carry_moviebag",
@@ -24,4 +24,3 @@ Hooks:PostHook(CarryTweakData, "init", "init_piracypandemonium", function(self, 
 		visual_unit_name = "units/payday2/characters/npc_acc_body_bag_1/npc_acc_body_bag_1",
 	}
 end)
-

@@ -167,7 +167,7 @@
 			<hook file="PlayerCamera.lua" source_file="lib/units/beings/player/playercamera"/>
 			<hook file="tweakdatapd2.lua" source_file="lib/tweak_data/tweakdatapd2"/>
 			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
-			<hook file="local_stringssurvival.lua" source_file="lib/tweak_data/tweakdata"/>
+			<hook file="local_strings.lua" source_file="lib/tweak_data/tweakdata"/>
 		</hooks>
 		<outro_event>
 			<value_node value=""/>
@@ -247,12 +247,14 @@
 			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="GangsterEnemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="HudAssaultCorner.lua" source_file="lib/managers/hud/hudassaultcorner"/>
+			<hook file="local_strings.lua" source_file="lib/tweak_data/tweakdata"/>
 		</hooks>
 		<outro_event/>
 		<packages>
 			<value_node value="packages/job_short2_stage1"/>
 			<value_node value="packages/lvl_mad"/>
 			<value_node value="levels/narratives/armadillo/arm_fac/world/world"/>
+			<value_node value="levels/instances/unique/rvd/rvd_escape_door/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

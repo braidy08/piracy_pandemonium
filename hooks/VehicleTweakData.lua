@@ -1,5 +1,5 @@
 -- yes i did steal this from FiveG
-Hooks:PostHook(VehicleTweakData,"init","owp_init",function(self, tweak_data)
+Hooks:PostHook(VehicleTweakData, "init", "owp_init", function(self, tweak_data)
 	self:_init_owp_player_van()
 end)
 

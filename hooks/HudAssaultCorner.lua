@@ -1,5 +1,12 @@
+local AssaultFirstStarted = false
+
+Hooks:PostHook(HUDAssaultCorner, "sync_start_assault", "assaultreal", function(self, assault_number)
+	AssaultFirstStarted = true
+	self:setup_wave_display(self._bg_box:h() + 8, self._hud_panel:child("hostages_panel"):left() - 3)
+end)
+
 function HUDAssaultCorner:should_display_waves()
-	return true
+	return AssaultFirstStarted
 end
 
 function HUDAssaultCorner:get_completed_waves_string()

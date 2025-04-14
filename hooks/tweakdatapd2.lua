@@ -1,5 +1,4 @@
-Hooks:PostHook( TweakData, "_setup_point_of_no_returns", "priacy_pandemonium_ponr", function(self)
-
+Hooks:PostHook(TweakData, "_setup_point_of_no_returns", "priacy_pandemonium_ponr", function(self)
 	self.point_of_no_returns.baindroppedofroof = {
 		color = Color(1, 1, 0, 0),
 		timer_flash_color = Color(1, 1, 0.8, 0.2),

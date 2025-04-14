@@ -10,11 +10,12 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "america_groupai", fun
     }
 
     self.unit_categories.CS_cop_stealth_MP5.unit_types.america = {
-    Idstring("units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1"),
-    Idstring("units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2"),
-    Idstring("units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3"),
-    Idstring("units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4"),
-    Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
+        Idstring("units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1"),
+        Idstring("units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2"),
+        Idstring("units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3"),
+        Idstring("units/payday2/characters/ene_gang_russian_4/ene_gang_russian_4"),
+        Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+    }
 
     self.unit_categories.CS_swat_MP5.unit_types.america = {
         Idstring("units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1"),
@@ -46,8 +47,9 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "america_groupai", fun
         Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
     }
 
-    self.unit_categories.CS_shield.unit_types.america = { Idstring(
-    "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
+    self.unit_categories.CS_shield.unit_types.america = {
+        Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+    }
 
     self.unit_categories.FBI_suit_C45_M4.unit_types.america = {
         Idstring("units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1"),
@@ -71,7 +73,7 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "america_groupai", fun
         Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
     }
 
-    self.unit_categories.marshal_marksman.unit_types.america = { 
+    self.unit_categories.marshal_marksman.unit_types.america = {
         Idstring("units/payday2/characters/ene_gang_russian_1/ene_gang_russian_1"),
         Idstring("units/payday2/characters/ene_gang_russian_2/ene_gang_russian_2"),
         Idstring("units/payday2/characters/ene_gang_russian_3/ene_gang_russian_3"),
@@ -79,8 +81,9 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "america_groupai", fun
         Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
     }
 
-    self.unit_categories.marshal_shield.unit_types.america = { Idstring(
-    "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
+    self.unit_categories.marshal_shield.unit_types.america = {
+        Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+    }
     if difficulty_index < 6 then
         -- FBI
         self.unit_categories.FBI_swat_M4.unit_types.america = {
@@ -113,13 +116,16 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "america_groupai", fun
             Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
         }
 
-        self.unit_categories.FBI_shield.unit_types.america = { Idstring(
-        "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
-        self.unit_categories.marshal_marksman.unit_types.america = { Idstring(
-        "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
+        self.unit_categories.FBI_shield.unit_types.america = {
+            Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+        }
+        self.unit_categories.marshal_marksman.unit_types.america = {
+            Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+        }
 
-        self.unit_categories.marshal_shield.unit_types.america = { Idstring(
-        "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
+        self.unit_categories.marshal_shield.unit_types.america = {
+            Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+        }
     elseif difficulty_index < 8 then
         -- City
         self.unit_categories.FBI_swat_M4.unit_types.america = {
@@ -153,13 +159,16 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "america_groupai", fun
             Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
         }
 
-        self.unit_categories.FBI_shield.unit_types.america = { Idstring(
-        "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
-        self.unit_categories.marshal_marksman.unit_types.america = { Idstring(
-        "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
+        self.unit_categories.FBI_shield.unit_types.america = {
+            Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+        }
+        self.unit_categories.marshal_marksman.unit_types.america = {
+            Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+        }
 
-        self.unit_categories.marshal_shield.unit_types.america = { Idstring(
-        "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
+        self.unit_categories.marshal_shield.unit_types.america = {
+            Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+        }
     else
         -- ZEALs
         self.unit_categories.FBI_swat_M4.unit_types.america = {
@@ -192,13 +201,16 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "america_groupai", fun
             Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
         }
 
-        self.unit_categories.FBI_shield.unit_types.america = { Idstring(
-        "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
-        self.unit_categories.marshal_marksman.unit_types.america = { Idstring(
-        "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
+        self.unit_categories.FBI_shield.unit_types.america = {
+            Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+        }
+        self.unit_categories.marshal_marksman.unit_types.america = {
+            Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+        }
 
-        self.unit_categories.marshal_shield.unit_types.america = { Idstring(
-        "units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5") }
+        self.unit_categories.marshal_shield.unit_types.america = {
+            Idstring("units/payday2/characters/ene_gang_russian_5/ene_gang_russian_5")
+        }
 
 
 
