@@ -18,6 +18,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100001"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100057"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="0 0 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -134,12 +138,12 @@
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="5"/>
-							<entry key="id" type="number" value="100026"/>
-						</entry>
-						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100014"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="5"/>
+							<entry key="id" type="number" value="100026"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="214.935 132.772 0"/>
@@ -1569,6 +1573,49 @@
 					<entry key="physicspush_velocity" type="number" value="100"/>
 					<entry key="position" type="vector3" value="0 1250 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="58" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="unit_sequence_002"/>
+				<entry key="id" type="number" value="100057"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="0 -175 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100010"/>
+							<entry key="notify_unit_sequence" type="string" value="enable_interaction_hide_planks"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100124"/>
+							<entry key="notify_unit_sequence" type="string" value="enable_interaction_hide_planks"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100125"/>
+							<entry key="notify_unit_sequence" type="string" value="enable_interaction_hide_planks"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100126"/>
+							<entry key="notify_unit_sequence" type="string" value="enable_interaction_hide_planks"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

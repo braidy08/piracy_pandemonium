@@ -104,13 +104,11 @@
 		<unit path="units/pd2_dlc_rvd/props/rvd_prop_double_door/rvd_int_double_door_v2"/>
 		<object path="units/pd2_dlc_rvd/props/rvd_prop_double_door/rvd_int_double_door_v2"/>
 		<material_config path="units/pd2_dlc_rvd/props/rvd_prop_double_door/rvd_int_double_door_v2"/>
-		<sequence_manager path="units/pd2_dlc_rvd/props/rvd_prop_double_door/rvd_int_double_door_v2"/>
 		<unit path="units/pd2_dlc_rvd/props/rvd_prop_double_door/debri/spawn_door_debri_rvd"/>
 		<object path="units/pd2_dlc_rvd/props/rvd_prop_double_door/debri/spawn_door_debri_rvd"/>
 		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
 		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
 		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
-		<gui path="guis/timer_gui"/>
 		<effect load="true" path="effects/payday2/environment/drill"/>
 		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
 		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
@@ -118,6 +116,13 @@
 		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
 		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
 		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<gui path="guis/timer_gui"/>
 		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_rvd/props/rvd_prop_double_door/rvd_int_double_door_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a"/>
 	</add>
 </table>
