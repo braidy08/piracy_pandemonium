@@ -1,27 +1,79 @@
 <generic_scriptdata type="table">
 	<entry key="door_high_pos" type="table">
-		<entry index="1" type="vector3" value="3 51 22.5"/>
-		<entry index="2" type="vector3" value="3 47 22.5"/>
-		<entry index="3" type="vector3" value="7 63 22.5"/>
-		<entry index="4" type="vector3" value="7 67 22.5"/>
+		<entry index="1" type="vector3" value="15 1 22.5"/>
+		<entry index="2" type="vector3" value="15 13 22.5"/>
+		<entry index="3" type="vector3" value="15 47 22.5"/>
+		<entry index="4" type="vector3" value="25 1 22.5"/>
+		<entry index="5" type="vector3" value="26 1 22.5"/>
+		<entry index="6" type="vector3" value="25 3 22.5"/>
+		<entry index="7" type="vector3" value="25 9 22.5"/>
+		<entry index="8" type="vector3" value="7 67 22.5"/>
+		<entry index="9" type="vector3" value="7 63 22.5"/>
+		<entry index="10" type="vector3" value="3 51 22.5"/>
+		<entry index="11" type="vector3" value="3 47 22.5"/>
+		<entry index="12" type="vector3" value="61 127 22.5"/>
+		<entry index="13" type="vector3" value="-61 127 22.5"/>
+		<entry index="14" type="vector3" value="79 63 22.5"/>
+		<entry index="15" type="vector3" value="-65 63 22.5"/>
+		<entry index="16" type="vector3" value="-65 127 22.5"/>
+		<entry index="17" type="vector3" value="65 127 22.5"/>
 	</entry>
 	<entry key="door_high_rooms" type="table">
-		<entry index="1" type="number" value="3"/>
-		<entry index="2" type="number" value="2"/>
-		<entry index="3" type="number" value="5"/>
-		<entry index="4" type="number" value="4"/>
+		<entry index="1" type="number" value="2"/>
+		<entry index="2" type="number" value="3"/>
+		<entry index="3" type="number" value="4"/>
+		<entry index="4" type="number" value="3"/>
+		<entry index="5" type="number" value="5"/>
+		<entry index="6" type="number" value="5"/>
+		<entry index="7" type="number" value="6"/>
+		<entry index="8" type="number" value="9"/>
+		<entry index="9" type="number" value="7"/>
+		<entry index="10" type="number" value="10"/>
+		<entry index="11" type="number" value="8"/>
+		<entry index="12" type="number" value="14"/>
+		<entry index="13" type="number" value="9"/>
+		<entry index="14" type="number" value="12"/>
+		<entry index="15" type="number" value="13"/>
+		<entry index="16" type="number" value="11"/>
+		<entry index="17" type="number" value="12"/>
 	</entry>
 	<entry key="door_low_pos" type="table">
-		<entry index="1" type="vector3" value="-3 51 22.5"/>
-		<entry index="2" type="vector3" value="-3 47 22.5"/>
-		<entry index="3" type="vector3" value="-7 63 22.5"/>
-		<entry index="4" type="vector3" value="-7 67 22.5"/>
+		<entry index="1" type="vector3" value="15 -15 22.5"/>
+		<entry index="2" type="vector3" value="15 1 22.5"/>
+		<entry index="3" type="vector3" value="15 17 22.5"/>
+		<entry index="4" type="vector3" value="15 1 22.5"/>
+		<entry index="5" type="vector3" value="25 1 22.5"/>
+		<entry index="6" type="vector3" value="25 1 22.5"/>
+		<entry index="7" type="vector3" value="25 7 22.5"/>
+		<entry index="8" type="vector3" value="-7 67 22.5"/>
+		<entry index="9" type="vector3" value="-7 63 22.5"/>
+		<entry index="10" type="vector3" value="-3 51 22.5"/>
+		<entry index="11" type="vector3" value="-3 47 22.5"/>
+		<entry index="12" type="vector3" value="61 113 22.5"/>
+		<entry index="13" type="vector3" value="-61 113 22.5"/>
+		<entry index="14" type="vector3" value="65 63 22.5"/>
+		<entry index="15" type="vector3" value="-79 63 22.5"/>
+		<entry index="16" type="vector3" value="-65 113 22.5"/>
+		<entry index="17" type="vector3" value="65 113 22.5"/>
 	</entry>
 	<entry key="door_low_rooms" type="table">
-		<entry index="1" type="number" value="2"/>
+		<entry index="1" type="number" value="1"/>
 		<entry index="2" type="number" value="1"/>
-		<entry index="3" type="number" value="3"/>
-		<entry index="4" type="number" value="5"/>
+		<entry index="3" type="number" value="1"/>
+		<entry index="4" type="number" value="2"/>
+		<entry index="5" type="number" value="2"/>
+		<entry index="6" type="number" value="3"/>
+		<entry index="7" type="number" value="3"/>
+		<entry index="8" type="number" value="7"/>
+		<entry index="9" type="number" value="10"/>
+		<entry index="10" type="number" value="8"/>
+		<entry index="11" type="number" value="1"/>
+		<entry index="12" type="number" value="9"/>
+		<entry index="13" type="number" value="11"/>
+		<entry index="14" type="number" value="10"/>
+		<entry index="15" type="number" value="10"/>
+		<entry index="16" type="number" value="13"/>
+		<entry index="17" type="number" value="14"/>
 	</entry>
 	<entry key="helper_blockers" type="table">
 		<entry index="100026" type="number" value="1"/>
@@ -31,7 +83,7 @@
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="2" type="table">
-					<entry index="1" type="number" value="2"/>
+					<entry index="1" type="number" value="11"/>
 				</entry>
 			</entry>
 			<entry key="pos" type="vector3" value="200 200 0"/>
@@ -43,7 +95,7 @@
 			<entry key="location_id" type="string" value="location_unknown"/>
 			<entry key="neighbours" type="table">
 				<entry index="1" type="table">
-					<entry index="1" type="number" value="2"/>
+					<entry index="1" type="number" value="11"/>
 				</entry>
 			</entry>
 			<entry key="pos" type="vector3" value="-311.414 1462.75 0"/>
@@ -54,31 +106,67 @@
 	</entry>
 	<entry key="room_borders_x_neg" type="table">
 		<entry index="1" type="number" value="-31"/>
-		<entry index="2" type="number" value="-3"/>
-		<entry index="3" type="number" value="-63"/>
-		<entry index="4" type="number" value="-63"/>
-		<entry index="5" type="number" value="-7"/>
+		<entry index="2" type="number" value="15"/>
+		<entry index="3" type="number" value="15"/>
+		<entry index="4" type="number" value="15"/>
+		<entry index="5" type="number" value="25"/>
+		<entry index="6" type="number" value="25"/>
+		<entry index="7" type="number" value="-7"/>
+		<entry index="8" type="number" value="-3"/>
+		<entry index="9" type="number" value="-61"/>
+		<entry index="10" type="number" value="-79"/>
+		<entry index="11" type="number" value="-65"/>
+		<entry index="12" type="number" value="65"/>
+		<entry index="13" type="number" value="-79"/>
+		<entry index="14" type="number" value="61"/>
 	</entry>
 	<entry key="room_borders_x_pos" type="table">
-		<entry index="1" type="number" value="31"/>
-		<entry index="2" type="number" value="3"/>
-		<entry index="3" type="number" value="63"/>
-		<entry index="4" type="number" value="63"/>
-		<entry index="5" type="number" value="7"/>
+		<entry index="1" type="number" value="15"/>
+		<entry index="2" type="number" value="31"/>
+		<entry index="3" type="number" value="25"/>
+		<entry index="4" type="number" value="31"/>
+		<entry index="5" type="number" value="26"/>
+		<entry index="6" type="number" value="26"/>
+		<entry index="7" type="number" value="7"/>
+		<entry index="8" type="number" value="3"/>
+		<entry index="9" type="number" value="61"/>
+		<entry index="10" type="number" value="79"/>
+		<entry index="11" type="number" value="-61"/>
+		<entry index="12" type="number" value="79"/>
+		<entry index="13" type="number" value="-65"/>
+		<entry index="14" type="number" value="65"/>
 	</entry>
 	<entry key="room_borders_y_neg" type="table">
 		<entry index="1" type="number" value="-15"/>
-		<entry index="2" type="number" value="47"/>
-		<entry index="3" type="number" value="51"/>
-		<entry index="4" type="number" value="67"/>
-		<entry index="5" type="number" value="63"/>
+		<entry index="2" type="number" value="-15"/>
+		<entry index="3" type="number" value="1"/>
+		<entry index="4" type="number" value="17"/>
+		<entry index="5" type="number" value="1"/>
+		<entry index="6" type="number" value="7"/>
+		<entry index="7" type="number" value="63"/>
+		<entry index="8" type="number" value="47"/>
+		<entry index="9" type="number" value="67"/>
+		<entry index="10" type="number" value="51"/>
+		<entry index="11" type="number" value="113"/>
+		<entry index="12" type="number" value="63"/>
+		<entry index="13" type="number" value="63"/>
+		<entry index="14" type="number" value="113"/>
 	</entry>
 	<entry key="room_borders_y_pos" type="table">
 		<entry index="1" type="number" value="47"/>
-		<entry index="2" type="number" value="51"/>
-		<entry index="3" type="number" value="63"/>
-		<entry index="4" type="number" value="79"/>
-		<entry index="5" type="number" value="67"/>
+		<entry index="2" type="number" value="1"/>
+		<entry index="3" type="number" value="13"/>
+		<entry index="4" type="number" value="47"/>
+		<entry index="5" type="number" value="3"/>
+		<entry index="6" type="number" value="9"/>
+		<entry index="7" type="number" value="67"/>
+		<entry index="8" type="number" value="51"/>
+		<entry index="9" type="number" value="159"/>
+		<entry index="10" type="number" value="63"/>
+		<entry index="11" type="number" value="127"/>
+		<entry index="12" type="number" value="159"/>
+		<entry index="13" type="number" value="159"/>
+		<entry index="14" type="number" value="127"/>
 	</entry>
 	<entry key="room_heights_xn_yn" type="table">
 		<entry index="1" type="number" value="22.5"/>
@@ -86,6 +174,15 @@
 		<entry index="3" type="number" value="22.5"/>
 		<entry index="4" type="number" value="22.5"/>
 		<entry index="5" type="number" value="22.5"/>
+		<entry index="6" type="number" value="22.5"/>
+		<entry index="7" type="number" value="22.5"/>
+		<entry index="8" type="number" value="22.5"/>
+		<entry index="9" type="number" value="22.5"/>
+		<entry index="10" type="number" value="22.5"/>
+		<entry index="11" type="number" value="22.5"/>
+		<entry index="12" type="number" value="22.5"/>
+		<entry index="13" type="number" value="22.5"/>
+		<entry index="14" type="number" value="22.5"/>
 	</entry>
 	<entry key="room_heights_xn_yp" type="table">
 		<entry index="1" type="number" value="22.5"/>
@@ -93,6 +190,15 @@
 		<entry index="3" type="number" value="22.5"/>
 		<entry index="4" type="number" value="22.5"/>
 		<entry index="5" type="number" value="22.5"/>
+		<entry index="6" type="number" value="22.5"/>
+		<entry index="7" type="number" value="22.5"/>
+		<entry index="8" type="number" value="22.5"/>
+		<entry index="9" type="number" value="22.5"/>
+		<entry index="10" type="number" value="22.5"/>
+		<entry index="11" type="number" value="22.5"/>
+		<entry index="12" type="number" value="22.5"/>
+		<entry index="13" type="number" value="22.5"/>
+		<entry index="14" type="number" value="22.5"/>
 	</entry>
 	<entry key="room_heights_xp_yn" type="table">
 		<entry index="1" type="number" value="22.5"/>
@@ -100,6 +206,15 @@
 		<entry index="3" type="number" value="22.5"/>
 		<entry index="4" type="number" value="22.5"/>
 		<entry index="5" type="number" value="22.5"/>
+		<entry index="6" type="number" value="22.5"/>
+		<entry index="7" type="number" value="22.5"/>
+		<entry index="8" type="number" value="22.5"/>
+		<entry index="9" type="number" value="22.5"/>
+		<entry index="10" type="number" value="22.5"/>
+		<entry index="11" type="number" value="22.5"/>
+		<entry index="12" type="number" value="22.5"/>
+		<entry index="13" type="number" value="22.5"/>
+		<entry index="14" type="number" value="22.5"/>
 	</entry>
 	<entry key="room_heights_xp_yp" type="table">
 		<entry index="1" type="number" value="22.5"/>
@@ -107,13 +222,31 @@
 		<entry index="3" type="number" value="22.5"/>
 		<entry index="4" type="number" value="22.5"/>
 		<entry index="5" type="number" value="22.5"/>
+		<entry index="6" type="number" value="22.5"/>
+		<entry index="7" type="number" value="22.5"/>
+		<entry index="8" type="number" value="22.5"/>
+		<entry index="9" type="number" value="22.5"/>
+		<entry index="10" type="number" value="22.5"/>
+		<entry index="11" type="number" value="22.5"/>
+		<entry index="12" type="number" value="22.5"/>
+		<entry index="13" type="number" value="22.5"/>
+		<entry index="14" type="number" value="22.5"/>
 	</entry>
 	<entry key="room_vis_groups" type="table">
 		<entry index="1" type="number" value="1"/>
-		<entry index="2" type="number" value="2"/>
-		<entry index="3" type="number" value="2"/>
-		<entry index="4" type="number" value="2"/>
-		<entry index="5" type="number" value="2"/>
+		<entry index="2" type="number" value="1"/>
+		<entry index="3" type="number" value="1"/>
+		<entry index="4" type="number" value="1"/>
+		<entry index="5" type="number" value="1"/>
+		<entry index="6" type="number" value="1"/>
+		<entry index="7" type="number" value="2"/>
+		<entry index="8" type="number" value="2"/>
+		<entry index="9" type="number" value="2"/>
+		<entry index="10" type="number" value="2"/>
+		<entry index="11" type="number" value="2"/>
+		<entry index="12" type="number" value="2"/>
+		<entry index="13" type="number" value="2"/>
+		<entry index="14" type="number" value="2"/>
 	</entry>
 	<entry key="version" type="number" value="5"/>
 	<entry key="vis_groups" type="table">
@@ -121,6 +254,11 @@
 			<entry key="pos" type="vector3" value="200 200 0"/>
 			<entry key="rooms" type="table">
 				<entry index="1" type="boolean" value="true"/>
+				<entry index="2" type="boolean" value="true"/>
+				<entry index="3" type="boolean" value="true"/>
+				<entry index="4" type="boolean" value="true"/>
+				<entry index="5" type="boolean" value="true"/>
+				<entry index="6" type="boolean" value="true"/>
 			</entry>
 			<entry key="seg" type="number" value="1"/>
 			<entry key="vis_groups" type="table">
@@ -130,10 +268,14 @@
 		<entry index="2" type="table">
 			<entry key="pos" type="vector3" value="-311.414 1462.75 0"/>
 			<entry key="rooms" type="table">
-				<entry index="2" type="boolean" value="true"/>
-				<entry index="3" type="boolean" value="true"/>
-				<entry index="4" type="boolean" value="true"/>
-				<entry index="5" type="boolean" value="true"/>
+				<entry index="7" type="boolean" value="true"/>
+				<entry index="8" type="boolean" value="true"/>
+				<entry index="9" type="boolean" value="true"/>
+				<entry index="10" type="boolean" value="true"/>
+				<entry index="11" type="boolean" value="true"/>
+				<entry index="12" type="boolean" value="true"/>
+				<entry index="13" type="boolean" value="true"/>
+				<entry index="14" type="boolean" value="true"/>
 			</entry>
 			<entry key="seg" type="number" value="2"/>
 			<entry key="vis_groups" type="table">

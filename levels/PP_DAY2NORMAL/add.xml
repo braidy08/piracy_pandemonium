@@ -125,4 +125,62 @@
 		<object path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a"/>
 		<unit path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a"/>
 	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_laptop/off_prop_laptop" type="unit">
+		<material_config path="units/payday2/props/off_prop_laptop/off_prop_laptop"/>
+		<object path="units/payday2/props/off_prop_laptop/off_prop_laptop"/>
+		<unit path="units/payday2/props/off_prop_laptop/off_prop_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/props/rvd_prop_warehouse_workbench/rvd_prop_warehouse_workbench" type="unit">
+		<material_config path="units/pd2_dlc_rvd/props/rvd_prop_warehouse_workbench/rvd_prop_warehouse_workbench"/>
+		<object path="units/pd2_dlc_rvd/props/rvd_prop_warehouse_workbench/rvd_prop_warehouse_workbench"/>
+		<unit path="units/pd2_dlc_rvd/props/rvd_prop_warehouse_workbench/rvd_prop_warehouse_workbench"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
+		<unit path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
+		<animation path="anims/shared/rifle/generic/death_money_var1"/>
+		<animation path="anims/shared/rifle/generic/death_money_var3"/>
+		<animation path="anims/shared/rifle/generic/death_money_var5"/>
+		<animation path="anims/shared/rifle/generic/death_money_var8"/>
+		<animation path="anims/shared/rifle/generic/death_money_var2"/>
+		<animation path="anims/shared/rifle/generic/death_money_var4"/>
+		<animation path="anims/shared/rifle/generic/death_money_var6"/>
+		<animation path="anims/shared/rifle/generic/death_money_var7"/>
+		<animation path="anims/shared/rifle/generic/death_money_var9"/>
+		<animation path="anims/shared/rifle/generic/death_money_var10"/>
+		<animation path="anims/shared/boss/tank/cbt_std_shoot_aut"/>
+		<animation path="anims/shared/boss/tank/cbt_std_shoot"/>
+		<animation path="anims/shared/unarmed/neutral/cm_so_sand_fall"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1_husk"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_lounge_tables/bnk_prop_lounge_table_tall" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_lounge_tables/bnk_prop_lounge_tables"/>
+		<object path="units/payday2/props/bnk_prop_lounge_tables/bnk_prop_lounge_table_tall"/>
+		<unit path="units/payday2/props/bnk_prop_lounge_tables/bnk_prop_lounge_table_tall"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_lounge_tables/bnk_prop_lounge_table_long" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_lounge_tables/bnk_prop_lounge_tables"/>
+		<object path="units/payday2/props/bnk_prop_lounge_tables/bnk_prop_lounge_table_long"/>
+		<unit path="units/payday2/props/bnk_prop_lounge_tables/bnk_prop_lounge_table_long"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_checktable" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_teller"/>
+		<object path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_checktable"/>
+		<unit path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_checktable"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_table_taller" type="unit">
+		<material_config path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_couch"/>
+		<object path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_table_taller"/>
+		<unit path="units/payday2/props/are_prop_backstage_couch/are_prop_backstage_table_taller"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_lounge_table_small/air_prop_lounge_table_small" type="unit">
+		<material_config path="units/payday2/props/air_prop_lounge_table_small/air_prop_lounge_table_small"/>
+		<object path="units/payday2/props/air_prop_lounge_table_small/air_prop_lounge_table_small"/>
+		<sequence_manager path="units/payday2/props/air_prop_lounge_table_small/air_prop_lounge_table_small"/>
+		<unit path="units/payday2/props/air_prop_lounge_table_small/air_prop_lounge_table_small"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_hangar_worktable/air_prop_hangar_worktable" type="unit">
+		<unit path="units/payday2/props/air_prop_hangar_worktable/air_prop_hangar_worktable"/>
+		<object path="units/payday2/props/air_prop_hangar_worktable/air_prop_hangar_worktable"/>
+		<material_config path="units/payday2/props/air_prop_hangar_worktable/air_prop_hangar_worktable"/>
+	</add>
 </table>
