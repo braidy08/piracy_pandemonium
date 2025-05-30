@@ -1247,10 +1247,6 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100047"/>
-						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="1750 100 2375"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -1697,7 +1693,7 @@
 				<entry key="id" type="number" value="100003"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="2"/>
 					<entry key="close_to_element" type="boolean" value="false"/>
 					<entry key="comment" type="string" value="g60"/>
 					<entry key="enabled" type="boolean" value="true"/>
