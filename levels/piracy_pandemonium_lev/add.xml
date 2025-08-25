@@ -1212,8 +1212,13 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_4x8m_groundfloor_i"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2" type="unit">
-		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2"/>
-		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2"/>
 		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_16x32m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_16x32m"/>
+		<object path="units/dev_tools/level_tools/dev_vehicle_only_collision/dev_vehicle_only_collision_16x32m"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>
