@@ -6,7 +6,16 @@ Hooks:PostHook(HUDAssaultCorner, "sync_start_assault", "assaultreal", function(s
 end)
 
 function HUDAssaultCorner:should_display_waves()
-	return AssaultFirstStarted
+	local count_element = managers.mission:get_mission_element_by_name("wave_counter")
+	local ShowWaves = AssaultFirstStarted
+	if count_element then
+		local CurrentWave = count_element:counter_value()
+		if CurrentWave >= 4 then
+			-- could probably simplify this but i really just dont care xdddd
+			ShowWaves = false
+		end
+	end
+	return ShowWaves
 end
 
 function HUDAssaultCorner:get_completed_waves_string()
